@@ -1,0 +1,433 @@
+{% extends "base.html" %}
+{% block title %}{{ blog.title }} — {{ seo.site_name }}{% endblock %}
+{% block meta_description %}{{ blog.description }}{% endblock %}
+{% block robots %}index, follow{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ blog.title }}{% endblock %}
+{% block og_description %}{{ blog.description }}{% endblock %}
+{% block twitter_title %}{{ blog.title }}{% endblock %}
+{% block twitter_description %}{{ blog.description }}{% endblock %}
+
+{% set content_html = blog.content|markdown %}
+
+{% block head %}
+<meta property="article:published_time" content="{{ blog.published_date }}" />
+<meta property="article:modified_time" content="{{ blog.modified_date }}" />
+<meta property="article:author" content="{{ blog.author }}" />
+{% if blog.featured_image %}
+<meta property="og:image" content="{{ blog.featured_image }}" />
+<meta name="twitter:image" content="{{ blog.featured_image }}" />
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ blog.title|tojson }},
+  "description": {{ blog.description|tojson }},
+  "image": {{ blog.featured_image|tojson }},
+  "author": { "@type": "Person", "name": {{ blog.author|tojson }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ seo.site_name|tojson }},
+    "logo": { "@type": "ImageObject", "url": "{{ seo.site_url }}/favicon.svg" }
+  },
+  "datePublished": {{ blog.published_date|tojson }},
+  "dateModified": {{ blog.modified_date|tojson }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ request.url }}" }
+}
+</script>
+
+<style>
+  .article-top { padding: 2rem 0 1.5rem; }
+  .article-breadcrumb {
+    font-family: var(--mono); font-size: 0.7rem;
+    color: var(--text3); margin-bottom: 1rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .article-breadcrumb a { color: var(--text3); }
+  .article-breadcrumb a:hover { color: var(--accent); }
+  .article-header { margin-bottom: 2rem; }
+  .article-category {
+    font-family: var(--mono); font-size: 0.65rem; font-weight: 500;
+    color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 0.75rem; display: inline-block;
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    padding: 0.2rem 0.75rem; border-radius: 4px;
+  }
+  .article-title {
+    font-family: var(--display); font-weight: 800; font-size: 2.5rem;
+    line-height: 1.1; letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+  }
+  .article-excerpt {
+    font-size: 1.05rem; color: var(--text3);
+    line-height: 1.65; max-width: 600px;
+  }
+  .article-meta {
+    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+    margin-top: 1.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--border); font-family: var(--mono); font-size: 0.72rem;
+  }
+  .article-meta-author {
+    display: flex; align-items: center; gap: 0.625rem;
+    color: var(--text2);
+  }
+  .article-meta-author img {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 2px solid var(--border);
+  }
+  .article-meta-info {
+    color: var(--text3);
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .article-meta-info .sep { width: 3px; height: 3px; border-radius: 50%; background: var(--text3); }
+
+  .article-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .article-toc {
+    position: sticky; top: calc(80px + 2rem);
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .article-toc::-webkit-scrollbar { width: 4px; }
+  .article-toc::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .toc-label {
+    font-family: var(--mono); font-size: 0.6rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--text3); margin-bottom: 0.75rem;
+  }
+  .toc-list { list-style: none; border-left: 1px solid var(--border); }
+  .toc-item { font-size: 0.78rem; line-height: 1.4; }
+  .toc-link {
+    display: block; padding: 0.3rem 0 0.3rem 0.875rem;
+    color: var(--text3); border-left: 1px solid transparent;
+    margin-left: -1px; transition: all 0.15s;
+  }
+  .toc-link:hover { color: var(--accent); border-left-color: var(--accent); }
+  .toc-link--active { color: var(--accent); border-left-color: var(--accent); }
+  .toc-link--h3 { padding-left: 1.5rem; font-size: 0.72rem; }
+
+  .article-body {
+    font-size: 1rem; line-height: 1.85; color: var(--text);
+  }
+  .article-body h2 {
+    font-family: var(--display); font-weight: 700; font-size: 1.6rem;
+    line-height: 1.3; letter-spacing: -0.02em; margin: 2.5rem 0 1rem;
+  }
+  .article-body h3 {
+    font-family: var(--display); font-weight: 600; font-size: 1.25rem;
+    line-height: 1.35; margin: 2rem 0 0.75rem;
+  }
+  .article-body h4 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .article-body p { margin: 0 0 1.25rem; }
+  .article-body a { color: var(--accent); }
+  .article-body a:hover { color: var(--accent2); }
+  .article-body strong { color: var(--text); }
+  .article-body blockquote {
+    margin: 1.5rem 0; padding: 0.75rem 1.25rem;
+    border-left: 2px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border-radius: 0 8px 8px 0;
+    color: var(--text2); font-style: italic;
+  }
+  .article-body blockquote p:last-child { margin-bottom: 0; }
+  .article-body ul, .article-body ol { margin: 0 0 1.25rem; padding-left: 1.5rem; }
+  .article-body li { margin-bottom: 0.375rem; }
+  .article-body code {
+    font-family: var(--mono); font-size: 0.82em;
+    background: var(--surface2); padding: 0.125em 0.375em;
+    border-radius: 4px; color: var(--green);
+    word-break: break-word;
+  }
+  .article-body pre {
+    margin: 1.5rem 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  .article-body pre code {
+    display: block;
+    padding: 1.25rem;
+    background: none; border-radius: 0;
+    color: var(--text2); font-size: 0.85rem; line-height: 1.6;
+  }
+  .article-body img {
+    margin: 1.5rem 0; border-radius: 10px; width: 100%;
+    border: 1px solid var(--border);
+  }
+  .article-body hr {
+    margin: 2.5rem 0; border: none; border-top: 1px solid var(--border);
+  }
+  .article-body table {
+    width: 100%; margin: 1.5rem 0; border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .article-body th, .article-body td {
+    padding: 0.625rem 0.75rem; border: 1px solid var(--border);
+    text-align: left;
+  }
+  .article-body th { background: var(--surface2); font-weight: 600; color: var(--text2); font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .article-footer { padding: 2rem 0 3rem; border-top: 1px solid var(--border); }
+
+  .article-tags {
+    display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem;
+  }
+  .article-tag {
+    font-family: var(--mono); font-size: 0.68rem; font-weight: 500;
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    color: var(--accent);
+    padding: 0.25rem 0.75rem; border-radius: 4px; text-decoration: none;
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .article-tag:hover { background: var(--accent); color: #fff; }
+
+  .share-section {
+    display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+    padding: 1.25rem; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .share-section span {
+    font-family: var(--mono); font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--text3);
+  }
+  .share-btn {
+    padding: 0.35rem 0.75rem; border-radius: 4px;
+    font-family: var(--mono); font-size: 0.68rem; font-weight: 500;
+    background: var(--surface2); color: var(--text2);
+    border: 1px solid var(--border); transition: all 0.15s;
+  }
+  .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .related-section { padding-bottom: 4rem; }
+  .related-section h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+  .related-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
+  }
+  .related-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.25rem;
+    transition: all 0.3s; position: relative;
+  }
+  .related-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0; transition: opacity 0.3s;
+  }
+  .related-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .related-card:hover::before { opacity: 1; }
+  .related-card h3 {
+    font-family: var(--display); font-weight: 600; font-size: 0.9rem;
+    line-height: 1.3; margin-bottom: 0.375rem; color: var(--text);
+  }
+  .related-card p { font-size: 0.8rem; color: var(--text3); line-height: 1.5; }
+
+  .reading-progress {
+    position: fixed; top: 0; left: 0; width: 100%; height: 2px;
+    z-index: 10001; background: transparent;
+  }
+  .reading-progress-bar {
+    height: 100%; width: 0%;
+    background: linear-gradient(90deg, var(--accent), var(--green));
+    transition: width 0.1s linear;
+  }
+
+  @media (max-width: 1024px) {
+    .article-layout { grid-template-columns: 1fr; }
+    .article-toc { display: none; }
+  }
+  @media (max-width: 768px) {
+    .article-title { font-size: 1.75rem; }
+    .article-excerpt { font-size: 0.95rem; }
+    .article-body { font-size: 0.95rem; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+  <div class="reading-progress-bar" id="progressBar"></div>
+</div>
+
+<article itemscope itemtype="https://schema.org/Article">
+  <div class="article-top">
+    <div class="container container--narrow">
+      <nav class="article-breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ url_for('index') }}">Blog</a>
+        {% if blog.tags %}
+        {% set first_tag = blog.tag_list()[0] %}
+        <span aria-hidden="true"> / </span>
+        <a href="{{ url_for('tag_posts', tag_slug=first_tag) }}">{{ first_tag | replace('-', ' ') }}</a>
+        {% endif %}
+        <span aria-hidden="true"> / </span>
+        <span aria-current="page">{{ blog.title[:40] }}…</span>
+      </nav>
+
+      <header class="article-header">
+        {% if blog.tags %}
+        {% set first_tag = blog.tag_list()[0] %}
+        <span class="article-category">{{ first_tag | replace('-', ' ') }}</span>
+        {% endif %}
+        <h1 class="article-title" itemprop="headline">{{ blog.title }}</h1>
+        {% if blog.description %}
+        <p class="article-excerpt" itemprop="description">{{ blog.description }}</p>
+        {% endif %}
+        <div class="article-meta">
+          <div class="article-meta-author">
+            {% if blog.author_avatar %}
+            <img src="{{ blog.author_avatar }}" alt="{{ blog.author }}" width="32" height="32" />
+            {% endif %}
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">{{ blog.author }}</span>
+            </span>
+          </div>
+          <div class="article-meta-info"></div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  {% if blog.featured_image %}
+  <div class="container container--narrow">
+    <img
+      src="{{ blog.featured_image }}"
+      alt="{{ blog.title }}"
+      itemprop="image"
+      style="width:100%; border-radius:10px; margin-bottom:2rem; border:1px solid var(--border);"
+    />
+  </div>
+  {% endif %}
+
+  <div class="container">
+    <div class="article-layout">
+      <aside class="article-toc" aria-label="Table of contents">
+        <div class="toc-label">On this page</div>
+        <ul class="toc-list" id="tocList"></ul>
+      </aside>
+
+      <div class="article-body" id="articleBody" itemprop="articleBody">
+        {{ content_html|safe }}
+      </div>
+    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="container container--narrow">
+      {% if blog.tags %}
+      <div class="article-tags">
+        {% for tag in blog.tag_list() %}
+        <a href="{{ url_for('tag_posts', tag_slug=tag) }}" class="article-tag">#{{ tag | replace('-', ' ') }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="share-section">
+        <span>Share</span>
+        <a href="https://twitter.com/intent/tweet?text={{ blog.title }}&url={{ request.url }}" target="_blank" rel="noopener" class="share-btn">Twitter</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.url }}" target="_blank" rel="noopener" class="share-btn">LinkedIn</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.url }}" target="_blank" rel="noopener" class="share-btn">Facebook</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+{% if related_posts %}
+<section class="related-section" aria-label="Related articles">
+  <div class="container container--narrow">
+    <h2>Related Articles</h2>
+    <div class="related-grid">
+      {% for rel in related_posts %}
+      <a href="{{ url_for('blog_post', slug=rel.slug) }}" class="related-card">
+        <h3>{{ rel.title }}</h3>
+        <p>{{ rel.description[:120] }}{% if rel.description|length > 120 %}&hellip;{% endif %}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+  var body = document.getElementById('articleBody');
+  if (!body) return;
+
+  var headings = body.querySelectorAll('h2, h3');
+  var tocList = document.getElementById('tocList');
+
+  if (headings.length < 2 && tocList) { var p = tocList.parentElement; if (p) p.style.display = 'none'; }
+
+  headings.forEach(function(h, i) {
+    if (!h.id) { h.id = 'section-' + i; }
+    var item = document.createElement('li');
+    item.className = 'toc-item';
+    var link = document.createElement('a');
+    link.className = 'toc-link' + (h.tagName === 'H3' ? ' toc-link--h3' : '');
+    link.href = '#' + h.id;
+    link.textContent = h.textContent;
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.getElementById(h.id);
+      if (target) {
+        var offset = 90;
+        var top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+    item.appendChild(link);
+    if (tocList) tocList.appendChild(item);
+  });
+
+  var tocLinks = tocList ? tocList.querySelectorAll('.toc-link') : [];
+  var progressBar = document.getElementById('progressBar');
+
+  function onScroll() {
+    var scrollTop = window.scrollY;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    if (progressBar) {
+      progressBar.style.width = Math.min(progress, 100) + '%';
+      var p = progressBar.parentElement;
+      if (p) p.setAttribute('aria-valuenow', Math.round(progress));
+    }
+
+    if (tocLinks.length > 0) {
+      var current = '';
+      headings.forEach(function(h) {
+        var rect = h.getBoundingClientRect();
+        if (rect.top <= 120) { current = h.id; }
+      });
+      tocLinks.forEach(function(link) {
+        var isActive = link.getAttribute('href') === '#' + current;
+        if (isActive) { link.classList.add('toc-link--active'); }
+        else { link.classList.remove('toc-link--active'); }
+      });
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+})();
+</script>
+{% endblock %}

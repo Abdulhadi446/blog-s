@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Page not found — {{ seo.site_name }}{% endblock %}
+{% block robots %}noindex, follow{% endblock %}
+
+{% block head %}
+<style>
+  .error-page {
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center; padding: 5rem 1.5rem;
+    min-height: 60vh;
+  }
+  .error-code {
+    font-family: var(--display);
+    font-size: 6rem; font-weight: 800;
+    letter-spacing: -0.04em;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--green) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .error-page h1 {
+    font-family: var(--display);
+    font-size: 1.5rem; font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  .error-page p {
+    color: var(--text3);
+    margin-bottom: 2rem;
+    max-width: 400px;
+  }
+  @media (max-width: 768px) {
+    .error-code { font-size: 4rem; }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="error-page">
+  <div class="error-code">404</div>
+  <h1>Page not found</h1>
+  <p>The page you're looking for doesn't exist or has been moved.</p>
+  <a href="{{ url_for('index') }}" class="btn btn-primary">Back to Blog</a>
+</div>
+{% endblock %}
