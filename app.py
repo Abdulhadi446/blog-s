@@ -221,6 +221,36 @@ def create_app(config_name=None):
             flash(f'Error processing upload: {str(e)}', 'error')
             return redirect(url_for('handle_upload'))
 
+    @app.route('/blog.md')
+    def latest_blog_markdown():
+        posts = get_all_posts()
+        if not posts:
+            abort(404)
+        latest = posts[0]
+        post_dir = os.path.join(BLOGS_DIR, latest['slug'])
+        md_path = os.path.join(post_dir, 'blog.md')
+        if not os.path.exists(md_path):
+            abort(404)
+        with open(md_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        response = app.make_response(content)
+        response.headers['Content-Type'] = 'text/markdown; charset=utf-8'
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Cache-Control'] = 'public, max-age=3600'
+        return response
+
+    @app.route('/image.png')
+    def latest_blog_image():
+        posts = get_all_posts()
+        if not posts:
+            abort(404)
+        latest = posts[0]
+        post_dir = os.path.join(BLOGS_DIR, latest['slug'])
+        image_path = os.path.join(post_dir, 'image.png')
+        if os.path.exists(image_path):
+            return send_from_directory(post_dir, 'image.png', mimetype='image/png')
+        abort(404)
+
     @app.errorhandler(404)
     def page_not_found(e):
         return render_template('404.html'), 404

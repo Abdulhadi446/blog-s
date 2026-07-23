@@ -169,3 +169,53 @@ IsADirectoryError: [Errno 21] Is a directory: '/home/ubuntu/blog-s/blogs/ai-dail
 127.0.0.1 - - [23/Jul/2026 12:21:40] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [23/Jul/2026 12:36:35] "HEAD / HTTP/1.1" 200 -
 127.0.0.1 - - [23/Jul/2026 12:41:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:49] "GET /static/favicon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:49] "GET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:49] "GET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:49] "GET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:04:50] "GET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:05:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:05:07] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:05:07] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:05:07] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:05:07] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:05:08] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:05:20] "GET /blog/ai-daily-roundup-2026-07-23 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:05:21] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:08:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:08:34] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:08:34] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:09:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:09:46] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:09:48] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:09:52] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:09:52] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:09:52] "GET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:09:52] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 13:15:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:16:01] "GET /blog/ai-daily-roundup-2026-07-23 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:16:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:32:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 13:32:11] "GET /blogs/ai-daily-roundup-2026-07-23/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:13:23] "[33mGET /blog.md HTTP/1.1[0m" 404 -
+[91m[1mError: [0mUnexpected error
+
+EBADF: bad file descriptor, read
+ * Detected change in '/home/ubuntu/blog-s/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 129-797-052
+127.0.0.1 - - [23/Jul/2026 15:24:38] "GET /blog.md HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 15:24:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2026 17:18:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/Jul/2026 18:12:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:18] "GET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:19] "GET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:19] "GET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:19] "GET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:19] "GET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:13:23] "GET /static/favicon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:14:03] "GET /blog/ai-daily-roundup-2026-07-22 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 18:14:14] "GET / HTTP/1.1" 200 -
