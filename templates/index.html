@@ -122,9 +122,11 @@
   .post-card-title {
     font-family: var(--display);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     line-height: 1.3;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
   .post-card-title a { color: var(--text); }
   .post-card-title a:hover { color: var(--accent); }
@@ -170,7 +172,7 @@
     justify-content: center;
   }
   .post-card-featured .post-card-title {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: 700;
   }
 
@@ -199,7 +201,7 @@
     <div><strong>{{ posts|length }}</strong> articles</div>
     {% set tags = [] %}
     {% for p in posts %}
-      {% for t in p.tag_list() %}
+      {% for t in p.tags|tag_list %}
         {% if t not in tags %}{% set _ = tags.append(t) %}{% endif %}
       {% endfor %}
     {% endfor %}
@@ -228,7 +230,7 @@
         <div class="post-card-body">
           {% if post.tags %}
           <div class="post-card-tags">
-            {% for tag in post.tag_list()[:3] %}
+            {% for tag in (post.tags|tag_list)[:3] %}
             <a href="{{ url_for('tag_posts', tag_slug=tag) }}" class="post-card-tag">{{ tag }}</a>
             {% endfor %}
           </div>
@@ -236,7 +238,7 @@
           <h2 class="post-card-title" itemprop="headline">
             <a href="{{ url_for('blog_post', slug=post.slug) }}" itemprop="url">{{ post.title }}</a>
           </h2>
-          <p class="post-card-desc" itemprop="description">{{ post.description }}</p>
+          <p class="post-card-desc">{{ post.description }}</p>
           <div class="post-card-meta">
             <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
           </div>

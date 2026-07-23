@@ -1,0 +1,130 @@
+
+[notice] A new release of pip is available: 24.0 -> 26.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+
+[notice] A new release of pip is available: 24.0 -> 26.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.66:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 993-569-938
+127.0.0.1 - - [22/Jul/2026 19:02:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jul/2026 19:02:24] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:02:25] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:02:27] "[36mGET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:02:27] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:02:27] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:02:27] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/Jul/2026 19:03:10] "GET /blogs/ai-daily-roundup-2026-07-22/blog.md HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:18:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:18:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:18:45] "[36mGET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:18:45] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:18:45] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:18:45] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:18:45] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:22:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:27] "GET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:27] "GET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:27] "GET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:27] "GET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:27] "GET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:22:36] "GET /static/favicon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:48:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 131, in index
+    posts = get_all_posts()
+            ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 115, in get_all_posts
+    meta, body = parse_blog_file(md_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 88, in parse_blog_file
+    with open(path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/ubuntu/blog-s/blogs/ai-daily-roundup-2026-07-23/blog.md'
+127.0.0.1 - - [23/Jul/2026 08:48:07] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:48:07] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:48:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:48:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:48:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/.venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 131, in index
+    posts = get_all_posts()
+            ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 115, in get_all_posts
+    meta, body = parse_blog_file(md_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-s/app.py", line 88, in parse_blog_file
+    with open(path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/ubuntu/blog-s/blogs/ai-daily-roundup-2026-07-23/blog.md'
+127.0.0.1 - - [23/Jul/2026 08:48:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:48:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:48:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:52:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:52:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:52:38] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:52:38] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:52:38] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:52:38] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:52:44] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:53:02] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:02] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:02] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:02] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:08] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:53:15] "GET /blogs/ai-daily-roundup-2026-07-23/image.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2026 08:53:16] "[36mGET /blogs/ai-daily-roundup-2026-07-22/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:17] "[36mGET /blogs/ai-daily-roundup-2026-07-21/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:17] "[36mGET /blogs/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:17] "[36mGET /blogs/ai-daily-roundup-2026-07-20/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:22] "[36mGET /blogs/international-ai-safety-report-2026/image.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2026 08:53:23] "[36mGET /static/favicon.svg HTTP/1.1[0m" 304 -

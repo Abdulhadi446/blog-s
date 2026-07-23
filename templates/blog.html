@@ -274,7 +274,7 @@
       <nav class="article-breadcrumb" aria-label="Breadcrumb">
         <a href="{{ url_for('index') }}">Blog</a>
         {% if blog.tags %}
-        {% set first_tag = blog.tag_list()[0] %}
+        {% set first_tag = (blog.tags|tag_list)[0] %}
         <span aria-hidden="true"> / </span>
         <a href="{{ url_for('tag_posts', tag_slug=first_tag) }}">{{ first_tag | replace('-', ' ') }}</a>
         {% endif %}
@@ -284,7 +284,7 @@
 
       <header class="article-header">
         {% if blog.tags %}
-        {% set first_tag = blog.tag_list()[0] %}
+        {% set first_tag = (blog.tags|tag_list)[0] %}
         <span class="article-category">{{ first_tag | replace('-', ' ') }}</span>
         {% endif %}
         <h1 class="article-title" itemprop="headline">{{ blog.title }}</h1>
@@ -334,7 +334,7 @@
     <div class="container container--narrow">
       {% if blog.tags %}
       <div class="article-tags">
-        {% for tag in blog.tag_list() %}
+        {% for tag in blog.tags|tag_list %}
         <a href="{{ url_for('tag_posts', tag_slug=tag) }}" class="article-tag">#{{ tag | replace('-', ' ') }}</a>
         {% endfor %}
       </div>
