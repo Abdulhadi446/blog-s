@@ -7,22 +7,27 @@
   <meta name="description" content="{% block meta_description %}{{ seo.site_description }}{% endblock %}" />
   <meta name="author" content="{{ seo.site_name }}" />
   <meta name="robots" content="{% block robots %}index, follow{% endblock %}" />
-  <link rel="canonical" href="{% block canonical %}{{ request.url }}{% endblock %}" />
+  <link rel="canonical" href="{% block canonical %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <meta name="theme-color" content="#8b5cf6" />
+  <link rel="alternate" type="application/rss+xml" title="{{ seo.site_name }} RSS Feed" href="{{ url_for('rss_feed', _external=True) }}" />
+
+  {% block keywords %}{% endblock %}
 
   {% block open_graph %}
   <meta property="og:title" content="{% block og_title %}{{ seo.site_name }}{% endblock %}" />
   <meta property="og:description" content="{% block og_description %}{{ seo.site_description }}{% endblock %}" />
   <meta property="og:type" content="{% block og_type %}website{% endblock %}" />
-  <meta property="og:url" content="{{ request.url }}" />
+  <meta property="og:url" content="{% block og_url %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
   <meta property="og:site_name" content="{{ seo.site_name }}" />
   <meta property="og:locale" content="en_US" />
+  {% block og_image %}{% endblock %}
   {% endblock %}
 
   <meta name="twitter:card" content="{% block twitter_card %}summary_large_image{% endblock %}" />
   <meta name="twitter:title" content="{% block twitter_title %}{{ seo.site_name }}{% endblock %}" />
   <meta name="twitter:description" content="{% block twitter_description %}{{ seo.site_description }}{% endblock %}" />
+  {% block twitter_image %}{% endblock %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -4,7 +4,37 @@
 {% block og_title %}{{ author }} — {{ seo.site_name }}{% endblock %}
 {% block og_description %}Browse all articles by {{ author }} on {{ seo.site_name }}.{% endblock %}
 
+{% block keywords %}<meta name="keywords" content="{{ author }}, {{ seo.site_name }}, articles, blog" />{% endblock %}
+
+{% block og_image %}
+{% if posts and posts[0].featured_image %}
+<meta property="og:image" content="{{ request.url_root.rstrip('/') + posts[0].featured_image }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{% endif %}
+{% endblock %}
+
+{% block twitter_image %}
+{% if posts and posts[0].featured_image %}
+<meta name="twitter:image" content="{{ request.url_root.rstrip('/') + posts[0].featured_image }}" />
+{% endif %}
+{% endblock %}
+
 {% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": {{ author|tojson }},
+  "description": "Articles by {{ author }} on {{ seo.site_name }}",
+  "url": "{{ request.url_root.rstrip('/') + request.path }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": {{ author|tojson }}
+  }
+}
+</script>
+
 <style>
   .author-header {
     padding: 3rem 0 1.5rem;

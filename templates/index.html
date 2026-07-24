@@ -1,7 +1,46 @@
 {% extends "base.html" %}
 {% block title %}{{ seo.site_name }} — {{ seo.site_description }}{% endblock %}
 
+{% block keywords %}<meta name="keywords" content="programming, technology, software development, coding, tech blog, {{ seo.site_name }}" />{% endblock %}
+
 {% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ seo.site_name|tojson }},
+  "description": {{ seo.site_description|tojson }},
+  "url": "{{ seo.site_url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ seo.site_url }}/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": {{ seo.site_name|tojson }},
+  "description": {{ seo.site_description|tojson }},
+  "url": "{{ seo.site_url }}",
+  "blogPost": [
+    {% for post in posts %}
+    {
+      "@type": "BlogPosting",
+      "headline": {{ post.title|tojson }},
+      "description": {{ post.description|tojson }},
+      "author": { "@type": "Person", "name": {{ post.author|tojson }} },
+      "url": "{{ seo.site_url }}{{ url_for('blog_post', slug=post.slug) }}",
+      "datePublished": {{ post.published_date|tojson }}{% if post.featured_image %},
+      "image": {{ (request.url_root.rstrip('/') + post.featured_image)|tojson }}{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
 <style>
   .hero {
     padding: 4rem 0 2rem;

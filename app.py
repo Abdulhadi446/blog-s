@@ -1,4 +1,4 @@
-from flask import Flask, render_template, abort, request, url_for, flash, redirect, session, send_from_directory
+from flask import Flask, render_template, abort, request, url_for, flash, redirect, session, send_from_directory, Response
 from datetime import datetime
 from urllib.parse import quote
 import os
@@ -277,6 +277,7 @@ def create_app(config_name=None):
     @app.route('/sitemap.xml')
     def sitemap():
         app.response_class.mimetype = 'application/xml'
+        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
         urls = [{
             'loc': url_for('index', _external=True),
             'lastmod': datetime.now().strftime('%Y-%m-%d'),
@@ -284,6 +285,9 @@ def create_app(config_name=None):
             'priority': '1.0'
         }]
         all_posts = get_all_posts()
+
+        all_tags = set()
+        all_authors = set()
         for post in all_posts:
             urls.append({
                 'loc': url_for('blog_post', slug=post['slug'], _external=True),
@@ -291,12 +295,75 @@ def create_app(config_name=None):
                 'changefreq': 'weekly',
                 'priority': '0.8'
             })
+            for t in (post.get('tags') or '').split(','):
+                t = t.strip()
+                if t:
+                    all_tags.add(t)
+            all_authors.add(post['author'])
+
+        for tag in all_tags:
+            tag_slug = tag.lower().replace(' ', '-')
+            urls.append({
+                'loc': url_for('tag_posts', tag_slug=tag_slug, _external=True),
+                'lastmod': datetime.now().strftime('%Y-%m-%d'),
+                'changefreq': 'weekly',
+                'priority': '0.6'
+            })
+
+        for author in all_authors:
+            author_slug = author.lower().replace(' ', '-')
+            urls.append({
+                'loc': url_for('author_posts', author_slug=author_slug, _external=True),
+                'lastmod': datetime.now().strftime('%Y-%m-%d'),
+                'changefreq': 'weekly',
+                'priority': '0.5'
+            })
+
         return render_template('sitemap.xml', urls=urls)
 
     @app.route('/robots.txt')
     def robots():
         app.response_class.mimetype = 'text/plain'
-        return render_template('robots.txt', site_url=app.config['SITE_CONFIG']['url'])
+        return render_template('robots.txt', site_url=app.config['SITE_CONFIG']['url'].rstrip('/'))
+
+    @app.route('/feed.xml')
+    def rss_feed():
+        all_posts = get_all_posts()
+        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
+        site_name = app.config['SITE_CONFIG']['name']
+        site_desc = app.config['SITE_CONFIG']['description']
+
+        items = ''
+        for post in all_posts[:20]:
+            post_url = url_for('blog_post', slug=post['slug'], _external=True)
+            image_tag = ''
+            if post.get('featured_image'):
+                image_url = request.url_root.rstrip('/') + post['featured_image']
+                image_tag = f'''
+    <enclosure url="{image_url}" type="image/png" length="0"/>'''
+            items += f'''
+  <item>
+    <title>{post["title"]}</title>
+    <link>{post_url}</link>
+    <guid isPermaLink="true">{post_url}</guid>
+    <description><![CDATA[{post["description"]}]]></description>
+    <dc:creator>{post["author"]}</dc:creator>
+    <pubDate>{datetime.strptime(post["published_date"], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")}</pubDate>{image_tag}
+  </item>'''
+
+        rss_xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{site_name}</title>
+    <link>{site_url}</link>
+    <description>{site_desc}</description>
+    <language>en-us</language>
+    <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y 00:00:00 +0000")}</lastBuildDate>
+    <atom:link href="{url_for("rss_feed", _external=True)}" rel="self" type="application/rss+xml"/>{items}
+  </channel>
+</rss>'''
+
+        return Response(rss_xml, mimetype='application/rss+xml; charset=utf-8')
 
     return app
 

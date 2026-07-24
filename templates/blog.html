@@ -5,8 +5,25 @@
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ blog.title }}{% endblock %}
 {% block og_description %}{{ blog.description }}{% endblock %}
+{% block og_url %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}
 {% block twitter_title %}{{ blog.title }}{% endblock %}
 {% block twitter_description %}{{ blog.description }}{% endblock %}
+
+{% block keywords %}{% if blog.tags %}<meta name="keywords" content="{{ blog.tags }}, {{ blog.title }}, {{ seo.site_name }}" />{% endif %}{% endblock %}
+
+{% block og_image %}
+{% if blog.featured_image %}
+<meta property="og:image" content="{{ request.url_root.rstrip('/') + blog.featured_image }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{% endif %}
+{% endblock %}
+
+{% block twitter_image %}
+{% if blog.featured_image %}
+<meta name="twitter:image" content="{{ request.url_root.rstrip('/') + blog.featured_image }}" />
+{% endif %}
+{% endblock %}
 
 {% set content_html = blog.content|markdown %}
 
@@ -14,10 +31,6 @@
 <meta property="article:published_time" content="{{ blog.published_date }}" />
 <meta property="article:modified_time" content="{{ blog.modified_date }}" />
 <meta property="article:author" content="{{ blog.author }}" />
-{% if blog.featured_image %}
-<meta property="og:image" content="{{ blog.featured_image }}" />
-<meta name="twitter:image" content="{{ blog.featured_image }}" />
-{% endif %}
 
 <script type="application/ld+json">
 {
@@ -25,7 +38,7 @@
   "@type": "Article",
   "headline": {{ blog.title|tojson }},
   "description": {{ blog.description|tojson }},
-  "image": {{ blog.featured_image|tojson }},
+  "image": {% if blog.featured_image %}{{ (request.url_root.rstrip('/') + blog.featured_image)|tojson }}{% else %}null{% endif %},
   "author": { "@type": "Person", "name": {{ blog.author|tojson }} },
   "publisher": {
     "@type": "Organization",
@@ -34,7 +47,40 @@
   },
   "datePublished": {{ blog.published_date|tojson }},
   "dateModified": {{ blog.modified_date|tojson }},
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ request.url }}" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ request.url_root.rstrip('/') + request.path }}" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Blog",
+      "item": "{{ url_for('index', _external=True) }}"
+    }{% if blog.tags %},{% set first_tag = (blog.tags|tag_list)[0] %}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ first_tag | replace('-', ' ') }}",
+      "item": "{{ url_for('tag_posts', tag_slug=first_tag, _external=True) }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ blog.title|tojson }},
+      "item": "{{ request.url_root.rstrip('/') + request.path }}"
+    }{% else %}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ blog.title|tojson }},
+      "item": "{{ request.url_root.rstrip('/') + request.path }}"
+    }{% endif %}
+  ]
 }
 </script>
 
