@@ -98,7 +98,8 @@ def create_app(config_name=None):
                 for line in meta_raw.strip().split('\n'):
                     if ':' in line:
                         k, v = line.split(':', 1)
-                        meta[k.strip().lower()] = v.strip()
+                        v = v.strip().strip('"').strip("'")
+                        meta[k.strip().lower()] = v
                 return meta, body
         return {}, content
 
