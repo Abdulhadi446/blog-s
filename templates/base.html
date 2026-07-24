@@ -51,7 +51,7 @@
       --body: 'Outfit', sans-serif;
     }
 
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
     body {
@@ -229,6 +229,9 @@
       pointer-events: none; z-index: 0;
       transform: translate(-50%, -50%);
       will-change: left, top;
+    }
+    @media (max-width: 768px) {
+      .cursor-glow { display: none; }
     }
 
     @media (max-width: 768px) {
