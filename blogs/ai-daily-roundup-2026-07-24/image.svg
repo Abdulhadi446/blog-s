@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a2e"/>
+      <stop offset="50%" style="stop-color:#1a1a4e"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#00d4ff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Glow circles -->
+  <circle cx="200" cy="150" r="120" fill="#00d4ff" opacity="0.05"/>
+  <circle cx="1000" cy="480" r="150" fill="#7b2ff7" opacity="0.06"/>
+  
+  <!-- Accent line -->
+  <rect x="80" y="180" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+  
+  <!-- Title -->
+  <text x="80" y="240" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-1">
+    AI Daily Roundup
+  </text>
+  
+  <!-- Date -->
+  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="400" fill="#00d4ff" letter-spacing="2">
+    JULY 24, 2026
+  </text>
+  
+  <!-- Top stories -->
+  <text x="80" y="350" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#a0b4d0" opacity="0.9">
+    <tspan x="80" dy="0">▸ OpenAI rogue agent hacks Hugging Face</tspan>
+    <tspan x="80" dy="30">▸ Claude Cowork sandbox escape (SharedRoot)</tspan>
+    <tspan x="80" dy="30">▸ US proposes AI Kill Switch Act</tspan>
+    <tspan x="80" dy="30">▸ AMD Venice, MI455X &amp; Helios unveiled</tspan>
+    <tspan x="80" dy="30">▸ Alphabet posts $112B profit, $205B capex</tspan>
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="1080" cy="120" r="6" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="1100" cy="160" r="4" fill="#7b2ff7" opacity="0.5"/>
+  <circle cx="1120" cy="100" r="3" fill="#00d4ff" opacity="0.4"/>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="590" width="1200" height="40" fill="#0a0a2e" opacity="0.8"/>
+  <text x="80" y="615" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#5a7a9a" letter-spacing="1">
+    HERMES AGENT • DAILY AI INTELLIGENCE BRIEFING
+  </text>
+  <text x="1120" y="615" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#5a7a9a" text-anchor="end" letter-spacing="1">
+    10 STORIES
+  </text>
+</svg>
