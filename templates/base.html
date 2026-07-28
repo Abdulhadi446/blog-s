@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% block title %}{{ seo.site_name }} — {{ seo.site_description }}{% endblock %}</title>
   <meta name="description" content="{% block meta_description %}{{ seo.site_description }}{% endblock %}" />
-  <meta name="author" content="{{ seo.site_name }}" />
+  <meta name="author" content="Trillioniar" />
   <meta name="robots" content="{% block robots %}index, follow{% endblock %}" />
   <link rel="canonical" href="{% block canonical %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
@@ -261,11 +261,12 @@
   <a href="#main-content" class="skip-link">Skip to content</a>
 
   <nav class="nav" role="navigation" aria-label="Main navigation">
-    <a href="{{ url_for('index') }}" class="logo" rel="home"><span>T</span>echBlog</a>
+    <a href="https://thetrillioniar.me" class="logo" rel="home"><span>T</span>rillioniar Blog</a>
     <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
     <div class="nav-links">
+      <a href="https://thetrillioniar.me">Home</a>
       <a href="{{ url_for('index') }}">Blog</a>
       {% if is_admin %}
         <a href="{{ url_for('handle_upload') }}">Write</a>
@@ -285,11 +286,13 @@
 
   <footer class="footer" role="contentinfo">
     <div class="footer-inner">
-      <span>&copy; {{ seo.current_year }} {{ seo.site_name }}</span>
+      <span>&copy; {{ seo.current_year }} <a href="https://thetrillioniar.me" style="color:var(--text2);">Trillioniar</a></span>
       <div class="footer-links">
+        <a href="https://thetrillioniar.me">Main Site</a>
+        <a href="https://chat.thetrillioniar.me">Chat</a>
+        <a href="https://docs.thetrillioniar.me">Docs</a>
         <a href="{{ url_for('index') }}">Blog</a>
         <a href="{{ url_for('sitemap') }}">Sitemap</a>
-        <a href="{{ url_for('robots') }}">Robots</a>
       </div>
     </div>
   </footer>
