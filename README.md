@@ -1,4 +1,4 @@
-# TechBlog
+# TechBlog (https://blogs.thetrillioniar.me/)[T]
 
 A modern, file-based blog platform built with Flask. Write posts in Markdown, manage content through an admin panel, and deploy with ease.
 
