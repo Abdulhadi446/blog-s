@@ -1,4 +1,4 @@
-# TechBlog (https://blogs.thetrillioniar.me/)[T]
+# [TechBlog](https://blogs.thetrillioniar.me/)
 
 A modern, file-based blog platform built with Flask. Write posts in Markdown, manage content through an admin panel, and deploy with ease.
 
@@ -22,6 +22,10 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 - **Markdown Rendering**: Python markdown library
 - **Web Scraping**: BeautifulSoup4
 - **Search**: DuckDuckGo Search API
+
+## All Blogs
+[International AI Safety Report 2026](https://blogs.thetrillioniar.me/blog/international-ai-safety-report-2026)
+
 
 ## Project Structure
 
