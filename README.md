@@ -9,7 +9,6 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 - **File-Based Storage** - Posts stored as individual folders with markdown and images
 - **SEO Optimized** - Built-in sitemap.xml and robots.txt generation
 - **Image Support** - Each post can have a featured image (image.png)
-- **Video Support** - Each post can have a 9:16 video with voiceover (video.mp4)
 - **Search** - DuckDuckGo image search integration
 - **Gravatar Support** - Automatic author avatar generation
 - **Responsive Design** - Mobile-friendly templates

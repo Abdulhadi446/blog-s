@@ -68,13 +68,6 @@ def create_app(config_name=None):
         if os.path.exists(image_path):
             return send_from_directory(post_dir, 'image.png', mimetype='image/png')
         abort(404)
-    @app.route('/blogs/<slug>/video.mp4')
-    def blog_video(slug):
-        post_dir = os.path.join(BLOGS_DIR, slug)
-        video_path = os.path.join(post_dir, 'video.mp4')
-        if os.path.exists(video_path):
-            return send_from_directory(post_dir, 'video.mp4', mimetype='video/mp4')
-        abort(404)
 
 
     @app.route('/blogs/<slug>/blog.md')
@@ -129,7 +122,6 @@ def create_app(config_name=None):
                         'author': meta.get('author', 'Anonymous'),
                         'published_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
                         'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
-                        'video': f'/blogs/{slug}/video.mp4' if os.path.exists(os.path.join(post_dir, 'video.mp4')) else None,
                         'content': body,
                         'tags': meta.get('tags', '')
                     })
@@ -166,7 +158,6 @@ def create_app(config_name=None):
             'modified_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
             'content': body,
             'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
-            'video': f'/blogs/{slug}/video.mp4' if os.path.exists(os.path.join(post_dir, 'video.mp4')) else None,
             'tags': meta.get('tags', ''),
             'url': request.url
         }
