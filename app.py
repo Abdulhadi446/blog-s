@@ -327,6 +327,8 @@ def create_app(config_name=None):
         app.response_class.mimetype = 'text/plain'
         return render_template('robots.txt', site_url=app.config['SITE_CONFIG']['url'].rstrip('/'))
 
+    @app.route('/rss.xml')
+    @app.route('/feed')
     @app.route('/feed.xml')
     def rss_feed():
         all_posts = get_all_posts()
@@ -337,6 +339,8 @@ def create_app(config_name=None):
         items = ''
         for post in all_posts[:20]:
             post_url = url_for('blog_post', slug=post['slug'], _external=True)
+            pub_date = datetime.strptime(post["published_date"], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")
+            content_html = render_markdown(post['content'], extensions=['fenced_code', 'codehilite', 'tables'])
             image_tag = ''
             if post.get('featured_image'):
                 image_url = request.url_root.rstrip('/') + post['featured_image']
@@ -348,18 +352,19 @@ def create_app(config_name=None):
     <link>{post_url}</link>
     <guid isPermaLink="true">{post_url}</guid>
     <description><![CDATA[{post["description"]}]]></description>
+    <content:encoded><![CDATA[{content_html}]]></content:encoded>
     <dc:creator>{post["author"]}</dc:creator>
-    <pubDate>{datetime.strptime(post["published_date"], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")}</pubDate>{image_tag}
+    <pubDate>{pub_date}</pubDate>{image_tag}
   </item>'''
 
         rss_xml = f'''<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{site_name}</title>
-    <link>{site_url}</link>
-    <description>{site_desc}</description>
+    <title>Trillioniar Blog</title>
+    <link>https://blogs.thetrillioniar.me/</link>
+    <description>Insights on AI, APIs, and developer tools from Trillioniar</description>
     <language>en-us</language>
-    <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y 00:00:00 +0000")}</lastBuildDate>
+    <lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
     <atom:link href="{url_for("rss_feed", _external=True)}" rel="self" type="application/rss+xml"/>{items}
   </channel>
 </rss>'''

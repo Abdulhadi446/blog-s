@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-07-30 | [AI News July 30: Microsoft Azure $100B, Samsung 1,814% Profit Surge, RufRoot CVSS 10.0, and Onyx Security $113M](https://blogs.thetrillioniar.me/blog/ai-news-july-30-microsoft-azure-meta-samsung-ruflo-onyx) |
 | 2026-07-29 | [OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears Correction, and Nvidia Launches Open Secure AI Alliance](https://blogs.thetrillioniar.me/blog/ai-news-july-29-rogue-agent-nasdaq-correction-open-secure-ai) |
 | 2026-07-28 | [Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships Cyber AI, and a Universal Jailbreak Breaks GPT-5.6 and Claude Opus 5](https://blogs.thetrillioniar.me/blog/ai-news-july-28-nvidia-ssi-microsoft-cybersecurity-eu-ai-act) |
 | 2026-07-27 | [Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-07-27) |
