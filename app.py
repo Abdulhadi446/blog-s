@@ -120,6 +120,7 @@ def create_app(config_name=None):
                         'title': meta.get('title', slug.replace('-', ' ').title()),
                         'description': meta.get('description', ''),
                         'author': meta.get('author', 'Anonymous'),
+                        'author_slug': meta.get('author', 'Anonymous').lower().replace(' ', '-'),
                         'published_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
                         'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
                         'content': body,
@@ -154,6 +155,7 @@ def create_app(config_name=None):
             'title': meta.get('title', slug.replace('-', ' ').title()),
             'description': meta.get('description', ''),
             'author': meta.get('author', 'Anonymous'),
+            'author_slug': meta.get('author', 'Anonymous').lower().replace(' ', '-'),
             'published_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
             'modified_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
             'content': body,
@@ -261,6 +263,20 @@ def create_app(config_name=None):
     def internal_server_error(e):
         return render_template('500.html'), 500
 
+    @app.after_request
+    def set_security_headers(response):
+        response.headers['X-Content-Type-Options'] = 'nosniff'
+        response.headers['X-Frame-Options'] = 'SAMEORIGIN'
+        response.headers['X-XSS-Protection'] = '1; mode=block'
+        response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+        if request.path.startswith('/static/'):
+            response.headers['Cache-Control'] = 'public, max-age=31536000, immutable'
+        elif request.path == '/sitemap.xml':
+            response.headers['Cache-Control'] = 'public, max-age=3600'
+        elif request.path == '/robots.txt':
+            response.headers['Cache-Control'] = 'public, max-age=86400'
+        return response
+
     @app.template_filter('urlencode')
     def urlencode_filter(s):
         return quote(str(s))
@@ -283,18 +299,27 @@ def create_app(config_name=None):
             'loc': url_for('index', _external=True),
             'lastmod': datetime.now().strftime('%Y-%m-%d'),
             'changefreq': 'daily',
-            'priority': '1.0'
+            'priority': '1.0',
+            'image': None,
+            'image_title': None
         }]
         all_posts = get_all_posts()
 
         all_tags = set()
         all_authors = set()
         for post in all_posts:
+            post_image = None
+            post_image_title = None
+            if post.get('featured_image'):
+                post_image = request.url_root.rstrip('/') + post['featured_image']
+                post_image_title = post['title']
             urls.append({
                 'loc': url_for('blog_post', slug=post['slug'], _external=True),
                 'lastmod': post['published_date'],
                 'changefreq': 'weekly',
-                'priority': '0.8'
+                'priority': '0.8',
+                'image': post_image,
+                'image_title': post_image_title
             })
             for t in (post.get('tags') or '').split(','):
                 t = t.strip()
@@ -308,7 +333,9 @@ def create_app(config_name=None):
                 'loc': url_for('tag_posts', tag_slug=tag_slug, _external=True),
                 'lastmod': datetime.now().strftime('%Y-%m-%d'),
                 'changefreq': 'weekly',
-                'priority': '0.6'
+                'priority': '0.6',
+                'image': None,
+                'image_title': None
             })
 
         for author in all_authors:
@@ -317,15 +344,25 @@ def create_app(config_name=None):
                 'loc': url_for('author_posts', author_slug=author_slug, _external=True),
                 'lastmod': datetime.now().strftime('%Y-%m-%d'),
                 'changefreq': 'weekly',
-                'priority': '0.5'
+                'priority': '0.5',
+                'image': None,
+                'image_title': None
             })
 
         return render_template('sitemap.xml', urls=urls)
 
     @app.route('/robots.txt')
     def robots():
-        app.response_class.mimetype = 'text/plain'
-        return render_template('robots.txt', site_url=app.config['SITE_CONFIG']['url'].rstrip('/'))
+        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
+        if site_url == '/':
+            site_url = request.url_root.rstrip('/')
+        content = f"""User-agent: *
+Allow: /
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+Sitemap: {site_url}/sitemap.xml
+"""
+        return Response(content, content_type='text/plain; charset=utf-8')
 
     @app.route('/rss.xml')
     @app.route('/feed')
@@ -360,12 +397,14 @@ def create_app(config_name=None):
         rss_xml = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Trillioniar Blog</title>
-    <link>https://blogs.thetrillioniar.me/</link>
-    <description>Insights on AI, APIs, and developer tools from Trillioniar</description>
+    <title>{site_name}</title>
+    <link>{site_url}/</link>
+    <description>{site_desc}</description>
     <language>en-us</language>
     <lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
-    <atom:link href="{url_for("rss_feed", _external=True)}" rel="self" type="application/rss+xml"/>{items}
+    <atom:link href="{url_for("rss_feed", _external=True)}" rel="self" type="application/rss+xml"/>
+    <generator>Trillioniar Blog</generator>
+    <ttl>60</ttl>{items}
   </channel>
 </rss>'''
 

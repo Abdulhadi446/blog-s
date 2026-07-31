@@ -379,8 +379,9 @@ def sitemap():
 @app.route('/robots.txt')
 def robots():
     """Robots.txt for SEO"""
-    app.response_class.mimetype = 'text/plain'
-    return render_template('robots.txt', site_url=SITE_CONFIG['url'])
+    from flask import Response
+    content = render_template('robots.txt', site_url=SITE_CONFIG['url'])
+    return Response(content, mimetype='text/plain')
 
 @app.errorhandler(404)
 def page_not_found(e):

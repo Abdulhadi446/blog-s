@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Page not found — {{ seo.site_name }}{% endblock %}
-{% block robots %}noindex, follow{% endblock %}
+{% block meta_description %}The page you're looking for doesn't exist or has been moved. Browse our latest AI, technology, and developer articles instead.{% endblock %}
+{% block robots %}noindex, nofollow{% endblock %}
 
 {% block head %}
 <style>

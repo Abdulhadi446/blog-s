@@ -39,15 +39,27 @@
   "headline": {{ blog.title|tojson }},
   "description": {{ blog.description|tojson }},
   "image": {% if blog.featured_image %}{{ (request.url_root.rstrip('/') + blog.featured_image)|tojson }}{% else %}null{% endif %},
-  "author": { "@type": "Person", "name": {{ blog.author|tojson }} },
+  "author": {
+    "@type": "Person",
+    "name": {{ blog.author|tojson }},
+    "url": "{{ seo.site_url }}{{ url_for('author_posts', author_slug=blog.author_slug) }}"
+  },
   "publisher": {
     "@type": "Organization",
     "name": {{ seo.site_name|tojson }},
-    "logo": { "@type": "ImageObject", "url": "{{ seo.site_url }}/favicon.svg" }
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ seo.site_url }}{{ seo.site_logo }}"
+    }
   },
   "datePublished": {{ blog.published_date|tojson }},
   "dateModified": {{ blog.modified_date|tojson }},
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ request.url_root.rstrip('/') + request.path }}" }
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ request.url_root.rstrip('/') + request.path }}"
+  },
+  "wordCount": {{ blog.content|length|int }},
+  "articleSection": {% if blog.tags %}{{ (blog.tags|tag_list)[0]|tojson }}{% else %}{{ "Blog"|tojson }}{% endif %}
 }
 </script>
 
@@ -59,24 +71,30 @@
     {
       "@type": "ListItem",
       "position": 1,
+      "name": "Home",
+      "item": "{{ seo.site_url }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
       "name": "Blog",
       "item": "{{ url_for('index', _external=True) }}"
     }{% if blog.tags %},{% set first_tag = (blog.tags|tag_list)[0] %}
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "name": "{{ first_tag | replace('-', ' ') }}",
       "item": "{{ url_for('tag_posts', tag_slug=first_tag, _external=True) }}"
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "name": {{ blog.title|tojson }},
       "item": "{{ request.url_root.rstrip('/') + request.path }}"
     }{% else %}
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "name": {{ blog.title|tojson }},
       "item": "{{ request.url_root.rstrip('/') + request.path }}"
     }{% endif %}
@@ -318,6 +336,8 @@
   <div class="article-top">
     <div class="container container--narrow">
       <nav class="article-breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ url_for('index') }}">Home</a>
+        <span aria-hidden="true"> / </span>
         <a href="{{ url_for('index') }}">Blog</a>
         {% if blog.tags %}
         {% set first_tag = (blog.tags|tag_list)[0] %}
@@ -325,7 +345,7 @@
         <a href="{{ url_for('tag_posts', tag_slug=first_tag) }}">{{ first_tag | replace('-', ' ') }}</a>
         {% endif %}
         <span aria-hidden="true"> / </span>
-        <span aria-current="page">{{ blog.title[:40] }}…</span>
+        <span aria-current="page">{{ blog.title[:40] }}{% if blog.title|length > 40 %}…{% endif %}</span>
       </nav>
 
       <header class="article-header">
@@ -337,17 +357,23 @@
         {% if blog.description %}
         <p class="article-excerpt" itemprop="description">{{ blog.description }}</p>
         {% endif %}
-        <div class="article-meta">
-          <div class="article-meta-author">
-            {% if blog.author_avatar %}
-            <img src="{{ blog.author_avatar }}" alt="{{ blog.author }}" width="32" height="32" />
-            {% endif %}
+          <div class="article-meta">
+            <div class="article-meta-author">
+              {% if blog.author_avatar %}
+              <img src="{{ blog.author_avatar }}" alt="{{ blog.author }}" width="32" height="32" loading="lazy" />
+              {% endif %}
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-              <span itemprop="name">{{ blog.author }}</span>
+              <a href="{{ url_for('author_posts', author_slug=blog.author_slug) }}" itemprop="name" rel="author">{{ blog.author }}</a>
             </span>
+            </div>
+            <div class="article-meta-info">
+              <time datetime="{{ blog.published_date }}" itemprop="datePublished">{{ blog.published_date }}</time>
+              {% if blog.modified_date and blog.modified_date != blog.published_date %}
+              <span class="sep"></span>
+              <span>Updated <time datetime="{{ blog.modified_date }}" itemprop="dateModified">{{ blog.modified_date }}</time></span>
+              {% endif %}
+            </div>
           </div>
-          <div class="article-meta-info"></div>
-        </div>
       </header>
     </div>
   </div>
@@ -356,8 +382,11 @@
   <div class="container container--narrow">
     <img
       src="{{ blog.featured_image }}"
-      alt="{{ blog.title }}"
+      alt="{{ blog.title }} - Featured image"
       itemprop="image"
+      width="720"
+      height="405"
+      loading="eager"
       style="width:100%; border-radius:10px; margin-bottom:2rem; border:1px solid var(--border);"
     />
   </div>

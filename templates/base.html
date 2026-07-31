@@ -6,7 +6,7 @@
   <title>{% block title %}{{ seo.site_name }} — {{ seo.site_description }}{% endblock %}</title>
   <meta name="description" content="{% block meta_description %}{{ seo.site_description }}{% endblock %}" />
   <meta name="author" content="Trillioniar" />
-  <meta name="robots" content="{% block robots %}index, follow{% endblock %}" />
+  <meta name="robots" content="{% block robots %}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{% endblock %}" />
   <link rel="canonical" href="{% block canonical %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <meta name="theme-color" content="#8b5cf6" />
@@ -252,6 +252,41 @@
       nav > .nav-links { display: none; }
     }
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": {{ seo.site_name|tojson }},
+    "url": "{{ seo.site_url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ seo.site_url }}{{ seo.site_logo }}"
+    },
+    "description": {{ seo.site_description|tojson }},
+    "sameAs": [
+      "https://thetrillioniar.me",
+      "https://chat.thetrillioniar.me",
+      "https://docs.thetrillioniar.me"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ seo.site_name|tojson }},
+    "url": "{{ seo.site_url }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{ seo.site_url }}/blog?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 
   {% block head %}{% endblock %}
 </head>
