@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-03 | [Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety](https://blogs.thetrillioniar.me/blog/ai-news-august-3-apple-ai-bug-flood-tax-breaks-dna-tampering-openai-safety) |
 | 2026-08-02 | [AI News August 2: EU AI Act Enforcement, California Transparency Act, OpenAI Astra Solves 10 Math Problems](https://blogs.thetrillioniar.me/blog/ai-news-august-2-eu-ai-act-california-astra) |
 | 2026-08-01 | [DeepSeek V4-Flash Goes Official, MiniMax H3 Open-Weight Video Drops, and EU AI Act Enforcement Starts Tomorrow](https://blogs.thetrillioniar.me/blog/ai-news-august-1-deepseek-minimax-seedance-suno-eu-ai-act) |
 | 2026-07-31 | [Claude Breaches Three Organizations in Cyber Tests, DeepMind Ships Gemini Robotics 2, and AWS Posts Record 37% Growth](https://blogs.thetrillioniar.me/blog/ai-news-july-31-claude-cyber-breach-gemini-robotics-aws-nscale) |
