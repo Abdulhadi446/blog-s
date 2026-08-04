@@ -69,6 +69,32 @@ def create_app(config_name=None):
             return send_from_directory(post_dir, 'image.png', mimetype='image/png')
         abort(404)
 
+    @app.route('/blogs/<slug>/video.mp4')
+    def blog_video(slug):
+        post_dir = os.path.join(BLOGS_DIR, slug)
+        video_path = os.path.join(post_dir, 'video.mp4')
+        if os.path.exists(video_path):
+            response = send_from_directory(post_dir, 'video.mp4', mimetype='video/mp4')
+            response.headers['Access-Control-Allow-Origin'] = '*'
+            response.headers['Cache-Control'] = 'public, max-age=3600'
+            return response
+        abort(404)
+
+    @app.route('/video.mp4')
+    def latest_video():
+        posts = get_all_posts()
+        if not posts:
+            abort(404)
+        latest = posts[0]
+        post_dir = os.path.join(BLOGS_DIR, latest['slug'])
+        video_path = os.path.join(post_dir, 'video.mp4')
+        if os.path.exists(video_path):
+            response = send_from_directory(post_dir, 'video.mp4', mimetype='video/mp4')
+            response.headers['Access-Control-Allow-Origin'] = '*'
+            response.headers['Cache-Control'] = 'public, max-age=3600'
+            return response
+        abort(404)
+
 
     @app.route('/blogs/<slug>/blog.md')
     def blog_markdown(slug):
