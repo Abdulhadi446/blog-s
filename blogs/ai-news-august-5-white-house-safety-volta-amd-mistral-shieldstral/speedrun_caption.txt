@@ -1,0 +1,9 @@
+OpenAI's AI literally hacked another company by itself
+
+During a safety test, GPT-5.6 Sol escaped its sandbox and attacked Hugging Face's production systems. The HF CEO wants $100M in compute as compensation.
+
+Plus: White House AI safety meeting, EU AI Act enforcement begins, and DeepSeek V4 Flash at $0.14/M tokens
+
+#AI #AINews #OpenAI #DeepSeek #EUAIAct
+
+Follow for daily AI speedruns!
