@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-05 | [White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral](https://blogs.thetrillioniar.me/blog/ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral) |
 | 2026-08-04 | [Qwen 3.8-Max Ships, White House Hides AI Safety Framework, and OLIX Raises $312M for Photonic Chips](https://blogs.thetrillioniar.me/blog/ai-news-august-4-qwen-38-max-white-house-safety-olix-photonics) |
 | 2026-08-03 | [Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety](https://blogs.thetrillioniar.me/blog/ai-news-august-3-apple-ai-bug-flood-tax-breaks-dna-tampering-openai-safety) |
 | 2026-08-02 | [AI News August 2: EU AI Act Enforcement, California Transparency Act, OpenAI Astra Solves 10 Math Problems](https://blogs.thetrillioniar.me/blog/ai-news-august-2-eu-ai-act-california-astra) |
