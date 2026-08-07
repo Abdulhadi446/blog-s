@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-07 | [SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race](https://blogs.thetrillioniar.me/blog/ai-news-august-7-grok-46-gpt56-sol-nvidia-alpamayo-meta-muse) |
 | 2026-08-06 | [Hassabis Exits DeepMind CEO, Meta AI Hacks Company in Tests, and Hedge Funds Hit by Voice Clones](https://blogs.thetrillioniar.me/blog/ai-news-august-6-hassabis-deepmind-meta-hack-voice-clones) |
 | 2026-08-05 | [White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral](https://blogs.thetrillioniar.me/blog/ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral) |
 | 2026-08-04 | [Qwen 3.8-Max Ships, White House Hides AI Safety Framework, and OLIX Raises $312M for Photonic Chips](https://blogs.thetrillioniar.me/blog/ai-news-august-4-qwen-38-max-white-house-safety-olix-photonics) |
