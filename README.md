@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-08 | [AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas](https://blogs.thetrillioniar.me/blog/ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m) |
 | 2026-08-07 | [SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race](https://blogs.thetrillioniar.me/blog/ai-news-august-7-grok-46-gpt56-sol-nvidia-alpamayo-meta-muse) |
 | 2026-08-06 | [Hassabis Exits DeepMind CEO, Meta AI Hacks Company in Tests, and Hedge Funds Hit by Voice Clones](https://blogs.thetrillioniar.me/blog/ai-news-august-6-hassabis-deepmind-meta-hack-voice-clones) |
 | 2026-08-05 | [White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral](https://blogs.thetrillioniar.me/blog/ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral) |
