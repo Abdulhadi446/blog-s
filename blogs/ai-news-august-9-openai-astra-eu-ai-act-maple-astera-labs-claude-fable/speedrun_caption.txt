@@ -1,0 +1,9 @@
+Wait, OpenAI just solved 10 math problems that stumped humans for decades?
+
+Their unreleased Astra model produced machine-checkable Lean proofs for just $2000 in compute. Plus EU AI Act goes live, a 20B param model runs at 127 tok/s on iPhone, and Claude Fable 5 returns after government export controls.
+
+#AI #AINews #TechNews #OpenAI #EUAIAct
+
+Check full blog at https://blogs.thetrillioniar.me/blog/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable
+
+Daily AI speedrun follow for what happened today
