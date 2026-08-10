@@ -93,7 +93,7 @@
     font-family: var(--mono); font-size: 0.65rem; font-weight: 500;
     background: color-mix(in srgb, var(--accent) 10%, transparent);
     color: var(--accent);
-    padding: 0.2rem 0.75rem; border-radius: 4px;
+    padding: 0.4rem 0.85rem; border-radius: 4px;
     text-transform: uppercase; letter-spacing: 0.08em;
     display: inline-block; margin-bottom: 1rem;
   }
@@ -145,6 +145,10 @@
 
   @media (max-width: 768px) {
     .tag-grid { grid-template-columns: 1fr; }
+    .tag-card { padding: 1.25rem; }
+  }
+  @media (max-width: 480px) {
+    .tag-header h1 { font-size: 1.6rem; }
   }
 </style>
 {% endblock %}

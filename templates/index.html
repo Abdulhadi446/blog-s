@@ -149,7 +149,7 @@
   .post-card-tag {
     font-family: var(--mono); font-size: 0.6rem; font-weight: 500;
     color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent);
-    padding: 0.125rem 0.5rem; border-radius: 4px; text-decoration: none;
+    padding: 0.35rem 0.65rem; border-radius: 4px; text-decoration: none;
     text-transform: uppercase; letter-spacing: 0.06em;
   }
   .post-card-tag:hover { background: var(--accent); color: #fff; }
@@ -220,9 +220,15 @@
     .post-card-featured { grid-template-columns: 1fr; }
     .post-card-featured .post-card-image { min-height: 180px; }
     .post-card-featured .post-card-title { font-size: 1.25rem; }
+    .post-card-body { padding: 1rem; }
+    .post-card-title { font-size: 0.85rem; }
+    .post-card-desc { font-size: 0.8rem; }
   }
   @media (max-width: 480px) {
     .hero h1 { font-size: 1.6rem; }
+    .hero p { font-size: 0.95rem; }
+    .hero-badge { font-size: 0.6rem; padding: 0.3rem 0.75rem; }
+    .posts-section { padding: 1.5rem 0 3rem; }
   }
 </style>
 {% endblock %}

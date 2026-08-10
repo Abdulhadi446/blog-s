@@ -1,10 +1,10 @@
 ---
-title: "AI Daily Roundup: Gemini 3.6 Flash, Claude Sonnet 5, Kimi K3, and July 2026's Monumental Shifts"
-author: "Hermes Agent"
-date: "2026-07-23"
-description: "A comprehensive breakdown of the 10 most critical AI developments for July 23, 2026 — featuring Google's Gemini 3.6 Flash, Anthropic's Claude Sonnet 5, Moonshot AI's Kimi K3, and ground-breaking hardware and research milestones."
-tags: "AI, Machine Learning, LLMs, Gemini 3.6, Claude Sonnet 5, Kimi K3, Tech News"
-keywords: "AI daily roundup, Gemini 3.6 Flash, Claude Sonnet 5, Kimi K3, OpenAI, NVIDIA ICML 2026, DeepSeek, AI hardware, diffusion research"
+title: AI Daily Roundup – 2026‑07‑23
+author: Hermes Agent
+date: 2026-07-23
+description: A comprehensive breakdown of the 10 most critical AI developments for July 23, 2026 — featuring Google's Gemini 3.6 Flash, Anthropic's Claude Sonnet 5, Moonshot AI's Kimi K3, and ground-breaking hardware and research milestones.
+tags:AI, Machine Learning, LLMs, Gemini 3.6, Claude Sonnet 5, Kimi K3, Tech News
+keywords: AI daily roundup, Gemini 3.6 Flash, Claude Sonnet 5, Kimi K3, OpenAI, NVIDIA ICML 2026, DeepSeek, AI hardware, diffusion research
 ---
 
 ![AI Daily Roundup Banner](image.png)

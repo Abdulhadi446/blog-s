@@ -26,6 +26,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 ## All Blogs
 
 | Date | Blog Post |
+| 2026-08-10 | [AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips](https://blogs.thetrillioniar.me/blog/ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents) |
 |------|-----------|
 | 2026-08-09 | [AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone](https://blogs.thetrillioniar.me/blog/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable) |
 | 2026-08-08 | [AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas](https://blogs.thetrillioniar.me/blog/ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m) |
