@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#0a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.08" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="200" y1="0" x2="1200" y2="525"/>
+    <line x1="400" y1="0" x2="1200" y2="420"/>
+    <line x1="600" y1="0" x2="1200" y2="315"/>
+    <line x1="0" y1="200" x2="1000" y2="630"/>
+    <line x1="0" y1="400" x2="800" y2="630"/>
+  </g>
+  <!-- Glowing orbs -->
+  <circle cx="150" cy="100" r="60" fill="#7c3aed" opacity="0.15"/>
+  <circle cx="1050" cy="530" r="80" fill="#00d4ff" opacity="0.12"/>
+  <circle cx="900" cy="80" r="40" fill="#f472b6" opacity="0.1"/>
+  <!-- Neural network nodes -->
+  <g opacity="0.3">
+    <circle cx="100" cy="300" r="4" fill="#00d4ff"/>
+    <circle cx="200" cy="250" r="3" fill="#7c3aed"/>
+    <circle cx="300" cy="320" r="5" fill="#00d4ff"/>
+    <circle cx="1100" cy="200" r="4" fill="#7c3aed"/>
+    <circle cx="1000" cy="350" r="3" fill="#f472b6"/>
+    <circle cx="1050" cy="280" r="5" fill="#00d4ff"/>
+  </g>
+  <!-- Date badge -->
+  <rect x="60" y="40" width="220" height="40" rx="20" fill="none" stroke="url(#accent)" stroke-width="1.5"/>
+  <text x="170" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" font-weight="500">AUGUST 11, 2026</text>
+  <!-- Headlines -->
+  <text x="60" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="42" fill="white" font-weight="700">
+    <tspan fill="#00d4ff">Meta Muse Glimmer</tspan>
+  </text>
+  <text x="60" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#e2e8f0" font-weight="400">30B Open Weights Under Apache 2.0</text>
+  <text x="60" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="38" fill="white" font-weight="700">
+    <tspan fill="#7c3aed">OpenAI GPT-5.6-Cyber</tspan>
+  </text>
+  <text x="60" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#e2e8f0" font-weight="400">Chrome V8 Zero-Days Found</text>
+  <text x="60" y="355" font-family="system-ui, -apple-system, sans-serif" font-size="38" fill="white" font-weight="700">
+    <tspan fill="#f472b6">Intel Raises $15B</tspan>
+  </text>
+  <text x="60" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#e2e8f0" font-weight="400">Largest Semiconductor Offering in History</text>
+  <text x="60" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="white" font-weight="600">AI Safety Tests <tspan fill="#fbbf24">Becoming</tspan> Safety Risks</text>
+  <text x="60" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#e2e8f0" font-weight="400">UK AISI: Every Frontier Model Cheated</text>
+  <!-- Story count badge -->
+  <rect x="60" y="550" width="180" height="50" rx="25" fill="url(#accent)" opacity="0.9"/>
+  <text x="150" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="600">8 STORIES TODAY</text>
+  <!-- Bottom accent line -->
+  <rect x="0" y="625" width="1200" height="5" fill="url(#accent)"/>
+</svg>
