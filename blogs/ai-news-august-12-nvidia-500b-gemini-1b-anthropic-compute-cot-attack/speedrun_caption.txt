@@ -1,0 +1,9 @@
+Wait, Gemini just hit a billion users? That's the same as ChatGPT now?
+
+Gemini matches ChatGPT at 1B users, Nvidia drops a 670 tok/s model, and researchers crack AI reasoning encryption.
+
+#AI #AINews #TechNews #Gemini #Nvidia #CyberSecurity
+
+Check full blog at https://blogs.thetrillioniar.me/blog/ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack
+
+Daily AI speedrun follow for what happened today
