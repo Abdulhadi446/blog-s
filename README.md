@@ -27,6 +27,11 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-13 | [AI News August 13: Humanoid Cleaners Hit SF, Suno Scales to 100M Users, and the 1 Trillion Liter Water Crisis](https://blogs.thetrillioniar.me/blog/ai-news-august-13-tau-robotics-suno-water-accel) |
+
+
+| Date | Blog Post |
+|------|-----------|
 | 2026-08-12 | [AI News August 12 – Nvidias 500B Alliance, Gemini 1B Users, Anthropic Riot Deal, CoT Attack](https://blogs.thetrillioniar.me/blog/ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack) |
 
 
