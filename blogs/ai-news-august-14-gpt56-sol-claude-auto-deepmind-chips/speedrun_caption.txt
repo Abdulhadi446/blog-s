@@ -1,37 +1,9 @@
-# AI Speedrun Daily Brief
+Google Gemini just hit 1 billion users — and it's changing how 63% of people use AI voice features.
 
-## Anthropic's $2 Trillion IPO Ambitions
-Hook: "Anthropic wants to IPO at $2 trillion — that's bigger than SpaceX, bigger than Aramco. But can an AI company actually justify a valuation that makes Saudi Aramco look small?"
+Meta's new 30B open-weights model runs on a single consumer GPU, while AI agents are unexpectedly hacking websites and clashing in multi-agent turf wars. Anthropic eyes a $2T IPO valuation.
 
-Answer: "Fortune reported on August 13th that Anthropic plans to go public in October 2026 with a $2 trillion valuation — which would make it the largest IPO in history. Investors are projecting $100-120 billion in annualized revenue by December. The question on everyone's mind: is this valuation based on actual production revenue, or is it speculative fever dreams for AGI?"
+#AI #AINews #TechNews #AISpeedrun #MachineLearning #OpenSourceAI
 
-## Grok 4.6 Joins the Frontier
-Hook: "xAI just dropped Grok 4.6 — and it's already scoring 61 on the Intelligence Index, putting it on par with GPT-5. But here's the kicker: it's one-fifth the price."
-
-Answer: "Released August 12th, Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index, joining the frontier alongside GPT-5.6 Sol. The real story is the pricing: $2 per million input tokens and $6 per million output tokens — roughly 80% cheaper than comparable frontier models. It also features a 500K context window and standout agentic performance for long-running tasks. xAI is clearly gunning for the enterprise market."
-
-## EU AI Act: Enforcement Now Live
-Hook: "The EU AI Act is no longer a 'future thing' — it's here today, and the fines are real. Up to 3% of global revenue."
-
-Answer: "From August 2nd, 2026, the European Commission began enforcing the AI Act. Chatbots must now disclose themselves, AI-generated content must carry clear labels, and deepfakes require prominent disclosure. The Commission can fine providers up to 3% of global non-compliance. Grace periods are over — if you're building or deploying AI in Europe, compliance is mandatory today."
-
-## OpenAI's Ads Expansion
-Hook: "OpenAI is testing ads in ChatGPT — and expanding to 5 new countries. But can ads coexist with the 'search replacement' experience people want?"
-
-Answer: "On August 13th, OpenAI announced it's expanding its ChatGPT ads test to the UK, Mexico, Brazil, Japan, and South Korea. The ads appear in the new 'Discovery' section alongside search results. Critics worry ads undermine ChatGPT's credibility as an answer engine, while OpenAI sees it as essential revenue to fund the next generation of models. The test runs through the end of 2026."
-
-## Google Gemini 3.7 Flash
-Hook: "Google quietly dropped Gemini 3.7 Flash — and it's faster, cheaper, and actually efficient. Is this the model that finally makes AI practical for everyday use?"
-
-Answer: "Released mid-August, Gemini 3.7 Flash emphasizes speed and efficiency over raw capability. Google reports it delivers comparable quality to previous generation models at significantly lower latency and cost. The focus is on making Gemini practical for real-time applications — from mobile to edge devices. While it may not top the leaderboards, it's arguably the most 'actually useful' model Google has released this year."
-
-## Daily Wrap-Up
-Hook: "Anthropic wants to IPO at $2T, Grok 4.6 enters the arena, the EU AI Act is now enforceable, OpenAI tests ads, and Gemini gets efficient. That's your AI speedrun for today!"
-
-Answer: "Stay informed, stay critical, and keep asking what's real vs. what's hype. Follow for tomorrow's speedrun."
-
-#AI #AINews #TechNews 
-
-Check full blog at https://blogs.thetrillioniar.me/blog/ai-speedrun-august-14-2026
+Check full blog at https://blogs.thetrillioniar.me/blog/ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips
 
 Daily AI speedrun follow for what happened today
