@@ -1,0 +1,21 @@
+Wait — a Chinese AI just beat Meta and Google at their own game? 3 BILLION downloads?! 🤯
+
+Alibaba's Qwen family just hit 3 billion global downloads — 460+ open models, 300,000+ derivatives. They've officially passed Llama and Gemini as the world's #1 open AI.
+
+But that's just the start of this week's chaos:
+
+🔥 Google Gemini 3.7 Flash: $0.75/M input, $3.75/M output — undercuts EVERY rival including their own 3.6 Flash. 65% coding benchmark at half price. Watermarks now optional.
+
+🍎 Apple quietly built a China-only AI model WITH Alibaba. Custom Apple Intelligence for China, trained alongside Qwen. Rare US-China collab cutting through geopolitical tension.
+
+💰 Anthropic eyes $2-3 TRILLION IPO in October. Largest ever — bigger than SpaceX. But they'd need $60-80B annual PROFITS to justify it. Current run rate? Nowhere close.
+
+📉 DeepSeek V4 Pro GA August 13th. Three days later — API prices jump up to 12X. Classic bait-and-switch. Flash 0731 still cheap, but V4 Pro? You're paying Claude prices for "almost Claude" performance.
+
+China's winning open source. Google's racing to the bottom. Apple's partnering with the "enemy." Anthropic's betting the farm. DeepSeek's raising the rent.
+
+The AI landscape just flipped upside down in ONE WEEK.
+
+Full breakdown: https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-08-16
+
+#AI #AINews #TechNews #Alibaba #Qwen #Google #Gemini #Apple #Anthropic #DeepSeek #OpenSource #IPO
