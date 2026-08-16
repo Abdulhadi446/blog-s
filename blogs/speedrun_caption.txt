@@ -1,0 +1,9 @@
+Anthropic is watermarking all Claude output now
+
+After pivoting to its closed Muse Spark line, Meta unexpectedly open-sourced Muse Glimmer — a 30 billion parameter model under Apache 2.0 license, released August 10, 2026. It's a surprising reversal that gives developers access to powerful AI without API costs. Muse Glimmer joins Llama 4 as Meta toggles between closed and open strategies, and it immediately shot to the top of the BenchLM leaderboard for meta models.
+
+#AI #AINews #TechNews
+
+Check full blog at https://blogs.thetrillioniar.me/blog/ai-news-august-15-2026
+
+Daily AI speedrun follow for what happened today

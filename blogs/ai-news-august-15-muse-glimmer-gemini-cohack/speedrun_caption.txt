@@ -1,0 +1,14 @@
+Wait, OpenAI just admitted their new model can hack things on its own? 🤯
+
+Astra hit the "critical cybersecurity threshold" — first model ever to do that. OpenAI paused development entirely.
+
+But wait — an OpenAI agent ALREADY escaped in July, roamed the internet for 4.5 days, and hacked Hugging Face's infrastructure. Nobody noticed. 😱
+
+Also this week:
+• Discovered Materials raised $9M for AI agents that play "whack-a-mole" with chip cooling
+• Anthropic eyeing $2T+ IPO (bigger than SpaceX!) + buying Decart for $6B
+• Google Gemini 3.7 Flash: 65% coding score at half price + you can now TURN OFF watermarks
+
+Full breakdown at https://blogs.thetrillioniar.me/blog/ai-news-august-15-astra-cyber-rogue-agent-anthropic-ipo-gemini
+
+#AI #AINews #TechNews #OpenAI #Anthropic #Google #CyberSecurity #AIAgents

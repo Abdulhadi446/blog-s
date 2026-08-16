@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-16 | [AI Daily Roundup – August 16, 2026: Anthropic Model 2 Shelved, DeepSeek V4-Pro Price Shock, Qwen 3.8 27B, Gemini 3.7 Flash](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-08-16) |
 | 2026-08-15 | [Muse Glimmer, Gemini Billion-User Milestone, and OpenAI Cyber Model](https://blogs.thetrillioniar.me/blog/ai-news-august-15-muse-glimmer-gemini-cohack) |
 | 2026-08-14 | [AI Daily Roundup: GPT-5.6 Sol's 14X Speed, Claude Code Auto-Mode, and DeepMind's Shakeup](https://blogs.thetrillioniar.me/blog/ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips) |
 | 2026-08-13 | [AI News August 13: Humanoid Cleaners Hit SF, Suno Scales to 100M Users, and the 1 Trillion Liter Water Crisis](https://blogs.thetrillioniar.me/blog/ai-news-august-13-tau-robotics-suno-water-accel) |

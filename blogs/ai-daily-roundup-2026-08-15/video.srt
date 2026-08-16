@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:11,000
+Alibaba just passed Meta and Google. 3 BILLION downloads. Apple got Beijing's blessing. And Spotify is now badging AI artists. Today's AI news is WILD.
+
+2
+00:00:11,000 --> 00:00:38,000
+Start with the shocker. Bloomberg dropped this Friday: Alibaba's open-weight models hit 3 BILLION global downloads in six months. That's not a typo. Three billion. They've officially eclipsed Meta, Google, every domestic rival — world's number one AI model by adoption. Qwen is everywhere. Your phone, your laptop, Chinese apps, Western devs — everyone's building on it. And the kicker? This happened while Western labs were arguing about safety. Alibaba just... shipped.
+
+3
+00:00:38,000 --> 00:01:08,000
+Speaking of Alibaba — Reuters broke this yesterday. Apple trained its OWN large language model specifically for China, with Alibaba's help. First foreign company Beijing has EVER cleared to deploy a proprietary AI model in China. Let that sink in. Apple — the company that relies on OpenAI everywhere else — built a custom China model. Dual track: their own model PLUS Alibaba's Qwen powering Apple Intelligence China. This is unprecedented. Beijing said yes.
+
+4
+00:01:08,000 --> 00:01:38,000
+Meanwhile, Liquid AI just dropped LFM2.5-VL-3B. Three billion parameters. Vision-language. Runs on your PHONE. No GPU. No cloud. Reads screens, documents, images — entirely locally. Matches 7B parameter rivals on benchmarks. Their hybrid architecture — transformers plus recurrent components — means sequential reasoning at a fraction of the size. This is the AI on every device future actually arriving.
+
+5
+00:01:38,000 --> 00:02:03,000
+Spotify declared war on AI slop. New AI Persona badges rolling out mid-September. If an artist profile is AI-generated — flagged. If they're suspicious but not confirmed — Likely AI Persona. And here's the nuclear option: AI Persona music gets EXCLUDED from editorial AND algorithmic recommendations. Tens of thousands of AI credits already submitted daily. Human artists get Verified badges. The line just got drawn.
+
+6
+00:02:03,000 --> 00:02:27,000
+Google DeepMind quietly dropped Gemma 4 QAT — quantization-aware training that compresses models to 1GB. Gemma 4 26B A4B QAT runs on a PHONE. Multimodal. 256K context. Native tool use. Beats Gemma 3 by 25 points on AIME 2026. Triples LiveCodeBench. They're not chasing parameter counts — they're chasing DEPLOYABILITY.
+
+7
+00:02:27,000 --> 00:02:38,000
+And the drumbeat continues: Qwen3.8-27B is staging on Hugging Face. Alibaba's next open-weight drop. If 3B downloads is the baseline... the next wave hits different.
+
+8
+00:02:38,000 --> 00:02:50,000
+Six stories. One theme: open weights won. Local won. China won distribution. The moats everyone predicted? Gone. Full breakdown with links at blogs.thetrillioniar.me/blog — today's slug is in the description. Subscribe for daily speedruns. See you tomorrow.
