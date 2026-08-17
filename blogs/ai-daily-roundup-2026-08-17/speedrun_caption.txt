@@ -1,5 +1,7 @@
-Anthropic watermarks your writing with a secret "green list" — John Gruber calls it a perversion. OpenAI replaces revenue chief with ex-Wiz COO (sold to Google for $32B) ahead of IPO. Nvidia slashes OpenAI data-center backstop from $250B to <$120B. DeepSeek V4 Pro costs 9-14x more than Flash. Grok 4.6 matches GPT-5.6 Sol on Intelligence Index for less. Stripe acquires OpenRouter for $7B ($1.3B valuation).
+🚀 AI Speedrun — August 17, 2026
 
-Full breakdown: https://abdulhadi446.github.io/blog-s/blogs/ai-daily-roundup-2026-08-17/
+Anthropic watermarks ALL Claude output worldwide for EU AI Act compliance. OpenAI loses 2nd exec in a week — CRO out, Wiz president in. Gemini hits 1B MAU (fastest Google product ever). DeepSeek V4 Pro prices jump 12x. AI finds Zoom zero-day in <20 prompts. Stripe buys OpenRouter for $7B+.
 
-#AI #ArtificialIntelligence #TechNews #Anthropic #OpenAI #Nvidia #DeepSeek #Grok #Stripe
+Full breakdown & links: https://abdulhadi446.github.io/blog-s/blogs/ai-daily-roundup-2026-08-17/
+
+#AI #ArtificialIntelligence #TechNews #Speedrun
