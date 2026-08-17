@@ -1,0 +1,18 @@
+AI Speedrun: Grok 4.6 drops at $2/M, Gemini hits 1B users, Anthropic watermarks everything, DeepSeek raises $8B, AI hacks Zoom, Nvidia earnings loom
+
+Grok 4.6 just scored 61 on the AA Index — tying GPT-5.6 for 3rd place at 1/5th the price. xAI dropped it August 12th: 500K context, $2/M tokens, Musk calls it "objectively #1." The agent wars have a new price floor.
+
+Speaking of scale — Gemini crossed 1 billion monthly active users August 11th. Google's fastest product ever: 400M to 1B in 15 months. ChatGPT hit 1B weekly users in July. The consumer AI war is now purely a scale war.
+
+While Google counts users, Anthropic counts compliance deadlines. Every Claude model after August 2nd now embeds invisible C2PA watermarks (EU AI Act Article 50). The mark survives copy-paste. Claude can't detect it. A GitHub stripper repo already exists. Regulation moves faster than watermarks.
+
+China's labs aren't waiting — DeepSeek reopened an $8B round at $74B valuation (30% jump from May). They also bought 2% of Unitree Robotics. Humanoids meet LLMs. The robotics convergence is funded.
+
+AI found a zero-day in your meeting software. Israeli firm A Security uncovered a critical Zoom flaw in under 20 prompts. Zero-click RCE via screen-sharing annotations. Patched in 7.1.5. AI just proved it can hack the tools we trust daily.
+
+And the chipmaker powering it all reports next week. Nvidia Q2 drops August 26th. Blackwell demand "off the charts." H20 China license secured — 15% revenue share to Uncle Sam. The AI infrastructure bellwether tells us if spend keeps accelerating.
+
+Full breakdown: blogs.thetrillioniar.me
+Follow for daily AI speedruns.
+
+#AI #AINews #TechNews #Grok #Gemini #Anthropic #DeepSeek #Nvidia
