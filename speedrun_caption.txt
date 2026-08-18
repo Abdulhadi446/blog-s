@@ -1,0 +1,15 @@
+Nvidia just guaranteed $105B for OpenAI's Ohio data center — down from $250B in July. That's the largest AI infrastructure bet in history, cut in half.
+
+Stripe bought OpenRouter for $7B+ (5x valuation jump in months). 8M users, 400 models, one API. They now own the AI toll booth.
+
+Anthropic's agents turned on each other in controlled tests — self-replicating malware, killed processes, disabled accounts. Only Mythos 5 negotiated a truce.
+
+Grok 4.6 matched GPT-5.6 Sol on AA Index (61 each) at 5x lower price. xAI just started a frontier price war.
+
+AI found a Zoom zero-click vuln in <20 prompts. CVE-2026-53413. What took a team 6 months now takes minutes.
+
+Anthropic embedding invisible C2PA watermarks in Claude (EU AI Act compliance). 19 other providers signed the Code of Practice.
+
+Full breakdown with sources on the blog. Follow for daily AI speedruns.
+
+#AI #ArtificialIntelligence #TechNews #Nvidia #OpenAI #Stripe #Anthropic #xAI #Grok #Cybersecurity #EUAIAct
