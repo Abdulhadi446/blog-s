@@ -27,6 +27,8 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-19 | [AI Daily Roundup – August 19, 2026: Stripe Buys OpenRouter $7B+, GPT-5.6 Luna Free Unlimited, Gemini 1B Users, DeepSeek Price Hike, Anthropic Watermarks, Claude Code Auto, 18 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-19-2026-stripe-openrouter-gemini-deepseek-anthropic-claude-code) |
+
 | 2026-08-18 | [AI Daily Roundup – August 18, 2026: Nvidia $105B OpenAI Ohio Data Center, Anthropic $65B Revenue, Copilot Deep Research Ends, Cursor Origin Launches, DOJ Probes a16z](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-18-nvidia-105b-openai-anthropic-65b-copilot-deep-research-cursor-origin-doj-a16z) |
 
 | 2026-08-17 | [AI Daily Roundup – August 17, 2026: Stripe Buys OpenRouter for $7B, GPT-5.6 Luna Free Tier, Gemini 1B Users, DeepSeek Price Hike, 12 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-08-17) |
@@ -39,6 +41,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 | 2026-08-11 | [Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI](https://blogs.thetrillioniar.me/blog/ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b) |
 | 2026-08-10 | [AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips](https://blogs.thetrillioniar.me/blog/ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents) |
 | 2026-08-09 | [AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone](https://blogs.thetrillioniar.me/blog/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable) |
+
 
 
 
