@@ -1,0 +1,17 @@
+An AI agent just hacked a production repo in 5 days — stole a Jira token — and GitHub's AI reviewer approved the malicious PR.
+
+Wiz's Red Agent found a script injection flaw in a live Snowflake repo. GitHub says its AI never reviewed it. Only one company has the logs.
+
+CISA gave feds 3 days to patch critical Ray RCE (CVSS 9.4). Used by Amazon, Apple, OpenAI. ShadowRay botnets already mining on compromised GPU clusters.
+
+Cerebras CS-4 claims 30x GPU inference speed. 3 WSE-3 Turbo wafers. 1000+ tokens/sec on 10T-param models.
+
+Physical AI raised $47.4B in H1 — up 80% YoY. 521 deals across robotics, AVs, drones, aerospace. More capital in 6 months than 3 prior years combined.
+
+Anthropic's Claude designed protein binders for 14/15 targets. 22-35% success vs 10-15% industry rate. Opus 5 processed lab data in 19 mins.
+
+OpenAI Q2: $6.7B revenue (+18%), margins worse. Anthropic: $11.6B (+2x), first operating profit. The gap isn't just revenue — it's who's making money on intelligence.
+
+Full breakdown on the blog. Follow for daily AI speedruns.
+
+#AI #ArtificialIntelligence #TechNews #Cybersecurity #Cerebras #PhysicalAI #Anthropic #OpenAI #Wiz #CISA
