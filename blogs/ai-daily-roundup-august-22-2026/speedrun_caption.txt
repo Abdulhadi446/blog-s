@@ -1,0 +1,15 @@
+Anthropic just filed to go public at a $2T valuation — larger than SpaceX's record IPO — with $65B annualized revenue leaving OpenAI's $40B in the dust.
+
+While Anthropic chases the biggest listing in history, Nvidia reports earnings Tuesday — Wall Street expects $93-95B revenue driven entirely by Blackwell demand.
+
+Speaking of hardware that changes the game — Cerebras just dropped the CS-4: three wafer-scale chips at 2μs latency, hitting 1,000+ tok/s on 10T param models. 30x faster than GPUs.
+
+And the model wars just got cheaper — Grok 4.6 matches GPT-5.6 Sol's 61 Intelligence Index at $2/$6 per M tokens — while leading InferenceEval at 46.9%.
+
+Meanwhile OpenAI slashed Luna 80% — $0.20 input, $1.20 output — making frontier intelligence cheaper than ever, though Sol stays premium.
+
+And Apple? Cutting 200+ roles from Siri and Vision Pro teams — the same week the AI arms race hits trillion-dollar valuations.
+
+Full breakdown at our blog — link in bio. Follow for daily AI speedruns.
+
+#AI #ArtificialIntelligence #Anthropic #Nvidia #Cerebras #Grok #OpenAI #Apple #TechNews
