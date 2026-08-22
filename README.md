@@ -27,6 +27,8 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-23 | [AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to $66B, Fractile Hits $6.5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid) |
+
 | 2026-08-21 | [AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits $6.5B, SpaceX Chases Cognition, Grok 4.6 on AWS, Cursor Ships Subagents](https://blogs.thetrillioniar.me/blog/ai-news-august-21-unitree-fractile-spacex-grok-cursor) |
 | 2026-08-20 | [AI Daily Roundup: OpenAI 20% Compute Overhead, Microsoft Copilot Flaw, Unitree $66B IPO, Samsung Foundry Hikes, Google Student Gemini, Cerebras CS-4](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-20-openai-microsoft-unitree-samsung-cerebras) |
 | 2026-08-19 | [AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch, Nebius $4.5B Notes, Temporal $12B+ Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-19-openai-teens-cisa-ray-nebius-temporal-unitree-cerebras-anthropic-protein) |
