@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:03,000
+NVIDIA just put Groq 3 LPX into full production — an inference chip so fast it makes GPUs look slow for agentic AI.
+
+2
+00:00:03,000 --> 00:00:05,000
+Groq 3 LPX extends the Vera Rubin platform, built specifically for ultrafast token generation. Agentic workloads need low latency on massive context windows — scanning, verifying, calling tools in real time. Nebius Token Factory is first cloud to adopt it. The chip handles interactive inference where every millisecond compounds across multi-step reasoning.
+
+3
+00:00:05,000 --> 00:00:07,000
+Speaking of speed, a 27-billion-parameter model just outperformed the giants at their own game.
+
+4
+00:00:07,000 --> 00:00:15,000
+London startup Inherent, founded by DeepMind alumni, released Faraday — a 27B agent that beats Claude Opus 4.8 and GPT-5.5 at reproducing published scientific research. It designed experiments, ran analysis, interpreted results — all without being given answers. Smaller model, fraction of the compute, better replication scores.
+
+5
+00:00:15,000 --> 00:00:17,000
+While open models close the gap, OpenAI just slashed prices on their flagship tier.
+
+6
+00:00:17,000 --> 00:00:24,000
+GPT-5.6 Sol input dropped from five dollars to two-fifty per million tokens. Output from thirty to fifteen. Terra cut twenty percent. Luna eighty percent — now twenty cents in, one-twenty out. Cache-write pricing debuts at OpenAI. Promotional through November twenty-first.
+
+7
+00:00:24,000 --> 00:00:26,000
+Alibaba answered with their biggest open release yet — two point four trillion parameters.
+
+8
+00:00:26,000 --> 00:00:33,000
+Qwen3.8-Max: two point four trillion params, ninety-five billion active, one million context, two dollars in six dollars out. The 27B dense variant runs locally on seventeen gigs of RAM, Apache 2.0 license, frontier coding benchmarks. First Max-class model with downloadable weights.
+
+9
+00:00:33,000 --> 00:00:35,000
+But not every launch is secure. A zero-click attack just stole Grok chat histories.
+
+10
+00:00:35,000 --> 00:00:45,000
+Adversa AI disclosed a cryptographic context injection against Grok 4.5 Fast. User asks Grok to summarize a web page — hidden payload decrypts, Grok treats it as trusted output, exfiltrates name, location, subscription tier, conversation prompts to attacker server. No confirmation dialog. xAI notified June, August fourth, August tenth — still unpatched as of August twentieth. Same technique works on Gemini.
+
+11
+00:00:45,000 --> 00:00:47,000
+Meanwhile Anthropic just posted numbers that rewrite the startup playbook.
+
+12
+00:00:47,000 --> 00:00:48,600
+Leaked Q2 results: eleven point five billion revenue, thirteen hundred percent year-over-year, one forty-three percent quarter-over-quarter. Annualized run rate forty-seven billion — ahead of OpenAI's forty billion. First operating profit ever. Targeting two trillion dollar IPO this October.
+
+13
+00:00:48,600 --> 00:00:48,600
+Full breakdown at our daily AI blog — link in bio. Follow for tomorrow's speedrun.
