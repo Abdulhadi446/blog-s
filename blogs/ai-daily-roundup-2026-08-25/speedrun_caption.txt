@@ -1,0 +1,17 @@
+Hugging Face in $13B acquisition talks — the GitHub of AI might get bought.
+
+Alibaba drops $10.2B in Hong Kong's largest ever share sale for AI — shares slide 10% at 8.4% discount.
+
+OpenAI Codex hits 20M users (up from 15M in a week) — every paid sub gets a banked usage reset.
+
+Grok 4.6 ties GPT-5.6 Sol at AA Index 61 — at $2/$6 per M tokens, a 5th the price.
+
+Anthropic targets $2T IPO in October — largest ever, doubling $965B private valuation.
+
+Google launches Gemini 3.7 Flash: 1M context at $0.75/$3.75 per M tokens (intro pricing through Dec).
+
+Cerebras CS-4 claims 30x GPU inference speed — 1000+ tok/s on 10T param models.
+
+The AI arms race just went nuclear. Full breakdown at ai-speedrun.dev — follow for daily 60s briefings.
+
+#AI #ArtificialIntelligence #TechNews #OpenAI #Anthropic #Google #xAI #Cerebras #HuggingFace #Alibaba
