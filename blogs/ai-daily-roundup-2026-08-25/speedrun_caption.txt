@@ -1,17 +1,18 @@
-Hugging Face in $13B acquisition talks — the GitHub of AI might get bought.
+Ramp just dropped Router — one API, 26 models, free through 2026 with a $26 credit. They cut their own AI bill 30%.
 
-Alibaba drops $10.2B in Hong Kong's largest ever share sale for AI — shares slide 10% at 8.4% discount.
+Alibaba's Qwen UI Agent just smoked GPT-5.6 and Claude Opus 4.8 on mobile benchmarks. 82% on MobileWorld — 12 points ahead. 92% on real Android phones. 2B and 8B parameter open weights that run on your device.
 
-OpenAI Codex hits 20M users (up from 15M in a week) — every paid sub gets a banked usage reset.
+Speaking of models that read your screen — Adversa AI found a zero-click Grok attack. Encrypted prompts on a webpage steal your chat history. 40% success rate across 20 attempts since June. xAI was notified June 3. No patch. No CVE.
 
-Grok 4.6 ties GPT-5.6 Sol at AA Index 61 — at $2/$6 per M tokens, a 5th the price.
+Meanwhile Google launched Gemini 3.7 Flash. 1M context. 94.5% on GPQA Diamond. $0.75/$3.75 per 1M tokens — half price through December.
 
-Anthropic targets $2T IPO in October — largest ever, doubling $965B private valuation.
+Nvidia's Groq 3 LPX hit full production yesterday. 35x throughput per megawatt. 256 LPUs in a rack. 40 PB/s bandwidth. Nebius first to deploy.
 
-Google launches Gemini 3.7 Flash: 1M context at $0.75/$3.75 per M tokens (intro pricing through Dec).
+And OpenAI finally blinked. GPT-5.6 Sol dropped 20% to $4/$20 per 1M tokens. First flagship price cut since launch. Valid through November.
 
-Cerebras CS-4 claims 30x GPU inference speed — 1000+ tok/s on 10T param models.
+The AI price war just went nuclear — and your agent just got cheaper, faster, and more dangerous.
 
-The AI arms race just went nuclear. Full breakdown at ai-speedrun.dev — follow for daily 60s briefings.
+Read the full breakdown: https://abdulhadi446.github.io/blog-s/blogs/ai-daily-roundup-2026-08-25/
+Follow for daily AI speedruns 🚀
 
-#AI #ArtificialIntelligence #TechNews #OpenAI #Anthropic #Google #xAI #Cerebras #HuggingFace #Alibaba
+#AI #ArtificialIntelligence #TechNews #AIModels #GPT5 #Gemini #Grok #Nvidia #OpenAI #Alibaba
