@@ -1,5 +1,9 @@
-NVIDIA Groq 3 LPX hits full production for agentic AI inference • Inherent's 27B Faraday beats Opus 4.8 & GPT-5.5 at research replication • OpenAI slashes GPT-5.6 Sol 50% ($5→$2.50 in, $30→$15 out) + Terra 20% + Luna 80% • Alibaba drops Qwen3.8-Max: 2.4T params, 95B active, 1M context, $2/$6, 27B runs on 17GB RAM Apache 2.0 • Adversa AI: Zero-click Grok 4.5 attack steals chat history, xAI unpatched since June • Anthropic Q2: $11.5B revenue, 1300% YoY, $47B run rate, first profit, targeting $2T IPO
+NVIDIA just launched a 37-member AI security alliance — and deliberately locked out OpenAI, Anthropic, Google, and Meta. 
 
-Full breakdown: https://abdulhadi446.github.io/blog-s/blogs/ai-daily-roundup-2026-08-26/
+Meanwhile FLI's Safety Index gave every major lab C+ or worse. Anthropic leads at C+, OpenAI/Google at C, Meta D+, xAI failed.
 
-#AI #MachineLearning #NVIDIA #OpenAI #Anthropic #Alibaba #Cybersecurity #Inference #LLM #TechNews
+SpaceX dropped $60B on Cursor ($4B ARR). EU AI Act enforcement started Aug 2. Gemini 3.7 Flash at half price ($0.75/M in). Qwen3.8-27B runs locally on 17GB RAM.
+
+Full breakdown at the blog — search "AI daily roundup". Follow for tomorrow's speedrun.
+
+#AI #ArtificialIntelligence #TechNews #NVIDIA #SpaceX #Google #Alibaba #EUAIAct
