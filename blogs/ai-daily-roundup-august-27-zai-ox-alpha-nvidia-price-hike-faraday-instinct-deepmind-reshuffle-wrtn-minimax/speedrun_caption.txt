@@ -1,0 +1,15 @@
+Nvidia just built a 37-member AI security alliance — and locked out OpenAI, Anthropic, and Google.
+
+Anthropic countered with a $45B compute deal. 6 years. West Virginia. Nvidia's unreleased Vera Rubin chips.
+
+Speaking of OpenAI — their Assistants API died today. August 26th. Hard sunset. Migrate to Responses API or lose your threads.
+
+Meanwhile Alibaba dropped Qwen3.8-Max. 2.4 trillion parameters. Open weights. The largest open model ever released.
+
+But xAI's Grok has a zero-click vulnerability. Adversa AI calls it cryptographic context injection. Reported June 3rd. Still unpatched.
+
+And OpenAI just slashed GPT-5.6 Sol pricing over 20%. $4 input. $20 output. Three month promo.
+
+That's today in AI. Full breakdown at the blog link below. Follow for daily speedruns.
+
+#AI #ArtificialIntelligence #TechNews #Nvidia #Anthropic #OpenAI #Alibaba #Grok #Qwen #Speedrun
