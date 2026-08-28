@@ -1,0 +1,15 @@
+Jensen Huang claims Nvidia hit AGI — then calls it "senseless" 🤯
+
+Meanwhile Z.ai drops GLM-5.3 weights after 2-week safety hold (was Ox Alpha stealth model)
+
+Google launches Gemini 3.5 Transcribe — new SOTA speech-to-text with Live + Interactions APIs
+
+Small models flip economics: GPT-5.6-Luna & GLM-5.3 at 100 tok/sec, cents per request
+
+DeepMind pilots world's first double-blind AI eval framework
+
+Sonnet 5 reprices in 3 days (Aug 31 deadline)
+
+Full breakdown at the blog — follow for daily AI speedruns 🚀
+
+#AI #ArtificialIntelligence #TechNews #Nvidia #Google #Anthropic #Zai #DeepMind
