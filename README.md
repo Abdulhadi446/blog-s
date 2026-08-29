@@ -27,6 +27,7 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-29 | [AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-29-openai-jalapeno-skild-s1-apple-m6-nvidia-price-hikes-alabama-openai-uber-gdpr) |
 | 2026-08-26 | [AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia NemoClaw Flaw](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-26-openai-jalapeno-skild-apple-nvidia-anthropic) |
 | 2026-08-25 | [AI Daily Roundup August 25: Nvidia Groq 3 LPX Ships, Taiwan Indicts Nvidia Staff, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-25-nvidia-groq-taiwan-openai-uber-gdpr) |
 | 2026-08-23 | [AI Daily Roundup: Nvidia 15% Price Hikes, DeepSeek Vision Beats Opus, Inherent Beats Frontier Labs, $7B Poolside Bet](https://blogs.thetrillioniar.me/blog/ai-news-august-23-nvidia-price-hikes-deepseek-vision-inherent-poolside) |
