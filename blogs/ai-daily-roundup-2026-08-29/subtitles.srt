@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:06,120
+Nvidia just dropped twelve point nine billion dollars on Hugging Face — the biggest AI acquisition since Microsoft bought GitHub.
+
+2
+00:00:06,120 --> 00:00:20,380
+Meanwhile, Chinese lab Z.ai just open-sourced Ox Alpha as GLM-5.3-Flash. Three hundred twenty billion total parameters, eighteen billion active, one million context, MIT license, fifteen cents input, fifty cents output — all running on Chinese chips.
+
+3
+00:00:20,380 --> 00:00:35,380
+Speaking of Chinese chips, Anthropic is racing toward a trillion-dollar IPO. Investors value their market at thirty trillion — same as US GDP. Salesforce's stake just paper-profited them billions. OpenAI filed confidentially last week. The IPO race is on.
+
+4
+00:00:35,380 --> 00:00:50,520
+Google isn't waiting. Gemini 3.5 Transcribe hits two point six percent word error rate across eighty-five languages. Two APIs: Interactions for hour-long files with three-speaker diarization, and a live endpoint for ten-minute streams. Dictionaries just became obsolete.
+
+5
+00:00:50,520 --> 00:01:02,140
+And DeepMind just ran the first double-blind evaluation of a frontier model. Gemini Flash Lite tested against confidential benchmarks inside a cryptographic enclave. No labels. No leakage. Just math.
+
+6
+00:01:02,140 --> 00:01:12,510
+Oh — Anthropic made Sonnet 5's intro pricing permanent. Two dollars input, ten dollars output. The September first hike is cancelled. Small models just got cheaper than cloud inference.
+
+7
+00:01:12,510 --> 00:01:16,710
+Full breakdown at the blog link below. Follow for daily AI speedruns.

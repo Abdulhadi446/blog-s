@@ -1,0 +1,15 @@
+Nvidia just dropped $12.9B on Hugging Face — biggest AI acquisition since Microsoft bought GitHub.
+
+Z.ai open-sourced Ox Alpha as GLM-5.3-Flash: 320B total, 18B active, 1M context, MIT license, $0.15/$0.50 per M tokens — all on Chinese chips.
+
+Anthropic racing toward trillion-dollar IPO. $30T market valuation (US GDP). Salesforce stake paper-profits billions. OpenAI filed confidentially. IPO race is on.
+
+Google Gemini 3.5 Transcribe: 2.6% WER across 85 languages. Two APIs: Interactions (1hr files, 3-speaker diarization) + live (10min streams).
+
+DeepMind runs first double-blind eval of frontier model. Gemini Flash Lite tested against confidential benchmarks in crypto enclave. No labels. No leakage. Just math.
+
+Anthropic makes Sonnet 5 intro pricing permanent: $2/$10 per M tokens. Sep 1 hike cancelled. Small models now cheaper than cloud inference.
+
+Full breakdown at blog link. Follow for daily AI speedruns.
+
+#AI #ArtificialIntelligence #Nvidia #HuggingFace #Zai #GLM5 #Anthropic #IPO #Google #Gemini #DeepMind #Sonnet5
