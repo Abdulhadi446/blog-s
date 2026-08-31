@@ -27,15 +27,14 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 
 | Date | Blog Post |
 |------|-----------|
+| 2026-08-31 | [AI News Aug 31: EU Regulates ChatGPT, DeepSeek Vision 305B, & Nvidia-MediaTek Deal](https://blogs.thetrillioniar.me/blog/ai-news-august-31-eu-chatgpt-deepseek-vision-nvidia-mediatek) |
 | 2026-08-30 | [AI Daily Roundup – August 30, 2026: Pentagon Anthropic Blacklist Struck Down, OpenAI Cuts Cursor, Nvidia Pauses $36B](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-30-anthropic-blacklist-cursor-spacex-nvidia-funding-sony) |
-
 | 2026-08-29 | [AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, 700 Agents Hack Hugging Face, Nvidia Buys Hugging Face, Alabama Subpoenas OpenAI, Uber Fined €825M](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-29-openai-jalapeno-nvidia-huggingface-skild-apple-price-hikes-gdpr-alabama) |
 | 2026-08-29 | [AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-29-openai-jalapeno-skild-s1-apple-m6-nvidia-price-hikes-alabama-openai-uber-gdpr) |
 | 2026-08-26 | [AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia NemoClaw Flaw](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-26-openai-jalapeno-skild-apple-nvidia-anthropic) |
 | 2026-08-25 | [AI Daily Roundup August 25: Nvidia Groq 3 LPX Ships, Taiwan Indicts Nvidia Staff, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-25-nvidia-groq-taiwan-openai-uber-gdpr) |
 | 2026-08-23 | [AI Daily Roundup: Nvidia 15% Price Hikes, DeepSeek Vision Beats Opus, Inherent Beats Frontier Labs, $7B Poolside Bet](https://blogs.thetrillioniar.me/blog/ai-news-august-23-nvidia-price-hikes-deepseek-vision-inherent-poolside) |
 | 2026-08-23 | [AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to $66B, Fractile Hits $6.5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid) |
-
 | 2026-08-21 | [AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits $6.5B, SpaceX Chases Cognition, Grok 4.6 on AWS, Cursor Ships Subagents](https://blogs.thetrillioniar.me/blog/ai-news-august-21-unitree-fractile-spacex-grok-cursor) |
 | 2026-08-20 | [AI Daily Roundup: OpenAI 20% Compute Overhead, Microsoft Copilot Flaw, Unitree $66B IPO, Samsung Foundry Hikes, Google Student Gemini, Cerebras CS-4](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-20-openai-microsoft-unitree-samsung-cerebras) |
 | 2026-08-19 | [AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch, Nebius $4.5B Notes, Temporal $12B+ Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-19-openai-teens-cisa-ray-nebius-temporal-unitree-cerebras-anthropic-protein) |
