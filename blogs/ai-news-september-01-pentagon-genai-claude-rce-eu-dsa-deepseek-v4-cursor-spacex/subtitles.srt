@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:06,310
+Nvidia just dropped twelve point nine billion on Hugging Face. Anthropic wants thirty trillion. And OpenAI just fired Cursor. All in one week.
+
+2
+00:00:06,310 --> 00:00:14,060
+Nvidia agreed to acquire Hugging Face for twelve point nine billion dollars. That's nearly double HF's last valuation. Jensen Huang now controls the platform hosting half the world's open models.
+
+3
+00:00:14,060 --> 00:00:25,780
+Speaking of open models — Z.ai just dropped GLM-5.3-Flash. Three hundred twenty billion total parameters, eighteen billion active. MIT license. Ten times more cost-efficient than its predecessor. The stealth Ox Alpha model is now public.
+
+4
+00:00:25,780 --> 00:00:34,660
+Meanwhile Anthropic is pitching IPO investors a thirty trillion dollar total addressable market. That's nearly forty percent of the entire US stock market. They're targeting a two trillion valuation and a hundred billion dollar raise.
+
+5
+00:00:34,660 --> 00:00:43,690
+Google answered with Gemini 3.5 Transcribe. Two point six percent word error rate across eighty-five languages. Separate APIs for streaming and batch. It even deletes your ums and ahs automatically.
+
+6
+00:00:43,690 --> 00:00:53,330
+Which brings us to trust. DeepMind just ran the first double-blind evaluation of a frontier Gemini model. External testers can't see weights. Google can't see prompts. Confidential computing eliminates benchmark contamination.
+
+7
+00:00:53,330 --> 00:01:01,160
+And Anthropic made Sonnet 5's intro pricing permanent. Two dollars input, ten dollars output per million tokens. The three-fifteen standard rate scheduled for September first? Gone.
+
+8
+00:01:01,160 --> 00:01:10,240
+But the week's sharpest turn — OpenAI cutting off Cursor after SpaceX's sixty billion dollar takeover. November twelfth shutdown. Cursor says it's five percent of traffic. Anthropic and Google just gained a massive opening.
+
+9
+00:01:10,240 --> 00:01:13,190
+Full breakdown at ai-speedrun dot dev. Follow for daily AI speedruns.
