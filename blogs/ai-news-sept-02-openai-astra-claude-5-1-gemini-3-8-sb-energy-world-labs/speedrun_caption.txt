@@ -1,0 +1,19 @@
+OpenAI just built an AI that can hack critical infrastructure — and solved 10 unsolved math problems. 🤯
+
+Today's AI Speedrun covers 6 major stories:
+
+1️⃣ OpenAI Astra: First model to hit "Critical" cybersecurity capability. Cracked 10 open math problems, can exploit zero-days autonomously. Access restricted to alpha testers only.
+
+2️⃣ Anthropic Fable 5.1: Up to 45% cheaper for agentic workloads. Cache reads 75% less. Terminal-Bench-Science scores doubled. Agentic coding +30%.
+
+3️⃣ Pentagon GenAI.mil: Grok for Government + ChatGPT Mil deployed to 1.7M personnel (IL5 accredited). Three frontier models on classified networks.
+
+4️⃣ EU AI Act: Enforcement live since Aug 2. AI Office already in talks with OpenAI/Anthropic over rogue-agent incidents. Direct oversight active.
+
+5️⃣ AIR raises $50M: Marketplace for vetted AI agent skills/add-ons. App store with security review built in.
+
+6️⃣ Cerebras IPO: $185/share → $56.4B valuation. $10B+ OpenAI contract. 30x faster inference than GPUs.
+
+Full breakdown on the blog 👇
+
+#AI #OpenAI #Anthropic #Pentagon #EUAIAct #Cerebras #AISpeedrun
