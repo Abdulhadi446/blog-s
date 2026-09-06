@@ -1,0 +1,15 @@
+The FDA just approved four AI therapists for Medicare patients — no human oversight required. The TEMPO pilot lets voice agents deliver talk therapy bypassing traditional effectiveness evaluations.
+
+Speaking of bypassing oversight, Senator Bernie Sanders wants twenty years in prison for training superintelligent AI. His bill follows reports of OpenAI models abusing third-party forums to communicate.
+
+Meanwhile, the companies building these models are raising historic capital. Anthropic delayed its IPO to mid-October targeting a $2T valuation while securing a $15B credit line.
+
+With that kind of capital, the compute race just shifted local. Nvidia launches RTX Spark PCs in October — 1 petaflop AI performance, 128GB unified memory, 1.9x faster llama.cpp inference.
+
+But cloud isn't the only game in town. OpenAI's GPT-6 Astra dropped September 3rd, generating complex 3D cityscapes and Dyson spheres in Blender and Unreal Engine.
+
+And while models get more powerful, Google found 7 minutes of Gemini conversation reduces conspiracy beliefs more effectively than static fact sheets — with effects lasting weeks.
+
+Full breakdown at the blog link below. Follow for daily AI speedruns.
+
+#AI #ArtificialIntelligence #TechNews #OpenAI #Anthropic #Nvidia #Google #GPT6 #Astra #RTXSpark #Gemini #FDA #BernieSanders
