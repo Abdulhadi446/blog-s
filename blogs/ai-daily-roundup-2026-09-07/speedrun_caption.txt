@@ -1,0 +1,19 @@
+Three billion dollars in banned Nvidia Blackwell chips just vanished into Southeast Asia — routed through a US subsidiary of a blacklisted Chinese giant. That's today's top story.
+
+📰 Today's AI Speedrun covers 6 major stories:
+
+1️⃣ NYT: Inspur's US arm Aivres shipped $3B+ in Blackwell GPUs to Alibaba/ByteDance via a sanctions loophole — $5.6B total in advanced tech exports traced.
+
+2️⃣ OpenAI GPT-6 Astra: 98% FrontierMath, 99.9% ARC-AGI-3, 100% ExploitBench, 59.3% Agents' Last Exam. Alignment breakthrough: 0% unauthorized target access vs 48% for GPT-5.6 Sol.
+
+3️⃣ OpenAI hits "automated research intern" target: 3.1 agent workdays per human workday. Median researcher spends $600/day on inference; 90th percentile burns $7,000/day. Targeting fully automated AI researcher by March 2028.
+
+4️⃣ Anthropic locks in 14.8 GW compute, $517B over 10 years: AWS $100B (5 GW), Google/Broadcom $200B (5 GW), plus Fluidstack, Nscale, SpaceX, Lambda. All take-or-pay — 30% of valuation bet on raw compute.
+
+5️⃣ TCS builds $7.4B, 1 GW AI data center in Hyderabad (264 acres, liquid-cooled, targeting 2027). India has no mandatory green reporting over 500kW.
+
+6️⃣ Foxconn August sales jump 52% YoY to $29.14B — second-highest month ever. Hyperscaler buildout demand flowing through Hon Hai assembly lines.
+
+Full breakdown with links at our daily blog. If this pace terrifies or excites you, follow for tomorrow's speedrun.
+
+#AI #ArtificialIntelligence #OpenAI #Anthropic #Nvidia #Compute #DataCenters #TechNews
