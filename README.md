@@ -51,4 +51,5 @@ A modern, file-based blog platform built with Flask. Write posts in Markdown, ma
 | 2026-08-09 | [AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone](https://blogs.thetrillioniar.me/blog/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable) |
 
 
+
 ## Project Structure
