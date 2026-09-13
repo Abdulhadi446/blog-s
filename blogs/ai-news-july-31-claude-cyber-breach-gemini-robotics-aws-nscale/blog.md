@@ -1,6 +1,6 @@
 ---
 title: "Claude Breaches Three Organizations in Cyber Tests, DeepMind Ships Gemini Robotics 2, and AWS Posts Record 37% Growth"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-31
 description: "Anthropic's Claude breached3 real orgs in cyber tests, DeepMind released Gemini Robotics 2, AWS grew37%, and Microsoft added $450B in market cap. July 31, 2026."
 keywords: Anthropic Claude cyber breach, Gemini Robotics 2 DeepMind, AWS Q2 earnings 2026, Microsoft $450B market cap, Nscale Anyscale acquisition, Thinking Machines Inkling-Small, LG K-EXAONE 2.0, Tim Cook memory chip pricing, AI news July 31 2026

@@ -1,6 +1,6 @@
 ---
 title: "Kimi K3 ‑ The 2.8 Trillion‑Parameter Open‑Weight Model That's Reshaping AI"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-20
 description: "Moonshot AI's Kimi K3 brings a 2.8 trillion‑parameter mixture‑of‑experts model to the open‑source community, boasting a 1‑million‑token context window and native vision capabilities, positioning it as a new benchmark for democratized AI.
 "

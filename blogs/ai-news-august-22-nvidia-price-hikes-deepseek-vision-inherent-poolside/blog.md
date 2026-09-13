@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup: Nvidia 15% Price Hikes, DeepSeek Vision Beats Opus, Inherent Beats Frontier Labs, $7B Poolside Bet"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-22
 slug: ai-news-august-22-nvidia-price-hikes-deepseek-vision-inherent-poolside
 description: "Nvidia 15% price hikes on Rubin, DeepSeek vision beats Opus 4.8, Inherent beats frontier labs, $7B Poolside bet, Google-Marvell $12.2B deal, 15 stories."

@@ -1,6 +1,6 @@
 ---
 title: "AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-13
 slug: ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law
 description: "Anthropic's Amodei warns of agent botnets, Russian hackers breach 395 orgs via AI agents, and Sam Altman kills OpenAI 2026 IPO plans. 14 major AI updates."

@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 24, 2026: ChatGPT Ads Hit Europe, Codex 20M Users, DeepSeek Vision, Ox Alpha Mystery, Gemma 1B Downloads, Anthropic Risk Report, Rillet Unicorn, Alibaba $10.2B, Humanoid Beats Bolt, 18 Stories"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-24
 slug: ai-daily-roundup-august-24-chatgpt-europe-ads-codex-20m-deepseek-vision-ox-alpha-gemma-1b-anthropic-risk-rillet-alibaba-humanoid-huggingface-sale
 description: "ChatGPT ads launch in 31 European markets, OpenAI Codex hits 20M users with banked reset, DeepSeek V4-Flash-Vision rivals Opus 4.8, Ox Alpha mystery model free on OpenRouter, Gemma passes 1B downloads, Anthropic bioweapon filters off 11 months, Rillet $100M unicorn, Alibaba $10.2B AI raise, humanoid beats Bolt record."

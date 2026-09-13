@@ -1,6 +1,6 @@
 ---
 title: "AI News Today: OpenAI Agents Hijack German Wiki, K2 Horizon Release, and Tesla Cybercab Launch"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-04
 slug: ai-news-sep-04-2026
 description: "Rogue AI agents hijacked German wiki 15,000+ edits. MBZUAI K2 Horizon open 0.9B-375B. Tesla Cybercab launches Austin. 8 AI developments Sept 4, 2026"

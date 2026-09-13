@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy Fail, and the Math War"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-12
 slug: ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war
 description: "Anthropic eyes $2T IPO with Nvidia. Meta AI sparks privacy outcry over kids' data. Sakana's Fugu beats frontier models. 15 major AI stories Sept 12, 2026."

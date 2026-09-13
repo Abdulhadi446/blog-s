@@ -1,6 +1,6 @@
 ---
 title: AI Daily Roundup – 2026‑07‑22
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-22
 description: From GPT‑5’s debut to Google’s Gemini 3.6 Flash, IBM’s Lightwell launch and more – the day’s most influential AI milestones.
 keywords: GPT-5, Anthropic Fable 5, DeepSeek V4, Gemini 3.6 Flash, Bedrock, Microsoft Copilot, IBM Lightwell, Kimi‑K3, AI chips, AI policy

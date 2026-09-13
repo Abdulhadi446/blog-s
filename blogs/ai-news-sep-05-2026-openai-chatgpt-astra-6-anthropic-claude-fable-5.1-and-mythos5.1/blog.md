@@ -1,6 +1,6 @@
 ---
 title: "AI News Roundup: Claude Fable 5.1, GPT-6 Astra Launch, and the New Model Wars"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-05
 slug: ai-news-sep-05-2026
 description: "Claude Fable 5.1 and GPT-6 Astra launch head-to-head, Claude Fermat proof, CISA warns of 7 AI exploits, Google AI Mode pricing gap — top developments Sept 5 2026"

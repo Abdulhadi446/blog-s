@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup: OpenAI 20% Compute Overhead, Microsoft Copilot Flaw, Unitree $66B IPO, Samsung Foundry Hikes, Google Student Gemini, Cerebras CS-4"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-20
 slug: ai-daily-roundup-august-20-openai-microsoft-unitree-samsung-cerebras
 description: "OpenAI 20% compute overhead, Microsoft Copilot data theft patch, Unitree 629% IPO, Samsung 15% foundry hike, Google free Gemini Pro, Cerebras 30x CS-4."

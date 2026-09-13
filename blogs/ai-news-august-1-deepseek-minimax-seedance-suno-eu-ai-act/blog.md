@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek V4-Flash Goes Official, MiniMax H3 Open-Weight Video Drops, and EU AI Act Enforcement Starts Tomorrow"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-01
 description: "DeepSeek V4-Flash goes official, MiniMax H3 open-weight video drops, Suno loses to GEMA, Amazon completes $50B OpenAI bet, and EU AI Act starts August 1, 2026."
 keywords: DeepSeek V4-Flash, MiniMax H3, ByteDance Seedance 2.5, Suno GEMA copyright, EU AI Act August 2026, Amazon OpenAI $50B, OpenAI Astra, MediaTek AI chips, IonQ SkyWater, AI news August 2026

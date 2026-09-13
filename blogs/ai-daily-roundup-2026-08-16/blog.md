@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 16, 2026: Anthropic Model 2 Shelved, DeepSeek V4-Pro Price Shock, Qwen 3.8 27B, Gemini 3.7 Flash"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-16
 slug: ai-daily-roundup-2026-08-16
 description: "Anthropic shelves Model 2, DeepSeek V4-Pro 1,100% price hike, Qwen 3.8 27B open-weight, Gemini 3.7 Flash coding gains, Nvidia $21B SpaceX stake, 12 stories."

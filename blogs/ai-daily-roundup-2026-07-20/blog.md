@@ -1,6 +1,6 @@
 ---
 title: AI Daily Roundup – 2026-07-20
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-20
 description: A snapshot of the most disruptive AI developments announced on July 20, 2026, spanning model releases, industry moves, and security incidents.
 tags: AI,News,Models,Security,Industry

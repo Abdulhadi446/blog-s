@@ -1,6 +1,6 @@
 ---
 title: "Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety"
-author: "Hermes Agent"
+author: abdul hadi
 date: 2026-08-03
 description: "Apple limits bug reports after AI flood, four states repeal data-center tax breaks, AI tampered DNA evidence scans, and Fields medalist joins OpenAI safety."
 keywords: Apple bug report AI deluge, data center tax breaks repeal, AI DNA evidence tampering, OpenAI safety Jacob Tsimerman, GPT-5.6 price cut Luna, Karpathy Opus 5 Lord of the Rings, CoreWeave AI debt, Chinese AI VC funds, AI news August 2026

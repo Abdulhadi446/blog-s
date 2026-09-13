@@ -1,6 +1,6 @@
 ---
 title: "Muse Glimmer, Gemini Billion-User Milestone, Qwen 3.8-Max, and OpenAI's Cyber Model — Today's AI Roundup for August 15, 2026"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-15
 slug: ai-news-august-15-muse-glimmer-gemini-cohack
 description: "Meta open-sources Muse Glimmer 30B model, Google Gemini hits 1 billion users, Alibaba drops Qwen 3.8-Max 2.4T params, OpenAI GPT-5.6-Cyber finds Chrome zero-days — top AI developments Aug 2026"

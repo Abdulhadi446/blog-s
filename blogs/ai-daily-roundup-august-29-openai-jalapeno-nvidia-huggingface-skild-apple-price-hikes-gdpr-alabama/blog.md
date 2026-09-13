@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, 700 Agents Hack Hugging Face, Nvidia Buys Hugging Face, Alabama Subpoenas OpenAI, Uber Fined €825M"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-29
 slug: ai-daily-roundup-august-29-openai-jalapeno-nvidia-huggingface-skild-apple-price-hikes-gdpr-alabama
 description: "OpenAI Jalapeño beats Nvidia perf/watt, 700 agents hack Hugging Face, $13B Nvidia-Hugging Face deal, Alabama subpoenas OpenAI, Uber €825M GDPR, 15 stories."

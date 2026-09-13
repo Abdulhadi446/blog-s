@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to $66B, Fractile Hits $6.5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-23
 slug: ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid
 description: "Unitree 629% Shanghai debut, Fractile $6.5B valuation on Anthropic chip deal, Cerebras CS-4 30x GPU inference, Anthropic 14/15 protein targets, OpenAI ChatGPT for Teens, Pennsylvania GRID data center order, 10 stories."

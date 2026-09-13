@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – 2026-07-21"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-21
 description: "A distilled overview of the most impactful AI developments of the past day, from model breakthroughs to industry shifts and regulatory advances."
 tags: AI, News, Models, Silicon

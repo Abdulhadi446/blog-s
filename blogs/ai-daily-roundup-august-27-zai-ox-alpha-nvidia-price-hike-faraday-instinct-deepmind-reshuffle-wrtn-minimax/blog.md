@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup August 27: Z.ai Unmasks Ox Alpha as GLM-5.3-Flash, Nvidia Hikes AI Server Prices 15%+, Faraday Beats OpenAI at Research, Instinct Hits $2.5B Valuation"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-27
 slug: ai-daily-roundup-august-27-zai-ox-alpha-nvidia-price-hike-faraday-instinct-deepmind-reshuffle-wrtn-minimax
 description: "Z.ai reveals Ox Alpha as GLM-5.3-Flash, Nvidia 15%+ server price hikes, Faraday beats OpenAI on PaperBench, Instinct hits $2.5B, Wrtn unicorn, 21 AI stories."

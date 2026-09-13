@@ -1,6 +1,6 @@
 ---
 title: "AI News July 30: Microsoft Azure $100B, Samsung 1,814% Profit Surge, RufRoot CVSS 10.0, and Onyx Security $113M"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-30
 description: "AI news July 30 covers Microsoft Azure crossing $100B, Samsung's 1,814% profit surge on AI memory, a CVSS 10.0 RufRoot flaw, and Onyx Security's $113M raise."
 keywords: AI news July 30, Microsoft Azure $100B, Samsung AI memory profit, RufRoot CVE-2026-59726, Onyx Security Series B, Meta AI capex, OpenAI ARR, Brookfield NextEra AI campus

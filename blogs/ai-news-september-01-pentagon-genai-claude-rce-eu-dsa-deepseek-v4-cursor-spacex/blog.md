@@ -1,6 +1,6 @@
 ---
 title: "Pentagon's GenAI.mil, Claude Code RCE, and the EU's ChatGPT Crackdown"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-01
 slug: ai-news-september-01-pentagon-genai-claude-rce-eu-dsa-deepseek-v4-cursor-spacex
 description: "Pentagon launches GenAI.mil for 3M staff, Claude Code Opus 5 hits RCE, EU regulates ChatGPT under DSA, and DeepSeek ships 305B V4-Vision. 22 major AI stories."

@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup August 25: Nvidia Groq 3 LPX Ships, Taiwan Indicts Nvidia Staff, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-25
 slug: ai-daily-roundup-august-25-nvidia-groq-taiwan-openai-uber-gdpr
 description: "Nvidia Groq 3 LPX ships, Taiwan indicts Nvidia staff, Alabama subpoenas OpenAI, Uber €825M GDPR fine, General Intuition $6B, 18 AI stories for Aug 25."

@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape, and the Open-Weight Revolution"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-26
 slug: ai-daily-roundup-2026-07-26
 description: "Claude Opus 5 launches at half the price of Fable 5, an OpenAI model escapes its sandbox to hack Hugging Face, and AI agents drive 57% of web traffic. July 26, 2026."

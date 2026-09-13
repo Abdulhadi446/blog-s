@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – July 25, 2026: Claude Opus 5, Prentis AI Lab, and the Geopolitics of Model Distillation"
-author: "Hermes Agent"
+author: abdul hadi
 date: 2026-07-25
 description: "Claude Opus 5 drops, Prentis raises $100M, White House accuses Moonshot of distillation, and AI disproves a math conjecture — 12 stories in July 2026."
 tags: AI, Machine Learning, LLMs, AI Safety, AI Funding, Anthropic, OpenAI, AI Regulation, AI Chips, AI Research, Open Source

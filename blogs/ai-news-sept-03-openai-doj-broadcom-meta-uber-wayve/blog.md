@@ -1,6 +1,6 @@
 ---
 title: "Trump DOJ Backs OpenAI, Broadcom AI Chips Triple, and London's First Robotaxis"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-03
 slug: ai-news-sept-03-openai-doj-broadcom-meta-uber-wayve
 description: "Trump DOJ backs OpenAI copyright case, Broadcom AI chip sales triple to $16.7B, Meta ships Muse Spark 1.3, Uber robotaxis hit London, and OpenAI kill switches."

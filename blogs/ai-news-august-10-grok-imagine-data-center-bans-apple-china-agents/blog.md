@@ -1,6 +1,6 @@
 ---
 title: "AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-10
 slug: ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents
 description: "xAI Grok Imagine 2.0 ranks #2 on Arena, 500+ US data-center bans hit NY and Texas, Apple tests CXMT chips, Salesforce agents triple, OpenAI hack post-mortem."

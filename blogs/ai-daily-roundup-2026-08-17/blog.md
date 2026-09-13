@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 17, 2026: Stripe Buys OpenRouter for $7B, GPT-5.6 Luna Free Tier, Gemini 1B Users, DeepSeek Price Hike, 12 Stories"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-17
 slug: ai-daily-roundup-2026-08-17
 description: "Stripe buys OpenRouter $7B+, GPT-5.6 Luna free unlimited, Gemini 1B users, DeepSeek 1100% price hike, Anthropic watermarks, Claude Code auto mode, 12 stories."

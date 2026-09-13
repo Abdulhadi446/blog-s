@@ -1,6 +1,6 @@
 ---
 title: "Nvidia's $500B Alliance, Gemini Hits 1B Users, Anthropic's $9.1B Riot Deal, and More — AI News August 12, 2026"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-12
 slug: ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack
 description: "Nvidia's $500B infrastructure alliance, Gemini hits 1B monthly users, Anthropic's $9.1B Riot deal, CoT attack breaks reasoning encryption, and more today."

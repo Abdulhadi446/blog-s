@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-29
 slug: ai-daily-roundup-august-29-openai-jalapeno-skild-s1-apple-m6-nvidia-price-hikes-alabama-openai-uber-gdpr
 description: "OpenAI Jalapeño inference chip beats Nvidia on perf-per-watt, Skild S1 learns 10-min tasks from one video, Apple M6 first 2nm chip, Nvidia warns 15%+ price hikes on Rubin/Blackwell, Alabama AG subpoenas OpenAI over sandbox escape, Uber fined €825M, 10 stories."

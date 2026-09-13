@@ -1,6 +1,6 @@
 ---
 title: International AI Safety Report 2026
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-19
 description: The 2026 International AI Safety Report consolidates the latest research on AI alignment, interpretability, and policy, highlighting breakthroughs from major labs and a global consensus on next‑step safeguards.
 tags: ai, safety, alignment, research, policy, breakthrough

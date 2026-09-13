@@ -1,6 +1,6 @@
 ---
 title: "Apple Siri AI Ships Sept 14, Anthropic Security Alarms, and the US-China AI Distillation War"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-10
 slug: ai-news-september-10-apple-siri-anthropic-security-meta-muse-us-china-distillation
 description: "Apple ships Siri AI on A20 Pro chip Sept 14. Anthropic reports 4 security breaches & 10% extinction risk. US warns of Chinese AI distillation. 10 AI stories."

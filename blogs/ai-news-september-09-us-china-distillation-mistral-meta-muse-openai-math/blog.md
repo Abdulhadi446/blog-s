@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup: September 9, 2026 — US-China Distillation War, Mistral's €3B Windfall, and Math Drama"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-09
 slug: ai-news-september-09-us-china-distillation-mistral-meta-muse-openai-math
 description: "US warns of Chinese AI distillation, Mistral hits €21B valuation, Meta launches Muse agent, and OpenAI battles NYU over a Millennium Prize proof."

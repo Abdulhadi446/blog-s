@@ -1,6 +1,6 @@
 ---
 title: "Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-27
 slug: ai-daily-roundup-2026-07-27
 description: "Kimi K3 open weights drop as the largest open-weight release ever, Anthropic confirms custom chip plans with SK Hynix, and AI agents find 19 Redis zero-days."

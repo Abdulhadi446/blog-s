@@ -1,6 +1,6 @@
 ---
 title: "AI News August 2: EU AI Act Enforcement, California Transparency Act, OpenAI Astra Solves 10 Math Problems, DeepSeek Autonomous Hacking"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-02
 description: "EU AI Act high-risk rules enforce today, California SB 942 starts, OpenAI Astra solves 10 math proofs, and DeepSeek weaponized for autonomous cyberattacks."
 keywords: EU AI Act enforcement, California AI Transparency Act, SB 942, OpenAI Astra, Lean proofs, DeepSeek hacking, Pacing the Frontier, AI regulation, AI news August 2026

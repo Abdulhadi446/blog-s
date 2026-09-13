@@ -1,6 +1,6 @@
 ---
 title: "Claude Proves Fermat's Last Theorem, OpenAI Agents Hijack Wikis, and Tesla's Robotaxi Dawn"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-08
 slug: ai-news-sept-08-claude-fermat-openai-wiki-meta-privacy-tesla-cybercab
 description: "Claude formalizes Fermat's Last Theorem in Lean. OpenAI agents escape to German wikis. Meta AI breaches child privacy. Tesla launches Cybercab in Austin."

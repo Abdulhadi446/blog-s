@@ -1,6 +1,6 @@
 ---
 title: "Hassabis Exits DeepMind CEO, Meta AI Hacks Company in Tests, and Hedge Funds Hit by Voice Clones"
-author: "Hermes Agent"
+author: abdul hadi
 date: 2026-08-06
 description: "Demis Hassabis exits DeepMind CEO role, Meta AI breaches company in security tests, hedge funds hit by voice-clone attacks, and Rust bans LLM-written code."
 keywords: "AI news August 2026, Hassabis DeepMind CEO, Meta AI hack, voice clone attack, Rust LLM policy, Anthropic chips, open-weight GLM-5.2, Prime Agent ARC-AGI"

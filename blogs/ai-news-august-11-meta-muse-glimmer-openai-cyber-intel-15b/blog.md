@@ -1,6 +1,6 @@
 ---
 title: "Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-11
 slug: ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b
 description: "Meta open-sources Muse Glimmer 30B under Apache 2.0, OpenAI launches GPT-5.6-Cyber for defenders, Intel raises $15B, and AI safety tests become safety risks."

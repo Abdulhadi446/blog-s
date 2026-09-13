@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 18, 2026: Nvidia $105B OpenAI Ohio Data Center, Anthropic $65B Revenue, Copilot Deep Research Ends, Cursor Origin Launches, DOJ Probes a16z"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-18
 slug: ai-daily-roundup-august-18-nvidia-105b-openai-anthropic-65b-copilot-deep-research-cursor-origin-doj-a16z
 description: "Nvidia guarantees $105B for OpenAI 8GW Ohio campus, Anthropic hits $65B revenue run rate, Microsoft kills Copilot Deep Research, Cursor launches Origin code hosting, DOJ probes a16z board seats, 10 stories."

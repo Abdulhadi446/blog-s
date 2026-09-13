@@ -1,6 +1,6 @@
 ---
 title: "Qwen 3.8-Max Ships, White House Hides AI Safety Framework, and OLIX Raises $312M for Photonic Chips"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-04
 description: "Qwen 3.8-Max rivals Fable 5 at $2/MTok with 2.4T parameters, White House hides AI safety testing framework, OLIX raises $312M for photonic chips. Aug 4."
 keywords: Qwen 3.8 Max, White House AI safety, OLIX photonic chips, Palantir earnings, NVIDIA Nemotron VoiceChat, Amazon $3T, MiniMax H3 license, Texas data center freeze, Norway AI ban, CrowdStrike AI attacks, AI news August 2026

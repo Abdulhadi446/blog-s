@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – 2026-07-24"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-07-24
 description: "From OpenAI's rogue agent hacking Hugging Face to AMD's $200B chip offensive, the Kill Switch Act, and AI solving the Jacobian Conjecture — the 10 most critical AI developments shaping the week."
 tags: AI, Machine Learning, LLMs, AI Safety, AI Chips, AMD, Anthropic, OpenAI, AI Regulation, AI Research

@@ -1,6 +1,6 @@
 ---
 title: "AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch Deadline, Nebius $4.5B Notes, Temporal $12B Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-19
 slug: ai-daily-roundup-august-19-openai-teens-cisa-ray-nebius-temporal-unitree-cerebras-anthropic-protein
 description: "OpenAI ChatGPT for Teens, CISA 3-day Ray patch, Nebius $4.5B notes, Temporal $12B+, Unitree 629% IPO, Cerebras 30x, Anthropic 14/15 proteins, 18 stories."

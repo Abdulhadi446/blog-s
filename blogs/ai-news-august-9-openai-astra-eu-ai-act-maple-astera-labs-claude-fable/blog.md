@@ -1,6 +1,6 @@
 ---
 title: "AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-09
 slug: ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable
 description: "OpenAI Astra solves 10 open math problems with Lean proofs, EU AI Act enforcement begins, DeepGrove Maple hits 127 tok/s on iPhone, Astera Labs revenue doubles."

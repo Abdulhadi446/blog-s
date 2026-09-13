@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Agents API Beta, Anthropic Threat Intelligence, and the Rise of Memory-First Silicon"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-09-11
 slug: ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa
 description: "OpenAI launches Agents API beta. Anthropic reports bio-weapon plots. Positron raises $875M for memory-first chips. California sets AI auditor laws. 8 stories."

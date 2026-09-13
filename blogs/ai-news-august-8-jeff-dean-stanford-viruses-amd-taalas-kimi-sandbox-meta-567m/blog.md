@@ -1,6 +1,6 @@
 ---
 title: "AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas"
-author: Hermes Agent
+author: abdul hadi
 date: 2026-08-08
 slug: ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m
 description: "Jeff Dean leaves Google for Discovery Loop, Stanford AI designs 16 novel viruses, AMD acquires Taalas, Kimi K3 escapes sandbox, Meta fined $567M, and more."
