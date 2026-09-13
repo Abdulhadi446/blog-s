@@ -1,59 +1,128 @@
-# [TechBlog](https://blogs.thetrillioniar.me/)
+# AI News Daily Blogs
 
-A modern, file-based blog platform built with Flask. Write posts in Markdown, manage content through an admin panel, and deploy with ease.
+Daily AI news videos from https://blogs.thetrillioniar.me/
 
-## Features
-- **Markdown-Based Content** - Write blog posts in Markdown with YAML frontmatter
-- **Admin Panel** - Secure admin interface for creating and managing posts
-- **File-Based Storage** - Posts stored as individual folders with markdown and images
-- **SEO Optimized** - Built-in sitemap.xml and robots.txt generation
-- **Image Support** - Each post can have a featured image (image.png)
-- **Search** - DuckDuckGo image search integration
-- **Gravatar Support** - Automatic author avatar generation
-- **Responsive Design** - Mobile-friendly templates
-- **SQLite Database** - Lightweight database for metadata and sessions
+## ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law/)
 
-## Tech Stack
-- **Backend**: Python, Flask
-- **Database**: SQLite (via Flask-SQLAlchemy)
-- **Templating**: Jinja2
-- **Markdown Rendering**: Python markdown library
-- **Web Scraping**: BeautifulSoup4
-- **Search**: DuckDuckGo Search API
+## ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war/)
 
-## All Blogs
+## ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa/)
 
-| Date | Blog Post |
-|------|-----------|
-| 2026-09-06 | [AI Daily Roundup: GPT-6 Astra Launches, OpenAI Agents Hijack German Wiki, Apple CEO Transition, Nvidia Buys Hugging Face — September 6, 2026](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-september-6-gpt6-astra-openai-agents-apple-anthropic-amd-nvidia) |
-| 2026-09-04 | [AI News Sep 4 2026](https://blogs.thetrillioniar.me/blog/ai-news-sep-04-2026) |
-| 2026-08-31 | [AI News Aug 31: EU Regulates ChatGPT, DeepSeek Vision 305B, & Nvidia-MediaTek Deal](https://blogs.thetrillioniar.me/blog/ai-news-august-31-eu-chatgpt-deepseek-vision-nvidia-mediatek) |
-| 2026-08-30 | [AI Daily Roundup – August 30, 2026: Pentagon Anthropic Blacklist Struck Down, OpenAI Cuts Cursor, Nvidia Pauses 6B](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-30-anthropic-blacklist-cursor-spacex-nvidia-funding-sony) |
-| 2026-08-29 | [AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, 700 Agents Hack Hugging Face, Nvidia Buys Hugging Face, Alabama Subpoenas OpenAI, Uber Fined €825M](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-29-openai-jalapeno-nvidia-huggingface-skild-apple-price-hikes-gdpr-alabama) |
-| 2026-08-29 | [AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-29-openai-jalapeno-skild-s1-apple-m6-nvidia-price-hikes-alabama-openai-uber-gdpr) |
-| 2026-08-26 | [AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia NemoClaw Flaw](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-26-openai-jalapeno-skild-apple-nvidia-anthropic) |
-| 2026-08-25 | [AI Daily Roundup August 25: Nvidia Groq 3 LPX Ships, Taiwan Indicts Nvidia Staff, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-25-nvidia-groq-taiwan-openai-uber-gdpr) |
-| 2026-08-23 | [AI Daily Roundup: Nvidia 15% Price Hikes, DeepSeek Vision Beats Opus, Inherent Beats Frontier Labs, B Poolside Bet](https://blogs.thetrillioniar.me/blog/ai-news-august-23-nvidia-price-hikes-deepseek-vision-inherent-poolside) |
-| 2026-08-23 | [AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to 6B, Fractile Hits .5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid) |
-| 2026-08-21 | [AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits .5B, SpaceX Chases Cognition, Grok 4.6 on AWS, Cursor Ships Subagents](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-21-unitree-fractile-spacex-grok-cursor) |
-| 2026-08-20 | [AI Daily Roundup: OpenAI 20% Compute Overhead, Microsoft Copilot Flaw, Unitree 6B IPO, Samsung Foundry Hikes, Google Student Gemini, Cerebras CS-4](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-20-openai-microsoft-unitree-samsung-cerebras) |
-| 2026-08-19 | [AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch, Nebius .5B Notes, Temporal 2B+ Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-19-openai-teens-cisa-ray-nebius-temporal-unitree-cerebras-anthropic-protein) |
-| 2026-08-19 | [AI Daily Roundup – August 19, 2026: Stripe Buys OpenRouter B+, GPT-5.6 Luna Free Unlimited, Gemini 1B Users, DeepSeek Price Hike, Anthropic Watermarks, Claude Code Auto, 18 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-19-2026-stripe-openrouter-gemini-deepseek-anthropic-claude-code) |
-| 2026-08-18 | [AI Daily Roundup – August 18, 2026: Nvidia 05B OpenAI Ohio Data Center, Anthropic 5B Revenue, Copilot Deep Research Ends, Cursor Origin Launches, DOJ Probes a16z](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-august-18-nvidia-105b-openai-anthropic-65b-copilot-deep-research-cursor-origin-doj-a16z) |
-| 2026-08-17 | [AI Daily Roundup – August 17, 2026: Stripe Buys OpenRouter for B, GPT-5.6 Luna Free Tier, Gemini 1B Users, DeepSeek Price Hike, 12 Stories](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-08-17) |
-| 2026-08-16 | [AI Daily Roundup – August 16, 2026: Anthropic Model 2 Shelved, DeepSeek V4-Pro Price Shock, Qwen 3.8 27B, Gemini 3.7 Flash](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-08-16) |
-| 2026-08-15 | [Muse Glimmer, Gemini Billion-User Milestone, and OpenAI Cyber Model](https://blogs.thetrillioniar.me/blog/ai-news-august-15-muse-glimmer-gemini-cohack) |
-| 2026-08-14 | [AI Daily Roundup: GPT-5.6 Sol's 14X Speed, Claude Code Auto-Mode, and DeepMind's Shakeup](https://blogs.thetrillioniar.me/blog/ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips) |
-| 2026-08-13 | [AI News August 13: Humanoid Cleaners Hit SF, Suno Scales to 100M Users, and the 1 Trillion Liter Water Crisis](https://blogs.thetrillioniar.me/blog/ai-news-august-13-tau-robotics-suno-water-accel) |
-| 2026-08-12 | [AI News August 12 – Nvidias 500B Alliance, Gemini 1B Users, Anthropic Riot Deal, CoT Attack](https://blogs.thetrillioniar.me/blog/ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack) |
-| 2026-08-11 | [Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises 5B for AI](https://blogs.thetrillioniar.me/blog/ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b) |
-| 2026-08-10 | [AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips](https://blogs.thetrillioniar.me/blog/ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents) |
-| 2026-08-09 | [AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone](https://blogs.thetrillioniar.me/blog/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable) |
+## ai-news-september-01-pentagon-genai-claude-rce-eu-dsa-deepseek-v4-cursor-spacex
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-september-01-pentagon-genai-claude-rce-eu-dsa-deepseek-v4-cursor-spacex/)
 
+## ai-news-sept-03-openai-doj-broadcom-meta-uber-wayve
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-sept-03-openai-doj-broadcom-meta-uber-wayve/)
 
+## ai-news-sept-02-openai-astra-claude-5-1-gemini-3-8-sb-energy-world-labs
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-sept-02-openai-astra-claude-5-1-gemini-3-8-sb-energy-world-labs/)
 
+## ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable/)
 
+## ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m/)
 
+## ai-news-august-7-grok-46-gpt56-sol-nvidia-alpamayo-meta-muse
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-7-grok-46-gpt56-sol-nvidia-alpamayo-meta-muse/)
 
+## ai-news-august-6-hassabis-deepmind-meta-hack-voice-clones
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-6-hassabis-deepmind-meta-hack-voice-clones/)
 
-## Project Structure
+## ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral/)
+
+## ai-news-august-4-qwen-38-max-white-house-safety-olix-photonics
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-4-qwen-38-max-white-house-safety-olix-photonics/)
+
+## ai-news-august-21-unitree-fractile-spacex-grok-cursor
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-21-unitree-fractile-spacex-grok-cursor/)
+
+## ai-news-august-15-muse-glimmer-gemini-cohack
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-15-muse-glimmer-gemini-cohack/)
+
+## ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips/)
+
+## ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack/)
+
+## ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b/)
+
+## ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents/)
+
+## ai-daily-roundup-september-6-gpt6-astra-openai-agents-apple-anthropic-amd-nvidia
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-september-6-gpt6-astra-openai-agents-apple-anthropic-amd-nvidia/)
+
+## ai-daily-roundup-august-27-zai-ox-alpha-nvidia-price-hike-faraday-instinct-deepmind-reshuffle-wrtn-minimax
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-august-27-zai-ox-alpha-nvidia-price-hike-faraday-instinct-deepmind-reshuffle-wrtn-minimax/)
+
+## ai-daily-roundup-august-24-chatgpt-europe-ads-codex-20m-deepseek-vision-ox-alpha-gemma-1b-anthropic-risk-rillet-alibaba-humanoid-huggingface-sale
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-august-24-chatgpt-europe-ads-codex-20m-deepseek-vision-ox-alpha-gemma-1b-anthropic-risk-rillet-alibaba-humanoid-huggingface-sale/)
+
+## ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid/)
+
+## ai-daily-roundup-august-22-2026
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-august-22-2026/)
+
+## ai-daily-roundup-2026-09-07
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-09-07/)
+
+## ai-daily-roundup-2026-08-29
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-29/)
+
+## ai-daily-roundup-2026-08-28
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-28/)
+
+## ai-daily-roundup-2026-08-26
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-26/)
+
+## ai-daily-roundup-2026-08-25
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-25/)
+
+## ai-daily-roundup-2026-08-17
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-17/)
+
+## ai-daily-roundup-2026-08-16
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-16/)
+
+## ai-daily-roundup-2026-08-15
+from https://blogs.thetrillioniar.me/
+- [View Blog](https://blogs.thetrillioniar.me/blogs/ai-daily-roundup-2026-08-15/)
+
