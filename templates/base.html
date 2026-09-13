@@ -11,6 +11,8 @@
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <meta name="theme-color" content="#8b5cf6" />
   <link rel="alternate" type="application/rss+xml" title="{{ seo.site_name }} RSS Feed" href="{{ url_for('rss_feed', _external=True) }}" />
+  <link rel="alternate" hreflang="en" href="{% block hreflang %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
+  <link rel="sitemap" type="application/xml" href="{{ url_for('sitemap', _external=True) }}" />
 
   {% block keywords %}{% endblock %}
 
@@ -341,6 +343,8 @@
         <a href="https://chat.thetrillioniar.me">Chat</a>
         <a href="https://docs.thetrillioniar.me">Docs</a>
         <a href="{{ url_for('index') }}">Blog</a>
+        <a href="{{ url_for('privacy') }}">Privacy</a>
+        <a href="{{ url_for('terms') }}">Terms</a>
         <a href="{{ url_for('sitemap') }}">Sitemap</a>
       </div>
     </div>

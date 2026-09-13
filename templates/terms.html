@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Terms of Service — {{ seo.site_name }}{% endblock %}
+{% block meta_description %}Terms of Service for Trillioniar Blog. Read the rules and guidelines for using this site.{% endblock %}
+{% block og_title %}Terms of Service — {{ seo.site_name }}{% endblock %}
+{% block og_description %}Terms of Service for Trillioniar Blog. Read the rules and guidelines for using this site.{% endblock %}
+{% block og_type %}website{% endblock %}
+{% block twitter_title %}Terms of Service — {{ seo.site_name }}{% endblock %}
+{% block twitter_description %}Terms of Service for Trillioniar Blog. Read the rules and guidelines for using this site.{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Terms of Service",
+  "url": "{{ request.url_root.rstrip('/') }}/terms",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ seo.site_name|tojson }},
+    "url": "{{ seo.site_url }}"
+  },
+  "datePublished": "2026-07-20",
+  "dateModified": "2026-07-20"
+}
+</script>
+<style>
+  .legal-page { padding: 3rem 0 4rem; }
+  .legal-page .container { max-width: 720px; }
+  .legal-page h1 {
+    font-family: var(--display); font-weight: 800; font-size: 2.2rem;
+    letter-spacing: -0.03em; margin-bottom: 0.5rem;
+  }
+  .legal-page .legal-updated {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--text3);
+    margin-bottom: 2.5rem; text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .legal-page h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.3rem;
+    margin: 2rem 0 0.75rem; letter-spacing: -0.01em;
+  }
+  .legal-page p, .legal-page li {
+    font-size: 0.95rem; line-height: 1.8; color: var(--text2);
+  }
+  .legal-page p { margin-bottom: 1rem; }
+  .legal-page ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  .legal-page li { margin-bottom: 0.4rem; }
+  .legal-page a { color: var(--accent); }
+  .legal-page a:hover { color: var(--accent2); }
+  .legal-page strong { color: var(--text); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="legal-page">
+  <div class="container">
+    <h1>Terms of Service</h1>
+    <p class="legal-updated">Last updated: July 20, 2026</p>
+
+    <p>Welcome to Trillioniar Blog. By accessing or using <a href="https://blogs.thetrillioniar.me">blogs.thetrillioniar.me</a>, you agree to the following terms.</p>
+
+    <h2>1. Use of the Site</h2>
+    <p>This blog is provided for informational and educational purposes. You may:</p>
+    <ul>
+      <li>Read and share articles with proper attribution</li>
+      <li>Use the content for personal learning and research</li>
+      <li>Link to any article on this site</li>
+    </ul>
+
+    <h2>2. Content Ownership</h2>
+    <p>All blog content is owned by Trillioniar or its contributors. Articles may be generated with the assistance of AI tools. Content is provided under the site's stated license terms.</p>
+
+    <h2>3. Prohibited Uses</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reproduce content for commercial purposes without permission</li>
+      <li>Use automated tools to scrape or mass-download content</li>
+      <li>Attempt to gain unauthorized access to admin areas</li>
+      <li>Interfere with the site's operation or security</li>
+    </ul>
+
+    <h2>4. Limitation of Liability</h2>
+    <p>This site is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of this site or its content.</p>
+
+    <h2>5. External Links</h2>
+    <p>This blog may contain links to external sites. We are not responsible for the content or practices of third-party websites.</p>
+
+    <h2>6. Changes to These Terms</h2>
+    <p>We reserve the right to modify these terms at any time. Changes will be posted on this page with an updated effective date.</p>
+
+    <h2>7. Contact</h2>
+    <p>For questions about these Terms of Service, contact us at <a href="https://thetrillioniar.me">thetrillioniar.me</a>.</p>
+  </div>
+</div>
+{% endblock %}

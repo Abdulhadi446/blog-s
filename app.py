@@ -201,6 +201,14 @@ def create_app(config_name=None):
                                current_year=app.config['SITE_CONFIG']['current_year'],
                                related_posts=related[:3])
 
+    @app.route('/privacy')
+    def privacy():
+        return render_template('privacy.html', site=app.config['SITE_CONFIG'])
+
+    @app.route('/terms')
+    def terms():
+        return render_template('terms.html', site=app.config['SITE_CONFIG'])
+
     @app.route('/tag/<tag_slug>')
     def tag_posts(tag_slug):
         all_posts = get_all_posts()
@@ -375,6 +383,23 @@ def create_app(config_name=None):
                 'image_title': None
             })
 
+        urls.append({
+            'loc': url_for('privacy', _external=True),
+            'lastmod': '2026-07-20',
+            'changefreq': 'monthly',
+            'priority': '0.3',
+            'image': None,
+            'image_title': None
+        })
+        urls.append({
+            'loc': url_for('terms', _external=True),
+            'lastmod': '2026-07-20',
+            'changefreq': 'monthly',
+            'priority': '0.3',
+            'image': None,
+            'image_title': None
+        })
+
         return render_template('sitemap.xml', urls=urls)
 
     @app.route('/robots.txt')
@@ -384,6 +409,7 @@ def create_app(config_name=None):
             site_url = request.url_root.rstrip('/')
         content = f"""User-agent: *
 Allow: /
+Disallow: /admin/
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
 Sitemap: {site_url}/sitemap.xml

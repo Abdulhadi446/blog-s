@@ -16,12 +16,14 @@
 <meta property="og:image" content="{{ request.url_root.rstrip('/') + blog.featured_image }}" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ blog.title }}" />
 {% endif %}
 {% endblock %}
 
 {% block twitter_image %}
 {% if blog.featured_image %}
 <meta name="twitter:image" content="{{ request.url_root.rstrip('/') + blog.featured_image }}" />
+<meta name="twitter:image:alt" content="{{ blog.title }}" />
 {% endif %}
 {% endblock %}
 
@@ -31,6 +33,11 @@
 <meta property="article:published_time" content="{{ blog.published_date }}" />
 <meta property="article:modified_time" content="{{ blog.modified_date }}" />
 <meta property="article:author" content="{{ blog.author }}" />
+{% if blog.tags %}
+{% for tag in blog.tags|tag_list %}
+<meta property="article:tag" content="{{ tag }}" />
+{% endfor %}
+{% endif %}
 
 <script type="application/ld+json">
 {

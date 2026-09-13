@@ -34,6 +34,26 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ seo.site_url }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "{{ request.url_root.rstrip('/') }}/blog"
+    }
+  ]
+}
+</script>
 <style>
   .hero {
     padding: 4rem 0 2rem;
