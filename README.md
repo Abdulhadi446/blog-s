@@ -16,6 +16,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-09-14 | [AI Speedrun: DeepSeek Retires V4 Pro, GPT-6 Astra Critical, Anthropic Splits Flagship, NVIDIA Buys Hugging Face, Altman Delays IPO, Amodei Paces Frontier](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) |
 | 2026-09-13 | [AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) |
 | 2026-09-12 | [AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy Fail, and the Math War](https://blogs.thetrillioniar.me/blog/ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war) |
 | 2026-09-11 | [OpenAI Agents API Beta, Anthropic Threat Intelligence, and the Rise of Memory-First Silicon](https://blogs.thetrillioniar.me/blog/ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa) |

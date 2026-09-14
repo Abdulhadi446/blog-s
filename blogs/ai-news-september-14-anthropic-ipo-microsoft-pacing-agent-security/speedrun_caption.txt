@@ -1,0 +1,19 @@
+Three AI labs shipped frontier models in three days. Then the CEOs said: slow down.
+
+📊 Today's AI Speedrun:
+
+1️⃣ DeepSeek retires V4 Pro — all traffic now routes to V4.1 Flash at Flash prices. One model, entire API lineup replaced.
+
+2️⃣ GPT-6 Astra launches — first OpenAI model rated Critical for cyber. 99.9% ARC-AGI-3. 1.05M token context. "AGI era" per Brockman.
+
+3️⃣ Anthropic splits flagship: Fable 5.1 (public) + Mythos 5.1 (defenders). Same model, different safeguards. $10/$50 per 1M tokens.
+
+4️⃣ Google answers with Gemini 3.8 Flash Cyber — 47% CWE-Bench at 1/3 cost. 2.6x more Chrome patches. Fairwind Program only.
+
+5️⃣ NVIDIA acquires Hugging Face for $12.93B. Chip supply + model hub under one roof. Huang: "stays open, no NVIDIA compute required."
+
+6️⃣ The pivot: Altman delays OpenAI IPO to 2027. Amodei publishes "We Must Pace the Frontier" — 3,800 words, 3 strategies. 1,178 lab employees signed. SoftBank -13%.
+
+🔗 Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #ArtificialIntelligence #OpenAI #Anthropic #Google #DeepSeek #NVIDIA #AISafety #TechNews
