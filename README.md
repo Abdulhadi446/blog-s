@@ -16,6 +16,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-09-17 | [AI Speedrun: Anthropic Blocks 35 Bioweapon Attempts, LawZero Gets $300M, Amazon $8B Diesel Deal, House 417-3 Grid Bill, First AI Agent Breach in Spain, NVIDIA Energy Alliance](https://blogs.thetrillioniar.me/blog/ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency) |
 | 2026-09-14 | [AI Speedrun: DeepSeek Retires V4 Pro, GPT-6 Astra Critical, Anthropic Splits Flagship, NVIDIA Buys Hugging Face, Altman Delays IPO, Amodei Paces Frontier](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) |
 | 2026-09-13 | [AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) |
 | 2026-09-12 | [AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy Fail, and the Math War](https://blogs.thetrillioniar.me/blog/ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war) |
@@ -86,7 +87,7 @@ python test_production.py   # Verify config
 | 2026-07-20 | [AI Daily Roundup -- 2026-07-20](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-07-20) | [Link](https://blogs.thetrillioniar.me/blog/ai-daily-roundup-2026-07-20) |
 | 2026-07-19 | [International AI Safety Report 2026](https://blogs.thetrillioniar.me/blog/international-ai-safety-report-2026) | [Link](https://blogs.thetrillioniar.me/blog/international-ai-safety-report-2026) |
 
-**Total: 65 posts**
+**Total: 66 posts**
 
 ## Tech Stack
 
