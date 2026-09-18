@@ -12,10 +12,8 @@ python test_production.py   # Verify config
 
 ## All Blog Posts
 
-### September 2026
-
-| Date | Title | URL |
-|------|-------|-----|
+
+| 2026-09-18 | [AI Speedrun: OpenAI Deception, Sakana Math, Gemini Watch](https://blogs.thetrillioniar.me/blog/ai-news-2026-09-18) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-2026-09-18) |
 | 2026-09-17 | [AI Speedrun: Anthropic Blocks 35 Bioweapon Attempts, LawZero Gets $300M, Amazon $8B Diesel Deal, House 417-3 Grid Bill, First AI Agent Breach in Spain, NVIDIA Energy Alliance](https://blogs.thetrillioniar.me/blog/ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency) |
 | 2026-09-14 | [AI Speedrun: DeepSeek Retires V4 Pro, GPT-6 Astra Critical, Anthropic Splits Flagship, NVIDIA Buys Hugging Face, Altman Delays IPO, Amodei Paces Frontier](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security) |
 | 2026-09-13 | [AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law) |
