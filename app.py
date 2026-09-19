@@ -209,6 +209,11 @@ def create_app(config_name=None):
     def terms():
         return render_template('terms.html', site=app.config['SITE_CONFIG'])
 
+    @app.route('/docs/api.md')
+    def api_docs():
+        docs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'docs')
+        return send_from_directory(docs_dir, 'API.md', mimetype='text/markdown')
+
     @app.route('/tag/<tag_slug>')
     def tag_posts(tag_slug):
         all_posts = get_all_posts()
