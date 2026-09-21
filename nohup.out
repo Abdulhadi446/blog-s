@@ -5986,3 +5986,6 @@
 127.0.0.1 - - [21/Sep/2026 14:20:27] "GET /blog/ai-news-september-10-apple-siri-anthropic-security-meta-muse-us-china-distillation HTTP/1.1" 200 -
 127.0.0.1 - - [21/Sep/2026 14:29:12] "GET /blog/ai-daily-roundup-september-6-gpt6-astra-openai-agents-apple-anthropic-amd-nvidia HTTP/1.1" 200 -
 127.0.0.1 - - [21/Sep/2026 14:30:43] "GET /blog/ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 15:02:19] "GET /robots.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 15:02:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 15:06:17] "GET /blog/ai-daily-roundup-august-30-anthropic-blacklist-cursor-spacex-nvidia-funding-sony HTTP/1.1" 200 -
