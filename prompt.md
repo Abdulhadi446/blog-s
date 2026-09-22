@@ -48,11 +48,13 @@ tags: AI, LLM, TechNews, OpenAI
 - Use active voice
 - Include source links
 
-## STEP 3: Save the Blog Post
+## STEP 3: Save the Blog Post and Generate Image
 ```bash
 BLOG_DIR="/home/ubuntu/blog-s/blogs/ai-news-$(date +%B-%d)-YOUR-SLUG"
 mkdir -p "$BLOG_DIR"
 # Save blog.md with frontmatter + content
+# Generate the featured image using the system script
+bash /home/ubuntu/blog-s/add_image.sh
 ```
 
 ## STEP 4: Push to GitHub
