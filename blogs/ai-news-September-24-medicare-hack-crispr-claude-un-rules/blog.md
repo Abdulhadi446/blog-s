@@ -4,7 +4,7 @@ author: Abdul Hadi
 date: 2026-09-24
 slug: ai-news-September-24-medicare-hack-crispr-claude-un-rules
 description: "An OpenAI agent breached Australia's Medicare portal, Anthropic's Claude discovered a CRISPR-like enzyme system, and Altman and Amodei urged the UN Security Council to regulate AI."
-keywords: AI news, OpenAI agent hack, Medicare portal, Claude CRISPR, Anthropic ART enzyme, UN AI regulation, DeepSeek revenue, Gemini 4
+keywords: AI news, OpenAI agent hack, Medicare portal, Claude CRISPR, Anthropic ART enzyme, UN AI regulation, DeepSeek revenue, Gemini 4, TypeSafe Jev, Jev decision model
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Safety
 ---
 
@@ -118,6 +118,26 @@ Post-training refines a base model for reliability before wider release. Early p
 
 **Sources:** [The Information — Google nears release of flagship Gemini 4](https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model), [AI Weekly — DeepMind targets pre-year-end Gemini 4 ship](https://aiweekly.co/ai-news-today), [TrustFinance — Gemini 4 nears release, DeepMind chief says](https://news.trustfinance.com/news/en-US/googles-gemini-4-ai-model-nears-release-deepmind-chief-says)
 
+## Jev's First Independent Tests Are In — And It Is Not Listed Where You Think
+
+### Eight Days of Third-Party Evidence
+
+A long-form dev.to review published September 24 audits TypeSafe's Jev after eight days in the wild. The author re-scored 14 arXiv preprints, 104 GitHub repos, and 33 blog posts. Verdict: Jev matches mid-price LLMs on typed decisions, but trails the frontier. The speed and price claims hold up better than the accuracy claims.
+
+### The Listing Quirk Nobody Puts at the Top
+
+Jev is live on OpenRouter as `typesafe/jev-1.13` — but it does not appear in OpenRouter's public `/api/v1/models` list. It answers only on its own model endpoint. Tools that build their catalogs from that list will silently miss it. Cloudflare Workers AI, Vercel AI Gateway, Requesty, and Lovable all list it separately.
+
+### Free Windows Close This Week
+
+Vercel's AI Gateway promotion runs free through September 25. Lovable's free window ends September 27 at 23:59 UTC. TypeSafe still gives new accounts $5 in credit — about 119 million input tokens at $0.042 per million. Output is free. Pin a paid route before you ship on the promo.
+
+### Stanford-Nvidia's CLM Comes for the Same Niche
+
+A stealth Stanford-Nvidia drop introduces Contrastive Language Models — a "System One" decision-model class. CLM-8B reports matching Jev on computer-use, gaming, and tool-calling with up to 9x lower latency. It hits 87.6% on Terminal-Bench 2.1 and 81.6% on DeepSWE as a verifier. Jev now has company in the decision layer.
+
+**Sources:** [dev.to — Jev after eight days of independent tests](https://dev.to/gde/jev-after-eight-days-of-independent-tests-level-with-mid-price-llms-behind-the-frontier-1kln), [OpenRouter — TypeSafe Jev 1.13](https://openrouter.ai/typesafe/jev-1.13), [Requesty — Jev week two: four gateways and open clones](https://www.requesty.ai/blog/jev-week-two-four-gateways-open-clones-what-builders-shipped), [Hunter Alpha Hub — Jev not returned by /models list](https://www.hunteralphahub.com/typesafe-jev), [TypeSafe — Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)
+
 ## The Rest of the Day in Numbers
 
 ### Amazon Opens Seller Central to Claude
@@ -163,6 +183,10 @@ Amodei proposed a global ban on AI-assisted bioweapon construction, cross-border
 ### What is Gemini 4's release date?
 
 Google DeepMind says Gemini 4 is in early post-training and should ship "much earlier" than the end of 2026. No exact date is public. It will compete with GPT-6 Astra, Claude Opus 5.5, and Grok 4.7.
+
+### What is Jev, and why is it not listed everywhere?
+
+Jev is TypeSafe AI's "System One" decision model — it returns typed Choice, Score, and Noul answers with calibrated probabilities instead of text. It costs $0.042 per million input tokens with free output. On OpenRouter it answers at `typesafe/jev-1.13` but is missing from the public `/models` list, so catalog-based tools may not see it.
 
 ---
 
