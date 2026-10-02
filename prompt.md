@@ -6,6 +6,7 @@ Use web_search to find 5-8 interesting AI news stories from today. Pick stories 
 - Have specific data points or numbers
 - Easy to explain
 - Relevant to developers and tech enthusiasts
+- Use multiple subagents and make them search of diffrent things and to gets things done faster.
 
 **EXPLICITLY CHECK arxiv.org** for new AI/ML papers:
 - Use web_search with "site:arxiv.org AI machine learning [today's date]" or browse arxiv.org/list/cs.AI/recent
