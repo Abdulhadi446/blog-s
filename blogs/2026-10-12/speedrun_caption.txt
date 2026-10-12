@@ -1,0 +1,10 @@
+AI models are evolving faster than we can measure, but some corporate giants are hitting a wall. 📉
+
+Today's highlights:
+- Karpathy on the LLM capability gap.
+- OpenAI's $20B revenue shock.
+- AI agents decompiling FPS games.
+- Sakana AI's recursive self-improvement.
+- Plimsoll's secure sandboxing.
+
+Read more at blogs.thetrillioniar.me! #AI #TechNews #LLM #OpenAI

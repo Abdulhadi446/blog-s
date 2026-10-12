@@ -9,4 +9,4 @@ if [ -f "requirements.txt" ]; then
   "$VENV/bin/pip" install -q -r requirements.txt
 fi
 
-"$VENV/bin/python" app.py
+exec "$VENV/bin/python" app.py
