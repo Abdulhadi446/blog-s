@@ -71,3 +71,5 @@ Verify that:
 1. `blog.md` exists in the directory.
 2. `image.png` was successfully generated.
 3. The dev.to script returned a successful URL.
+4. Read the readme in ~/blog-s/ and add the lastest blog in it.
+
