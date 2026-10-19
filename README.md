@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-19 | [AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup](https://blogs.thetrillioniar.me/blog/ai-news-October-19-agentic-ai-updates) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-19-agentic-ai-updates) |
 | 2026-10-19 | [Hybrid Agents Beat Minecraft and Slash AI Delivery Costs](https://blogs.thetrillioniar.me/blog/ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery) |
 | 2026-10-17 | [AI Frontier: Llama on PS5, Postgres Delays, and Claude's Quantum Leap](https://blogs.thetrillioniar.me/blog/ai-news-October-17-ai-frontier-updates) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-17-ai-frontier-updates) |
 | 2026-10-16 | [Frontier Pre-Training, AI Hardware Hacking, and Legal Precedents](https://blogs.thetrillioniar.me/blog/ai-news-October-16-frontier-hardware-legal) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-16-frontier-hardware-legal) |
