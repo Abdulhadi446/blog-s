@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-19 | [Hybrid Agents Beat Minecraft and Slash AI Delivery Costs](https://blogs.thetrillioniar.me/blog/ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery) |
 | 2026-10-17 | [AI Frontier: Llama on PS5, Postgres Delays, and Claude's Quantum Leap](https://blogs.thetrillioniar.me/blog/ai-news-October-17-ai-frontier-updates) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-17-ai-frontier-updates) |
 | 2026-10-16 | [Frontier Pre-Training, AI Hardware Hacking, and Legal Precedents](https://blogs.thetrillioniar.me/blog/ai-news-October-16-frontier-hardware-legal) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-16-frontier-hardware-legal) |
 | 2026-10-15 | [EU Opens First AI Act Probes, GPT-5.6 Chains Chrome Zero-Days in 6 Days, and the AI Debt Wall](https://blogs.thetrillioniar.me/blog/ai-news-October-15-ai-act-chrome-zero-day-ai-debt) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-15-ai-act-chrome-zero-day-ai-debt) |
