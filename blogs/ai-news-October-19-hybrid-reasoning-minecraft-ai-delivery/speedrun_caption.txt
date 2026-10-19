@@ -1,0 +1,5 @@
+AI agents just beat Minecraft solo — four Gemini 4 Argon agents wrote 2,783 programs and defeated the Ender Dragon in 27 hours 14 minutes after 605 deaths. Plus: hybrid reasoning cuts AI costs up to 80%, MLExpert raises MLE medal rate to 72.7%, and DeepMind SIMA 2 learns in virtual worlds.
+
+Full breakdown with links: https://blogs.thetrillioniar.me/blog/ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery
+
+#AI #AINews #Agents #Minecraft #Gemini #HybridReasoning #MLExpert #DeepMind #TechNews
