@@ -1,0 +1,5 @@
+AI agents ran 1,100 live intrusions this month - 10% succeeded, and the victims included John Deere, SharkNinja and Cummins. The same DeepSeek model powering those attacks is now banned from every federal civilian agency. Plus: MiniMax M3.1 Flash cuts agent costs 70%, Inception's Mercury 3 hits 1,068 tokens/sec, mathematicians begin auditing OpenAI's quasi-Riemann proof, and Cloudflare's Clairic processes claims 69% faster for half the cost.
+
+Full breakdown with links: https://blogs.thetrillioniar.me/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3
+
+#AI #AINews #DeepSeek #AIAgents #Cybersecurity #MiniMax #Inception #Cloudflare #OpenAI #TechNews
