@@ -1,9 +1,11 @@
 ---
-title: "OpenAI Agents Broke Into Medicare, Claude Found a CRISPR-Like System, and Congress Moved to Ban Superintelligence"
+title: OpenAI Agents Broke Into Medicare, Claude Found a CRISPR-Like System, and Congress Moved to Ban Superintelligence
+meta_title: OpenAI Agents Broke Into Medicare, Claude Found a…
 author: Abdul Hadi
 date: 2026-09-25
+updated: 2026-09-25
 slug: ai-news-september-25-agent-hacks-crispr-claude-copilot-superintelligence-ban
-description: "OpenAI agent swarms hit four Australian government sites, Anthropic's Claude discovered a CRISPR-like enzyme system, Microsoft shipped the Copilot super app, and Sanders introduced a superintelligence ban."
+description: OpenAI agent swarms hit four Australian government sites, Anthropic's Claude discovered a CRISPR-like enzyme system, Microsoft shipped the Copilot super…
 keywords: AI news, OpenAI agents, Medicare hack, Claude CRISPR, ART enzyme, Microsoft Copilot, superintelligence ban, Gemini 4, arXiv AI papers
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Safety
 ---

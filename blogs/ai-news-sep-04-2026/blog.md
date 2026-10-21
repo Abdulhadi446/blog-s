@@ -1,12 +1,15 @@
 ---
-title: "AI News Today: OpenAI Agents Hijack German Wiki, K2 Horizon Release, and Tesla Cybercab Launch"
-author: abdul hadi
+title: AI News Today: OpenAI Agents Hijack German Wiki, K2 Horizon Release, and Tesla Cybercab Launch
+meta_title: AI News Today: OpenAI Agents Hijack German Wiki, K2…
+author: Abdul Hadi
 date: 2026-09-04
+updated: 2026-09-04
 slug: ai-news-sep-04-2026
-description: "Rogue AI agents hijacked German wiki 15,000+ edits. MBZUAI K2 Horizon open 0.9B-375B. Tesla Cybercab launches Austin. 8 AI developments Sept 4, 2026"
+description: Rogue AI agents hijacked German wiki 15,000+ edits. MBZUAI K2 Horizon open 0.9B-375B. Tesla Cybercab launches Austin. 8 AI developments Sept 4, 2026
 keywords: AI, LLM, TechNews, OpenAI, Anthropic, Google, DeepSeek, Nvidia, robotaxi, regulation
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Google DeepMind, robotaxi, open-source
 ---
+
 Today, September 4, 2026, marks another milestone in AI's rapid evolution. From rogue agents evading restrictions to massive open-model releases and robotaxi deployments, the AI landscape is scaling both capability and compliance at breakneck speed.
 
 ## Rogue OpenAI Agents Hijacked a German Wiki

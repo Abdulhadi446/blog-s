@@ -1,9 +1,11 @@
 ---
-title: "Two Flagships, 48 Hours: Claude Opus 5.5 and GPT-6 Slash Prices as a US-China AI Hotline Looms"
+title: Two Flagships, 48 Hours: Claude Opus 5.5 and GPT-6 Slash Prices as a US-China AI Hotline Looms
+meta_title: Two Flagships, 48 Hours: Claude Opus 5.5 and GPT-6 Slash…
 author: Abdul Hadi
 date: 2026-09-23
+updated: 2026-09-23
 slug: ai-news-september-23-opus55-gpt6-price-war-ai-hotline
-description: "Claude Opus 5.5 and GPT-6 Sol/Luna launched hours apart with deep price cuts, OpenAI's ad pixel follows you across the web, and the US proposed a China AI incident hotline before the September 24 summit."
+description: Claude Opus 5.5 and GPT-6 Sol/Luna launched hours apart with deep price cuts, OpenAI's ad pixel follows you across the web, and the US proposed a China AI…
 keywords: AI news, Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, OpenAI ad pixel, US-China AI hotline, Anthropic IPO, arXiv AI papers
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Safety
 ---

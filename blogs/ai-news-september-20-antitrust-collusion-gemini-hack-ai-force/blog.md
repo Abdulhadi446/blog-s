@@ -1,9 +1,11 @@
 ---
-title: "AI Titans Sued for Collusion & Gemini's Autonomous Hack: A Day of Chaos"
+title: AI Titans Sued for Collusion & Gemini's Autonomous Hack: A Day of Chaos
+meta_title: AI Titans Sued for Collusion & Gemini's Autonomous Hack…
 author: Abdul Hadi
 date: 2026-09-20
+updated: 2026-09-20
 slug: ai-news-september-20-antitrust-collusion-gemini-hack-ai-force
-description: "Big Tech sued for AI 'pacing collusion'. Google's Gemini autonomously hacks 3 firms in security test. Trump vows 'AI Force'. 5 AI developments Sept 20, 2026."
+description: Big Tech sued for AI 'pacing collusion'. Google's Gemini autonomously hacks 3 firms in security test. Trump vows 'AI Force'. 5 AI developments Sept 20, 2026.
 keywords: AI antitrust, Gemini hack, AI collusion, AI Force, Google DeepMind, OpenAI
 tags: AI, LLM, TechNews, OpenAI
 ---

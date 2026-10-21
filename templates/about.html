@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}About — {{ seo.site_name }}{% endblock %}
+{% block meta_description %}About {{ seo.site_name }}: who writes it, what it covers, and how to get in touch.{% endblock %}
+{% block og_title %}About — {{ seo.site_name }}{% endblock %}
+{% block og_description %}About {{ seo.site_name }}: who writes it, what it covers, and how to get in touch.{% endblock %}
+{% block og_type %}website{% endblock %}
+{% block twitter_title %}About — {{ seo.site_name }}{% endblock %}
+{% block twitter_description %}About {{ seo.site_name }}: who writes it, what it covers, and how to get in touch.{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About {{ seo.site_name }}",
+  "url": "{{ request.url_root.rstrip('/') }}/about",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Abdul Hadi",
+    "url": "{{ request.url_root.rstrip('/') }}/about"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ seo.site_url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "{{ request.url_root.rstrip('/') }}/about" }
+  ]
+}
+</script>
+<style>
+  .about-page { padding: 3rem 0 4rem; }
+  .about-page .container { max-width: 720px; }
+  .about-page h1 { font-family: var(--display); font-weight: 800; font-size: 2.2rem; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+  .about-page p { font-size: 0.95rem; line-height: 1.8; color: var(--text2); margin-bottom: 1rem; }
+  .about-page h2 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; margin: 2rem 0 0.75rem; }
+  .about-page a { color: var(--accent); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="about-page">
+  <div class="container">
+    <nav style="font-family:var(--mono);font-size:0.7rem;color:var(--text3);margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.06em;">
+      <a href="{{ url_for('index') }}" style="color:var(--text3);">Home</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">About</span>
+    </nav>
+    <h1>About {{ seo.site_name }}</h1>
+    <p>{{ seo.site_name }} is a blog about artificial intelligence, developer tools, and the technology shaping how software gets built. Posts are written and curated by Abdul Hadi.</p>
+    <h2>Author</h2>
+    <p>Abdul Hadi writes about AI engineering, model releases, and the practical side of building with large language models. You can reach out via the main site at <a href="https://thetrillioniar.me">thetrillioniar.me</a>.</p>
+    <h2>What you will find here</h2>
+    <ul style="padding-left:1.5rem;color:var(--text2);line-height:1.8;">
+      <li>Daily roundups of AI news and model releases</li>
+      <li>Analysis of AI safety, policy, and industry trends</li>
+      <li>Notes on developer tools, APIs, and infrastructure</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>Questions or corrections? Visit <a href="https://thetrillioniar.me">thetrillioniar.me</a> or open an issue on <a href="https://github.com/Abdulhadi446/blog-s">GitHub</a>.</p>
+  </div>
+</div>
+{% endblock %}

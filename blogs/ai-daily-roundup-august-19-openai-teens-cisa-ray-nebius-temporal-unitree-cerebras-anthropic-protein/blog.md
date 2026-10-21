@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch Deadline, Nebius $4.5B Notes, Temporal $12B Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories"
-author: abdul hadi
+title: AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for Teens, CISA Ray RCE Patch Deadline, Nebius $4.5B Notes, Temporal $12B Valuation, Unitree 629% IPO Pop, Cerebras CS-4 30x Speed, Anthropic Protein Binders, 18 Stories
+meta_title: AI Daily Roundup – August 19, 2026: OpenAI ChatGPT for…
+author: Abdul Hadi
 date: 2026-08-19
+updated: 2026-08-19
 slug: ai-daily-roundup-august-19-openai-teens-cisa-ray-nebius-temporal-unitree-cerebras-anthropic-protein
-description: "OpenAI ChatGPT for Teens, CISA 3-day Ray patch, Nebius $4.5B notes, Temporal $12B+, Unitree 629% IPO, Cerebras 30x, Anthropic 14/15 proteins, 18 stories."
+description: OpenAI ChatGPT for Teens, CISA 3-day Ray patch, Nebius $4.5B notes, Temporal $12B+, Unitree 629% IPO, Cerebras 30x, Anthropic 14/15 proteins, 18 stories.
 keywords: OpenAI ChatGPT Teens, CISA Ray RCE vulnerability, Nebius convertible notes, Temporal AI valuation, Unitree Robotics IPO, Cerebras CS-4, Anthropic protein binders, AI data center backlash, tech layoffs 2026
 tags: AI, LLM, AI Safety, AI Industry, Semiconductors, Venture Capital, Biotechnology, Regulation
 ---
 
-# AI Daily Roundup – August 19, 2026
+## AI Daily Roundup – August 19, 2026
 
 The AI ecosystem delivered another dense day of product launches, security emergencies, capital markets moves, and research breakthroughs on August 19. OpenAI launched a teen-specific ChatGPT with parental controls, CISA gave federal agencies three days to patch a critical Ray framework vulnerability, Nebius tapped the bond market for $4.5 billion, Temporal doubled its valuation to $12 billion, Unitree Robotics posted a 629% first-day IPO surge, Cerebras unveiled a 30x-faster inference rack, and Anthropic demonstrated protein binder design at double the industry success rate. Below are the 18 most significant stories shaping AI today.
 

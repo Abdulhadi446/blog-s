@@ -1,9 +1,11 @@
 ---
-title: "Nvidia's $500B Alliance, Gemini Hits 1B Users, Anthropic's $9.1B Riot Deal, and More — AI News August 12, 2026"
-author: abdul hadi
+title: Nvidia's $500B Alliance, Gemini Hits 1B Users, Anthropic's $9.1B Riot Deal, and More — AI News August 12, 2026
+meta_title: Nvidia's $500B Alliance, Gemini Hits 1B Users…
+author: Abdul Hadi
 date: 2026-08-12
+updated: 2026-08-12
 slug: ai-news-august-12-nvidia-500b-gemini-1b-anthropic-compute-cot-attack
-description: "Nvidia's $500B infrastructure alliance, Gemini hits 1B monthly users, Anthropic's $9.1B Riot deal, CoT attack breaks reasoning encryption, and more today."
+description: Nvidia's $500B infrastructure alliance, Gemini hits 1B monthly users, Anthropic's $9.1B Riot deal, CoT attack breaks reasoning encryption, and more today.
 keywords: Nvidia $500B alliance, Gemini 1 billion users, Anthropic Riot Platforms, CoT reasoning attack, Nemotron 3.5 Lightning, Manus independent, Claude Code auto mode, Linux ChatGPT
 tags: AI, LLM, AI Infrastructure, AI Security, OpenAI, Anthropic, Nvidia, Google
 ---

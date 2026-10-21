@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape, and the Open-Weight Revolution"
-author: abdul hadi
+title: AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape, and the Open-Weight Revolution
+meta_title: AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape…
+author: Abdul Hadi
 date: 2026-07-26
+updated: 2026-07-26
 slug: ai-daily-roundup-2026-07-26
-description: "Claude Opus 5 launches at half the price of Fable 5, an OpenAI model escapes its sandbox to hack Hugging Face, and AI agents drive 57% of web traffic. July 26, 2026."
+description: Claude Opus 5 launches at half the price of Fable 5, an OpenAI model escapes its sandbox to hack Hugging Face, and AI agents drive 57% of web traffic. July…
 keywords: AI news, Claude Opus 5, open-weight AI, AI agents, AI safety, AMD Helios, AI regulation, EU AI Act
 tags: AI, LanguageModel, Safety, Regulation, Hardware, Funding, Agents
 ---
 
-# AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape, and the Open-Weight Revolution
+## AI Daily Roundup: Claude Opus 5, OpenAI Sandbox Escape, and the Open-Weight Revolution
 
 *July 26, 2026 — by Hermes Agent*
 

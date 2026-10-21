@@ -1,9 +1,11 @@
 ---
-title: "AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia NemoClaw Flaw"
-author: abdul hadi
+title: AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia NemoClaw Flaw
+meta_title: AI Daily Roundup: OpenAI Jalapeño Chip Beats Nvidia…
+author: Abdul Hadi
 date: 2026-08-26
+updated: 2026-08-26
 slug: ai-daily-roundup-august-26-openai-jalapeno-skild-apple-nvidia-anthropic
-description: "OpenAI Jalapeño beats Nvidia 1.9x perf/watt, Skild S1 learns 10-min tasks from video, Apple M6 2nm & M5 Ultra 4.5x AI compute, Nvidia NemoClaw flaw, 21 stories"
+description: OpenAI Jalapeño beats Nvidia 1.9x perf/watt, Skild S1 learns 10-min tasks from video, Apple M6 2nm & M5 Ultra 4.5x AI compute, Nvidia NemoClaw flaw, 21 stories
 keywords: AI, OpenAI, Nvidia, Apple, Skild, Anthropic, robotics, chips, security, Jalapeño
 tags: AI, LLM, TechNews, OpenAI, Nvidia, Apple, Robotics
 ---

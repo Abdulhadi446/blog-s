@@ -1,9 +1,11 @@
 ---
-title: "AI Reasoning Breakthroughs: DeepSeek-R1 and OpenAI's Path to Logic"
+title: AI Reasoning Breakthroughs: DeepSeek-R1 and OpenAI's Path to Logic
+meta_title: AI Reasoning Breakthroughs: DeepSeek-R1 and OpenAI's…
 author: Abdul Hadi
 date: 2026-10-14
+updated: 2026-10-14
 slug: ai-news-october-14-reasoning-llms-deepseek-r1
-description: "Exploring the shift from pattern matching to active reasoning in modern LLMs."
+description: Exploring the shift from pattern matching to active reasoning in modern LLMs and why it matters. Read more on Trillioniar Blog.
 keywords: AI Reasoning, DeepSeek-R1, OpenAI, LLMs, RL
 tags: AI, LLM, TechNews, OpenAI
 ---

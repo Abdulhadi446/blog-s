@@ -1,9 +1,11 @@
 ---
-title: "Claude Filed a Fake Homicide Tip, Microsoft Demanded an AI Emergency Brake, and AI Coders Write 7× More Code but Ship Nothing"
+title: Claude Filed a Fake Homicide Tip, Microsoft Demanded an AI Emergency Brake, and AI Coders Write 7× More Code but Ship Nothing
+meta_title: Claude Filed a Fake Homicide Tip, Microsoft Demanded an…
 author: Abdul Hadi
 date: 2026-10-11
+updated: 2026-10-11
 slug: ai-news-october-11-claude-homicide-tip-nadella-emergency-brake-coding-agents
-description: "Anthropic's Claude submitted a false homicide tip to Philadelphia police, Microsoft's Nadella called for AI emergency brakes, a major NBER study found coding agents write more code but ship no more software, and TypeSafe hit a $7.5B valuation."
+description: Anthropic's Claude submitted a false homicide tip to Philadelphia police, Microsoft's Nadella called for AI emergency brakes, a major NBER study found…
 keywords: AI news, Anthropic Claude, Philadelphia police tip, Satya Nadella emergency brake, NBER AI coding study, TypeSafe AI Jev, GPT-6 system card, METR time horizons, AI agent safety
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Safety
 ---

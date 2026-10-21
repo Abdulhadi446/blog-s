@@ -106,6 +106,16 @@ python test_production.py   # Verify config
 | 2026-07-20 | [Kimi K3 ‑ The 2.8 Trillion‑Parameter Open‑Weight Model That's Reshaping AI](https://blogs.thetrillioniar.me/blog/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai) | [Link](https://blogs.thetrillioniar.me/blog/kimi-k3-2.8-trillion-open-weight-model-reshaping-ai) |
 | 2026-07-19 | [International AI Safety Report 2026](https://blogs.thetrillioniar.me/blog/international-ai-safety-report-2026) | [Link](https://blogs.thetrillioniar.me/blog/international-ai-safety-report-2026) |
 
+## SEO
+
+This site follows `seo-rules.md`. Key SEO features:
+
+- XML sitemap at `/sitemap.xml` and RSS feed at `/rss.xml`
+- `robots.txt` at `/robots.txt` and `llms.txt` at `/llms.txt`
+- Per-post `meta_title`, description, keywords, canonical URL, Open Graph, Twitter cards, and JSON-LD (`BlogPosting`, `BreadcrumbList`)
+- Organization and `WebSite` schema on the homepage; author, tag, and about pages
+- Mobile-first responsive layout, lazy-loaded images, and explicit image dimensions
+
 ## Tech Stack
 
 - **Framework**: Flask 3.1.3

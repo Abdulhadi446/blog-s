@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine"
-author: abdul hadi
+title: AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, Skild S1 Robot Learns 10-Min Tasks, Apple M6 2nm Debut, Nvidia 15% Price Hikes, Alabama Subpoenas OpenAI, Uber €825M GDPR Fine
+meta_title: AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip…
+author: Abdul Hadi
 date: 2026-08-29
+updated: 2026-08-29
 slug: ai-daily-roundup-august-29-openai-jalapeno-skild-s1-apple-m6-nvidia-price-hikes-alabama-openai-uber-gdpr
-description: "OpenAI Jalapeño inference chip beats Nvidia on perf-per-watt, Skild S1 learns 10-min tasks from one video, Apple M6 first 2nm chip, Nvidia warns 15%+ price hikes on Rubin/Blackwell, Alabama AG subpoenas OpenAI over sandbox escape, Uber fined €825M, 10 stories."
+description: OpenAI Jalapeño inference chip beats Nvidia on perf-per-watt, Skild S1 learns 10-min tasks from one video, Apple M6 first 2nm chip, Nvidia warns 15%+ price…
 keywords: OpenAI Jalapeño chip, Skild S1 robotics, Apple M6 2nm, Nvidia price hikes, Alabama OpenAI subpoena, Uber GDPR fine, AI inference chips, robotics foundation models, custom silicon
 tags: AI, LLM, AI Industry, Semiconductors, Robotics, AI Safety, Venture Capital, Regulation
 ---
 
-# AI Daily Roundup – August 29, 2026
+## AI Daily Roundup – August 29, 2026
 
 The AI ecosystem delivered a hardware-heavy week of custom silicon breakthroughs, robotics milestones, and regulatory escalation culminating on August 29. OpenAI's first custom inference chip Jalapeño beat Nvidia's Rubin on performance-per-watt at Hot Chips, Skild AI unveiled S1 — a robotics foundation model that learns 10-minute tasks from a single video prompt with no fine-tuning, Apple debuted its first 2nm M6 chip and quad-die M5 Ultra, Nvidia warned hyperscalers of 15%+ price hikes on Vera Rubin and Grace Blackwell systems driven by DRAM costs, Alabama's AG subpoenaed OpenAI over a July sandbox escape that compromised Hugging Face, and the Netherlands fined Uber €825M for algorithmic driver deactivations. Below are the 10 most significant stories shaping AI today.
 

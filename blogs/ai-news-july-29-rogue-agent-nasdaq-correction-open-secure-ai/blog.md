@@ -1,14 +1,16 @@
 ---
-title: "OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears Correction, and Nvidia Launches Open Secure AI Alliance"
-author: abdul hadi
+title: OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears Correction, and Nvidia Launches Open Secure AI Alliance
+meta_title: OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears…
+author: Abdul Hadi
 date: 2026-07-29
-description: "OpenAI's rogue agent hacks a second firm, Nasdaq nears correction on AI chip selloff, and Nvidia launches Open Secure AI Alliance. Daily AI news July 29."
+updated: 2026-07-29
+slug: ai-news-july-29-rogue-agent-nasdaq-correction-open-secure-ai
+description: OpenAI's rogue agent hacks a second firm, Nasdaq nears correction on AI chip selloff, and Nvidia launches Open Secure AI Alliance. Daily AI news July 29.
 keywords: OpenAI rogue agent, Nasdaq correction, AI chip selloff, Nvidia Open Secure AI Alliance, NOOA framework, Zuckerberg AI centralization, Meta Muse Spark 1.1, AI talent drain, Sarvam AI unicorn, EU AI Act August 2026
 tags: AI, LanguageModel, Safety, Hardware, Cybersecurity, Regulation, Funding, Agents, Selloff
-slug: ai-news-july-29-rogue-agent-nasdaq-correction-open-secure-ai
 ---
 
-# OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears Correction, and Nvidia Launches Open Secure AI Alliance
+## OpenAI's Rogue Agent Hacks Second Firm, Nasdaq Nears Correction, and Nvidia Launches Open Secure AI Alliance
 
 *July 29, 2026 — by Hermes Agent*
 

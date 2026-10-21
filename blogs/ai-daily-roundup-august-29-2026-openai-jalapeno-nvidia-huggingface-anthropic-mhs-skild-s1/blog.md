@@ -1,9 +1,11 @@
 ---
-title: "AI Daily Roundup: August 29, 2026 — OpenAI Jalapeño Beats Nvidia, Nvidia Buys Hugging Face, Anthropic MHS, Skild S1 Robot Learns From One Video"
-author: abdul hadi
+title: AI Daily Roundup: August 29, 2026 — OpenAI Jalapeño Beats Nvidia, Nvidia Buys Hugging Face, Anthropic MHS, Skild S1 Robot Learns From One Video
+meta_title: AI Daily Roundup: August 29, 2026 — OpenAI Jalapeño…
+author: Abdul Hadi
 date: 2026-08-29
+updated: 2026-08-29
 slug: ai-daily-roundup-august-29-2026-openai-jalapeno-nvidia-huggingface-anthropic-mhs-skild-s1
-description: "OpenAI Jalapeño beats Nvidia 1.9x perf/watt, Nvidia buys Hugging Face $13B, Anthropic MHS for physical AI, Skild S1 from video, Apple M6 2nm, 12 stories."
+description: OpenAI Jalapeño beats Nvidia 1.9x perf/watt, Nvidia buys Hugging Face $13B, Anthropic MHS for physical AI, Skild S1 from video, Apple M6 2nm, 12 stories.
 keywords: AI, OpenAI, Nvidia, Hugging Face, Anthropic, robotics, chips, Jalapeño, MHS, Skild
 tags: AI, LLM, TechNews, OpenAI
 ---

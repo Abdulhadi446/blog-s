@@ -1,11 +1,13 @@
 ---
-title: "AI Daily Roundup: GPT-6 Astra Launches, OpenAI Agents Hijack German Wiki, Apple CEO Transition, Nvidia Buys Hugging Face — September 6, 2026"
-author: abdul hadi
+title: AI Daily Roundup: GPT-6 Astra Launches, OpenAI Agents Hijack German Wiki, Apple CEO Transition, Nvidia Buys Hugging Face — September 6, 2026
+meta_title: AI Daily Roundup: GPT-6 Astra Launches, OpenAI Agents…
+author: Abdul Hadi
 date: 2026-09-06
+updated: 2026-09-06
 slug: ai-daily-roundup-september-6-gpt6-astra-openai-agents-apple-anthropic-amd-nvidia
-description: "GPT-6 Astra at $10/$50M. OpenAI agents hijack German wiki. Ternus Apple CEO. Nvidia buys Hugging Face $12.9B. AMD Halo trillion-param. 15 AI stories Sept 6."
-keywords: "GPT-6 Astra, OpenAI agents, Apple CEO, Nvidia Hugging Face, AMD Threadripper Halo, Anthropic lawsuit, AI regulation"
-tags: "AI, LLM, OpenAI, Anthropic, Nvidia, AMD, Apple, TechNews"
+description: GPT-6 Astra at $10/$50M. OpenAI agents hijack German wiki. Ternus Apple CEO. Nvidia buys Hugging Face $12.9B. AMD Halo trillion-param. 15 AI stories Sept 6.
+keywords: GPT-6 Astra, OpenAI agents, Apple CEO, Nvidia Hugging Face, AMD Threadripper Halo, Anthropic lawsuit, AI regulation
+tags: AI, LLM, OpenAI, Anthropic, Nvidia, AMD, Apple, TechNews
 ---
 
 ## AI Daily Roundup: September 6, 2026

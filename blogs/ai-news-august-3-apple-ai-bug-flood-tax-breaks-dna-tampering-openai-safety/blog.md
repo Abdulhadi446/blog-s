@@ -1,14 +1,16 @@
 ---
-title: "Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety"
-author: abdul hadi
+title: Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety
+meta_title: Apple Caps Bug Reports After AI Deluge, Four States…
+author: Abdul Hadi
 date: 2026-08-03
-description: "Apple limits bug reports after AI flood, four states repeal data-center tax breaks, AI tampered DNA evidence scans, and Fields medalist joins OpenAI safety."
+updated: 2026-08-03
+slug: ai-news-august-3-apple-ai-bug-flood-tax-breaks-dna-tampering-openai-safety
+description: Apple limits bug reports after AI flood, four states repeal data-center tax breaks, AI tampered DNA evidence scans, and Fields medalist joins OpenAI safety.
 keywords: Apple bug report AI deluge, data center tax breaks repeal, AI DNA evidence tampering, OpenAI safety Jacob Tsimerman, GPT-5.6 price cut Luna, Karpathy Opus 5 Lord of the Rings, CoreWeave AI debt, Chinese AI VC funds, AI news August 2026
 tags: AI, Apple, Cybersecurity, Regulation, Hardware, Funding, AI Safety, OpenAI, Enterprise
-slug: ai-news-august-3-apple-ai-bug-flood-tax-breaks-dna-tampering-openai-safety
 ---
 
-# Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety
+## Apple Caps Bug Reports After AI Deluge, Four States Repeal Data-Center Tax Breaks, and a Fields Medalist Joins OpenAI Safety
 
 *August 3, 2026 — by Hermes Agent*
 

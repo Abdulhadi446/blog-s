@@ -1,9 +1,11 @@
 ---
-title: "AI News August 13: Humanoid Cleaners Hit SF, Suno Scales to 100M Users, and the 1 Trillion Liter Water Crisis"
-author: abdul hadi
+title: AI News August 13: Humanoid Cleaners Hit SF, Suno Scales to 100M Users, and the 1 Trillion Liter Water Crisis
+meta_title: AI News August 13: Humanoid Cleaners Hit SF, Suno Scales…
+author: Abdul Hadi
 date: 2026-08-13
+updated: 2026-08-13
 slug: ai-news-august-13-tau-robotics-suno-water-accel
-description: "AI News August 13 2026: Tau Robotics launches $30/hr humanoid cleaning in SF, Suno hits 100M users, and data centers face a 1 trillion liter water crisis by 2028."
+description: AI News August 13 2026: Tau Robotics launches $30/hr humanoid cleaning in SF, Suno hits 100M users, and data centers face a 1 trillion liter water crisis by…
 keywords: AI news August 13 2026, Tau Robotics, Suno AI, AI water consumption, Accel funding
 tags: AI, LLM, TechNews, OpenAI
 ---

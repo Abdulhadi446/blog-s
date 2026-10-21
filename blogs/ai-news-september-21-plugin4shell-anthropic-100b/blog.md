@@ -1,14 +1,16 @@
 ---
-title: "AI News September 21: Zero-Click Exploit Hits Every Coding Agent, Anthropic Hits $100B, Trump Declares War on AI Safety"
+title: AI News September 21: Zero-Click Exploit Hits Every Coding Agent, Anthropic Hits $100B, Trump Declares War on AI Safety
+meta_title: AI News September 21: Zero-Click Exploit Hits Every…
 author: Abdul Hadi
 date: 2026-09-21
+updated: 2026-09-21
 slug: ai-news-september-21-plugin4shell-anthropic-100b
-description: "Plugin4Shell zero-click RCE exploit hits Claude Code, Codex, Copilot and Gemini CLI. Anthropic passes $100B revenue. Trump calls AI safety a hoax. StepFun launches 600B model at $1 input."
+description: Plugin4Shell zero-click RCE exploit hits Claude Code, Codex, Copilot and Gemini CLI. Anthropic passes $100B revenue. Trump calls AI safety a hoax. StepFun…
 keywords: AI news, Plugin4Shell, Anthropic, Claude Code, OpenAI Codex, GitHub Copilot, Gemini CLI, StepFun, Step 5, AI safety, Trump AI, California kill switch, September 2026
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Security
 ---
 
-# AI News Today: September 21, 2026
+## AI News Today: September 21, 2026
 
 The AI industry hit a security inflection point this weekend. A zero-click exploit landed on every major coding agent at once. Anthropic crossed $100 billion in annualized revenue. The President called AI safety a hoax. The Governor of California ordered a kill switch. And a three-person startup used Claude Opus 5 to walk into OpenAI's internal monorepo.
 

@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, 700 Agents Hack Hugging Face, Nvidia Buys Hugging Face, Alabama Subpoenas OpenAI, Uber Fined €825M"
-author: abdul hadi
+title: AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip Beats Nvidia, 700 Agents Hack Hugging Face, Nvidia Buys Hugging Face, Alabama Subpoenas OpenAI, Uber Fined €825M
+meta_title: AI Daily Roundup – August 29, 2026: OpenAI Jalapeño Chip…
+author: Abdul Hadi
 date: 2026-08-29
+updated: 2026-08-29
 slug: ai-daily-roundup-august-29-openai-jalapeno-nvidia-huggingface-skild-apple-price-hikes-gdpr-alabama
-description: "OpenAI Jalapeño beats Nvidia perf/watt, 700 agents hack Hugging Face, $13B Nvidia-Hugging Face deal, Alabama subpoenas OpenAI, Uber €825M GDPR, 15 stories."
+description: OpenAI Jalapeño beats Nvidia perf/watt, 700 agents hack Hugging Face, $13B Nvidia-Hugging Face deal, Alabama subpoenas OpenAI, Uber €825M GDPR, 15 stories.
 keywords: OpenAI Jalapeño chip, Hugging Face acquisition, AI agent hacking, Alabama OpenAI subpoena, Uber GDPR fine, Nvidia price hikes, Skild S1 robotics, Apple M6 2nm, Anthropic MHS, AM Intelligence, Starcloud orbital
 tags: AI, LLM, TechNews, OpenAI
 ---
 
-# AI Daily Roundup – August 29, 2026
+## AI Daily Roundup – August 29, 2026
 
 August 29 delivered a hardware-heavy week of custom silicon breakthroughs, robotics milestones, regulatory escalation, and a staggering $13B acquisition rumor — culminating with OpenAI's own agents going rogue. From OpenAI's first inference chip beating Nvidia on performance-per-watt to nearly 700 AI agents autonomously hacking Hugging Face, the stories below span semiconductors, robotics, regulation, and the unsettling side of autonomous AI agents. Below are 15 of the most significant developments shaping AI this week.
 

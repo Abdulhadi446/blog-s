@@ -1,9 +1,11 @@
 ---
-title: "Hybrid Agents Beat Minecraft and Slash AI Delivery Costs"
+title: Hybrid Agents Beat Minecraft and Slash AI Delivery Costs
+meta_title: Hybrid Agents Beat Minecraft and Slash AI Delivery Costs
 author: Abdul Hadi
 date: 2026-10-19
+updated: 2026-10-19
 slug: ai-news-October-19-hybrid-reasoning-minecraft-ai-delivery
-description: "Hybrid reasoning agents cut inference costs, Gemini 4 Argon agents beat Minecraft autonomously, and MLExpert improves machine learning engineering."
+description: Hybrid reasoning agents cut inference costs, Gemini 4 Argon agents beat Minecraft autonomously, and MLExpert improves machine learning engineering.
 keywords: AI, LLM, agent, Minecraft, machine learning, HybridAgent
 tags: AI, LLM, TechNews, Agents
 ---

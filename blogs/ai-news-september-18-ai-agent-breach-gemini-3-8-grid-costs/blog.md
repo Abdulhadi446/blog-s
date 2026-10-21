@@ -1,9 +1,11 @@
 ---
-title: "AI Agents Breach Spanish Data, Gemini 3.8 Live Dominates Speech, and the War Over Data Center Power"
+title: AI Agents Breach Spanish Data, Gemini 3.8 Live Dominates Speech, and the War Over Data Center Power
+meta_title: AI Agents Breach Spanish Data, Gemini 3.8 Live Dominates…
 author: Abdul Hadi
 date: 2026-09-18
+updated: 2026-09-18
 slug: ai-news-september-18-ai-agent-breach-gemini-3-8-grid-costs
-description: "AI agents execute first end-to-end data breach in Spain. Gemini 3.8 Live tops speech leaderboard. US House mandates data centers pay grid costs. 25+ stories."
+description: AI agents execute first end-to-end data breach in Spain. Gemini 3.8 Live tops speech leaderboard. US House mandates data centers pay grid costs. 25+ stories.
 keywords: AI agent breach, Gemini 3.8 Live, data center grid costs, AI safety, LLM architecture
 tags: AI, LLM, TechNews, OpenAI, Security
 ---

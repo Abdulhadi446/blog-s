@@ -1,11 +1,13 @@
 ---
-title: "AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits $6.5B, SpaceX Chases Cognition, Grok 4.6 on AWS, Cursor Ships Subagents"
-author: abdul hadi
+title: AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits $6.5B, SpaceX Chases Cognition, Grok 4.6 on AWS, Cursor Ships Subagents
+meta_title: AI Daily Roundup: Unitree IPO Soars 629%, Fractile Hits…
+author: Abdul Hadi
 date: 2026-08-21
+updated: 2026-08-21
 slug: ai-news-august-21-unitree-fractile-spacex-grok-cursor
-description: "Unitree's 629% IPO pop, Fractile's $6.5B Anthropic chip deal, SpaceX's Cognition pursuit, Grok 4.6 on AWS Bedrock, Cursor's event-driven agents — 18 stories."
-keywords: "AI news, Unitree Robotics, Fractile, SpaceX, Grok 4.6, Cursor, Anthropic, Nvidia, OpenAI"
-tags: "AI, LLM, Robotics, Chips, OpenAI, Anthropic, Google, xAI"
+description: Unitree's 629% IPO pop, Fractile's $6.5B Anthropic chip deal, SpaceX's Cognition pursuit, Grok 4.6 on AWS Bedrock, Cursor's event-driven agents — 18 stories.
+keywords: AI news, Unitree Robotics, Fractile, SpaceX, Grok 4.6, Cursor, Anthropic, Nvidia, OpenAI
+tags: AI, LLM, Robotics, Chips, OpenAI, Anthropic, Google, xAI
 ---
 
 ## Opening Summary

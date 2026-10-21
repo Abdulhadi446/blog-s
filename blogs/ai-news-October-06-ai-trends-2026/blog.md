@@ -1,9 +1,11 @@
 ---
-title: "ChatGPT Signature Scandals and $40B Valuations: AI News Roundup"
+title: ChatGPT Signature Scandals and $40B Valuations: AI News Roundup
+meta_title: ChatGPT Signature Scandals and $40B Valuations: AI News…
 author: Abdul Hadi
 date: 2026-10-06
+updated: 2026-10-06
 slug: ai-news-october-06-trends
-description: "From ChatGPT's controversial artist signatures to Etched's staggering $40B valuation, we dive into today's most shocking AI updates."
+description: From ChatGPT's controversial artist signatures to Etched's staggering $40B valuation, we dive into today's most shocking AI updates.
 keywords: AI News, ChatGPT, Etched AI, OpenAI Ads, AI Ethics
 tags: AI, LLM, TechNews, OpenAI
 ---

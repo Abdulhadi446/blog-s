@@ -1,9 +1,11 @@
 ---
-title: "Grok 4.7 Drops, OpenAI Cracks Math, and Trump Wants an AI Force — September 22, 2026"
+title: Grok 4.7 Drops, OpenAI Cracks Math, and Trump Wants an AI Force — September 22, 2026
+meta_title: Grok 4.7 Drops, OpenAI Cracks Math, and Trump Wants an…
 author: Abdul Hadi
 date: 2026-09-22
+updated: 2026-09-22
 slug: ai-news-september-22-grok-math-safety
-description: "xAI launches Grok 4.7 at $2/$6 per M tokens, OpenAI solves 100+ world-class math problems in 24 days, Trump proposes AI Force, and Anthropic's Sonnet 5.5 leaks with 2M token context."
+description: xAI launches Grok 4.7 at $2/$6 per M tokens, OpenAI solves 100+ world-class math problems in 24 days, Trump proposes AI Force, and Anthropic's Sonnet 5.5…
 keywords: AI news, Grok 4.7, OpenAI math breakthrough, Trump AI Force, Anthropic Sonnet 5.5, Samsung surgical robots, UN AI panel, Xiaomi MiMo-V2.6
 tags: AI, LLM, TechNews, OpenAI, Anthropic, xAI, Safety
 ---

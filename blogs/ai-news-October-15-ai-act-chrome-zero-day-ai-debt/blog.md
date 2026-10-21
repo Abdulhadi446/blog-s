@@ -1,9 +1,11 @@
 ---
-title: "EU Opens First AI Act Probes, GPT-5.6 Chains Chrome Zero-Days in 6 Days, and the AI Debt Wall"
+title: EU Opens First AI Act Probes, GPT-5.6 Chains Chrome Zero-Days in 6 Days, and the AI Debt Wall
+meta_title: EU Opens First AI Act Probes, GPT-5.6 Chains Chrome…
 author: Abdul Hadi
 date: 2026-10-15
+updated: 2026-10-15
 slug: ai-news-October-15-ai-act-chrome-zero-day-ai-debt
-description: "The EU's first AI Act probes hit OpenAI and Anthropic, GPT-5.6 helps build a Chrome exploit in six days, and banks try to escape $38B of AI debt."
+description: The EU's first AI Act probes hit OpenAI and Anthropic, GPT-5.6 helps build a Chrome exploit in six days, and banks try to escape $38B of AI debt.
 keywords: EU AI Act, OpenAI, Anthropic, Chrome Zero-Day, AI Data Center Debt, LFM2.5, OpenCode, Chain of Thought Monitoring
 tags: AI, LLM, TechNews, OpenAI
 ---

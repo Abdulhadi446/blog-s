@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 18, 2026: Nvidia $105B OpenAI Ohio Data Center, Anthropic $65B Revenue, Copilot Deep Research Ends, Cursor Origin Launches, DOJ Probes a16z"
-author: abdul hadi
+title: AI Daily Roundup – August 18, 2026: Nvidia $105B OpenAI Ohio Data Center, Anthropic $65B Revenue, Copilot Deep Research Ends, Cursor Origin Launches, DOJ Probes a16z
+meta_title: AI Daily Roundup – August 18, 2026: Nvidia $105B OpenAI…
+author: Abdul Hadi
 date: 2026-08-18
+updated: 2026-08-18
 slug: ai-daily-roundup-august-18-nvidia-105b-openai-anthropic-65b-copilot-deep-research-cursor-origin-doj-a16z
-description: "Nvidia guarantees $105B for OpenAI 8GW Ohio campus, Anthropic hits $65B revenue run rate, Microsoft kills Copilot Deep Research, Cursor launches Origin code hosting, DOJ probes a16z board seats, 10 stories."
+description: Nvidia guarantees $105B for OpenAI 8GW Ohio campus, Anthropic hits $65B revenue run rate, Microsoft kills Copilot Deep Research, Cursor launches Origin code…
 keywords: Nvidia OpenAI Ohio data center, Anthropic revenue run rate, Microsoft Copilot Deep Research, Cursor Origin code hosting, DOJ Andreessen Horowitz probe, Google Spirit Airlines data, Unitree IPO, 3M ChatGPT expert report
 tags: AI, LLM, AI Safety, AI Industry, Semiconductors, Venture Capital
 ---
 
-# AI Daily Roundup – August 18, 2026
+## AI Daily Roundup – August 18, 2026
 
 The AI ecosystem delivered another seismic day of infrastructure-scale deals, revenue milestones, and regulatory action on August 18. Nvidia committed up to $105 billion in financing for OpenAI's 8-gigawatt Ohio data center, Anthropic's revenue run rate surged to $65 billion ahead of a potential IPO, Microsoft retired Copilot Deep Research for consumers, Cursor launched its GitHub-rival Origin platform, and the DOJ opened an antitrust probe into Andreessen Horowitz's board interlocks. Below are the 10 most significant stories shaping AI today.
 

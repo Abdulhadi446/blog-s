@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{{ blog.title }} — {{ seo.site_name }}{% endblock %}
+{% block title %}{% if blog.meta_title %}{{ blog.meta_title }}{% else %}{{ blog.title }} — {{ seo.site_name }}{% endif %}{% endblock %}
 {% block meta_description %}{{ blog.description }}{% endblock %}
 {% block robots %}index, follow{% endblock %}
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ blog.title }}{% endblock %}
 {% block og_description %}{{ blog.description }}{% endblock %}
-{% block og_url %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}
+{% block og_url %}{{ (seo.site_url if seo.site_url != '/' else request.url_root).rstrip('/') + request.path }}{% endblock %}
 {% block twitter_title %}{{ blog.title }}{% endblock %}
 {% block twitter_description %}{{ blog.description }}{% endblock %}
 
@@ -30,6 +30,9 @@
 {% set content_html = blog.content|markdown %}
 
 {% block head %}
+{% if blog.featured_image %}
+<link rel="preload" as="image" href="{{ request.url_root.rstrip('/') + blog.featured_image }}" fetchpriority="high" />
+{% endif %}
 <meta property="article:published_time" content="{{ blog.published_date }}" />
 <meta property="article:modified_time" content="{{ blog.modified_date }}" />
 <meta property="article:author" content="{{ blog.author }}" />
@@ -42,7 +45,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": {{ blog.title|tojson }},
   "description": {{ blog.description|tojson }},
   "image": {% if blog.featured_image %}{{ (request.url_root.rstrip('/') + blog.featured_image)|tojson }}{% else %}null{% endif %},
@@ -65,8 +68,9 @@
     "@type": "WebPage",
     "@id": "{{ request.url_root.rstrip('/') + request.path }}"
   },
-  "wordCount": {{ blog.content|length|int }},
-  "articleSection": {% if blog.tags %}{{ (blog.tags|tag_list)[0]|tojson }}{% else %}{{ "Blog"|tojson }}{% endif %}
+  "wordCount": {{ blog.content.split()|length }},
+  "articleSection": {% if blog.tags %}{{ (blog.tags|tag_list)[0]|tojson }}{% else %}{{ "Blog"|tojson }}{% endif %},
+  "keywords": {{ (blog.keywords if blog.keywords else blog.tags)|tojson }}
 }
 </script>
 
@@ -352,7 +356,7 @@
   <div class="reading-progress-bar" id="progressBar"></div>
 </div>
 
-<article itemscope itemtype="https://schema.org/Article">
+<article itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-top">
     <div class="container container--narrow">
       <nav class="article-breadcrumb" aria-label="Breadcrumb">

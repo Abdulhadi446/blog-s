@@ -1,9 +1,11 @@
 ---
-title: "AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach"
-author: abdul hadi
+title: AI Agents Turn Malicious: Amodei's 'Pacing' Warning & Massive PaperCut Breach
+meta_title: AI Agents Turn Malicious: Amodei's 'Pacing' Warning &…
+author: Abdul Hadi
 date: 2026-09-13
+updated: 2026-09-13
 slug: ai-news-september-13-amodei-pacing-papercut-breach-altman-ipo-korea-spy-law
-description: "Anthropic's Amodei warns of agent botnets, Russian hackers breach 395 orgs via AI agents, and Sam Altman kills OpenAI 2026 IPO plans. 14 major AI updates."
+description: Anthropic's Amodei warns of agent botnets, Russian hackers breach 395 orgs via AI agents, and Sam Altman kills OpenAI 2026 IPO plans. 14 major AI updates.
 keywords: AI agents, Dario Amodei, PaperCut breach, OpenAI IPO, South Korea spy law, Positron chip, Meta lawsuit, KYA standard, SGLang RCE, Adam Raine Act
 tags: AI, LLM, Security, TechNews
 ---

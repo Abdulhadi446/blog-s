@@ -1,9 +1,11 @@
 ---
-title: "Frontier Pre-Training, AI Hardware Hacking, and Legal Precedents"
+title: Frontier Pre-Training, AI Hardware Hacking, and Legal Precedents
+meta_title: Frontier Pre-Training, AI Hardware Hacking, and Legal…
 author: Abdul Hadi
 date: 2026-10-16
+updated: 2026-10-16
 slug: ai-news-october-16-frontier-hardware-legal
-description: "Microsoft reveals frontier pre-training secrets, AI reverse engineers hardware, and the Danish Supreme Court sets AI legal benchmarks."
+description: Microsoft reveals frontier pre-training secrets, AI reverse engineers hardware, and the Danish Supreme Court sets AI legal benchmarks.
 keywords: Microsoft AI, Hardware Reverse Engineering, AI Law, Frontier Models, Anthropic Scion
 tags: AI, LLM, TechNews, OpenAI, Microsoft, Law
 ---

@@ -1,9 +1,11 @@
 ---
-title: "AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy Fail, and the Math War"
-author: abdul hadi
+title: AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy Fail, and the Math War
+meta_title: AI Daily Roundup: Anthropic's $2T IPO, Meta's Privacy…
+author: Abdul Hadi
 date: 2026-09-12
+updated: 2026-09-12
 slug: ai-news-september-12-anthropic-ipo-meta-privacy-sakana-fugu-math-war
-description: "Anthropic eyes $2T IPO with Nvidia. Meta AI sparks privacy outcry over kids' data. Sakana's Fugu beats frontier models. 15 major AI stories Sept 12, 2026."
+description: Anthropic eyes $2T IPO with Nvidia. Meta AI sparks privacy outcry over kids' data. Sakana's Fugu beats frontier models. 15 major AI stories Sept 12, 2026.
 keywords: AI news, Anthropic IPO, Meta AI privacy, Sakana AI Fugu, AI regulation, Agentic Security
 tags: AI, LLM, TechNews, OpenAI
 ---

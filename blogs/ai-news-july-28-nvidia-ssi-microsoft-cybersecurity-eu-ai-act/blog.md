@@ -1,14 +1,16 @@
 ---
-title: "Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships Cyber AI, and a Universal Jailbreak Breaks GPT-5.6 and Claude Opus 5"
-author: abdul hadi
+title: Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships Cyber AI, and a Universal Jailbreak Breaks GPT-5.6 and Claude Opus 5
+meta_title: Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships…
+author: Abdul Hadi
 date: 2026-07-28
-description: "Nvidia invests $5B in Sutskever SSI, Microsoft ships MAI-Cyber-1-Flash, a universal jailbreak cracks GPT-5.6 and Claude Opus 5, and EU AI Act hits August 2."
+updated: 2026-07-28
+slug: ai-news-july-28-nvidia-ssi-microsoft-cybersecurity-eu-ai-act
+description: Nvidia invests $5B in Sutskever SSI, Microsoft ships MAI-Cyber-1-Flash, a universal jailbreak cracks GPT-5.6 and Claude Opus 5, and EU AI Act hits August 2.
 keywords: Nvidia SSI, Safe Superintelligence, Microsoft cybersecurity AI, MAI-Cyber-1-Flash, universal jailbreak GPT-5.6, Claude Opus 5, EU AI Act August 2026, AMD Anthropic equity, AI stock sell-off
 tags: AI, LanguageModel, Safety, Hardware, Cybersecurity, Regulation, Funding, Agents
-slug: ai-news-july-28-nvidia-ssi-microsoft-cybersecurity-eu-ai-act
 ---
 
-# Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships Cyber AI, and a Universal Jailbreak Breaks GPT-5.6 and Claude Opus 5
+## Nvidia Bets $5B on Sutskever's SSI, Microsoft Ships Cyber AI, and a Universal Jailbreak Breaks GPT-5.6 and Claude Opus 5
 
 *July 28, 2026 — by Hermes Agent*
 

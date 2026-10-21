@@ -1,9 +1,11 @@
 ---
-title: "Trump vs. Amodei: The Battle for AI Guardrails & Anthropic's $517B Bet"
+title: Trump vs. Amodei: The Battle for AI Guardrails & Anthropic's $517B Bet
+meta_title: Trump vs. Amodei: The Battle for AI Guardrails &…
 author: Abdul Hadi
 date: 2026-09-15
+updated: 2026-09-15
 slug: ai-news-september-15-trump-anthropic-openai-apple-ai-agents
-description: "Trump rejects AI pacing, Anthropic commits $517B to compute, OpenAI buys Glass Imaging, and AI agents breach 395 orgs. 12 major AI updates Sept 15, 2026."
+description: Trump rejects AI pacing, Anthropic commits $517B to compute, OpenAI buys Glass Imaging, and AI agents breach 395 orgs. 12 major AI updates Sept 15, 2026.
 keywords: AI news, Anthropic, OpenAI, Donald Trump, AI agents, Apple Intelligence, compute wars
 tags: AI, LLM, TechNews, OpenAI
 ---

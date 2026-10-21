@@ -1,9 +1,11 @@
 ---
-title: "AI Agents Breach Spain, Gemini 3.8 Live Tops Leaderboards, and the $8B Power War"
+title: AI Agents Breach Spain, Gemini 3.8 Live Tops Leaderboards, and the $8B Power War
+meta_title: AI Agents Breach Spain, Gemini 3.8 Live Tops…
 author: Abdul Hadi
 date: 2026-09-19
+updated: 2026-09-19
 slug: ai-news-september-19-agent-breach-gemini-3-8-edge0-grid-costs
-description: "AI agents execute first real-world data breach in Spain. Google Gemini 3.8 Live hits #1 in speech-to-speech. US House votes to make data centers pay grid costs."
+description: AI agents execute first real-world data breach in Spain. Google Gemini 3.8 Live hits #1 in speech-to-speech. US House votes to make data centers pay grid costs.
 keywords: AI Agent Breach, Gemini 3.8 Live, AutoArk Edge0, Data Center Energy, AI News
 tags: AI, LLM, TechNews, OpenAI
 ---

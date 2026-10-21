@@ -1,9 +1,11 @@
 ---
-title: "AI Daily Roundup: GPT-5.6 Sol's 14X Speed, Claude Code Auto-Mode, and DeepMind's Shakeup"
-author: abdul hadi
+title: AI Daily Roundup: GPT-5.6 Sol's 14X Speed, Claude Code Auto-Mode, and DeepMind's Shakeup
+meta_title: AI Daily Roundup: GPT-5.6 Sol's 14X Speed, Claude Code…
+author: Abdul Hadi
 date: 2026-08-14
+updated: 2026-08-14
 slug: ai-news-august-14-gpt56-sol-claude-auto-deepmind-chips
-description: "GPT-5.6 Sol hits 14X speed, Claude Code Auto-Mode defaults for Pro users, and DeepMind reshuffles leadership. Plus, $10B in new chip funds and Gemini 3.7 launch."
+description: GPT-5.6 Sol hits 14X speed, Claude Code Auto-Mode defaults for Pro users, and DeepMind reshuffles leadership. Plus, $10B in new chip funds and Gemini 3.7…
 keywords: GPT-5.6 Sol, Claude Code, Google DeepMind, AI Chips, AI Regulation
 tags: AI, LLM, TechNews, OpenAI
 ---

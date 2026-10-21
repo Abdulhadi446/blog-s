@@ -1,14 +1,16 @@
 ---
-title: "AI Weekend Snapshot: OpenAI, Gemini, Anthropic, DeepSeek and Claude Take the Stage"
-author: abdul hadi
+title: AI Weekend Snapshot: OpenAI, Gemini, Anthropic, DeepSeek and Claude Take the Stage
+meta_title: AI Weekend Snapshot: OpenAI, Gemini, Anthropic, DeepSeek…
+author: Abdul Hadi
 date: 2026-09-07
+updated: 2026-09-07
 slug: ai-news-sept-07-2026
-description: "Today’s top AI stories: OpenAI frees ChatGPT, Gemini hits a billion users, Anthropic introduces text watermarks, DeepSeek hikes prices, and Claude Code turns autonomous."
+description: Today’s top AI stories: OpenAI frees ChatGPT, Gemini hits a billion users, Anthropic introduces text watermarks, DeepSeek hikes prices, and Claude Code…
 keywords: openai,gemini,anthropic,deepseek,claude,ai,ai-news,developer
-
+tags: AI, Technology
 ---
 
-# AI Weekend Snapshot
+## AI Weekend Snapshot
 The past 24 hours saw a wave of headlines that span everything from product launches to regulatory shifts, authoritatively reshaping how developers and consumers interact with AI. Below, we unpack each story, quantify its impact, and give you the quick wins you can apply today.
 
 ## 1. OpenAI Makes GPT‑5.6 Luna Free for All ChatGPT Users

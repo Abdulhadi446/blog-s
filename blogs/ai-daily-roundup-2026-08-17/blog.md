@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 17, 2026: Stripe Buys OpenRouter for $7B, GPT-5.6 Luna Free Tier, Gemini 1B Users, DeepSeek Price Hike, 12 Stories"
-author: abdul hadi
+title: AI Daily Roundup – August 17, 2026: Stripe Buys OpenRouter for $7B, GPT-5.6 Luna Free Tier, Gemini 1B Users, DeepSeek Price Hike, 12 Stories
+meta_title: AI Daily Roundup – August 17, 2026: Stripe Buys…
+author: Abdul Hadi
 date: 2026-08-17
+updated: 2026-08-17
 slug: ai-daily-roundup-2026-08-17
-description: "Stripe buys OpenRouter $7B+, GPT-5.6 Luna free unlimited, Gemini 1B users, DeepSeek 1100% price hike, Anthropic watermarks, Claude Code auto mode, 12 stories."
+description: Stripe buys OpenRouter $7B+, GPT-5.6 Luna free unlimited, Gemini 1B users, DeepSeek 1100% price hike, Anthropic watermarks, Claude Code auto mode, 12 stories.
 keywords: AI daily roundup, Stripe OpenRouter, GPT-5.6 Luna, Gemini 1 billion users, DeepSeek price hike, Anthropic watermarking, Claude Code auto mode, AI agents web traffic
 tags: AI, LLM, AI Safety, Open Source, Semiconductors, AI Industry
 ---
 
-# AI Daily Roundup – August 17, 2026
+## AI Daily Roundup – August 17, 2026
 
 The AI ecosystem delivered another dense day of high‑impact developments on August 17. Stripe finalized a $7B+ acquisition of OpenRouter to own the AI billing rail, OpenAI made GPT-5.6 Luna the default with unlimited free chats, Google's Gemini hit 1 billion monthly users, and DeepSeek announced a staggering 1,100% API price increase. Below are the 12 most significant stories shaping AI today.
 

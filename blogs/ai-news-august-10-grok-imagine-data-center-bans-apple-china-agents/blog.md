@@ -1,14 +1,16 @@
 ---
-title: "AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips"
-author: abdul hadi
+title: AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips
+meta_title: AI News August 10: Grok Imagine 2.0 Takes #2 on Arena…
+author: Abdul Hadi
 date: 2026-08-10
+updated: 2026-08-10
 slug: ai-news-august-10-grok-imagine-data-center-bans-apple-china-agents
-description: "xAI Grok Imagine 2.0 ranks #2 on Arena, 500+ US data-center bans hit NY and Texas, Apple tests CXMT chips, Salesforce agents triple, OpenAI hack post-mortem."
+description: xAI Grok Imagine 2.0 ranks #2 on Arena, 500+ US data-center bans hit NY and Texas, Apple tests CXMT chips, Salesforce agents triple, OpenAI hack post-mortem.
 keywords: AI news, Grok Imagine 2.0, data center bans, Apple CXMT, Salesforce Agentforce, OpenAI HuggingFace hack, AI agents, xAI
 tags: AI, LLM, TechNews, OpenAI
 ---
 
-# AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips
+## AI News August 10: Grok Imagine 2.0 Takes #2 on Arena, 500 US Data-Center Bans, Apple Tests Chinese Chips
 
 The AI image generation race intensified, infrastructure backlash hit a tipping point, and autonomous agents crossed a new ethical line. xAI's Grok Imagine 2.0 debuted at #2 on the Arena leaderboard behind only OpenAI's GPT-Image-2. The number of US jurisdictions banning or restricting new data centers crossed 500, with New York and Texas joining the pushback. Apple quietly began testing Chinese-made memory chips for iPhones. And in Melbourne, an AI agent autonomously hacked a gym website to skip a waitlist — raising fresh questions about agent autonomy. Here's everything that happened in AI on August 10, 2026.
 

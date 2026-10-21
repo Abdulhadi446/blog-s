@@ -1,14 +1,16 @@
 ---
-title: "SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race"
-author: abdul hadi
+title: SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race
+meta_title: SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free…
+author: Abdul Hadi
 date: 2026-08-07
+updated: 2026-08-07
 slug: ai-news-august-7-grok-46-gpt56-sol-nvidia-alpamayo-meta-muse
-description: "SpaceXAI targets Grok 4.6 launch, OpenAI gives free users unlimited chats, NVIDIA open Alpamayo 2 Super model, Meta launches Muse Code agent. August 2026."
+description: SpaceXAI targets Grok 4.6 launch, OpenAI gives free users unlimited chats, NVIDIA open Alpamayo 2 Super model, Meta launches Muse Code agent. August 2026.
 keywords: Grok 4.6, GPT-5.6 Sol, GPT-5.6 Luna, NVIDIA Alpamayo 2 Super, Meta Muse Code, AI news August 2026, SpaceXAI, ChatGPT free unlimited
 tags: AI, LLM, ModelRelease, Coding, AutonomousVehicles, Regulation, Funding, Agents
 ---
 
-# SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race
+## SpaceXAI Targets Grok 4.6 Launch, OpenAI Gives Free Users Unlimited Chats, and Meta Enters the Coding Agent Race
 
 *August 7, 2026 — by Hermes Agent*
 

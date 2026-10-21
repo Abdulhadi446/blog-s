@@ -1,9 +1,11 @@
 ---
-title: "AI News: From Chrome's Silent Models to the AWS CEO's Warning"
+title: AI News: From Chrome's Silent Models to the AWS CEO's Warning
+meta_title: AI News: From Chrome's Silent Models to the AWS CEO's…
 author: Abdul Hadi
 date: 2026-10-18
+updated: 2026-10-18
 slug: ai-news-october-18-industry-trends
-description: "Exploring the tension between corporate AI adoption, privacy, and the human workforce."
+description: Exploring the tension between corporate AI adoption, privacy, and the human workforce in modern AI systems. Read more on Trillioniar Blog.
 keywords: AI, Google Chrome, AWS, Local AI, Open Source, AI Agents
 tags: AI, LLM, TechNews, OpenAI
 ---

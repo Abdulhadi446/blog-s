@@ -1,9 +1,11 @@
 ---
-title: "AI Daily Roundup August 27: Z.ai Unmasks Ox Alpha as GLM-5.3-Flash, Nvidia Hikes AI Server Prices 15%+, Faraday Beats OpenAI at Research, Instinct Hits $2.5B Valuation"
-author: abdul hadi
+title: AI Daily Roundup August 27: Z.ai Unmasks Ox Alpha as GLM-5.3-Flash, Nvidia Hikes AI Server Prices 15%+, Faraday Beats OpenAI at Research, Instinct Hits $2.5B Valuation
+meta_title: AI Daily Roundup August 27: Z.ai Unmasks Ox Alpha as…
+author: Abdul Hadi
 date: 2026-08-27
+updated: 2026-08-27
 slug: ai-daily-roundup-august-27-zai-ox-alpha-nvidia-price-hike-faraday-instinct-deepmind-reshuffle-wrtn-minimax
-description: "Z.ai reveals Ox Alpha as GLM-5.3-Flash, Nvidia 15%+ server price hikes, Faraday beats OpenAI on PaperBench, Instinct hits $2.5B, Wrtn unicorn, 21 AI stories."
+description: Z.ai reveals Ox Alpha as GLM-5.3-Flash, Nvidia 15%+ server price hikes, Faraday beats OpenAI on PaperBench, Instinct hits $2.5B, Wrtn unicorn, 21 AI stories.
 keywords: AI, Z.ai, Ox Alpha, GLM-5.3-Flash, Nvidia, Faraday, Instinct, DeepMind, Wrtn, MiniMax, Qwen, AI regulation
 tags: AI, LLM, TechNews, OpenAI, Nvidia, Anthropic, China, Hardware, Startups, Regulation
 ---

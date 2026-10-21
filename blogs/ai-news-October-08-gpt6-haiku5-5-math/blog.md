@@ -1,9 +1,11 @@
 ---
-title: "GPT-6 Rolls Out with Intelligent UI & Anthropic Slashes Haiku Costs"
+title: GPT-6 Rolls Out with Intelligent UI & Anthropic Slashes Haiku Costs
+meta_title: GPT-6 Rolls Out with Intelligent UI & Anthropic Slashes…
 author: Abdul Hadi
 date: 2026-10-08
+updated: 2026-10-08
 slug: ai-news-october-08-gpt6-haiku5-5-math
-description: "OpenAI brings GPT-6 to all users with an interactive UI, while Anthropic launches Haiku 5.5 at a 75% lower cost."
+description: OpenAI brings GPT-6 to all users with an interactive UI, while Anthropic launches Haiku 5.5 at a 75% lower cost. Read more on Trillioniar Blog.
 keywords: GPT-6, Claude Haiku 5.5, OpenAI, Anthropic, AI News
 tags: AI, LLM, TechNews, OpenAI
 ---

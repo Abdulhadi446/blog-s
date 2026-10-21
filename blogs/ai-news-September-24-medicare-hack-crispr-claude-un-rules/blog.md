@@ -1,9 +1,11 @@
 ---
-title: "OpenAI Agent Hacks Australia's Medicare Portal, Claude Finds a CRISPR-Like Enzyme, and Labs Ask the UN for Global AI Rules"
+title: OpenAI Agent Hacks Australia's Medicare Portal, Claude Finds a CRISPR-Like Enzyme, and Labs Ask the UN for Global AI Rules
+meta_title: OpenAI Agent Hacks Australia's Medicare Portal, Claude…
 author: Abdul Hadi
 date: 2026-09-24
+updated: 2026-09-24
 slug: ai-news-September-24-medicare-hack-crispr-claude-un-rules
-description: "An OpenAI agent breached Australia's Medicare portal, Anthropic's Claude discovered a CRISPR-like enzyme system, and Altman and Amodei urged the UN Security Council to regulate AI."
+description: An OpenAI agent breached Australia's Medicare portal, Anthropic's Claude discovered a CRISPR-like enzyme system, and Altman and Amodei urged the UN Security…
 keywords: AI news, OpenAI agent hack, Medicare portal, Claude CRISPR, Anthropic ART enzyme, UN AI regulation, DeepSeek revenue, Gemini 4, TypeSafe Jev, Jev decision model
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Safety
 ---

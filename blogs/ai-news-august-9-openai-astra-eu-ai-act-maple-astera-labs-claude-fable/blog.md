@@ -1,14 +1,16 @@
 ---
-title: "AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone"
-author: abdul hadi
+title: AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone
+meta_title: AI News August 9: OpenAI Astra Solves 10 Math Problems…
+author: Abdul Hadi
 date: 2026-08-09
+updated: 2026-08-09
 slug: ai-news-august-9-openai-astra-eu-ai-act-maple-astera-labs-claude-fable
-description: "OpenAI Astra solves 10 open math problems with Lean proofs, EU AI Act enforcement begins, DeepGrove Maple hits 127 tok/s on iPhone, Astera Labs revenue doubles."
+description: OpenAI Astra solves 10 open math problems with Lean proofs, EU AI Act enforcement begins, DeepGrove Maple hits 127 tok/s on iPhone, Astera Labs revenue doubles.
 keywords: AI news, OpenAI Astra, EU AI Act, DeepGrove Maple, Astera Labs, Claude Fable, AI regulation, AI model
 tags: AI, LLM, TechNews, OpenAI
 ---
 
-# AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone
+## AI News August 9: OpenAI Astra Solves 10 Math Problems, EU AI Act Goes Live, DeepGrove Maple Runs at 127 tok/s on iPhone
 
 The AI world delivered one of its biggest research weeks in history. OpenAI's unreleased Astra model solved 10 open math problems with machine-checkable proofs — for just $2,000 in compute. The EU AI Act's full enforcement kicked in on August 2, making chatbot disclosure and deepfake labeling legally binding across Europe. And a tiny ternary-weight model called Maple-Preview hit 127 tokens per second on an iPhone. Here's everything that happened in AI on August 9, 2026.
 

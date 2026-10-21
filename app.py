@@ -141,16 +141,22 @@ def create_app(config_name=None):
                 md_path = os.path.join(post_dir, 'blog.md')
                 if os.path.exists(md_path):
                     meta, body = parse_blog_file(md_path)
+                    author = meta.get('author', 'Anonymous')
+                    published_date = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
+                    modified_date = meta.get('updated') or meta.get('modified_date') or meta.get('last_modified') or meta.get('modified') or published_date
                     posts.append({
                         'slug': slug,
                         'title': meta.get('title', slug.replace('-', ' ').title()),
+                        'meta_title': meta.get('meta_title', meta.get('title', slug.replace('-', ' ').title())),
                         'description': meta.get('description', ''),
-                        'author': meta.get('author', 'Anonymous'),
-                        'author_slug': meta.get('author', 'Anonymous').lower().replace(' ', '-'),
-                        'published_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
+                        'author': author,
+                        'author_slug': author.lower().replace(' ', '-'),
+                        'published_date': published_date,
+                        'modified_date': modified_date,
                         'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
                         'content': body,
-                        'tags': meta.get('tags', '')
+                        'tags': meta.get('tags', ''),
+                        'keywords': meta.get('keywords', '')
                     })
         # Sort by date descending
         return sorted(posts, key=lambda x: x['published_date'], reverse=True)
@@ -176,17 +182,22 @@ def create_app(config_name=None):
             
         meta, body = parse_blog_file(md_path)
         
+        author = meta.get('author', 'Anonymous')
+        published_date = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
+        modified_date = meta.get('updated') or meta.get('modified_date') or meta.get('last_modified') or meta.get('modified') or published_date
         post = {
             'slug': slug,
             'title': meta.get('title', slug.replace('-', ' ').title()),
+            'meta_title': meta.get('meta_title', meta.get('title', slug.replace('-', ' ').title())),
             'description': meta.get('description', ''),
-            'author': meta.get('author', 'Anonymous'),
-            'author_slug': meta.get('author', 'Anonymous').lower().replace(' ', '-'),
-            'published_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
-            'modified_date': meta.get('date', datetime.now().strftime('%Y-%m-%d')),
+            'author': author,
+            'author_slug': author.lower().replace(' ', '-'),
+            'published_date': published_date,
+            'modified_date': modified_date,
             'content': body,
             'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
             'tags': meta.get('tags', ''),
+            'keywords': meta.get('keywords', ''),
             'url': request.url
         }
 
@@ -214,10 +225,14 @@ def create_app(config_name=None):
         docs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'docs')
         return send_from_directory(docs_dir, 'API.md', mimetype='text/markdown')
 
+    def _normalize_tag(value):
+        return str(value).strip().lower().replace(' ', '-')
+
     @app.route('/tag/<tag_slug>')
     def tag_posts(tag_slug):
         all_posts = get_all_posts()
-        filtered = [p for p in all_posts if tag_slug in (p['tags'] or '').split(',')]
+        target = _normalize_tag(tag_slug)
+        filtered = [p for p in all_posts if target in [_normalize_tag(t) for t in (p['tags'] or '').split(',')]]
         return render_template('tag.html',
                                posts=filtered,
                                tag=tag_slug.replace('-', ' ').title(),
@@ -294,6 +309,35 @@ def create_app(config_name=None):
             return send_from_directory(post_dir, 'image.png', mimetype='image/png')
         abort(404)
 
+    @app.route('/about')
+    def about():
+        return render_template('about.html', site=app.config['SITE_CONFIG'])
+
+    @app.route('/llms.txt')
+    def llms_txt():
+        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
+        if not site_url:
+            site_url = request.url_root.rstrip('/')
+        posts = get_all_posts()
+        lines = [
+            f"# {app.config['SITE_CONFIG']['name']}",
+            '',
+            f"> {app.config['SITE_CONFIG']['description']}",
+            '',
+            '## Recent posts',
+        ]
+        for post in posts[:30]:
+            lines.append(f"- [{post['title']}]({site_url}/blog/{post['slug']}): {post['description']}")
+        lines += [
+            '',
+            '## Site',
+            f"- [Blog]({site_url}/): all articles",
+            f"- [About]({site_url}/about): about this site and its author",
+            f"- [RSS]({site_url}/rss.xml): RSS feed",
+            f"- [Sitemap]({site_url}/sitemap.xml): XML sitemap",
+        ]
+        return Response('\n'.join(lines), mimetype='text/plain; charset=utf-8')
+
     @app.errorhandler(404)
     def page_not_found(e):
         return render_template('404.html'), 404
@@ -354,7 +398,7 @@ def create_app(config_name=None):
                 post_image_title = post['title']
             urls.append({
                 'loc': url_for('blog_post', slug=post['slug'], _external=True),
-                'lastmod': post['published_date'],
+                'lastmod': post.get('modified_date', post['published_date']),
                 'changefreq': 'weekly',
                 'priority': '0.8',
                 'image': post_image,
@@ -389,6 +433,14 @@ def create_app(config_name=None):
             })
 
         urls.append({
+            'loc': url_for('about', _external=True),
+            'lastmod': datetime.now().strftime('%Y-%m-%d'),
+            'changefreq': 'monthly',
+            'priority': '0.4',
+            'image': None,
+            'image_title': None
+        })
+        urls.append({
             'loc': url_for('privacy', _external=True),
             'lastmod': '2026-07-20',
             'changefreq': 'monthly',
@@ -410,7 +462,7 @@ def create_app(config_name=None):
     @app.route('/robots.txt')
     def robots():
         site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
-        if site_url == '/':
+        if not site_url:
             site_url = request.url_root.rstrip('/')
         content = f"""User-agent: *
 Allow: /
@@ -427,6 +479,8 @@ Sitemap: {site_url}/sitemap.xml
     def rss_feed():
         all_posts = get_all_posts()
         site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
+        if not site_url:
+            site_url = request.url_root.rstrip('/')
         site_name = app.config['SITE_CONFIG']['name']
         site_desc = app.config['SITE_CONFIG']['description']
 

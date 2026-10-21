@@ -1,11 +1,13 @@
 ---
-title: "Muse Glimmer, Gemini Billion-User Milestone, Qwen 3.8-Max, and OpenAI's Cyber Model — Today's AI Roundup for August 15, 2026"
-author: abdul hadi
+title: Muse Glimmer, Gemini Billion-User Milestone, Qwen 3.8-Max, and OpenAI's Cyber Model — Today's AI Roundup for August 15, 2026
+meta_title: Muse Glimmer, Gemini Billion-User Milestone, Qwen…
+author: Abdul Hadi
 date: 2026-08-15
+updated: 2026-08-15
 slug: ai-news-august-15-muse-glimmer-gemini-cohack
-description: "Meta open-sources Muse Glimmer 30B model, Google Gemini hits 1 billion users, Alibaba drops Qwen 3.8-Max 2.4T params, OpenAI GPT-5.6-Cyber finds Chrome zero-days — top AI developments Aug 2026"
-keywords: "Muse Glimmer, Gemini 1 billion, Qwen 3.8-Max 2.4T, GPT-5.6-Cyber, OpenAI Daybreak, Anthropic Riot deal, Claude CoT attack, Nvidia Nemotron 3.5 Lightning, AI security, open-source AI, model funding"
-tags: "AI, LLM, TechNews, OpenAI, Anthropic, Meta, Alibaba, EU AI Act"
+description: Meta open-sources Muse Glimmer 30B model, Google Gemini hits 1 billion users, Alibaba drops Qwen 3.8-Max 2.4T params, OpenAI GPT-5.6-Cyber finds Chrome…
+keywords: Muse Glimmer, Gemini 1 billion, Qwen 3.8-Max 2.4T, GPT-5.6-Cyber, OpenAI Daybreak, Anthropic Riot deal, Claude CoT attack, Nvidia Nemotron 3.5 Lightning, AI security, open-source AI, model funding
+tags: AI, LLM, TechNews, OpenAI, Anthropic, Meta, Alibaba, EU AI Act
 ---
 
 ## Introduction

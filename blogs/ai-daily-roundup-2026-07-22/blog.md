@@ -1,13 +1,16 @@
 ---
 title: AI Daily Roundup – 2026‑07‑22
-author: abdul hadi
+meta_title: AI Daily Roundup – 2026‑07‑22
+author: Abdul Hadi
 date: 2026-07-22
+updated: 2026-07-22
+slug: ai-daily-roundup-2026-07-22
 description: From GPT‑5’s debut to Google’s Gemini 3.6 Flash, IBM’s Lightwell launch and more – the day’s most influential AI milestones.
 keywords: GPT-5, Anthropic Fable 5, DeepSeek V4, Gemini 3.6 Flash, Bedrock, Microsoft Copilot, IBM Lightwell, Kimi‑K3, AI chips, AI policy
 tags: Artificial Intelligence, Machine Learning, LLM, AI industry
 ---
 
-# AI Daily Roundup – 2026‑07‑22
+## AI Daily Roundup – 2026‑07‑22
 
 The AI landscape is moving at breakneck speed. This afternoon, a flurry of model launches, platform expansions, and corporate shifts gave us a panorama of who’s pushing the frontier and what it means for developers, enterprises, and the public.
 

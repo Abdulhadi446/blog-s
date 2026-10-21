@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 16, 2026: Anthropic Model 2 Shelved, DeepSeek V4-Pro Price Shock, Qwen 3.8 27B, Gemini 3.7 Flash"
-author: abdul hadi
+title: AI Daily Roundup – August 16, 2026: Anthropic Model 2 Shelved, DeepSeek V4-Pro Price Shock, Qwen 3.8 27B, Gemini 3.7 Flash
+meta_title: AI Daily Roundup – August 16, 2026: Anthropic Model 2…
+author: Abdul Hadi
 date: 2026-08-16
+updated: 2026-08-16
 slug: ai-daily-roundup-2026-08-16
-description: "Anthropic shelves Model 2, DeepSeek V4-Pro 1,100% price hike, Qwen 3.8 27B open-weight, Gemini 3.7 Flash coding gains, Nvidia $21B SpaceX stake, 12 stories."
+description: Anthropic shelves Model 2, DeepSeek V4-Pro 1,100% price hike, Qwen 3.8 27B open-weight, Gemini 3.7 Flash coding gains, Nvidia $21B SpaceX stake, 12 stories.
 keywords: AI daily roundup, Anthropic Model 2, DeepSeek V4-Pro, Qwen 3.8 27B, Gemini 3.7 Flash, Nvidia 13F, AI safety, open-weight models
 tags: AI, LLM, AI Safety, Open Source, Semiconductors, AI Industry
 ---
 
-# AI Daily Roundup – August 16, 2026
+## AI Daily Roundup – August 16, 2026
 
 The AI ecosystem delivered another dense day of high‑impact developments on August 16. Anthropic disclosed it shelved a frontier model over misalignment concerns, DeepSeek V4-Pro arrived with a staggering price increase, Alibaba's Qwen 3.8 27B claimed the open-weight throne with 3 billion downloads, and Google's Gemini 3.7 Flash pushed coding benchmarks to new highs. Below are the 12 most significant stories shaping AI today.
 

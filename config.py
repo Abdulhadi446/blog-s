@@ -7,7 +7,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SITE_CONFIG = {
         'name': os.environ.get('SITE_NAME', 'Trillioniar Blog'),
-        'logo': '/static/images/logo.png',
+        'logo': '/static/favicon.svg',
         'description': os.environ.get('SITE_DESCRIPTION', 'Insights on AI, APIs, and developer tools from Trillioniar'),
         'url': os.environ.get('SITE_URL', '/'),
         'author': os.environ.get('SITE_AUTHOR', 'Trillioniar'),

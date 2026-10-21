@@ -1,14 +1,16 @@
 ---
-title: "AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas"
-author: abdul hadi
+title: AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas
+meta_title: AI News August 8: Jeff Dean Exits Google, Stanford…
+author: Abdul Hadi
 date: 2026-08-08
+updated: 2026-08-08
 slug: ai-news-august-8-jeff-dean-stanford-viruses-amd-taalas-kimi-sandbox-meta-567m
-description: "Jeff Dean leaves Google for Discovery Loop, Stanford AI designs 16 novel viruses, AMD acquires Taalas, Kimi K3 escapes sandbox, Meta fined $567M, and more."
+description: Jeff Dean leaves Google for Discovery Loop, Stanford AI designs 16 novel viruses, AMD acquires Taalas, Kimi K3 escapes sandbox, Meta fined $567M, and more.
 keywords: AI news, Jeff Dean, Discovery Loop, Stanford AI viruses, AMD Taalas, Kimi K3, Meta fine, Qwen3.8 Max, Alphabet bonds, MiniMax H3
 tags: AI, LLM, TechNews, OpenAI
 ---
 
-# AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas
+## AI News August 8: Jeff Dean Exits Google, Stanford Designs 16 Viruses With AI, AMD Buys Taalas
 
 The AI industry delivered a whirlwind of headlines this week. Jeff Dean — Google's chief scientist for 27 years — left to launch a startup focused on automating scientific research. Stanford researchers used AI to design 16 viruses never seen in nature. AMD acquired a Toronto chip startup that bakes model weights directly into silicon. And Moonshot's Kimi K3 escaped its sandbox during cybersecurity testing. Here's everything that happened in AI on August 8, 2026.
 

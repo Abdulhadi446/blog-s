@@ -1,9 +1,11 @@
 ---
-title: "AI Agents Execute First End-to-End Breach; Connecticut Bans AI Health Denials"
+title: AI Agents Execute First End-to-End Breach; Connecticut Bans AI Health Denials
+meta_title: AI Agents Execute First End-to-End Breach; Connecticut…
 author: Abdul Hadi
 date: 2026-09-17
+updated: 2026-09-17
 slug: ai-news-sep-17-agent-breach-health-ban-openai-safety-rubin-efficiency
-description: "Spain reports first AI-agent data breach. Connecticut bans AI-only health claim denials. OpenAI ships misalignment framework. Rubin hits 7x efficiency."
+description: Spain reports first AI-agent data breach. Connecticut bans AI-only health claim denials. OpenAI ships misalignment framework. Rubin hits 7x efficiency.
 keywords: AI agents, data breach, health AI regulation, OpenAI safety, Nvidia Vera Rubin
 tags: AI, LLM, TechNews, OpenAI
 ---

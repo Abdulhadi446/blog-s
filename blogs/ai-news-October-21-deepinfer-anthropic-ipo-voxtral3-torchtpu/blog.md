@@ -1,9 +1,11 @@
 ---
-title: "DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands, and Mistral's Voxtral 3 Listens"
+title: DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands, and Mistral's Voxtral 3 Listens
+meta_title: DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands…
 author: Abdul Hadi
 date: 2026-10-21
+updated: 2026-10-21
 slug: ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu
-description: "DeepSeek open-sources its production inference stack, Anthropic's draft IPO shows an $80.7 billion loss, Mistral ships Voxtral 3, Google open-sources TorchTPU, Claude designs scorpion toxin binders, and Gemini 4 Argon reaches everyone."
+description: DeepSeek open-sources its production inference stack, Anthropic's draft IPO shows an $80.7 billion loss, Mistral ships Voxtral 3, Google open-sources…
 keywords: DeepSeek, DeepInfer, Anthropic, Voxtral 3, TorchTPU, Gemini 4 Argon, Meta Prometheus, LLM inference
 tags: AI, LLM, TechNews, OpenAI
 ---

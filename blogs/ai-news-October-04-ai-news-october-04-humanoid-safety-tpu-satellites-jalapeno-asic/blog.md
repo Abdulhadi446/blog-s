@@ -1,9 +1,11 @@
 ---
-title: "AI News Today: TPU Satellites, Humanoid Safety, and the Jalapeño ASIC"
+title: AI News Today: TPU Satellites, Humanoid Safety, and the Jalapeño ASIC
+meta_title: AI News Today: TPU Satellites, Humanoid Safety, and the…
 author: Abdul Hadi
 date: 2026-10-04
+updated: 2026-10-04
 slug: ai-news-october-04-humanoid-safety-tpu-satellites-jalapeno-asic
-description: "Google puts TPUs in orbit, OpenAI deploys Jalapeño ASICs, and Apple tightens macOS security for AI agents."
+description: Google puts TPUs in orbit, OpenAI deploys Jalapeño ASICs, and Apple tightens macOS security for AI agents. Read more on Trillioniar Blog.
 keywords: AI News, Google TPU, OpenAI Jalapeño, Humanoid Robots, AI Security
 tags: AI, LLM, TechNews, OpenAI
 ---

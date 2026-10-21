@@ -1,9 +1,11 @@
 ---
-title: "Chrome's Silent AI, AWS's Junior Staff Warning, and Agent Ethics"
+title: Chrome's Silent AI, AWS's Junior Staff Warning, and Agent Ethics
+meta_title: Chrome's Silent AI, AWS's Junior Staff Warning, and…
 author: Abdul Hadi
 date: 2026-10-13
+updated: 2026-10-13
 slug: ai-news-October-13-chrome-aws-agents-privacy
-description: "Analysis of Google's silent AI installs, AWS's take on junior engineers, and the rise of rogue AI agents."
+description: Analysis of Google's silent AI installs, AWS's take on junior engineers, and the rise of rogue AI agents. Read more on Trillioniar Blog.
 keywords: AI Privacy, AWS, AI Agents, Open Source AI, Google Chrome
 tags: AI, LLM, TechNews, OpenAI
 ---

@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 24, 2026: ChatGPT Ads Hit Europe, Codex 20M Users, DeepSeek Vision, Ox Alpha Mystery, Gemma 1B Downloads, Anthropic Risk Report, Rillet Unicorn, Alibaba $10.2B, Humanoid Beats Bolt, 18 Stories"
-author: abdul hadi
+title: AI Daily Roundup – August 24, 2026: ChatGPT Ads Hit Europe, Codex 20M Users, DeepSeek Vision, Ox Alpha Mystery, Gemma 1B Downloads, Anthropic Risk Report, Rillet Unicorn, Alibaba $10.2B, Humanoid Beats Bolt, 18 Stories
+meta_title: AI Daily Roundup – August 24, 2026: ChatGPT Ads Hit…
+author: Abdul Hadi
 date: 2026-08-24
+updated: 2026-08-24
 slug: ai-daily-roundup-august-24-chatgpt-europe-ads-codex-20m-deepseek-vision-ox-alpha-gemma-1b-anthropic-risk-rillet-alibaba-humanoid-huggingface-sale
-description: "ChatGPT ads launch in 31 European markets, OpenAI Codex hits 20M users with banked reset, DeepSeek V4-Flash-Vision rivals Opus 4.8, Ox Alpha mystery model free on OpenRouter, Gemma passes 1B downloads, Anthropic bioweapon filters off 11 months, Rillet $100M unicorn, Alibaba $10.2B AI raise, humanoid beats Bolt record."
+description: ChatGPT ads launch in 31 European markets, OpenAI Codex hits 20M users with banked reset, DeepSeek V4-Flash-Vision rivals Opus 4.8, Ox Alpha mystery model…
 keywords: ChatGPT ads Europe, OpenAI Codex 20M users, DeepSeek V4-Flash-Vision, Ox Alpha mystery model, Google Gemma 1B downloads, Anthropic risk report bioweapon, Rillet AI accounting unicorn, Alibaba $10.2B AI funding, humanoid robot 100m record, Hugging Face sale
 tags: AI, LLM, AI Industry, AI Safety, Venture Capital, Semiconductors, Regulation, Robotics, Open Source
 ---
 
-# AI Daily Roundup – August 24, 2026
+## AI Daily Roundup – August 24, 2026
 
 The AI ecosystem delivered a landmark day on August 24 as ChatGPT ads went live across 31 European markets, OpenAI Codex celebrated 20 million users with a banked reset, DeepSeek unveiled a vision model challenging Anthropic's Opus 4.8, and a mysterious free model called Ox Alpha stirred speculation on OpenRouter. Google's Gemma family surpassed one billion downloads, Anthropic disclosed an 11-month bioweapon classifier gap, Rillet became a unicorn in 48 hours, Alibaba raised $10.2 billion for AI, and a humanoid robot beat Usain Bolt's 100m record. Below are the 18 most significant stories shaping AI today.
 

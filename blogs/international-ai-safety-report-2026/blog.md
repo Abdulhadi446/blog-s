@@ -1,8 +1,12 @@
 ---
 title: International AI Safety Report 2026
-author: abdul hadi
+meta_title: International AI Safety Report 2026
+author: Abdul Hadi
 date: 2026-07-19
-description: The 2026 International AI Safety Report consolidates the latest research on AI alignment, interpretability, and policy, highlighting breakthroughs from major labs and a global consensus on next‑step safeguards.
+updated: 2026-07-19
+slug: international-ai-safety-report-2026
+description: The 2026 International AI Safety Report consolidates the latest research on AI alignment, interpretability, and policy, highlighting breakthroughs from…
+keywords: ai, safety, alignment, research, policy, breakthrough
 tags: ai, safety, alignment, research, policy, breakthrough
 ---
 

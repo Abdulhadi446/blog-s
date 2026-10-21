@@ -1,8 +1,12 @@
 ---
-title: "AI Daily Roundup – 2026-07-21"
-author: abdul hadi
+title: AI Daily Roundup – 2026-07-21
+meta_title: AI Daily Roundup – 2026-07-21
+author: Abdul Hadi
 date: 2026-07-21
-description: "A distilled overview of the most impactful AI developments of the past day, from model breakthroughs to industry shifts and regulatory advances."
+updated: 2026-07-21
+slug: ai-daily-roundup-2026-07-21
+description: A distilled overview of the most impactful AI developments of the past day, from model breakthroughs to industry shifts and regulatory advances.
+keywords: ai, news, models, silicon
 tags: AI, News, Models, Silicon
 ---
 

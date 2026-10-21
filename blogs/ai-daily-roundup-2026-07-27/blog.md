@@ -1,14 +1,16 @@
 ---
-title: "Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days"
-author: abdul hadi
+title: Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days
+meta_title: Kimi K3 Open Weights Drop, Anthropic Builds Custom…
+author: Abdul Hadi
 date: 2026-07-27
+updated: 2026-07-27
 slug: ai-daily-roundup-2026-07-27
-description: "Kimi K3 open weights drop as the largest open-weight release ever, Anthropic confirms custom chip plans with SK Hynix, and AI agents find 19 Redis zero-days."
+description: Kimi K3 open weights drop as the largest open-weight release ever, Anthropic confirms custom chip plans with SK Hynix, and AI agents find 19 Redis zero-days.
 keywords: Kimi K3 open weights, Anthropic custom chips, AI cybersecurity, FLUX 3 multimodal, DeepSeek V4, AI memory shortage, AI news July 2026
 tags: AI, LanguageModel, OpenSource, Hardware, Cybersecurity, Funding, Regulation
 ---
 
-# Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days
+## Kimi K3 Open Weights Drop, Anthropic Builds Custom Chips, and AI Finds 19 Redis Zero-Days
 
 The final week of July 2026 is delivering on its promise to be the biggest stretch for open-weight AI releases in history. Moonshot AI's Kimi K3 weights are live on Hugging Face today, Anthropic has officially confirmed its custom silicon ambitions, and AI agents are proving terrifyingly capable at finding real-world vulnerabilities. Here are the 11 developments that matter right now.
 

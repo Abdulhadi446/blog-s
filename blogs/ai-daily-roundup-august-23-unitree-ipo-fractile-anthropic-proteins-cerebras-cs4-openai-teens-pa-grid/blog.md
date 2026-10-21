@@ -1,14 +1,16 @@
 ---
-title: "AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to $66B, Fractile Hits $6.5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order"
-author: abdul hadi
+title: AI Daily Roundup – August 23, 2026: Unitree IPO Soars 629% to $66B, Fractile Hits $6.5B on Anthropic Deal, Cerebras CS-4 Claims 30x GPU Speed, Anthropic Proteins, OpenAI Teens, PA GRID Order
+meta_title: AI Daily Roundup – August 23, 2026: Unitree IPO Soars…
+author: Abdul Hadi
 date: 2026-08-23
+updated: 2026-08-23
 slug: ai-daily-roundup-august-23-unitree-ipo-fractile-anthropic-proteins-cerebras-cs4-openai-teens-pa-grid
-description: "Unitree 629% Shanghai debut, Fractile $6.5B valuation on Anthropic chip deal, Cerebras CS-4 30x GPU inference, Anthropic 14/15 protein targets, OpenAI ChatGPT for Teens, Pennsylvania GRID data center order, 10 stories."
+description: Unitree 629% Shanghai debut, Fractile $6.5B valuation on Anthropic chip deal, Cerebras CS-4 30x GPU inference, Anthropic 14/15 protein targets, OpenAI…
 keywords: Unitree Robotics IPO, Fractile Anthropic chip deal, Cerebras CS-4 wafer-scale, Anthropic protein design, OpenAI ChatGPT Teens, Pennsylvania GRID data centers, AI chips, AI safety
 tags: AI, LLM, AI Safety, AI Industry, Semiconductors, Venture Capital, Robotics
 ---
 
-# AI Daily Roundup – August 23, 2026
+## AI Daily Roundup – August 23, 2026
 
 The AI ecosystem delivered a week of explosive market moves, hardware breakthroughs, and regulatory shifts culminating on August 23. Unitree Robotics' Shanghai IPO surged 629% to a $66B peak valuation, British chip startup Fractile hit a $6.5B valuation on a $250M Anthropic inference deal, Cerebras unveiled the CS-4 claiming 30x GPU inference speed, Anthropic's Claude designed proteins hitting 14 of 15 wet-lab targets, OpenAI launched ChatGPT for Teens with age-prediction routing, and Pennsylvania enacted the nation's strictest AI data-center guardrails. Below are the 10 most significant stories shaping AI today.
 

@@ -1,14 +1,16 @@
 ---
-title: "White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral"
-author: abdul hadi
+title: White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral
+meta_title: White House Convenes OpenAI, Google, Anthropic, Meta for…
+author: Abdul Hadi
 date: 2026-08-05
-description: "White House meets OpenAI, Google, Anthropic, Meta on AI safety tests. Volta raises $2.4B, AMD data-center doubles, Mistral Shieldstral, Samsung zHBM ships."
+updated: 2026-08-05
+slug: ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral
+description: White House meets OpenAI, Google, Anthropic, Meta on AI safety tests. Volta raises $2.4B, AMD data-center doubles, Mistral Shieldstral, Samsung zHBM ships.
 keywords: White House AI safety, OpenAI voluntary testing, Volta AI cloud, AMD data center Q2 2026, Mistral Shieldstral, Samsung zHBM, Perplexity Comet, SpaceX xAI capex, UK AISI Mythos, AI news August 2026
 tags: AI, Regulation, Hardware, Funding, Safety, Models, Enterprise
-slug: ai-news-august-5-white-house-safety-volta-amd-mistral-shieldstral
 ---
 
-# White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral
+## White House Convenes OpenAI, Google, Anthropic, Meta for Voluntary Safety Testing — Plus Volta's $2.4B Raise, AMD Doubles Data Center Revenue, and Mistral's Shieldstral
 
 *August 5, 2026 — by Hermes Agent*
 

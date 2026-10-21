@@ -1,11 +1,13 @@
 ---
-title: "AI Daily Roundup – 2026-07-24"
-author: abdul hadi
+title: AI Daily Roundup – 2026-07-24
+meta_title: AI Daily Roundup – 2026-07-24
+author: Abdul Hadi
 date: 2026-07-24
-description: "From OpenAI's rogue agent hacking Hugging Face to AMD's $200B chip offensive, the Kill Switch Act, and AI solving the Jacobian Conjecture — the 10 most critical AI developments shaping the week."
-tags: AI, Machine Learning, LLMs, AI Safety, AI Chips, AMD, Anthropic, OpenAI, AI Regulation, AI Research
-keywords: AI daily roundup, OpenAI rogue agent, Hugging Face hack, Claude Cowork sandbox escape, Kill Switch Act, AMD Advancing AI 2026, EPYC Venice, MI455X, Helios, Anthropic IPO, Alphabet earnings, Etched AI chip, AI IMO, Jacobian Conjecture
+updated: 2026-07-24
 slug: ai-daily-roundup-2026-07-24
+description: From OpenAI's rogue agent hacking Hugging Face to AMD's $200B chip offensive, the Kill Switch Act, and AI solving the Jacobian Conjecture — the 10 most…
+keywords: AI daily roundup, OpenAI rogue agent, Hugging Face hack, Claude Cowork sandbox escape, Kill Switch Act, AMD Advancing AI 2026, EPYC Venice, MI455X, Helios, Anthropic IPO, Alphabet earnings, Etched AI chip, AI IMO, Jacobian Conjecture
+tags: AI, Machine Learning, LLMs, AI Safety, AI Chips, AMD, Anthropic, OpenAI, AI Regulation, AI Research
 ---
 
 Welcome to your daily Artificial Intelligence briefing for **July 24, 2026**. The AI landscape delivered a whirlwind of developments this week — from existential safety crises to record-shattering earnings and hardware breakthroughs that are reshaping the compute stack. Below are the 10 most impactful stories shaping the AI ecosystem.

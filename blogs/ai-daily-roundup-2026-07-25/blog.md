@@ -1,11 +1,13 @@
 ---
-title: "AI Daily Roundup – July 25, 2026: Claude Opus 5, Prentis AI Lab, and the Geopolitics of Model Distillation"
-author: abdul hadi
+title: AI Daily Roundup – July 25, 2026: Claude Opus 5, Prentis AI Lab, and the Geopolitics of Model Distillation
+meta_title: AI Daily Roundup – July 25, 2026: Claude Opus 5, Prentis…
+author: Abdul Hadi
 date: 2026-07-25
-description: "Claude Opus 5 drops, Prentis raises $100M, White House accuses Moonshot of distillation, and AI disproves a math conjecture — 12 stories in July 2026."
-tags: AI, Machine Learning, LLMs, AI Safety, AI Funding, Anthropic, OpenAI, AI Regulation, AI Chips, AI Research, Open Source
-keywords: AI news July 2026, Claude Opus 5, Prentis AI Lab, Moonshot AI Kimi K3, Fable distillation, AI developments July 2026, Jacobian Conjecture AI, Ego-Lite browser, Siemens Precision Innovations, Meta smart glasses, Grok AI blocked, AI productivity, LongCat-2.0
+updated: 2026-07-25
 slug: ai-daily-roundup-2026-07-25
+description: Claude Opus 5 drops, Prentis raises $100M, White House accuses Moonshot of distillation, and AI disproves a math conjecture — 12 stories in July 2026.
+keywords: AI news July 2026, Claude Opus 5, Prentis AI Lab, Moonshot AI Kimi K3, Fable distillation, AI developments July 2026, Jacobian Conjecture AI, Ego-Lite browser, Siemens Precision Innovations, Meta smart glasses, Grok AI blocked, AI productivity, LongCat-2.0
+tags: AI, Machine Learning, LLMs, AI Safety, AI Funding, Anthropic, OpenAI, AI Regulation, AI Chips, AI Research, Open Source
 ---
 
 Welcome to your daily Artificial Intelligence briefing for **July 25, 2026**. The AI ecosystem delivered a packed 48 hours — from Anthropic's new flagship model challenging GPT-5.6's dominance, to a White House escalation over model distillation and banned chips, to an AI-assisted mathematician disproving an 87-year-old conjecture. Below are the 12 most impactful stories shaping AI news in July 2026.

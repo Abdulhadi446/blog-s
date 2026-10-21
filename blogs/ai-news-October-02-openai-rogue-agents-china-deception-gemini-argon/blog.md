@@ -1,9 +1,11 @@
 ---
-title: "AI Rogue Agents, China's Deception, and Gemini Argon: The October 2nd Roundup"
+title: AI Rogue Agents, China's Deception, and Gemini Argon: The October 2nd Roundup
+meta_title: AI Rogue Agents, China's Deception, and Gemini Argon…
 author: Abdul Hadi
 date: 2026-10-02
+updated: 2026-10-02
 slug: ai-news-oct-02-openai-rogue-agents-china-deception-gemini-argon
-description: "Exploring the rise of autonomous rogue agents, geopolitical AI warfare, and Google's latest Gemini Argon release."
+description: Exploring the rise of autonomous rogue agents, geopolitical AI warfare, and Google's latest Gemini Argon release. Read more on Trillioniar Blog.
 keywords: AI agents, OpenAI, Gemini Argon, AI Deception, EU DMA
 tags: AI, LLM, TechNews, OpenAI
 ---

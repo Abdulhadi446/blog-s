@@ -7,11 +7,11 @@
   <meta name="description" content="{% block meta_description %}{{ seo.site_description }}{% endblock %}" />
   <meta name="author" content="Trillioniar" />
   <meta name="robots" content="{% block robots %}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{% endblock %}" />
-  <link rel="canonical" href="{% block canonical %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
+  <link rel="canonical" href="{% block canonical %}{{ (seo.site_url if seo.site_url != '/' else request.url_root).rstrip('/') }}{{ request.path }}{% endblock %}" />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <meta name="theme-color" content="#8b5cf6" />
   <link rel="alternate" type="application/rss+xml" title="{{ seo.site_name }} RSS Feed" href="{{ url_for('rss_feed', _external=True) }}" />
-  <link rel="alternate" hreflang="en" href="{% block hreflang %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
+  <link rel="alternate" hreflang="en" href="{% block hreflang %}{{ (seo.site_url if seo.site_url != '/' else request.url_root).rstrip('/') }}{{ request.path }}{% endblock %}" />
   <link rel="sitemap" type="application/xml" href="{{ url_for('sitemap', _external=True) }}" />
 
   {% block keywords %}{% endblock %}
@@ -23,13 +23,13 @@
   <meta property="og:url" content="{% block og_url %}{{ request.url_root.rstrip('/') + request.path }}{% endblock %}" />
   <meta property="og:site_name" content="{{ seo.site_name }}" />
   <meta property="og:locale" content="en_US" />
-  {% block og_image %}{% endblock %}
+  {% block og_image %}<meta property="og:image" content="{{ seo.site_url }}{{ seo.site_logo }}" /><meta property="og:image:width" content="512" /><meta property="og:image:height" content="512" /><meta property="og:image:alt" content="{{ seo.site_name }}" />{% endblock %}
   {% endblock %}
 
   <meta name="twitter:card" content="{% block twitter_card %}summary_large_image{% endblock %}" />
   <meta name="twitter:title" content="{% block twitter_title %}{{ seo.site_name }}{% endblock %}" />
   <meta name="twitter:description" content="{% block twitter_description %}{{ seo.site_description }}{% endblock %}" />
-  {% block twitter_image %}{% endblock %}
+  {% block twitter_image %}<meta name="twitter:image" content="{{ seo.site_url }}{{ seo.site_logo }}" /><meta name="twitter:image:alt" content="{{ seo.site_name }}" />{% endblock %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -344,7 +344,8 @@
         <a href="https://docs.thetrillioniar.me">Docs</a>
         <a href="https://github.com/Abdulhadi446/blog-s">Github</a>
         <a href="{{ url_for('index') }}">Blog</a>
-        <a href="{{ url_for('privacy') }}">Privacy</a>
+        <a href="{{ url_for('about') }}">About</a>
+         <a href="{{ url_for('privacy') }}">Privacy</a>
         <a href="{{ url_for('terms') }}">Terms</a>
         <a href="{{ url_for('sitemap') }}">Sitemap</a>
       </div>

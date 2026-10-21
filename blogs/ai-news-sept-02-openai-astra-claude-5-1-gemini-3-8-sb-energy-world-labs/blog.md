@@ -1,9 +1,11 @@
 ---
-title: "Cyber-Critical Astra, Claude 5.1 Price Cuts, and the $430B AI Infrastructure Wave"
-author: abdul hadi
+title: Cyber-Critical Astra, Claude 5.1 Price Cuts, and the $430B AI Infrastructure Wave
+meta_title: Cyber-Critical Astra, Claude 5.1 Price Cuts, and the…
+author: Abdul Hadi
 date: 2026-09-02
+updated: 2026-09-02
 slug: ai-news-sept-02-openai-astra-claude-5-1-gemini-3-8-sb-energy-world-labs
-description: "OpenAI Astra hits critical cyber tier, Claude 5.1 cuts costs 25%, SB Energy reveals $430B backlog, and World Labs debuts Atlas spatial AI. 22 major updates."
+description: OpenAI Astra hits critical cyber tier, Claude 5.1 cuts costs 25%, SB Energy reveals $430B backlog, and World Labs debuts Atlas spatial AI. 22 major updates.
 keywords: OpenAI Astra, Claude 5.1, Gemini 3.8 Flash, SB Energy, World Labs Atlas, AI Infrastructure, Agentic Security
 tags: AI, LLM, TechNews, OpenAI
 ---

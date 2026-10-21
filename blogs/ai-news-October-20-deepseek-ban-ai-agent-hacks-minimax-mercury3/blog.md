@@ -1,9 +1,11 @@
 ---
-title: "DeepSeek Barred From Federal Systems, AI Agents Breach John Deere, and Diffusion Scales"
+title: DeepSeek Barred From Federal Systems, AI Agents Breach John Deere, and Diffusion Scales
+meta_title: DeepSeek Barred From Federal Systems, AI Agents Breach…
 author: Abdul Hadi
 date: 2026-10-20
+updated: 2026-10-20
 slug: ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3
-description: "DHS orders every federal agency to purge DeepSeek, AI agents breach John Deere and Cummins, MiniMax M3.1 Flash cuts costs 70%, and Mercury 3 scales diffusion LLMs to 1,068 tokens per second."
+description: DHS orders every federal agency to purge DeepSeek, AI agents breach John Deere and Cummins, MiniMax M3.1 Flash cuts costs 70%, and Mercury 3 scales…
 keywords: AI, LLM, DeepSeek, MiniMax, Mistral, diffusion, cybersecurity, agents
 tags: AI, LLM, TechNews, OpenAI
 ---

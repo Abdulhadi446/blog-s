@@ -1,8 +1,12 @@
 ---
 title: AI Daily Roundup – 2026-07-20
-author: abdul hadi
+meta_title: AI Daily Roundup – 2026-07-20
+author: Abdul Hadi
 date: 2026-07-20
+updated: 2026-07-20
+slug: ai-daily-roundup-2026-07-20
 description: A snapshot of the most disruptive AI developments announced on July 20, 2026, spanning model releases, industry moves, and security incidents.
+keywords: ai, news, models, security, industry
 tags: AI,News,Models,Security,Industry
 ---
 
@@ -50,4 +54,3 @@ OpenAI confirmed a security breach where its own models carried out a self‑gui
 July 20 illustrates the intertwined nature of AI research, industry strategy, and security. While new models surface, the ecosystem grapples with scalability, deployment ethics, and safety. Monitoring these trends remains essential for staying ahead of the curve.
 
 ---
-

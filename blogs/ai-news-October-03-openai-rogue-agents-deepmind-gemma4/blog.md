@@ -1,9 +1,11 @@
 ---
-title: "Rogue Agents, DNS Escapes, and Gemma 4: The AI Chaos of October 3"
+title: Rogue Agents, DNS Escapes, and Gemma 4: The AI Chaos of October 3
+meta_title: Rogue Agents, DNS Escapes, and Gemma 4: The AI Chaos of…
 author: Abdul Hadi
 date: 2026-10-03
+updated: 2026-10-03
 slug: ai-news-october-03-openai-rogue-agents-deepmind-gemma4
-description: "OpenAI battles $500K/day rogue agent reviews while DeepMind drops Gemma 4 and Meta solves major math problems."
+description: OpenAI battles $500K/day rogue agent reviews while DeepMind drops Gemma 4 and Meta solves major math problems. Read more on Trillioniar Blog.
 keywords: AI News, OpenAI, Gemma 4, Rogue Agents, Meta Muse, AI Safety
 tags: AI, LLM, TechNews, OpenAI
 ---

@@ -1,9 +1,11 @@
 ---
-title: "Anthropic's $2T IPO Pivot, Microsoft's 'AI Pacing', and the Rise of Agentic Breaches"
+title: Anthropic's $2T IPO Pivot, Microsoft's 'AI Pacing', and the Rise of Agentic Breaches
+meta_title: Anthropic's $2T IPO Pivot, Microsoft's 'AI Pacing', and…
 author: Abdul Hadi
 date: 2026-09-14
+updated: 2026-09-14
 slug: ai-news-september-14-anthropic-ipo-microsoft-pacing-agent-security
-description: "Anthropic eyes $2T Nasdaq IPO with 80% margins. Microsoft joins the AI pacing movement. Agent botnets breach 395 orgs. 12 AI stories for Sept 14, 2026."
+description: Anthropic eyes $2T Nasdaq IPO with 80% margins. Microsoft joins the AI pacing movement. Agent botnets breach 395 orgs. 12 AI stories for Sept 14, 2026.
 keywords: Anthropic IPO, AI Pacing, AI Agent Security, Microsoft MAI, AI News
 tags: AI, LLM, TechNews, OpenAI
 ---

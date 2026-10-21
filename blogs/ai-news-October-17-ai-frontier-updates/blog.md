@@ -1,9 +1,11 @@
 ---
-title: "AI Frontier: Llama on PS5, Postgres Delays, and Claude's Quantum Leap"
+title: AI Frontier: Llama on PS5, Postgres Delays, and Claude's Quantum Leap
+meta_title: AI Frontier: Llama on PS5, Postgres Delays, and Claude's…
 author: Abdul Hadi
 date: 2026-10-17
+updated: 2026-10-17
 slug: ai-news-October-17-ai-frontier-updates
-description: "From running LLMs on consoles to AI-driven database delays, today's AI news pushes the boundaries of hardware and software."
+description: From running LLMs on consoles to AI-driven database delays, today's AI news pushes the boundaries of hardware and software.
 keywords: AI, LLM, Llama.cpp, Postgres, Claude, Anthropic
 tags: AI, LLM, TechNews, OpenAI
 ---

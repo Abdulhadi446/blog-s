@@ -1,14 +1,16 @@
 ---
-title: "Kimi K3 ‑ The 2.8 Trillion‑Parameter Open‑Weight Model That's Reshaping AI"
-author: abdul hadi
+title: Kimi K3 ‑ The 2.8 Trillion‑Parameter Open‑Weight Model That's Reshaping AI
+meta_title: Kimi K3 ‑ The 2.8 Trillion‑Parameter Open‑Weight Model…
+author: Abdul Hadi
 date: 2026-07-20
-description: "Moonshot AI's Kimi K3 brings a 2.8 trillion‑parameter mixture‑of‑experts model to the open‑source community, boasting a 1‑million‑token context window and native vision capabilities, positioning it as a new benchmark for democratized AI.
-"
+updated: 2026-07-20
+slug: kimi-k3-2.8-trillion-open-weight-model-reshaping-ai
+description: "Moonshot AI's Kimi K3 brings a 2.8 trillion‑parameter mixture‑of‑experts model to the open‑source community, boasting a 1‑million‑token context window and…
 keywords: open-weight,kimi-k3,moonshot-ai,mixture-of-experts,2.8-trillion,1m-context,AI democratization
 tags: AI,OpenAI,LanguageModel,Trends
 ---
 
-# Kimi K3 – The 2.8 Trillion‑Parameter Open‑Weight Model that’s Reshaping AI
+## Kimi K3 – The 2.8 Trillion‑Parameter Open‑Weight Model that’s Reshaping AI
 
 In mid‑July 2026, Chinese startup **Moonshot AI** surprised the community by releasing **Kimi K3**, a 2.8 trillion‑parameter mixture‑of‑experts (MoE) language model with an unprecedented **1 million‑token (1 M) context window**. Built on their proprietary Kimi Delta Attention and Attention Residuals architectures, it also ships with native vision input, making it one of the first open‑weight models to combine text and image understanding at scale.
 
@@ -27,14 +29,14 @@ In mid‑July 2026, Chinese startup **Moonshot AI** surprised the community by r
 Shell‑style pseudocode (actual numbers omitted due to licensing) illustrates Kimi K3’s performance:
 
 ```shell
-# Language‑model benchmarks (GPT‑5.6 Sol left as baselines)
-# On the US‑English Wiki 
+## Language‑model benchmarks (GPT‑5.6 Sol left as baselines)
+## On the US‑English Wiki 
 BLEU @ Kimi‑K3 = 1.78 versus GPT‑5.6 Sol = 1.60
 
-# Code‑generation benchmark
+## Code‑generation benchmark
 BLEUM 32k @ Kimi‑K3 = 94.4% vs GPT‑5.6 Sol = 90.6%
 
-# Long‑horizon problem solving
+## Long‑horizon problem solving
 1 M-token understanding of Technical Paper in 5 m → 93% correctness
 ```
 
@@ -71,4 +73,3 @@ The excitement in the AI ecosystem isn’t just about the numbers; it’s about 
 ---
 
 *Stay tuned for more on how Kimi K3 reshapes not only the model zoo but the future of AI development.*
-

@@ -1,9 +1,11 @@
 ---
-title: "OpenAI Agents API Beta, Anthropic Threat Intelligence, and the Rise of Memory-First Silicon"
-author: abdul hadi
+title: OpenAI Agents API Beta, Anthropic Threat Intelligence, and the Rise of Memory-First Silicon
+meta_title: OpenAI Agents API Beta, Anthropic Threat Intelligence…
+author: Abdul Hadi
 date: 2026-09-11
+updated: 2026-09-11
 slug: ai-news-september-11-openai-agents-anthropic-threat-positron-california-astra-swe2-apple-nasa
-description: "OpenAI launches Agents API beta. Anthropic reports bio-weapon plots. Positron raises $875M for memory-first chips. California sets AI auditor laws. 8 stories."
+description: OpenAI launches Agents API beta. Anthropic reports bio-weapon plots. Positron raises $875M for memory-first chips. California sets AI auditor laws. 8 stories.
 keywords: OpenAI Agents API, Anthropic Threat Report, Positron Asimov, California AI Law, GPT-6 Astra, SWE-2, Apple Reference Image, Lunar Foundation Model
 tags: AI, LLM, TechNews, OpenAI
 ---

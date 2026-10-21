@@ -1,9 +1,11 @@
 ---
-title: "OpenAI's Jalapeno ASIC and the Era of Real-Time Multimodal Reasoning"
+title: OpenAI's Jalapeno ASIC and the Era of Real-Time Multimodal Reasoning
+meta_title: OpenAI's Jalapeno ASIC and the Era of Real-Time…
 author: Abdul Hadi
 date: 2026-10-05
+updated: 2026-10-05
 slug: ai-news-october-05-openai-jalapeno-gemma4-humanoid-safety
-description: "OpenAI pushes boundaries with Jalapeno ASICs, DeepMind updates Gemma 4, and the UN sets humanoid safety standards."
+description: OpenAI pushes boundaries with Jalapeno ASICs, DeepMind updates Gemma 4, and the UN sets humanoid safety standards. Read more on Trillioniar Blog.
 keywords: OpenAI, Jalapeno, Gemma 4, Humanoid AI, AI Safety, Llama 5
 tags: AI, LLM, TechNews, OpenAI, DeepMind
 ---

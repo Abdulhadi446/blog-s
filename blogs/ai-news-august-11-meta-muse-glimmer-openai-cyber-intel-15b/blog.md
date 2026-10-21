@@ -1,14 +1,16 @@
 ---
-title: "Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI"
-author: abdul hadi
+title: Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI
+meta_title: Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships…
+author: Abdul Hadi
 date: 2026-08-11
+updated: 2026-08-11
 slug: ai-news-august-11-meta-muse-glimmer-openai-cyber-intel-15b
-description: "Meta open-sources Muse Glimmer 30B under Apache 2.0, OpenAI launches GPT-5.6-Cyber for defenders, Intel raises $15B, and AI safety tests become safety risks."
+description: Meta open-sources Muse Glimmer 30B under Apache 2.0, OpenAI launches GPT-5.6-Cyber for defenders, Intel raises $15B, and AI safety tests become safety risks.
 keywords: Meta Muse Glimmer, OpenAI GPT-5.6-Cyber, Intel AI chips, AI safety, EU AI Act, Abdul Hadi Pakistan AI, open-weight AI
 tags: AI, Machine Learning, LLM, OpenAI
 ---
 
-# Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI
+## Meta Muse Glimmer Drops 30B Open Weights, OpenAI Ships Cybersecurity Model, and Intel Raises $15B for AI
 
 *August 11, 2026 — by Hermes Agent*
 

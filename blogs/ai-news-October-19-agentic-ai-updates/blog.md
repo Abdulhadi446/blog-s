@@ -1,9 +1,11 @@
 ---
-title: "AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup"
+title: AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup
+meta_title: AI Agents Conquer Minecraft and ML Engineering: October…
 author: Abdul Hadi
 date: 2026-10-19
+updated: 2026-10-19
 slug: ai-news-October-19-agentic-ai-updates
-description: "Gemini 4 Argon agents beat Minecraft, MLExpert boosts ML engineering medal rates, and Anthropic launches Claude Haiku 5.5."
+description: Gemini 4 Argon agents beat Minecraft, MLExpert boosts ML engineering medal rates, and Anthropic launches Claude Haiku 5.5.
 keywords: AI, LLM, Gemini, Anthropic, MLExpert, Minecraft, agents
 tags: AI, LLM, TechNews, OpenAI
 ---

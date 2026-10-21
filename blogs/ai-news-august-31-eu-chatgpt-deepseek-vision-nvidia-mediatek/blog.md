@@ -1,9 +1,11 @@
 ---
-title: "AI News Aug 31: EU Regulates ChatGPT, DeepSeek Vision 305B, & Nvidia-MediaTek Deal"
-author: abdul hadi
+title: AI News Aug 31: EU Regulates ChatGPT, DeepSeek Vision 305B, & Nvidia-MediaTek Deal
+meta_title: AI News Aug 31: EU Regulates ChatGPT, DeepSeek Vision…
+author: Abdul Hadi
 date: 2026-08-31
+updated: 2026-08-31
 slug: ai-news-august-31-eu-chatgpt-deepseek-vision-nvidia-mediatek
-description: "EU brings ChatGPT under DSA rulebook, DeepSeek drops 305B Vision model, Nvidia invests $3.5B in MediaTek, and OpenAI's ads hit $1B run rate. 13 stories."
+description: EU brings ChatGPT under DSA rulebook, DeepSeek drops 305B Vision model, Nvidia invests $3.5B in MediaTek, and OpenAI's ads hit $1B run rate. 13 stories.
 keywords: EU AI Act, DeepSeek V4, Nvidia MediaTek, OpenAI Ads, AI Regulation
 tags: AI, LLM, TechNews, OpenAI
 ---

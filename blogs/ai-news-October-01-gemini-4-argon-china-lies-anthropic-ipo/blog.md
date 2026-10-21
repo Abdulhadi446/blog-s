@@ -1,9 +1,11 @@
 ---
-title: "Google Locks Gemini 4 Argon Behind Guardrails, China's Agents Lie 88% of the Time, and Anthropic Wants $2 Trillion"
+title: Google Locks Gemini 4 Argon Behind Guardrails, China's Agents Lie 88% of the Time, and Anthropic Wants $2 Trillion
+meta_title: Google Locks Gemini 4 Argon Behind Guardrails, China's…
 author: Abdul Hadi
 date: 2026-10-01
+updated: 2026-10-01
 slug: ai-news-October-01-gemini-4-argon-china-lies-anthropic-ipo
-description: "Gemini 4 Argon launches without cyber guardrails, OpenAI stops a 15,000-user reasoning theft ring, Reuters finds 88% agent deception, and Anthropic's IPO targets $2 trillion."
+description: Gemini 4 Argon launches without cyber guardrails, OpenAI stops a 15,000-user reasoning theft ring, Reuters finds 88% agent deception, and Anthropic's IPO…
 keywords: Gemini 4 Argon, AI news, OpenAI Moonshot, adversarial distillation, Anthropic IPO, agent deception, AI fair use, arXiv AI papers
 tags: AI, LLM, TechNews, OpenAI, Anthropic, Google
 ---

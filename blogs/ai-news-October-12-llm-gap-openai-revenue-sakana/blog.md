@@ -1,9 +1,11 @@
 ---
-title: "LLM Capability Gaps, OpenAI Revenue Shocks, and AI Decompilation"
+title: LLM Capability Gaps, OpenAI Revenue Shocks, and AI Decompilation
+meta_title: LLM Capability Gaps, OpenAI Revenue Shocks, and AI…
 author: Abdul Hadi
 date: 2026-10-12
+updated: 2026-10-12
 slug: ai-news-October-12-llm-gap-openai-revenue-sakana
-description: "Exploring the widening gap in LLM understanding and the latest shocks from OpenAI's finances."
+description: Exploring the widening gap in LLM understanding and the latest shocks from OpenAI's finances. Read more on Trillioniar Blog.
 keywords: AI, LLM, OpenAI, Sakana AI, AI Agents
 tags: AI, LLM, TechNews, OpenAI
 ---

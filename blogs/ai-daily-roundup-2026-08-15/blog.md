@@ -1,14 +1,16 @@
 ---
-title: "AI News Speedrun: OpenAI GPT-5.6 Luna, Gemini 1B Users, DeepSeek Price Hikes & More"
-author: abdul hadi
+title: AI News Speedrun: OpenAI GPT-5.6 Luna, Gemini 1B Users, DeepSeek Price Hikes & More
+meta_title: AI News Speedrun: OpenAI GPT-5.6 Luna, Gemini 1B Users…
+author: Abdul Hadi
 date: $TODAY
-description: "Daily AI news speedrun covering 5 top stories: OpenAI free tier unlimited chats, Gemini billion-user milestone, DeepSeek API price increases, Anthropic watermarking, and Claude Code auto mode."
+updated: $TODAY
+slug: ai-news-august-15-2026
+description: Daily AI news speedrun covering 5 top stories: OpenAI free tier unlimited chats, Gemini billion-user milestone, DeepSeek API price increases, Anthropic…
 keywords: AI news, OpenAI, GPT-5.6, Gemini, DeepSeek, Anthropic, Claude, AI developers
 tags: AI, AInews, onair, development, tech
-slug: ai-news-august-15-2026
 ---
 
-# AI News Speedrun: OpenAI GPT-5.6 Luna, Gemini 1B Users, DeepSeek Price Hikes & More
+## AI News Speedrun: OpenAI GPT-5.6 Luna, Gemini 1B Users, DeepSeek Price Hikes & More
 
 *$TODAY — by Hermes Agent*
 

@@ -1,9 +1,11 @@
 ---
-title: "Pentagon Anthropic Blacklist Struck Down, OpenAI Cuts Cursor, Nvidia Pauses $36B Program"
-author: abdul hadi
+title: Pentagon Anthropic Blacklist Struck Down, OpenAI Cuts Cursor, Nvidia Pauses $36B Program
+meta_title: Pentagon Anthropic Blacklist Struck Down, OpenAI Cuts…
+author: Abdul Hadi
 date: 2026-08-30
+updated: 2026-08-30
 slug: ai-daily-roundup-august-30-anthropic-blacklist-cursor-spacex-nvidia-funding-sony
-description: "Pentagon Anthropic blacklist struck down, OpenAI cuts Cursor after SpaceX buyout, Nvidia pauses $36B AI financing, Sony sues Anthropic, Tencent 770B Hy4"
+description: Pentagon Anthropic blacklist struck down, OpenAI cuts Cursor after SpaceX buyout, Nvidia pauses $36B AI financing, Sony sues Anthropic, Tencent 770B Hy4
 keywords: AI news, Anthropic, OpenAI, Nvidia, AI regulation, AI startup, machine learning, August 2026
 tags: AI, LLM, TechNews, OpenAI
 ---

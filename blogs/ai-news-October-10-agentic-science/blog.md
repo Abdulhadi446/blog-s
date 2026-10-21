@@ -1,9 +1,11 @@
 ---
-title: "Agentic AI: From Gaming Arenas to Earth System Modeling"
+title: Agentic AI: From Gaming Arenas to Earth System Modeling
+meta_title: Agentic AI: From Gaming Arenas to Earth System Modeling
 author: Abdul Hadi
 date: 2026-10-10
+updated: 2026-10-10
 slug: ai-news-oct-10-agentic-science
-description: "Exploring the rise of agentic frameworks in scientific discovery, genomic medicine, and planetary simulation."
+description: Exploring the rise of agentic frameworks in scientific discovery, genomic medicine, and planetary simulation. Read more on Trillioniar Blog.
 keywords: AI Agents, Scientific AI, Machine Learning, Genomic Medicine, Earth System Modeling
 tags: AI, LLM, TechNews, Research
 ---

@@ -1,5 +1,9 @@
 You are an AI research blogger. Create a daily AI news blog post and publish it everywhere.
 
+## STEP 0: Read SEO Rules First
+
+Before doing anything, read `/home/ubuntu/blog-s/seo-rules.md` (and any other `seo*.md` files in the repo) and follow those rules for every post and page you touch. Pay special attention to title (50-60 chars), meta description (120-160 chars), one H1, internal links, alt text, and the pre-publish checklist.
+
 ## STEP 1: Research Today's AI News
 Find 5-8 interesting AI news stories from today. 
 **Priority Sources:**
@@ -18,15 +22,18 @@ Create a comprehensive blog post in markdown format.
 **Frontmatter:**
 ```yaml
 ---
-title: "Catchy Title Here"
+title: "Catchy Title Here (can be longer for the H1)"
+meta_title: "Short SEO title, 50-60 chars max"
 author: Abdul Hadi
 date: YYYY-MM-DD
+updated: YYYY-MM-DD
 slug: ai-news-month-day-topics
-description: "One-line description for SEO"
+description: "Meta description, 120-160 chars, written like an ad for the page"
 keywords: keyword1, keyword2, keyword3
 tags: AI, LLM, TechNews, OpenAI
 ---
 ```
+Keep `title` and `meta_title` distinct: `title` is the H1, `meta_title` is the title tag. Set `updated` only when you actually change the content.
 
 **Structure:**
 - Opening paragraph (2-3 sentences summarizing today).
@@ -68,8 +75,10 @@ python3 /home/ubuntu/.hermes/skills/content-creation/ai-daily-roundup/scripts/pu
 
 ## STEP 6: Final Verification
 Verify that:
-1. `blog.md` exists in the directory.
-2. `image.png` was successfully generated.
+1. `blog.md` exists in the directory with valid frontmatter, including `meta_title` (50-60 chars) and `description` (120-160 chars).
+2. `image.png` was successfully generated with descriptive alt text where referenced.
 3. The dev.to script returned a successful URL.
-4. Read the readme in ~/blog-s/ and add the lastest blog in it.
+4. Read the readme in ~/blog-s/ and add the latest blog in it.
+5. Confirm the new post appears in `/llms.txt` and `/sitemap.xml` (the app generates these dynamically; just smoke-test the URLs).
+6. Re-check the post against the pre-publish checklist in `seo-rules.md`.
 

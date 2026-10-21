@@ -1,9 +1,11 @@
 ---
-title: "Mistral's 1T 'le Chonk', OpenAI's Math Leap, and Google's Nuclear Bet"
+title: Mistral's 1T 'le Chonk', OpenAI's Math Leap, and Google's Nuclear Bet
+meta_title: Mistral's 1T 'le Chonk', OpenAI's Math Leap, and…
 author: Abdul Hadi
 date: 2026-10-07
+updated: 2026-10-07
 slug: ai-news-october-07-mistral-1t-openai-math-google-nuclear
-description: "Mistral releases 1T parameter model, OpenAI hits math milestones, and Google secures nuclear power."
+description: Mistral releases 1T parameter model, OpenAI hits math milestones, and Google secures nuclear power. Read more on Trillioniar Blog.
 keywords: AI, Mistral, OpenAI, Google, Nuclear Energy, LLM
 tags: AI, LLM, TechNews, OpenAI
 ---
