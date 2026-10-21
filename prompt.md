@@ -66,7 +66,7 @@ git push origin main
 ```
 
 ## STEP 5: Publish to dev.to
-Use the validated publishing script:
+Use the validated publishing script (it automatically uses the same featured image as the main website for the cover and embeds it in the body):
 ```bash
 DEVTO_KEY="Rm1DGonBBZuxt9tJcoZGZMBr"
 BLOG_DIR=$(ls -td /home/ubuntu/blog-s/blogs/ai-news-$(date +%B-%d)* | head -1)
