@@ -1,0 +1,5 @@
+Anthropic lost 80.7 billion dollars in six months - and on the very same day, DeepSeek open-sourced the inference engine behind its models. Plus: Gemini 4 Argon hits general availability, Mistral ships Voxtral 3 voice agents, Claude designs scorpion toxin binders, Meta reveals a 1 million GPU cluster, and open weights can ship backdoors for 8 dollars.
+
+Full breakdown with links: https://blogs.thetrillioniar.me/blog/ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu
+
+#AI #AINews #DeepSeek #Anthropic #Gemini #Mistral #MetaAI #Cybersecurity #OpenSource #TechNews
