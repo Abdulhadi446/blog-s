@@ -1,0 +1,11 @@
+AI cracked a decade-old PHP flaw exposing 70% of the web - then Mistral shipped a 1 trillion parameter open model.
+
+Wiz Research found PHP2Shell with Gemini 4 and GPT-5.6: CVSS 9.2, patched in one week instead of months.
+Mistral Large 4 "Le Chonk": 1T parameters, 160 languages, weights later this month.
+Claude Duet turns 6,000 connectors into a proactive agent that asks before it acts.
+
+Full breakdown: https://blogs.thetrillioniar.me/blog/ai-news-October-22-php2shell-mistral-le-chonk-claude-duet
+
+#AI #AINews #Cybersecurity #OpenSource #LLM
+
+TITLE: 70% of the web exposed: AI found a decade-old PHP flaw in one week
