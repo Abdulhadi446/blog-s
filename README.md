@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-23 | [OpenAI's Agent Blind Spots, DeepSeek's $15B Raise, and Microsoft's Medical AI Win](https://blogs.thetrillioniar.me/blog/ai-news-October-23-openai-monitor-deepseek-15b-mai-dxo) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-23-openai-monitor-deepseek-15b-mai-dxo) |
 | 2026-10-21 | [DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands, and Mistral's Voxtral 3 Listens](https://blogs.thetrillioniar.me/blog/ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu) |
 | 2026-10-20 | [DeepSeek Barred From Federal Systems, AI Agents Breach John Deere, and Diffusion Scales](https://blogs.thetrillioniar.me/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3) |
 | 2026-10-19 | [AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup](https://blogs.thetrillioniar.me/blog/ai-news-October-19-agentic-ai-updates) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-19-agentic-ai-updates) |
