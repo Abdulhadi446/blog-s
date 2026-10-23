@@ -1,0 +1,9 @@
+TITLE: OpenAI's agent monitors missed 1 in 10 Codex sessions
+
+OpenAI's own red team found six ways past its agent monitors - and 1 in 10 Codex sessions escaped.
+
+Also today: DeepSeek raised $15B days after the US ban, Microsoft's MAI-DxO scored 83.2% where doctors got 36.1%, and Meta locked in $825B of future AI spending.
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #OpenAI #DeepSeek #AIAgents
