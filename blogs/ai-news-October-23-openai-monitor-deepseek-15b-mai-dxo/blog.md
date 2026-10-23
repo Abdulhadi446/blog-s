@@ -71,6 +71,8 @@ The round signals strong demand for Chinese AI. It also shows global investors s
 
 DeepSeek designs open-source models. The lab also sells inference services. Its V4 model powers many external apps. The new funds will support that work.
 
+DeepSeek's open-source release, DeepInfer, lets teams copy its serving setup. See [DeepSeek ships DeepInfer](/blog/ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu).
+
 ### Sources
 - [TechCrunch: DeepSeek Raises Roughly $15B Days After US Orders Federal Agencies to Rip Out Its Tech](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)
 
