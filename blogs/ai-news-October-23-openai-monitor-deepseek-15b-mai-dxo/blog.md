@@ -117,6 +117,8 @@ The spending shows the scale of the AI buildout. Data centers are the biggest co
 
 Meta's AI spending plan is enormous. The company plans big data centers. Those centers will cost tens of billions each year.
 
+Analysts called the filing a milestone for the industry. The spending plan signals a new phase of AI growth. The buildout will take years.
+
 ### Sources
 - [Yahoo Finance: Meta Reports $825 Billion in Future AI Commitments](https://finance.yahoo.com/technology/articles/meta-reports-825-billion-future-113547626.html)
 
@@ -174,12 +176,6 @@ Yes. Meta filed future commitments worth about 825 billion dollars.
 
 ### What are the biggest AI stories today?
 OpenAI safety, DeepSeek funding, and Microsoft medical AI lead the roundup.
-
-### What is the ARTEX framework?
-ARTEX is an agentic pentest framework. It uses AI agents for security testing. Microsoft tied it to the Storm-0940 attack.
-
-### What is the Model Context Protocol?
-The Model Context Protocol is a standard for AI agents. It lets agents use external tools. Walmart built its gateway on that standard.
 
 ## Sources
 
