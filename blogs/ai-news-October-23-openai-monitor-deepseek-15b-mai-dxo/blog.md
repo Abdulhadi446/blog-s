@@ -3,7 +3,7 @@ title: "OpenAI's Agent Blind Spots, DeepSeek's $15B Raise, and Microsoft's Medic
 meta_title: "OpenAI Agent Blind Spots, DeepSeek $15B, Microsoft MAI"
 author: Abdul Hadi
 date: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-24
 slug: ai-news-October-23-openai-monitor-deepseek-15b-mai-dxo
 description: "OpenAI's agent monitor had serious blind spots, DeepSeek raised $15 billion, and Microsoft's AI beat doctors. Your daily AI news roundup today."
 keywords: OpenAI, agent monitoring, DeepSeek funding, Microsoft MAI-DxO, AI security
@@ -44,6 +44,8 @@ The findings matter for agent builders. Any system that watches agents needs red
 The new findings add pressure on every lab building agent monitors. The industry now expects continuous red-team testing. Safety teams will need more staff and more tools.
 
 For more on AI agent security, read our roundup on [AI agents breaching John Deere and SharkNinja](/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3). See the [International AI Safety Report](/blog/international-ai-safety-report-2026) for the wider picture.
+
+OpenAI went further the next day. It cut live internet access from frontier training entirely, as our [October 24 roundup](/blog/ai-news-October-24-openai-internet-ban-kimi-litellm) explains.
 
 ### Sources
 - [Redwood Research: Red-Teaming OpenAI's Internal Agent Monitoring Systems](https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent)

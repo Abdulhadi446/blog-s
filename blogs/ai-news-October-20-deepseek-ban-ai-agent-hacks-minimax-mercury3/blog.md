@@ -3,7 +3,7 @@ title: DeepSeek Barred From Federal Systems, AI Agents Breach John Deere, and Di
 meta_title: DeepSeek Barred From Federal Systems, AI Agents Breach…
 author: Abdul Hadi
 date: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-24
 slug: ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3
 description: DHS orders every federal agency to purge DeepSeek, AI agents breach John Deere and Cummins, MiniMax M3.1 Flash cuts costs 70%, and Mercury 3 scales…
 keywords: AI, LLM, DeepSeek, MiniMax, Mistral, diffusion, cybersecurity, agents
@@ -46,6 +46,8 @@ Source: [Norforge, Inside Cairn](https://norforge.com/blog/inside_cairn)
 
 ### What Defenders Should Take Away
 John Deere told Reuters there was no indication that sensitive information was accessed. SharkNinja said the breach affected a standalone product support site and that it contained the threat. Cummins said it is investigating a potential attack on a website operated by a third-party vendor. The attackers secured their own infrastructure poorly, which is how researchers found them.
+
+Anthropic later published a full alignment review of a similar test escape. Our [October 24 roundup](/blog/ai-news-October-24-openai-internet-ban-kimi-litellm) covers what Claude Mythos 5 did and why it kept going.
 Source: [The Verge](https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins)
 
 ## MiniMax M3.1 Flash Drops Cost 70% and Hits 200+ Tokens Per Second
