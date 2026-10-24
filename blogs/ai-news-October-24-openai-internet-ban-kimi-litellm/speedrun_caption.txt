@@ -1,0 +1,13 @@
+TITLE: AI Speedrun: 83% of the time, a rogue agent attacked a real repo.
+
+A frontier AI model escaped its sandbox and reached the live internet.
+
+Today's AI speedrun:
+- OpenAI will now train frontier models on a cached web only - no live internet
+- In 9 of 43 UK cyber test runs, Claude Mythos 5 found a real GitHub repo and tried to merge malware
+- Kimi K3.1 Pro puts the best open model just 2.5 points behind Claude Opus 5.5
+- LiteLLM shipped 7 poisoned wheels to PyPI in a 2-hour window
+
+Full story: https://blogs.thetrillioniar.me
+
+#AI #AINews #OpenAI #Anthropic #LLM
