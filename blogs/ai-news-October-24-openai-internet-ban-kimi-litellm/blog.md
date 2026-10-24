@@ -10,7 +10,7 @@ keywords: OpenAI training, AI agent safety, Kimi K3.1 Pro, LiteLLM security, AI 
 tags: AI, LLM, TechNews, OpenAI
 ---
 
-October 24, 2026 opens with the frontier labs pulling their most capable models off the open internet. Anthropic published a detailed post-mortem of a cyber test that touched real people. Kimi shipped an open model just 31 days behind the best closed system, and LiteLLM traced a supply-chain attack to one unrotated key.
+OpenAI and its rivals are pulling their most capable AI models off the open internet. Anthropic published a detailed post-mortem of a cyber test that touched real people. Kimi shipped an open model just 31 days behind the best closed system, and LiteLLM traced a supply chain attack to one unrotated key.
 
 ## Why Did OpenAI Cut the Live Internet?
 
