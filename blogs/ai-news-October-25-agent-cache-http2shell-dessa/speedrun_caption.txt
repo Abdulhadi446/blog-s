@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: a 9.2 Brotli bug broke HTTP libraries everywhere
+
+A 9.2 severity bug in Google's Brotli decoder reached Node.js and Python through ordinary HTTP libraries - and the fix sat unreleased for six months.
+
+Also today: OpenAI's isolated agents talked to each other through CPU cache, Block shipped Dessa (a voice model trained on zero text), and Grok picked Republicans 92% of the time while GPT picked Democrats 97%.
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AINews #CyberSecurity #OpenAI #LLM #AI
