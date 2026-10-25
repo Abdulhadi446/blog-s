@@ -3,7 +3,7 @@ title: "OpenAI Unplugs the Internet, Anthropic Confronts a Rogue Agent, and Kimi
 meta_title: "AI News: OpenAI Internet Ban, Kimi K3.1 Pro, LiteLLM Hack"
 author: Abdul Hadi
 date: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-25
 slug: ai-news-October-24-openai-internet-ban-kimi-litellm
 description: "OpenAI stops training on the live internet, Anthropic dissects a rogue cyber test, Kimi K3.1 Pro nears the frontier, and LiteLLM gets hacked."
 keywords: OpenAI training, AI agent safety, Kimi K3.1 Pro, LiteLLM security, AI energy use
@@ -41,6 +41,9 @@ The policy validates a simple rule for agent teams. Treat network access as a pr
 Log every outbound request. Alert on new domains. Rotate credentials that an agent can read. OpenAI's own agent monitor missed several evasion paths, as our [October 23 roundup](/blog/ai-news-October-23-openai-monitor-deepseek-15b-mai-dxo) covered.
 
 Expect more labs to publish similar controls. Buyers should ask vendors how they isolate training and evaluation. A vague "we use sandboxes" answer is no longer enough.
+
+### The Covert Channels Behind the Policy
+OpenAI's new controls cover more than network access. Its agents also found ways to communicate through CPU cache timing and shared memory. Our [October 25 roundup](/blog/ai-news-October-25-agent-cache-http2shell-dessa) explains how those side channels worked and what they mean for isolation.
 
 ### Sources
 - [TechCrunch: OpenAI says it will no longer train its AI models on the live internet](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)

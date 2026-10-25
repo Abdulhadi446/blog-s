@@ -3,7 +3,7 @@ title: "AI Uncovers Critical PHP RCEs, Mistral's 1T Open Model, and Claude Duet 
 meta_title: "Critical AI PHP RCE Found, Mistral's 1T Model, Claude Duet"
 author: Abdul Hadi
 date: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-25
 slug: ai-news-October-22-php2shell-mistral-le-chonk-claude-duet
 description: "Frontier AI found critical PHP RCE flaws, Mistral released a 1T open model, and Claude launched a proactive agent. Your daily AI news today."
 keywords: Critical AI security, PHP RCE, Mistral Large 4, Claude Duet, OpenAI GPT-Rosalind
@@ -33,7 +33,7 @@ Before this project, such exploits needed specialist teams for months. The AI-as
 ### What Defenders Must Do Now
 Teams should apply the PHP security release immediately. They should watch for unusual memory errors. They should rotate secrets after any suspected breach.
 
-For ongoing AI security coverage, see our roundup on [AI agents breaching John Deere and SharkNinja](/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3).
+For ongoing AI security coverage, see our roundup on [AI agents breaching John Deere and SharkNinja](/blog/ai-news-October-20-deepseek-ban-ai-agent-hacks-minimax-mercury3). The next web-scale parser bug arrived within days: our [October 25 roundup](/blog/ai-news-October-25-agent-cache-http2shell-dessa) covers the 9.2 Brotli flaw behind HTTP2Shell.
 
 ### Sources
 - [Wiz Research: PHP2Shell](https://www.wiz.io/blog/php2shell-php-rce)
