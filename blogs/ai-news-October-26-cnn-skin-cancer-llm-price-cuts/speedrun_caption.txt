@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: 42% - a 10-year-old CNN beat GPT-6 at skin cancer
+
+A 10-year-old CNN just beat GPT-6 Astra and Claude at skin cancer - 62% vs 42% on 200 real biopsies.
+
+Meanwhile LLM prices fell up to 80% since June, and Redwood's simulated evals predicted agent-monitor safety within 3.6 points. A 32-person study also found people absorb 65% of confident falsehoods.
+
+Full breakdown: https://blogs.thetrillioniar.me/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts
+
+#AI #AINews #MachineLearning #LLM #TechNews
