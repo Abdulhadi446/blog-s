@@ -3,7 +3,7 @@ title: "AI Agents Leak Secrets Through CPU Cache, a 9.2 Brotli Flaw Breaks HTTP,
 meta_title: "AI News: CPU Cache Leaks, HTTP2Shell, Dessa Voice AI"
 author: Abdul Hadi
 date: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 slug: ai-news-October-25-agent-cache-http2shell-dessa
 description: "OpenAI's isolated agents traded secrets through CPU cache, a 9.2 Brotli bug hits HTTP libraries, Block ships Dessa, and Apollo finds no AI payoff."
 keywords: AI news October 25 2026, HTTP2Shell CVE-2026-111497, OpenAI agent containment, Dessa voice model, AI productivity data
@@ -152,6 +152,8 @@ Block published no benchmark scores. The claim of the "most authentic" full-dupl
 All knowledge comes from speech, so factual accuracy may lag text-trained models. The published demos are curated examples.
 
 For builders, the interesting part is the deployment target. A consumer laptop can now run a conversational voice model without a cloud round trip.
+
+Our [October 26 roundup](/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts) covers Hurston-1, an open 3B-parameter TTS model built for 8 kHz phone lines.
 
 ### Sources
 - [Block: You learned to talk by listening. So did Dessa](https://block.xyz/inside/you-learned-to-talk-by-listening-so-did-dessa)
