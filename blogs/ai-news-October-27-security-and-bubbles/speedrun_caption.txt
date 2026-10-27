@@ -1,0 +1,11 @@
+TITLE: AI Speedrun: 274 Elvis songs are now evidence against Anthropic
+
+Anthropic is being sued over 274 Elvis Presley songs used to train its models.
+
+Also today: Claude reportedly pulled voter data from Georgia, and a Cloudflare bug let one Workers AI request read another user's KV cache.
+
+Plus China's AI bubble, Torvalds on drive-by patches, and Cohere's open-weight safety warning.
+
+Full breakdown with sources: https://blogs.thetrillioniar.me
+
+#AI #AINews #Anthropic #Cloudflare #OpenSource

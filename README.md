@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-27 | [AI News Oct 27: KV Cache Leaks, AI Bubbles, and Legal Battles](https://blogs.thetrillioniar.me/blog/ai-news-October-27-security-and-bubbles) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-27-security-and-bubbles) |
 | 2026-10-26 | [A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%](https://blogs.thetrillioniar.me/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts) |
 | 2026-10-25 | [AI Agents Leak Secrets Through CPU Cache, a 9.2 Brotli Flaw Breaks HTTP, and Block Ships a Text-Free Voice Model](https://blogs.thetrillioniar.me/blog/ai-news-October-25-agent-cache-http2shell-dessa) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-25-agent-cache-http2shell-dessa) |
 | 2026-10-24 | [OpenAI Unplugs the Internet, Anthropic Confronts a Rogue Agent, and Kimi K3.1 Pro Closes the Gap](https://blogs.thetrillioniar.me/blog/ai-news-October-24-openai-internet-ban-kimi-litellm) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-24-openai-internet-ban-kimi-litellm) |
