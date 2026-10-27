@@ -3,7 +3,7 @@ title: "A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%"
 meta_title: "AI News: 10-Year-Old CNN Beats GPT-6, LLM Prices Drop 80%"
 author: Abdul Hadi
 date: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 slug: ai-news-October-26-cnn-skin-cancer-llm-price-cuts
 description: "A 10-year-old CNN beats GPT-6 and Claude at skin cancer, LLM prices fall 80%, and Redwood simulates agent sabotage. Today's AI news, with numbers."
 keywords: AI news October 26 2026, skin cancer AI diagnosis, LLM price cuts, simulated control evaluations, AI sycophancy study, Hurston-1 TTS
@@ -76,6 +76,8 @@ Re-price your agent stack every month. Track cost per resolved task, not cost pe
 Do not assume today's price is a subsidy that will reverse. Woolf argues the opposite: many providers and low switching costs push price toward marginal cost. Lock in portability before you lock in a vendor.
 
 Our [October 24 roundup](/blog/ai-news-October-24-openai-internet-ban-kimi-litellm) covered Kimi K3.1 Pro's launch and the OpenAI training lockdown. Our [October 21 DeepInfer report](/blog/ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu) covered the serving-efficiency side of the same race.
+
+The cuts continued the next day. Our [October 27 report on GPT-6.1 Terra](/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) tracks a model that halves the price again while doubling Terminal-Bench accuracy.
 
 ### Sources
 - [Max Woolf: OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?](https://minimaxir.com/2026/10/cheap-llms/)

@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-27 | [OpenAI Says Its Model Disproved a Landmark Conjecture, Anthropic Files for an IPO, and GPT-6.1 Terra Ships](https://blogs.thetrillioniar.me/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) |
 | 2026-10-27 | [AI News Oct 27: KV Cache Leaks, AI Bubbles, and Legal Battles](https://blogs.thetrillioniar.me/blog/ai-news-October-27-security-and-bubbles) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-27-security-and-bubbles) |
 | 2026-10-26 | [A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%](https://blogs.thetrillioniar.me/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-26-cnn-skin-cancer-llm-price-cuts) |
 | 2026-10-25 | [AI Agents Leak Secrets Through CPU Cache, a 9.2 Brotli Flaw Breaks HTTP, and Block Ships a Text-Free Voice Model](https://blogs.thetrillioniar.me/blog/ai-news-October-25-agent-cache-http2shell-dessa) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-25-agent-cache-http2shell-dessa) |

@@ -3,7 +3,7 @@ title: DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands, and Mistral's Vo
 meta_title: DeepSeek Ships DeepInfer, Anthropic's $80.7B Loss Lands…
 author: Abdul Hadi
 date: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-27
 slug: ai-news-October-21-deepinfer-anthropic-ipo-voxtral3-torchtpu
 description: DeepSeek open-sources its production inference stack, Anthropic's draft IPO shows an $80.7 billion loss, Mistral ships Voxtral 3, Google open-sources…
 keywords: DeepSeek, DeepInfer, Anthropic, Voxtral 3, TorchTPU, Gemini 4 Argon, Meta Prometheus, LLM inference
@@ -47,6 +47,8 @@ Source: [Reuters via Channel NewsAsia](https://www.channelnewsasia.com/business/
 ### The $750 Billion Compute Bet
 Anthropic signalled it could spend as much as $750 billion in coming years on computing capacity. The Wall Street Journal reported roughly $450 billion in cloud agreements spanning seven to ten years. Most of those agreements are non-cancelable, which converts a flexible expense into a fixed obligation. Investors who attended the investor day discussed a valuation near $1.5 trillion. That figure sits well below the roughly $2 trillion valuation previously expected for Anthropic's November share sale.
 Source: [Reuters via Channel NewsAsia](https://www.channelnewsasia.com/business/anthropic-logged-net-loss-over-80-billion-in-first-half-2026-wsj-reports-6476676)
+
+The formal S-1 landed five days later. Our [October 27 report on the filing](/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) covers the first audited revenue, margin, and cash-flow figures.
 
 ## Mistral Ships Voxtral 3 for Real-Time Voice Agents
 

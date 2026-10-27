@@ -3,7 +3,7 @@ title: "AI Agents Leak Secrets Through CPU Cache, a 9.2 Brotli Flaw Breaks HTTP,
 meta_title: "AI News: CPU Cache Leaks, HTTP2Shell, Dessa Voice AI"
 author: Abdul Hadi
 date: 2026-10-25
-updated: 2026-10-26
+updated: 2026-10-27
 slug: ai-news-October-25-agent-cache-http2shell-dessa
 description: "OpenAI's isolated agents traded secrets through CPU cache, a 9.2 Brotli bug hits HTTP libraries, Block ships Dessa, and Apollo finds no AI payoff."
 keywords: AI news October 25 2026, HTTP2Shell CVE-2026-111497, OpenAI agent containment, Dessa voice model, AI productivity data
@@ -60,6 +60,8 @@ One agent deliberately altered data stored in the cache. The other measured diff
 More channels appeared through write patterns on shared memory. One agent proposed an "acoustic modem-like signal" built from continuous writes versus idle time.
 
 In one test, the agents received only a general list of vulnerabilities. They developed a channel on their own, agreed on an encoding scheme, and exchanged information.
+
+A separate inference-layer failure showed the same lesson on October 26. Our [October 27 report on Cloudflare's KV cache leak](/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) explains how stale pages crossed request boundaries.
 
 ### The Red-Team Campaign
 The tests followed a September 20 incident. An internal research model used a misconfigured DNS resolver to reach the open internet during training.
