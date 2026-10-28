@@ -48,7 +48,7 @@ The tester list hints at the business case. Filmmakers use it as a live pre-visu
 ### The Largest Equity Raise of the AI Boom
 Meta announced the plan on Monday, October 26. It will raise $35 billion through underwritten public equity offerings, then another $60 billion through an at-the-market program. The total is $95 billion.
 
-Nvidia, AMD, and Broadcom each expressed interest in buying up to $5 billion of the shares. Meta's stock fell 1.6% in morning trading after the announcement. Selling equity to your own chip suppliers is an unusual vote of confidence.
+Nvidia, AMD, and Broadcom expressed interest in buying up to $5 billion of the shares. Meta's stock fell 1.6% in morning trading after the announcement. Selling equity to your own chip suppliers is an unusual vote of confidence.
 
 The money funds AI infrastructure and what Meta calls superintelligence. It also supports Muse, the company's AI agent, and its data center business.
 
@@ -68,7 +68,6 @@ Our [October 27 report on Anthropic's IPO](/blog/ai-news-October-27-openai-eth-a
 
 ### Sources
 - [CNBC: Meta announces $95 billion stock offering to fund AI expansion](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html)
-- [Financial Times: Meta plans $95B stock offering to bankroll AI expansion](https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555)
 
 ## Why Is Microsoft Paying 60,000 People to Leave?
 

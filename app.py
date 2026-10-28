@@ -25,7 +25,9 @@ def create_app(config_name=None):
         if configured:
             return configured
         base = request.url_root.rstrip('/')
-        if not app.debug and base.startswith('http://'):
+        host = request.host.split(':')[0]
+        is_local = host in ('localhost', '127.0.0.1', '0.0.0.0', '::1')
+        if not is_local and base.startswith('http://'):
             base = 'https://' + base[len('http://'):]
         return base
 
@@ -466,6 +468,14 @@ def create_app(config_name=None):
             'image': None,
             'image_title': None
         })
+
+        base = get_site_base()
+        if base.startswith('https://'):
+            for entry in urls:
+                if entry.get('loc', '').startswith('http://'):
+                    entry['loc'] = 'https://' + entry['loc'][7:]
+                if (entry.get('image') or '').startswith('http://'):
+                    entry['image'] = 'https://' + entry['image'][7:]
 
         return render_template('sitemap.xml', urls=urls)
 
