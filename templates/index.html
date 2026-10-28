@@ -28,7 +28,7 @@
       "author": { "@type": "Person", "name": {{ post.author|tojson }} },
       "url": "{{ seo.site_url }}{{ url_for('blog_post', slug=post.slug) }}",
       "datePublished": {{ post.published_date|tojson }}{% if post.featured_image %},
-      "image": {{ (request.url_root.rstrip('/') + post.featured_image)|tojson }}{% endif %}
+      "image": {{ (seo.site_url + post.featured_image)|tojson }}{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]
@@ -49,7 +49,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "{{ request.url_root.rstrip('/') }}/blog"
+      "item": "{{ seo.site_url }}/blog"
     }
   ]
 }

@@ -13,11 +13,11 @@
   "@context": "https://schema.org",
   "@type": "AboutPage",
   "name": "About {{ seo.site_name }}",
-  "url": "{{ request.url_root.rstrip('/') }}/about",
+  "url": "{{ seo.site_url }}/about",
   "mainEntity": {
     "@type": "Person",
     "name": "Abdul Hadi",
-    "url": "{{ request.url_root.rstrip('/') }}/about"
+    "url": "{{ seo.site_url }}/about"
   }
 }
 </script>
@@ -27,7 +27,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ seo.site_url }}/" },
-    { "@type": "ListItem", "position": 2, "name": "About", "item": "{{ request.url_root.rstrip('/') }}/about" }
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "{{ seo.site_url }}/about" }
   ]
 }
 </script>
