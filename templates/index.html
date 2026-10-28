@@ -283,7 +283,7 @@
         <img
           class="post-card-image"
           src="{{ post.featured_image }}"
-          alt="{{ post.title }} - {{ post.description[:80] if post.description else 'Blog post featured image' }}"
+          alt="{{ post.image_alt or post.title ~ ' - ' ~ (post.description[:80] if post.description else 'Blog post featured image') }}"
           itemprop="image"
           width="800"
           height="450"

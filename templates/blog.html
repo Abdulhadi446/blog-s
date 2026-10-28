@@ -406,7 +406,7 @@
   <div class="container container--narrow">
     <img
       src="{{ blog.featured_image }}"
-      alt="{{ blog.title }} - Featured image"
+      alt="{{ blog.image_alt or blog.title ~ ' - Featured image' }}"
       itemprop="image"
       width="720"
       height="405"

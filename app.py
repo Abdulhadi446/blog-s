@@ -154,6 +154,7 @@ def create_app(config_name=None):
                         'published_date': published_date,
                         'modified_date': modified_date,
                         'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
+                        'image_alt': meta.get('image_alt', ''),
                         'content': body,
                         'tags': meta.get('tags', ''),
                         'keywords': meta.get('keywords', '')
@@ -196,6 +197,7 @@ def create_app(config_name=None):
             'modified_date': modified_date,
             'content': body,
             'featured_image': f'/blogs/{slug}/image.png' if os.path.exists(os.path.join(post_dir, 'image.png')) else None,
+            'image_alt': meta.get('image_alt', ''),
             'tags': meta.get('tags', ''),
             'keywords': meta.get('keywords', ''),
             'url': request.url
