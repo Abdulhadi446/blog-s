@@ -19,12 +19,22 @@ def create_app(config_name=None):
     BLOGS_DIR = os.path.expanduser('~/blog-s/blogs')
     os.makedirs(BLOGS_DIR, exist_ok=True)
 
+    def get_site_base():
+        """Canonical site base URL: configured SITE_URL, else request root."""
+        configured = app.config['SITE_CONFIG']['url'].rstrip('/')
+        if configured:
+            return configured
+        base = request.url_root.rstrip('/')
+        if not app.debug and base.startswith('http://'):
+            base = 'https://' + base[len('http://'):]
+        return base
+
     @app.context_processor
     def inject_site_config():
         seo = {
             'site_name': app.config['SITE_CONFIG']['name'],
             'site_description': app.config['SITE_CONFIG']['description'],
-            'site_url': request.url_root.rstrip('/'),
+            'site_url': get_site_base(),
             'site_logo': app.config['SITE_CONFIG']['logo'],
             'current_year': app.config['SITE_CONFIG']['current_year'],
         }
@@ -317,9 +327,7 @@ def create_app(config_name=None):
 
     @app.route('/llms.txt')
     def llms_txt():
-        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
-        if not site_url:
-            site_url = request.url_root.rstrip('/')
+        site_url = get_site_base()
         posts = get_all_posts()
         lines = [
             f"# {app.config['SITE_CONFIG']['name']}",
@@ -379,7 +387,7 @@ def create_app(config_name=None):
     @app.route('/sitemap.xml')
     def sitemap():
         app.response_class.mimetype = 'application/xml'
-        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
+        site_url = get_site_base()
         urls = [{
             'loc': url_for('index', _external=True),
             'lastmod': datetime.now().strftime('%Y-%m-%d'),
@@ -396,7 +404,7 @@ def create_app(config_name=None):
             post_image = None
             post_image_title = None
             if post.get('featured_image'):
-                post_image = request.url_root.rstrip('/') + post['featured_image']
+                post_image = get_site_base() + post['featured_image']
                 post_image_title = post['title']
             urls.append({
                 'loc': url_for('blog_post', slug=post['slug'], _external=True),
@@ -463,9 +471,7 @@ def create_app(config_name=None):
 
     @app.route('/robots.txt')
     def robots():
-        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
-        if not site_url:
-            site_url = request.url_root.rstrip('/')
+        site_url = get_site_base()
         content = f"""User-agent: *
 Allow: /
 Disallow: /admin/
@@ -480,9 +486,7 @@ Sitemap: {site_url}/sitemap.xml
     @app.route('/feed.xml')
     def rss_feed():
         all_posts = get_all_posts()
-        site_url = app.config['SITE_CONFIG']['url'].rstrip('/')
-        if not site_url:
-            site_url = request.url_root.rstrip('/')
+        site_url = get_site_base()
         site_name = app.config['SITE_CONFIG']['name']
         site_desc = app.config['SITE_CONFIG']['description']
 
@@ -493,7 +497,7 @@ Sitemap: {site_url}/sitemap.xml
             content_html = render_markdown(post['content'], extensions=['fenced_code', 'codehilite', 'tables'])
             image_tag = ''
             if post.get('featured_image'):
-                image_url = request.url_root.rstrip('/') + post['featured_image']
+                image_url = get_site_base() + post['featured_image']
                 image_tag = f'''
     <enclosure url="{image_url}" type="image/png" length="0"/>'''
             items += f'''

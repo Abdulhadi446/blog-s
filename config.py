@@ -19,6 +19,7 @@ class DevelopmentConfig(Config):
 
 class ProductionConfig(Config):
     DEBUG = False
+    PREFERRED_URL_SCHEME = 'https'
 
 config = {
     'development': DevelopmentConfig,
