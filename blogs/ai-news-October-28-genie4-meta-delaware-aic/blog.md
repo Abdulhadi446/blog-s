@@ -204,10 +204,14 @@ No. BigSleep found 45 V8 vulnerabilities in six months versus 37 for Fuzzilli, w
 ### Can a small model handle emergency advice?
 Partly. Survival LLM's 8B model scored 14 of 22 on the project's first-aid test, while 27B models scored 21 of 22. The app mitigates this by showing the source passage for every answer.
 
-## The Bottom Line
+## What Connects Today's Stories?
 
-Three stories today point the same direction. Genie 4 shows models generating whole sensory worlds, Meta shows the capital required to train them, and Delaware shows the law trying to catch up. The gap between capability and accountability is now the main story in AI.
+### Capability, Capital, and Accountability
+Genie 4 shows models generating whole sensory worlds. Meta shows the capital required to train them. Delaware shows the law trying to catch up.
 
-For builders, the useful signals are concrete. Native audio in world models opens new interface work. Offline 27B models make local-first apps viable. And LLM bug hunting works best as a second layer, not a replacement.
+The gap between capability and accountability is now the main story in AI. Every launch raises the same question. Who is responsible when the system acts?
 
-Tomorrow, watch whether the Delaware bill gets a hearing and whether Meta's offering prices at a discount. Both will tell you how much risk the market and the state are willing to absorb.
+For builders, the useful signals are concrete. Native audio in world models opens new interface work. Offline 27B models make local-first apps viable. LLM bug hunting works best as a second layer.
+
+### What to Watch Tomorrow
+Watch whether the Delaware bill gets a hearing. Watch whether Meta's offering prices at a discount. Both will show how much risk the market and the state will absorb.
