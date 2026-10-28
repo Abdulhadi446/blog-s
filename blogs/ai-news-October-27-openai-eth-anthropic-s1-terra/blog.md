@@ -99,6 +99,8 @@ The adjusted profit figure is not GAAP profit. Stock compensation is a real cost
 
 A strong debut would pressure OpenAI to follow. A weak one would mark down the whole private AI complex. Either outcome changes the cost of capital for every lab.
 
+Meta moved first on the equity side with a [\$95 billion stock offering](/blog/ai-news-October-28-genie4-meta-delaware-aic) announced on October 26.
+
 Builders should watch compute contracts and customer concentration, not just benchmark scores. Those two numbers shape API pricing, capacity, and long-term stability.
 
 ### Sources

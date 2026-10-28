@@ -258,6 +258,8 @@ Prefer systems that let you swap models without rewriting workflows. Portability
 
 Our [October 23 report on OpenAI's agent monitor](/blog/ai-news-October-23-openai-monitor-deepseek-15b-mai-dxo) shows the same lesson on the safety side. Control has to live outside the model.
 
+A [Project Zero comparison of LLM bug hunting and fuzzing](/blog/ai-news-October-28-genie4-meta-delaware-aic) found the two methods still catch different bugs.
+
 ### Sources
 - [TechCrunch: The AI graveyard](https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
 - [S&P Global Market Intelligence](https://www.spglobal.com/market-intelligence/en)

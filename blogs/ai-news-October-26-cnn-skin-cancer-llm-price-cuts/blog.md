@@ -263,6 +263,8 @@ Yes, on first-choice diagnosis. The CNN got 125 of 200 lesions right, against 84
 ### Will LLM prices go back up?
 The evidence does not support a sharp reversal. Open-weight models and 29-provider markets keep pressure on OpenAI and Anthropic. Subscription quotas are a more likely place to cut value.
 
+Meta's [\$95 billion stock offering](/blog/ai-news-October-28-genie4-meta-delaware-aic) shows the infrastructure bill behind those prices is still growing.
+
 ### What is a simulated control evaluation?
 It is a test of an AI monitor that uses a model to fake tool outputs instead of running attacks in a real environment. Redwood's version predicted monitor safety within 3.6 percentage points on LinuxArena.
 
