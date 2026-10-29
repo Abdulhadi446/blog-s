@@ -215,3 +215,5 @@ For builders, the useful signals are concrete. Native audio in world models open
 
 ### What to Watch Tomorrow
 Watch whether the Delaware bill gets a hearing. Watch whether Meta's offering prices at a discount. Both will show how much risk the market and the state will absorb.
+
+Read our [October 29 AI news roundup](/blog/ai-news-October-29-gemini-carbon-cyber-cves) for Gemini 4 Carbon's cyber benchmarks and Anthropic's 62 Chrome CVEs.

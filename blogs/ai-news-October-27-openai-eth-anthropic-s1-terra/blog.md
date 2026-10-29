@@ -316,3 +316,5 @@ Cloudflare says only GLM-5.3 was affected. Other disaggregated deployments had K
 
 ### Does constrained decoding fix bad tool calls?
 It fixes malformed calls, not bad decisions. Constrained decoding guarantees that the JSON matches the schema. The model can still pick the wrong tool or pass a semantically wrong value. Test both schema accuracy and task success.
+
+Read our [October 29 AI news roundup](/blog/ai-news-October-29-gemini-carbon-cyber-cves) for Anthropic's exploit research, Azure's AI revenue, and PostgreSQL 19's delay.

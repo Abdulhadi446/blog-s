@@ -283,3 +283,5 @@ Yes. The weights are Apache-2.0, and the base Maya1 model is also Apache-2.0. Ch
 - [Tom's Hardware: Nvidia and old nuclear plants](https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch)
 - [Terence Tao's blog: Designating mathematicians for AI output](https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/)
 - [Hugging Face: Hurston-1](https://huggingface.co/destined/hurston-1)
+
+Read our [October 29 AI news roundup](/blog/ai-news-October-29-gemini-carbon-cyber-cves) for Gemini 4 Carbon's pricing and Anthropic's Chrome exploit findings.
