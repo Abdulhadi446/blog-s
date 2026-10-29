@@ -1,0 +1,11 @@
+TITLE: AI found 62 Chrome bugs - then Google's cyber model answered
+
+62 Chrome vulnerabilities, 13 sandbox escapes - one AI model found them all.
+
+Anthropic's Claude chained five attacks, including a Linux kernel root shell in 53 minutes. Google's Gemini 4 Carbon answered with 88.2% on SEC-bench Pro. Meanwhile Azure hit $33.2B in a quarter, with $10B from OpenAI.
+
+Postgres 19 slipped to November after LLM-found bugs pushed back-patched commits up 60%. Stack Overflow is down to 947 questions a month.
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #CyberSecurity #Gemini4 #Anthropic #PostgreSQL
