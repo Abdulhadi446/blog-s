@@ -291,4 +291,6 @@ Watch whether Carbon's limited release expands beyond cyber defenders. Watch Ant
 
 Watch PostgreSQL's November release date. And watch whether other open-source projects copy MicroZig's ban or write a narrower disclosure rule.
 
+Tomorrow's roundup covers [Alphabet's $500 billion selloff and a $1,000 Firefox exploit built with an open-weight model](/blog/ai-news-October-30-alphabet-500b-firefox-exploit-agent-swarm).
+
 The common thread is verification. Generating code, exploits, and answers is now cheap. Checking them is the scarce resource, and every story this week points at the same bottleneck.

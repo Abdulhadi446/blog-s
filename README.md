@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-10-30 | [Alphabet Loses $500B, a $1,000 Firefox Exploit, and 50 Agents Build a Government](https://blogs.thetrillioniar.me/blog/ai-news-October-30-alphabet-500b-firefox-exploit-agent-swarm) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-30-alphabet-500b-firefox-exploit-agent-swarm) |
 | 2026-10-29 | [Gemini 4 Carbon Takes the Cyber Crown as Claude's Exploits Patch 62 Chrome Holes](https://blogs.thetrillioniar.me/blog/ai-news-October-29-gemini-carbon-cyber-cves) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-29-gemini-carbon-cyber-cves) |
 | 2026-10-28 | [Genie 4 Adds Sound to AI Worlds, Meta Raises $95B, and Delaware Lets AI Run Companies](https://blogs.thetrillioniar.me/blog/ai-news-October-28-genie4-meta-delaware-aic) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-28-genie4-meta-delaware-aic) |
 | 2026-10-27 | [OpenAI Says Its Model Disproved a Landmark Conjecture, Anthropic Files for an IPO, and GPT-6.1 Terra Ships](https://blogs.thetrillioniar.me/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-27-openai-eth-anthropic-s1-terra) |
