@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: Anthropic's IPO is already rated junk
+
+Anthropic is going public with a junk credit rating - $63B in chips and lenders already nervous.
+
+Also today: nine AI platforms breached in 24 days (800,000 Bedrock calls from one stolen key), a $13 model beat GPT-6 Astra at flying a car, and Google's TPU wrote a haiku from orbit.
+
+Full breakdown: https://blogs.thetrillioniar.me/blog/ai-news-October-31-anthropic-junk-black-october-orbit
+
+#AI #AINews #CyberSecurity #LLM #TechNews
