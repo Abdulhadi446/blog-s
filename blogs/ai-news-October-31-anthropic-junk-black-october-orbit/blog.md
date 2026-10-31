@@ -292,9 +292,6 @@ No. It is a prototype satellite with TPU trays running a Gemma 4 model. Google p
 ### Can a 4B model really beat GPT-6 Astra?
 In SkyPilot's latency-bound flight simulator, yes. The 4B model answers fast enough to act, while larger models miss the 0.2-second control window. That is not a general capability claim.
 
-### Why is DRAM so expensive in 2026?
-AI data centers are buying a large share of global memory output. Micron has left consumer memory production, and consumer prices have risen as a result.
-
 ## What Connects Today's Stories?
 
 ### Cheap Models, Expensive Infrastructure
