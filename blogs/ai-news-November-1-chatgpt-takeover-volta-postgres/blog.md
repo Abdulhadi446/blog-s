@@ -11,9 +11,9 @@ keywords: AI news November 1 2026, ChatGPT account takeover, Volta infostealer, 
 tags: AI, LLM, TechNews, Security
 ---
 
-A public ChatGPT share link can hand an attacker your whole account. A new infostealer asks Claude to rank stolen identities by how much they are worth. And PostgreSQL 19 is late because language models are now very good at finding the database's bugs.
+Today's AI news reads like a security ledger. A public ChatGPT share link can hand an attacker your whole account. A new infostealer asks Claude to price stolen identities, and PostgreSQL 19 is late because language models keep finding bugs.
 
-### The Short Version
+## The Short Version
 - Parameter Labs found a ChatGPT share-link takeover. OpenAI fixed it on October 26 and rated it P1.
 - Cisco Talos documented Volta-Autodoxer, which sends stolen data to Claude, Kimi, and Gemini for ranking.
 - Epoch AI showed GLM 5.3 turning Firefox patches into exploits for about $1,000 per release.
