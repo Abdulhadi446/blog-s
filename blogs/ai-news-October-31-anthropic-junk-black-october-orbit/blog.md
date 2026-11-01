@@ -3,7 +3,7 @@ title: "Anthropic Gets a Junk Rating, Nine AI Platforms Fall, and a TPU Writes P
 meta_title: "AI News: Anthropic Junk Rating, 9 Breaches, TPU in Orbit"
 author: Abdul Hadi
 date: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 slug: ai-news-October-31-anthropic-junk-black-october-orbit
 image_alt: "Illustration of a satellite above a dark Earth beside a credit gauge pointing to BB junk, under the headline Junk Rating, Nine Breaches, One Orbiting TPU"
 description: "Anthropic faces a junk credit rating after its IPO, nine AI platforms admit breaches, and Google's orbital TPU writes a haiku. Plus a $13 model that flies."
@@ -303,6 +303,8 @@ Capability is getting cheaper. The capital needed to serve it at scale is gettin
 Nine developer platforms leaked credentials in one month. One popular coding extension planted an SSH backdoor on developer machines.
 
 Every new AI tool adds a key, an agent, and a permission boundary. The attack surface grows faster than most teams can inventory it.
+
+Our [November 1 roundup](/blog/ai-news-November-1-chatgpt-takeover-volta-postgres) adds two more examples: a ChatGPT share-link takeover and malware that asks Claude to rank victims by worth.
 
 ### The Control Layer Is Moving
 Google wants one robots.txt token to express AI training preferences. Publishers want fewer rules and clearer signals.
