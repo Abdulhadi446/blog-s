@@ -1,0 +1,14 @@
+TITLE: AI Speedrun: one ChatGPT share link, full account takeover
+
+One ChatGPT share link could hand over your whole account - no install, no warning.
+
+Today's speedrun:
+1. A MathLive bug let a shared chat run code inside your signed-in session. OpenAI rated it P1 and fixed it October 26.
+2. Volta malware asks Claude, then Kimi, then Gemini which victim is worth robbing first.
+3. Postgres 19 slipped to November: back-ports rose 60 percent because AI finds bugs faster than humans fix them.
+4. Reddit fell 30 percent in a day on AI search traffic.
+5. Five Qwen agents scored 9.8 out of 10 at 39 cents a problem.
+
+Full breakdown + sources: https://blogs.thetrillioniar.me/blog/ai-news-November-1-chatgpt-takeover-volta-postgres
+
+#AI #CyberSecurity #OpenAI #Postgres #LLM
