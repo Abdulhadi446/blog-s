@@ -1,0 +1,3 @@
+TITLE: AI Speedrun: white text cost two law firms $16,000
+
+A sentence typed in white text on a white page cost two law firms $16,000. - Brazil's court AI caught the hidden prompt injection, and the fine was 10% of an R$842,000 claim. - A 7.72 TB "Mythos" checkpoint appeared on Hugging Face with 6.8 trillion parameters and a Python loader; Hacker News pulled the link over malware concerns. - Apollo's chief economist says the other 493 S&P companies got zero payoff, and 50 GPT agents in Minecraft spent 11 minutes appointing one fertilizer operator. Full breakdown: https://blogs.thetrillioniar.me/blog/ai-news-November-2-prompt-fine-mythos-leak #AI #AINews #PromptInjection #LLM #TechNews
