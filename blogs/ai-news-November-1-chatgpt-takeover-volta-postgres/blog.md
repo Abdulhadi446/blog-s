@@ -3,7 +3,7 @@ title: "A ChatGPT Share Link Hijacks Accounts, and Malware Now Ranks Victims by 
 meta_title: "ChatGPT Account Takeover, AI Malware, and Late Postgres"
 author: Abdul Hadi
 date: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 slug: ai-news-November-1-chatgpt-takeover-volta-postgres
 image_alt: "Dark editorial graphic with the headline One Link, One Takeover, a crossed-out chain link, and stats for a shared ChatGPT link, $0.39 per coding problem, and a 60% rise in Postgres back-ports"
 description: "A shared ChatGPT link could hijack your account, malware uses Claude to rank victims, and Postgres 19 slips because LLMs find too many bugs."
@@ -316,3 +316,5 @@ Each case got easier because capable models are now cheap and widely available. 
 
 ### What to Watch Next
 Watch whether Mozilla and other projects shorten their patch gaps. Watch whether Anthropic publishes a real policy for model-training restrictions. And watch PostgreSQL 19's November release notes.
+
+Our [November 2 roundup](/blog/ai-news-November-2-prompt-fine-mythos-leak) picks up the Anthropic model-policy question and a court ruling that treats a hidden prompt as misconduct.
