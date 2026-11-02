@@ -187,7 +187,7 @@ The alternative was a patchwork of licensing deals and court cases. A shared tok
 
 It also gives AI companies a defensible answer when regulators ask whether they respect opt-outs. That is likely why four competitors agreed in the same week.
 
-The open question is coverage. If a new lab launches a crawler next year and ignores the token, the standard is only as strong as its signatories. Our [October 23 analysis](/blog/ai-news-October-23-deepseek-monitor-deepseek-15b-mai-dxo) looked at how quickly new labs enter the crawl business.
+The open question is coverage. If a new lab launches a crawler next year and ignores the token, the standard is only as strong as its signatories. Four signatures are a start, not a registry.
 
 ### Sources
 - [Engadget: Google joins OpenAI and Anthropic in promising new scraping controls](https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/)
