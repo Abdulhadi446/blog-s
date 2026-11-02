@@ -77,7 +77,7 @@ The card leans hard on internal consistency. It argues that every NVFP4 block ro
 ### Why Hacker News Pulled the Link
 The submission reached the front page, then moderators removed the URL "for malware concerns." The discussion stayed up, and it is mostly doubt.
 
-One commenter noted that a Fable 5 checkpoint had supposedly been for sale on a forum days earlier. Another pointed to a Hugging Face discussion thread calling the repo fake. A third asked why a mid-pretraining checkpoint would already be quantized to NVFP4.
+One commenter noted that a Fable 5 checkpoint had supposedly been for sale on a forum days earlier. Another pointed to a Hugging Face discussion thread calling the repo fake. A third doubted the NVFP4 and Trainium details outright.
 
 The strongest tell is the framing. The card says "Do not DM me asking for the source" and asks for mirrors. That is not how a lab handles a containment failure. It is how an anonymous account farms curiosity.
 
@@ -236,7 +236,7 @@ Terence Tao published "Mathematics has changed. Let's act like it" on November 1
 
 He describes a widening gap between the ability to produce a proof and the ability to understand it or push the field somewhere new. arXiv now fills with AI-assisted papers racing to be first.
 
-Tao says the Leiden declaration, a 2025 statement on responsible AI use in mathematics, is "being honored more in name than in spirit."
+Tao says the Leiden declaration on responsible AI use in mathematics is "being honored more in name than in spirit."
 
 ### Evaluate Every Paper as AI-Assisted
 His central proposal is uncomfortable. Stop asking whether a paper used AI and evaluate every paper as if it did.
