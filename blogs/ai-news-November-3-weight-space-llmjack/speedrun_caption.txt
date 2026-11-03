@@ -1,0 +1,14 @@
+TITLE: AI Speedrun: 517 without training, 15.8 after 100 million steps
+
+A model that never trained scored 517 on Breakout. The one trained for 100 million steps scored 15.8.
+
+Today's speedrun:
+- GPT-6 Astra edits raw weights by hand - 0.016% of Qwen lifts MATH-500 from 7.9% to 48.1%
+- Stolen API keys ran up $1 million bills, 500,000 calls in eight hours
+- China puts frontier weights on the export list at 2 trillion parameters
+- 0.1% poisoned pretraining turns a 4B agent into a 92% RCE machine
+- DoorDash: a billion orders, a few hundred from outside AI agents
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #MachineLearning #LLM #CyberSecurity
