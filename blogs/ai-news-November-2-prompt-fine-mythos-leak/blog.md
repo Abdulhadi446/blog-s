@@ -3,7 +3,7 @@ title: "A Hidden Prompt Cost Two Lawyers $16,000, and a 7.7 TB 'Mythos Leak' Sme
 meta_title: "AI News: Prompt Injection Fine and a Doubtful Leak"
 author: Abdul Hadi
 date: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-03
 slug: ai-news-November-2-prompt-fine-mythos-leak
 image_alt: "Dark editorial graphic reading A HIDDEN PROMPT. A 7.7 TB MAYBE. with stats for a $16,000 court fine, a 7.72 TB checkpoint, and a 6-1 agent game result"
 description: "A Brazilian court fined lawyers for a hidden prompt, a 7.7 TB Mythos checkpoint looks fake, and 50 Minecraft agents drowned in paperwork."
@@ -325,3 +325,5 @@ The defenses are unglamorous. Check formatting. Sandbox untrusted code. Read the
 Watch whether other courts cite the Pará ruling. Watch whether Hugging Face adds a trust signal for multi-terabyte uploads. Watch whether the S&P 493's margins move in the fourth quarter.
 
 And watch the `robots.txt` rollout. If publishers adopt the token and crawlers ignore it, the standard will be a press release rather than a control.
+
+Read the [November 3 roundup](/blog/ai-news-November-3-weight-space-llmjack). It covers a model that edits weights directly, a $1 million LLMJacking bill, and China's new export thresholds.

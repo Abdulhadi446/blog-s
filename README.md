@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-03 | [A Model That Rewrites Weights by Hand, and Stolen Keys That Cost $1 Million](https://blogs.thetrillioniar.me/blog/ai-news-November-3-weight-space-llmjack) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-3-weight-space-llmjack) |
 | 2026-11-02 | [A Hidden Prompt Cost Two Lawyers $16,000, and a 7.7 TB 'Mythos Leak' Smells Wrong](https://blogs.thetrillioniar.me/blog/ai-news-November-2-prompt-fine-mythos-leak) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-2-prompt-fine-mythos-leak) |
 | 2026-11-01 | [A ChatGPT Share Link Hijacks Accounts, and Malware Now Ranks Victims by Worth](https://blogs.thetrillioniar.me/blog/ai-news-November-1-chatgpt-takeover-volta-postgres) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-1-chatgpt-takeover-volta-postgres) |
 | 2026-10-31 | [Anthropic Gets a Junk Rating, Nine AI Platforms Fall, and a TPU Writes Poetry in Orbit](https://blogs.thetrillioniar.me/blog/ai-news-October-31-anthropic-junk-black-october-orbit) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-October-31-anthropic-junk-black-october-orbit) |
