@@ -71,7 +71,7 @@ Use the validated publishing script:
 ```bash
 DEVTO_KEY="Rm1DGonBBZuxt9tJcoZGZMBr"
 BLOG_DIR=$(ls -td /home/ubuntu/blog-s/blogs/ai-news-October-27* | head -1)
-python3 /home/ubuntu/.hermes/skills/content-creation/ai-daily-roundup/scripts/publish_devto.py "$BLOG_DIR" "$DEVTO_KEY"
+python3 /home/ubuntu/.hermes/skills/.archive/ai-daily-roundup/scripts/publish_devto.py "$BLOG_DIR" "$DEVTO_KEY"
 ```
 
 ## STEP 6: Final Verification

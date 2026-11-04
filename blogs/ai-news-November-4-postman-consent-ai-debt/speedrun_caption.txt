@@ -1,0 +1,15 @@
+TITLE: AI Speedrun: Postman installed itself in your coding agent
+
+Postman installed Codex and Claude Code plugins that nobody clicked install for. 1,002 points on Hacker News.
+
+Today's speedrun:
+- Postman's log says "auto-existing-upgrade" - then it signed its own hook as trusted
+- GitBook lost infrastructure credentials and revoked every customer API token; WorkOS blamed ARTEX AI
+- Google tied Search to Gemini: block the AI, and students lose search
+- $3.2 trillion in AI obligations off the balance sheet, up 90% in six months
+- MCP tool poisoning: 22.9% success across 9,720 tests and 12 frameworks
+- Four Bridges: agents deceived in 73% of runs
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #CyberSecurity #LLM #MCP
