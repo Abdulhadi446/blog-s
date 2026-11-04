@@ -298,3 +298,5 @@ Each story also shows how hard verification has become. A model can hide a loop 
 Watch whether other labs reproduce the Qwen edit without the authors' harness. Watch whether Anthropic's RSP update adds a hard stop or a reporting layer. Watch the LiteLLM patch rate and the November 15 comments on China's catalogue.
 
 And watch the next agent-commerce number. A few hundred orders is not a verdict. It is a baseline.
+
+Read the [November 4 roundup](/blog/ai-news-November-4-postman-consent-ai-debt) for Postman's silent plugin install, agentic breaches at GitBook and WorkOS, and $3.2 trillion in AI obligations.
