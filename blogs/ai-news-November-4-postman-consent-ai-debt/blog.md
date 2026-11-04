@@ -3,6 +3,7 @@ title: "Postman Installed Itself in Your Coding Agent, and $3.2 Trillion Left th
 meta_title: "AI News: Postman Hijacks Agents, AI Debt Hits $3.2T"
 author: Abdul Hadi
 date: 2026-11-04
+updated: 2026-11-04
 slug: ai-news-November-4-postman-consent-ai-debt
 image_alt: "Dark infographic titled Consent, Credentials, and $3.2 Trillion with four stat cards: 1,002 Hacker News points for the Postman auto-install issue, 19:00 CET for the GitBook breach, a 22.9% MCP tool-poisoning rate, and $3.2 trillion in AI obligations"
 description: "Postman silently installed AI plugins inside Codex and Claude Code, agentic attacks hit GitBook and WorkOS, and hidden AI debt reached $3.2 trillion."
