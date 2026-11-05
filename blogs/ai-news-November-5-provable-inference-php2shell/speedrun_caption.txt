@@ -1,0 +1,15 @@
+TITLE: AI Speedrun: Anthropic can now prove which model answered you
+
+Anthropic's FlashProve cryptographically proves which model answered you. 110 tokens per second on one H100.
+
+Today's speedrun:
+- FlashProve wraps Llama 4 Maverick in a zero-knowledge proof; 400B params at 4-bit, verified on a plain CPU
+- OpenAI Images 2.6 is 50% faster, ships native GIFs and SVG; low quality jumped to $0.025 per image
+- OpenAI bought Pierre, the git host behind Lovable and Bolt. Agent source control is now a moat.
+- Kimi K3.1 Pro drops 2.8T params, 104B active, 1M context, open weights
+- Ricursive ships Ripple-65B, a dense US open-weight coder scoring 80.5 on Terminal-Bench
+- AI turned a 2024 PHP out-of-memory bug into a root shell: WordPress, Drupal, NASA exposed
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #ProvableAI #LLM #OpenWeights
