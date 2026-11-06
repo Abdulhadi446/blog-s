@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-06 | [OpenAI's GPT-6 Cyber Finds 81 Firefox Bugs, Anthropic's AI Doubled Its R&D, and Google Commits $17B to Wyoming](https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming) |
 | 2026-11-05 | [Anthropic Proves LLM Outputs, OpenAI Ships Images 2.6, Kimi Drops 2.8T Weights](https://blogs.thetrillioniar.me/blog/ai-news-November-5-provable-inference-php2shell) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-5-provable-inference-php2shell) |
 | 2026-11-04 | [Postman Installed Itself in Your Coding Agent, and $3.2 Trillion Left the Balance Sheet](https://blogs.thetrillioniar.me/blog/ai-news-November-4-postman-consent-ai-debt) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-4-postman-consent-ai-debt) || 2026-11-03 | [A Model That Rewrites Weights by Hand, and Stolen Keys That Cost $1 Million](https://blogs.thetrillioniar.me/blog/ai-news-November-3-weight-space-llmjack) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-3-weight-space-llmjack) |
 | 2026-11-02 | [A Hidden Prompt Cost Two Lawyers $16,000, and a 7.7 TB 'Mythos Leak' Smells Wrong](https://blogs.thetrillioniar.me/blog/ai-news-November-2-prompt-fine-mythos-leak) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-2-prompt-fine-mythos-leak) |
