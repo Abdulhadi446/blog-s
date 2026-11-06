@@ -1,0 +1,6 @@
+TITLE: AI Speedrun: 81 Firefox bugs and Anthropic 1.9x acceleration
+
+OpenAI's GPT-6 Cyber found 81 Firefox bugs. METR says Anthropic now moves 1.9x faster. Google commits $17B to Wyoming.
+Plus Hy4, a $21K image model, and a $2.3T chip rout.
+Full roundup: blogs.thetrillioniar.me
+#AI #OpenAI #Anthropic #Google #Cybersecurity
