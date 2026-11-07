@@ -1,0 +1,4 @@
+TITLE: AI Speedrun: a 2008 quantum conjecture fell in 3 days
+A 2008 quantum mystery fell in 3 days. Anthropic's model found the proof. METR says Anthropic now makes 2 years of progress in one. Microsoft dropped Oracle's older AI chips. Ant shipped a 560B model free for 2 weeks.
+Full roundup: blogs.thetrillioniar.me
+#AI #QuantumComputing #Anthropic #AIInfrastructure #Cybersecurity
