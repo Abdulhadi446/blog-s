@@ -9,7 +9,7 @@ Find 5-8 interesting AI news stories from today.
 **Priority Sources:**
 1. **Hacker News (Algolia API)**: Use `https://hn.algolia.com/api/v1/search?query=AI&tags=story` for the fastest results.
 2. **arxiv.org**: Search for recent cs.AI submissions.
-3. **Lab Blogs**: OpenAI, Anthropic, Google DeepMind, Meta AI.
+3. **Lab Blogs**: OpenAI, Anthropic, Google DeepMind, Meta AI, Every AI Lab In Existance.
 4. **Aggregators**: aiweekly.co or buildfastwithai.com.
 
 **Guidelines:**
@@ -38,7 +38,7 @@ Keep `title` and `meta_title` distinct: `title` is the H1, `meta_title` is the t
 
 **Structure:**
 - Opening paragraph (2-3 sentences summarizing today).
-- H2 sections for each major story.
+- H2 sections for each major story. (Add an Image if needed like a benchmark image for a model release cover)
 - H3 subsections for details within each story.
 - FAQ section with 4-5 common questions.
 - Sources at the end of each section.
