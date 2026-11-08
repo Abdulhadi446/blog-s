@@ -1,0 +1,7 @@
+TITLE: AI Speedrun: an AI just disproved a 28-year-old theorem
+An AI just disproved a theorem mathematicians trusted for 28 years.
+OpenAI and Anthropic published Lean-verified 3-SAT algorithms beating 1998 exponential time.
+DeepMind found two flaws in 1024-bit RSA, at a reported 1600-fold speedup.
+Claude Code leaked 1,122 secrets via cached "don't ask again" approvals.
+Read the full briefing: https://blogs.thetrillioniar.me/blog/ai-news-November-8-openai-eth-rsa-microsoft-frontiers
+#AI #Security #Math #Crypto #DevTools
