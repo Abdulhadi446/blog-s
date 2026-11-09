@@ -95,7 +95,7 @@
       "@type": "ListItem",
       "position": 3,
       "name": "{{ first_tag | replace('-', ' ') }}",
-      "item": "{{ url_for('tag_posts', tag_slug=first_tag, _external=True) }}"
+      "item": "{{ url_for('tag_posts', tag_slug=first_tag|tag_slug, _external=True) }}"
     },
     {
       "@type": "ListItem",
@@ -366,7 +366,7 @@
         {% if blog.tags %}
         {% set first_tag = (blog.tags|tag_list)[0] %}
         <span aria-hidden="true"> / </span>
-        <a href="{{ url_for('tag_posts', tag_slug=first_tag) }}">{{ first_tag | replace('-', ' ') }}</a>
+        <a href="{{ url_for('tag_posts', tag_slug=first_tag|tag_slug) }}">{{ first_tag | replace('-', ' ') }}</a>
         {% endif %}
         <span aria-hidden="true"> / </span>
         <span aria-current="page">{{ blog.title[:40] }}{% if blog.title|length > 40 %}…{% endif %}</span>
@@ -434,7 +434,7 @@
       {% if blog.tags %}
       <div class="article-tags">
         {% for tag in blog.tags|tag_list %}
-        <a href="{{ url_for('tag_posts', tag_slug=tag) }}" class="article-tag">#{{ tag | replace('-', ' ') }}</a>
+        <a href="{{ url_for('tag_posts', tag_slug=tag|tag_slug) }}" class="article-tag">#{{ tag | replace('-', ' ') }}</a>
         {% endfor %}
       </div>
       {% endif %}

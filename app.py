@@ -57,6 +57,28 @@ def create_app(config_name=None):
         except FileNotFoundError:
             return ''
 
+    def _slug_key(value):
+        """Normalize a slug for case/format-insensitive matching."""
+        return re.sub(r'[^a-z0-9]+', '-', str(value).lower()).strip('-')
+
+    def _post_exists(slug):
+        return os.path.isfile(os.path.join(BLOGS_DIR, slug, 'blog.md'))
+
+    @app.before_request
+    def normalize_trailing_slash():
+        """301 trailing-slash variants to their canonical no-slash URL."""
+        if request.method not in ('GET', 'HEAD'):
+            return None
+        path = request.path
+        if path == '/' or not path.endswith('/'):
+            return None
+        if path.startswith('/static/') or path.startswith('/blogs/'):
+            return None
+        target = path.rstrip('/')
+        if request.query_string:
+            target += '?' + request.query_string.decode('utf-8', 'ignore')
+        return redirect(target, code=301)
+
     @app.route('/admin/login', methods=['GET', 'POST'])
     def admin_login():
         if request.method == 'POST':
@@ -94,17 +116,16 @@ def create_app(config_name=None):
 
     @app.route('/video.mp4')
     def latest_video():
-        posts = get_all_posts()
-        if not posts:
-            abort(404)
-        latest = posts[0]
-        post_dir = os.path.join(BLOGS_DIR, latest['slug'])
-        video_path = os.path.join(post_dir, 'video.mp4')
-        if os.path.exists(video_path):
-            response = send_from_directory(post_dir, 'video.mp4', mimetype='video/mp4')
-            response.headers['Access-Control-Allow-Origin'] = '*'
-            response.headers['Cache-Control'] = 'public, max-age=3600'
-            return response
+        # Serve the newest post that actually has a video, so this stable
+        # alias never 404s just because the latest post is text-only.
+        for post in get_all_posts():
+            post_dir = os.path.join(BLOGS_DIR, post['slug'])
+            video_path = os.path.join(post_dir, 'video.mp4')
+            if os.path.exists(video_path):
+                response = send_from_directory(post_dir, 'video.mp4', mimetype='video/mp4')
+                response.headers['Access-Control-Allow-Origin'] = '*'
+                response.headers['Cache-Control'] = 'public, max-age=3600'
+                return response
         abort(404)
 
 
@@ -120,6 +141,7 @@ def create_app(config_name=None):
         response.headers['Content-Type'] = 'text/markdown; charset=utf-8'
         response.headers['Access-Control-Allow-Origin'] = '*'
         response.headers['Cache-Control'] = 'public, max-age=3600'
+        response.headers['X-Robots-Tag'] = 'noindex, nofollow'
         return response
 
     # --- File System Blog Logic ---
@@ -181,12 +203,42 @@ def create_app(config_name=None):
 
     @app.route('/blog')
     def blog_list():
-        return index()
+        return redirect(url_for('index'), code=301)
+
+    @app.route('/index.html')
+    def index_html():
+        return redirect(url_for('index'), code=301)
+
+    @app.route('/blogs/<slug>')
+    @app.route('/blogs/<slug>/')
+    def legacy_blog(slug):
+        """Old /blogs/<slug> URLs -> canonical /blog/<slug>."""
+        if _post_exists(slug):
+            return redirect(url_for('blog_post', slug=slug), code=301)
+        abort(404)
+
+    @app.route('/post/<slug>')
+    @app.route('/posts/<slug>')
+    def legacy_post(slug):
+        """Common legacy post URL patterns -> canonical /blog/<slug>."""
+        if _post_exists(slug):
+            return redirect(url_for('blog_post', slug=slug), code=301)
+        abort(404)
 
     @app.route('/blog/<slug>')
     def blog_post(slug):
         post_dir = os.path.join(BLOGS_DIR, slug)
-        if not os.path.isdir(post_dir):
+        if not os.path.isdir(post_dir) or not _post_exists(slug):
+            # Case/format-insensitive fallback for old or lowercased links.
+            wanted = _slug_key(slug)
+            match = None
+            if os.path.isdir(BLOGS_DIR):
+                for name in os.listdir(BLOGS_DIR):
+                    if _slug_key(name) == wanted and _post_exists(name):
+                        match = name
+                        break
+            if match:
+                return redirect(url_for('blog_post', slug=match), code=301)
             abort(404)
         
         md_path = os.path.join(post_dir, 'blog.md')
@@ -244,19 +296,32 @@ def create_app(config_name=None):
 
     @app.route('/tag/<tag_slug>')
     def tag_posts(tag_slug):
-        all_posts = get_all_posts()
         target = _normalize_tag(tag_slug)
+        if tag_slug != target:
+            return redirect(url_for('tag_posts', tag_slug=target), code=301)
+        all_posts = get_all_posts()
         filtered = [p for p in all_posts if target in [_normalize_tag(t) for t in (p['tags'] or '').split(',')]]
+        if not filtered:
+            abort(404)
+        display = next(
+            (t.strip() for p in filtered for t in (p['tags'] or '').split(',') if _normalize_tag(t) == target),
+            tag_slug.replace('-', ' ').title()
+        )
         return render_template('tag.html',
                                posts=filtered,
-                               tag=tag_slug.replace('-', ' ').title(),
+                               tag=display,
                                site=app.config['SITE_CONFIG'])
 
     @app.route('/author/<author_slug>')
     def author_posts(author_slug):
-        author_name = author_slug.replace('-', ' ').title()
+        target = _slug_key(author_slug)
+        if author_slug != target:
+            return redirect(url_for('author_posts', author_slug=target), code=301)
         all_posts = get_all_posts()
-        filtered = [p for p in all_posts if p['author'].lower().replace(' ', '-') == author_slug]
+        filtered = [p for p in all_posts if _slug_key(p['author']) == target]
+        if not filtered:
+            abort(404)
+        author_name = filtered[0]['author']
         return render_template('author.html',
                                posts=filtered,
                                author=author_name,
@@ -309,18 +374,17 @@ def create_app(config_name=None):
         response.headers['Content-Type'] = 'text/markdown; charset=utf-8'
         response.headers['Access-Control-Allow-Origin'] = '*'
         response.headers['Cache-Control'] = 'public, max-age=3600'
+        response.headers['X-Robots-Tag'] = 'noindex, nofollow'
         return response
 
     @app.route('/image.png')
     def latest_blog_image():
-        posts = get_all_posts()
-        if not posts:
-            abort(404)
-        latest = posts[0]
-        post_dir = os.path.join(BLOGS_DIR, latest['slug'])
-        image_path = os.path.join(post_dir, 'image.png')
-        if os.path.exists(image_path):
-            return send_from_directory(post_dir, 'image.png', mimetype='image/png')
+        # Newest post with an image, not merely the newest post.
+        for post in get_all_posts():
+            post_dir = os.path.join(BLOGS_DIR, post['slug'])
+            image_path = os.path.join(post_dir, 'image.png')
+            if os.path.exists(image_path):
+                return send_from_directory(post_dir, 'image.png', mimetype='image/png')
         abort(404)
 
     @app.route('/about')
@@ -381,6 +445,10 @@ def create_app(config_name=None):
         if not text: return []
         return [t.strip() for t in text.split(',') if t.strip()]
 
+    @app.template_filter('tag_slug')
+    def tag_slug_filter(text):
+        return _normalize_tag(text)
+
     @app.template_filter('markdown')
     def markdown_filter(text):
         if not text: return ''
@@ -400,8 +468,8 @@ def create_app(config_name=None):
         }]
         all_posts = get_all_posts()
 
-        all_tags = set()
-        all_authors = set()
+        all_tags = {}
+        all_authors = {}
         for post in all_posts:
             post_image = None
             post_image_title = None
@@ -419,11 +487,10 @@ def create_app(config_name=None):
             for t in (post.get('tags') or '').split(','):
                 t = t.strip()
                 if t:
-                    all_tags.add(t)
-            all_authors.add(post['author'])
+                    all_tags.setdefault(_normalize_tag(t), t)
+            all_authors.setdefault(_slug_key(post['author']), post['author'])
 
-        for tag in all_tags:
-            tag_slug = tag.lower().replace(' ', '-')
+        for tag_slug in sorted(all_tags):
             urls.append({
                 'loc': url_for('tag_posts', tag_slug=tag_slug, _external=True),
                 'lastmod': datetime.now().strftime('%Y-%m-%d'),
@@ -433,8 +500,7 @@ def create_app(config_name=None):
                 'image_title': None
             })
 
-        for author in all_authors:
-            author_slug = author.lower().replace(' ', '-')
+        for author_slug in sorted(all_authors):
             urls.append({
                 'loc': url_for('author_posts', author_slug=author_slug, _external=True),
                 'lastmod': datetime.now().strftime('%Y-%m-%d'),
@@ -491,9 +557,12 @@ Sitemap: {site_url}/sitemap.xml
 """
         return Response(content, content_type='text/plain; charset=utf-8')
 
-    @app.route('/rss.xml')
     @app.route('/feed')
     @app.route('/feed.xml')
+    def feed_alias():
+        return redirect(url_for('rss_feed'), code=301)
+
+    @app.route('/rss.xml')
     def rss_feed():
         all_posts = get_all_posts()
         site_url = get_site_base()
@@ -503,7 +572,10 @@ Sitemap: {site_url}/sitemap.xml
         items = ''
         for post in all_posts[:20]:
             post_url = url_for('blog_post', slug=post['slug'], _external=True)
-            pub_date = datetime.strptime(post["published_date"], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")
+            try:
+                pub_date = datetime.strptime(post["published_date"][:10], "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 +0000")
+            except (ValueError, TypeError):
+                pub_date = datetime.utcnow().strftime("%a, %d %b %Y 00:00:00 +0000")
             content_html = render_markdown(post['content'], extensions=['fenced_code', 'codehilite', 'tables'])
             image_tag = ''
             if post.get('featured_image'):
