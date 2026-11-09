@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-09 | [Nvidia Probe, Anthropic's $3.4B Power Deal, and DeepSeek's Agent Surge](https://blogs.thetrillioniar.me/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) |
 | 2026-11-08 | [OpenAI's AI Disproves a 1998 Theorem, DeepMind Finds RSA Flaws, and AI Spending Slows](https://blogs.thetrillioniar.me/blog/ai-news-November-8-openai-eth-rsa-microsoft-frontiers) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-8-openai-eth-rsa-microsoft-frontiers) |
 | 2026-11-07 | [A 2008 Quantum Conjecture Becomes a Theorem, Google Buys Wyoming, and Microsoft Leaves Oracle](https://blogs.thetrillioniar.me/blog/ai-news-November-7-psi-quantum-wyoming-oracle) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-7-psi-quantum-wyoming-oracle) |
 | 2026-11-06 | [OpenAI's GPT-6 Cyber Finds 81 Firefox Bugs, Anthropic's AI Doubled Its R&D, and Google Commits $17B to Wyoming](https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming) |
