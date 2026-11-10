@@ -3,7 +3,7 @@ title: "Nvidia Probe, Anthropic's $3.4B Power Deal, and DeepSeek's Agent Surge"
 meta_title: "AI News Nov 9 2026: Nvidia, Anthropic and DeepSeek"
 author: Abdul Hadi
 date: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-10
 slug: ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon
 image_alt: "Dark infographic for November 9 2026 AI news: Nvidia spy probe, Anthropic OnePWR generators, DeepSeek Harness users, Apple agentic Siri, Amazon Fauna Sprout, AI stock issuance, Anthropic customer data notice"
 description: "Today: Nvidia's CEO admits an affair with a suspected Chinese spy, Anthropic buys $3.4B in generators, DeepSeek's agent hits 1.54M DAU, and more."
@@ -173,7 +173,7 @@ Nvidia's probe and Anthropic's notice show growth inviting review. Buyers and re
 
 Track Nvidia's November 18 briefing and Anthropic's IPO book. Watch DeepSeek's marketplace launch and Apple's iOS 28 schedule. Verification beats hype.
 
-Our [November 8 roundup](/blog/ai-news-November-8-openai-eth-rsa-microsoft-frontiers) tracked ETH disproof and RSA flaws. [The November 7 post](/blog/ai-news-November-7-psi-quantum-wyoming-oracle) covered quantum and data centers. Keep checking back.
+Our [November 8 roundup](/blog/ai-news-November-8-openai-eth-rsa-microsoft-frontiers) tracked ETH disproof and RSA flaws. [The November 7 post](/blog/ai-news-November-7-psi-quantum-wyoming-oracle) covered quantum and data centers. [The November 10 roundup](/blog/ai-news-November-10-fable-5-2-tpu-8tx-notion-breach) covers Claude Fable 5.2 and the Fireworks breach.
 
 ---
 *This post is for information only. It does not constitute financial, security, or investment advice.*
