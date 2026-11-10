@@ -73,7 +73,7 @@ Most coding teams should stay on Opus 5.5 for daily work, Anthropic recommends. 
 
 ### A Small Model for Agent Grunt Work
 
-Meta Superintelligence Labs released Muse Ember on November 9, 2026. It is the lab's smallest and cheapest model. Meta built it for tool calls, routing, extraction, coding subtasks, and long document parsing.
+Meta Superintelligence Labs released Muse Ember on November 9, 2026. It is the lab's smallest and most cost-efficient model. Meta built it for tool calls, routing, extraction, coding subtasks, and long document parsing.
 
 ### The Price List
 
@@ -109,7 +109,7 @@ Google expanded its eighth-generation TPU portfolio on November 9, 2026. TPU 8tx
 
 ### TPU 8tx Keeps Data Encrypted in Use
 
-TPU 8tx targets confidential inference for regulated enterprises and governments. It uses the same silicon as TPU 8t and pairs with 5th Gen AMD EPYC CPU hosts. Encryption stays active in memory, so data and model weights remain isolated while in use.
+TPU 8tx targets confidential inference for regulated enterprises and governments. It uses the same silicon as TPU 8t and pairs with 5th Gen AMD EPYC CPU hosts. Data and model weights stay isolated and protected even while in active use.
 
 ### Twice the Density With TPU 8i Max
 
@@ -181,7 +181,7 @@ The complaint points to three public claims. A spokesperson said Huang's interac
 
 ### Why the Statements Matter
 
-The suit argues those claims were misleading because Huang was having an affair with Alice Huang. She was a top executive at Megaspeed, a Singapore data center company that buys Nvidia chips. U.S. intelligence believes she was recruited to spy on Huang.
+The suit argues those claims were misleading because Huang was having an affair with Alice Huang. She was an executive at Megaspeed, a Singapore data center company that buys Nvidia chips. U.S. intelligence believes she was recruited to spy on Huang.
 
 ### The Short Seller Who Flagged It First
 
@@ -195,7 +195,7 @@ At least four firms announced investor investigations on November 9, including S
 
 The board's independent investigation is still running. Three House committee chairs want Huang to brief them on November 18. A first complaint triggers public notice, and investors then have 60 days to seek lead-plaintiff status.
 
-**Sources:** [TechCrunch lawsuit report](https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/), [TechCrunch short-seller report](https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/)
+**Sources:** [TechCrunch lawsuit report](https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/), [TechCrunch short-seller report](https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/), [CNBC report](https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html)
 
 ## Anthropic Moves Ahead With Its IPO
 
@@ -217,7 +217,7 @@ OpenAI was reportedly valued at $1.25 trillion last week. It raised $11 billion 
 
 ### What the IPO Would Fund
 
-Anthropic has already committed $3.4 billion to gas generators and is building out compute. A public listing would give it permanent capital and a liquid currency for acquisitions. It would also expose its margins to quarterly scrutiny for the first time.
+Anthropic has already committed [$3.4 billion to gas generators](/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) and is building out compute. A public listing would give it permanent capital and a liquid currency for acquisitions. It would also expose its margins to quarterly scrutiny for the first time.
 
 ### Signals to Watch
 
