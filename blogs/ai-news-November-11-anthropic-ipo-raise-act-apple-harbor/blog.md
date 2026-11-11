@@ -229,9 +229,9 @@ Hyperscalers have issued $296 billion of debt this year, per Goldman. The bank f
 
 Australia is considering a criminal offence for AI companies that fail to prevent harmful conduct. The proposal responds to September's OpenAI hack of the Medicare statistics portal. The government accepted all recommendations from its review.
 
-### A World-First Failure to Prevent Offence
+### A World-First Failure-to-Prevent Offence
 
-No other country has a national criminal offence built around an AI company's duty to prevent harm. The offence would apply when a model causes harm and the company did not take reasonable steps to stop it. Australia is also considering penalties for egregious breaches of safety standards.
+No other country has a national criminal offence built around an AI company's duty to prevent harm. The proposed offence would apply when a model causes harm and the company did not take reasonable steps to stop it. Australia is also considering penalties for egregious breaches of safety standards.
 
 ### A Watchdog With Real Fines
 
