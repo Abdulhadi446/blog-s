@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-12 | [Nvidia's Board Moves to Oust Jensen Huang as Anthropic Trips Its Safety Alarm](https://blogs.thetrillioniar.me/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) |
 | 2026-11-11 | [Anthropic's $1.4T IPO, Nvidia's Board Probe, and Apple's Leaked Server](https://blogs.thetrillioniar.me/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor) |
 | 2026-11-10 | [Claude Fable 5.2 Lands, Google Splits a TPU, and a Breach Reaches Notion](https://blogs.thetrillioniar.me/blog/ai-news-November-10-fable-5-2-tpu-8tx-notion-breach) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-10-fable-5-2-tpu-8tx-notion-breach) |
 | 2026-11-09 | [Nvidia Probe, Anthropic's $3.4B Power Deal, and DeepSeek's Agent Surge](https://blogs.thetrillioniar.me/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) |
