@@ -242,6 +242,12 @@ United cites credential sharing, unintended purchases, and federal baggage-verif
 
 Yes. Huawei released the code under the Apache 2.0 license. Bundled third-party components keep their own licenses.
 
-## The Day in One Sentence
+## Closing Note
+
+### The Day in One Sentence
 
 The people running AI are now negotiating who stays in control: boards, regulators, and the labs themselves.
+
+---
+
+*This post is for information only. It does not constitute financial, security, or investment advice.*
