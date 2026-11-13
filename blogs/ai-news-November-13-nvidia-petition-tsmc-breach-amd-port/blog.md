@@ -81,7 +81,7 @@ The three-day figure covers prompt processing for one Anthropic model on AMD MI3
 
 ### Why It Matters for Nvidia
 
-CUDA is the real moat around Nvidia hardware. Porting code to AMD's ROCm stack has historically been slow and expensive. If a model can write most of those kernels, switching costs fall. Anthropic filed the claim in its [IPO paperwork](/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor), where investors will test it hard.
+CUDA is the real moat around Nvidia hardware. Porting code to AMD's ROCm stack has historically been slow and expensive. If a model can write most of those kernels, switching costs fall. Anthropic made the claim to investors ahead of its [IPO](/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor), where it will face harder scrutiny.
 
 **Sources:** [Yahoo Finance / Bloomberg](https://finance.yahoo.com/technology/ai/articles/anthropic-says-ai-model-cut-154824196.html)
 
