@@ -46,6 +46,8 @@ Huang admitted on Sunday to an affair with Alice Huang, a woman U.S. intelligenc
 
 The board hired Wachtell, Lipton, Rosen & Katz to run an independent investigation. [Yesterday's roundup](/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor) covered that hire and the first stock drop. Lawmakers have now called on Huang to resign.
 
+*Update, November 13: Huang resigned on Thursday morning. The board named CFO Colette Kress interim CEO. [The next day's roundup](/blog/ai-news-November-13-nvidia-petition-tsmc-breach-amd-port) covers the staff petition to bring him back.*
+
 ### Who Actually Controls the Shares
 
 Most of Huang's Nvidia stock is held in trusts co-owned with his wife, Lori Huang. About 800 million shares sit in those trusts. Huang holds roughly 70 million shares on his own and has limited economic control over the company.
