@@ -39,7 +39,7 @@ Nvidia's board announced Huang's resignation on Thursday morning, November 12. T
 
 A longtime Nvidia engineer posted to an internal suggestion box before the resignation. The post asked the board to weigh employee sentiment before acting. It has drawn more than 1,600 comments since, WIRED reported. Several commenters asked the board to find a way to reinstate Huang. One wrote: "If you believe in the mission, bring back THE boss."
 
-### A Trillion Dollars Gone in Three Weeks
+### A Trillion Dollars in Market Value
 
 The crisis has cost Nvidia about $1 trillion in market value, according to WIRED. The stock was already on a six-week slide before the resignation. Lawmakers and the FBI have opened investigations. The affair reports also revived questions about export controls on Nvidia chips sold in Asia. The [spy probe](/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon) started the slide.
 
@@ -113,7 +113,7 @@ Fireworks told Notion on November 2 that attackers had accessed a small dataset.
 
 ### Fewer Than 1% of Workspaces
 
-The exposed files included Notion AI chat transcripts used by the Insights feature. For most affected workspaces, the transcripts were unattributable. They carried no workspace name, user label, or tool call results. Notion says fewer than 1% of workspaces are affected. [The first disclosure](/blog/ai-news-November-10-fable-5-2-tpu-8tx-notion-breach) landed a week ago. It has disabled Insights and stopped serving open-weight models through Fireworks.
+The exposed files included Notion AI chat transcripts used by the Insights feature. For most affected workspaces, the transcripts were unattributable. They carried no workspace name, user label, or tool call results. Notion says fewer than 1% of workspaces are affected. It has disabled Insights and stopped serving open-weight models through Fireworks. [The first disclosure](/blog/ai-news-November-10-fable-5-2-tpu-8tx-notion-breach) landed a week ago.
 
 ### The API Key Problem
 
@@ -153,7 +153,7 @@ From 2019 through early 2024, 1% to 2.4% of new packages showed the stale round-
 
 ### Few Packages Are Born Current Anymore
 
-About 28% of new packages had essentially all pins on the newest release in 2021-2023. In 2026 that figure is about 10%. The fingerprint is already fading, though. Its share in the second half of 2026 is 7.6% so far. That fits better model defaults and newer training cutoffs.
+About 28% of new packages had essentially all pins on the newest release in 2021-2023. In 2026 that figure is about 10%. The fingerprint is already fading, though. Its share in the second half of 2026 is 7.6% so far. That may reflect better model defaults and newer training cutoffs.
 
 ### What the Data Cannot Prove
 
