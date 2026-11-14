@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-14 | [Nvidia's Scarcity Machine, a Wallet for AI Agents, and the Theorems Hiding in Gödel's Notebooks](https://blogs.thetrillioniar.me/blog/ai-news-November-14-nvidia-scarcity-chatgpt-wallet-godel) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-14-nvidia-scarcity-chatgpt-wallet-godel) |
 | 2026-11-13 | [Nvidia Staff Petition to Bring Back Jensen Huang as TSMC Confirms a Breach](https://blogs.thetrillioniar.me/blog/ai-news-November-13-nvidia-petition-tsmc-breach-amd-port) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-13-nvidia-petition-tsmc-breach-amd-port) |
 | 2026-11-12 | [Nvidia's Board Moves to Oust Jensen Huang as Anthropic Trips Its Safety Alarm](https://blogs.thetrillioniar.me/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) |
 | 2026-11-11 | [Anthropic's $1.4T IPO, Nvidia's Board Probe, and Apple's Leaked Server](https://blogs.thetrillioniar.me/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-11-anthropic-ipo-raise-act-apple-harbor) |

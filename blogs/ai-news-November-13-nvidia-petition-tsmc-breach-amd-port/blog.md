@@ -209,4 +209,6 @@ Nvidia's board still has to explain the speed of Huang's exit. TSMC's cloud vend
 
 All three stories involve trust in a supply chain. Nvidia trusted a founder. TSMC trusted a cloud provider. Anthropic is asking investors to trust a benchmark it ran itself. AI infrastructure is now a chain of dependencies, and each link is a single point of failure.
 
+**Next:** [November 14: Nvidia's scarcity report, ChatGPT Wallet, and Gödel's notebooks](/blog/ai-news-November-14-nvidia-scarcity-chatgpt-wallet-godel).
+
 **Sources:** [WIRED](https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/), [MLQ](https://mlq.ai/news/tsmc-says-employee-personal-data-was-posted-online-from-a-cloud-providers-systems/), [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-says-ai-model-cut-154824196.html)
