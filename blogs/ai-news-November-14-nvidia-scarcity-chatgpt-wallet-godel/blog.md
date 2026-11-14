@@ -15,7 +15,7 @@ tags: AI, LLM, TechNews, Nvidia, OpenAI, Anthropic, Google, Research
 
 ### A Day of Machines Paying, Reading, and Flying
 
-Nvidia faced a report that it funded the demand for its own chips. OpenAI put a wallet inside ChatGPT and folded its robotics team into general research. Anthropic's Claude read a century of hidden mathematics, while the FAA took an AI adviser nationwide.
+Nvidia faced a report that it funded the demand for its own chips. OpenAI put a wallet inside ChatGPT and folded its robotics team into general research. Anthropic's Claude read decades of hidden mathematics, while the FAA took an AI adviser nationwide.
 
 ### The Five-Minute Version
 
@@ -41,15 +41,15 @@ At that meeting, CFO and acting CEO Colette Kress pushed to reduce circular fina
 
 ### Why "Circular Financing" Is the Right Worry
 
-Circular financing means a vendor invests in a customer, and the customer spends that money with the vendor. The revenue is real, but it is not independent demand. Nvidia was reportedly facing an "avalanche" of GPUs from TSMC with no immediate buyers. That is the setup for a channel-stuffing problem, not just a marketing story.
+Circular financing means a vendor invests in a customer, and the customer spends that money with the vendor. The revenue is real, but it is not independent demand. Nvidia was reportedly facing an "avalanche" of GPUs from TSMC with no immediate buyers. That is a demand-quality problem, not just a marketing story.
 
 ### What the Report Does Not Prove
 
-The report does not allege accounting fraud. Vendor financing is legal and common in hardware. What it questions is the quality of Nvidia's backlog if the company helped create the buyers. Nvidia has not published a detailed response to the story. The allegation lands two days after Huang's resignation, which [staff are still protesting](/blog/ai-news-November-13-nvidia-petition-tsmc-breach-amd-port).
+The summary does not describe accounting fraud. Vendor financing is legal and common in hardware. What it questions is the quality of Nvidia's backlog if the company helped create the buyers. The TechPowerUp summary does not include a response from Nvidia. The allegation lands two days after Huang's resignation, which [staff are still protesting](/blog/ai-news-November-13-nvidia-petition-tsmc-breach-amd-port).
 
 ### The Week That Made This Credible
 
-Huang left on November 12 after affair allegations and a board investigation. The [board's decision](/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) cost Nvidia about $1 trillion in market value. Lawmakers and the FBI are now looking at the company. A demand-inflation story fits the mood better than it would have a month ago.
+Huang left on November 12 after affair allegations and a board investigation. The [board's decision](/blog/ai-news-November-12-nvidia-oust-anthropic-alarm-gemini-decisions) cost Nvidia about $1 trillion in market value. Lawmakers and the FBI have opened investigations, according to WIRED. A demand-inflation story fits the mood better than it would have a month ago.
 
 **Sources:** [TechPowerUp](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus)
 
