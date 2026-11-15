@@ -15,7 +15,7 @@ tags: AI, LLM, TechNews, Google, Anthropic, Meta, Security, Research
 
 ### A Weekend of Proof, Leaks, and Fines
 
-Google published results from agents that rewrote a kernel and a video decoder in Rust, with test suites deciding what counted as done. A security firm found identity documents sitting in apps built on Lovable, Italy fined Meta €805m over photo access, and a 753-billion-parameter model ran on two desks.
+Google published results from agents that rewrote a kernel and a video decoder in Rust, with test suites deciding what counted as done. A security firm found identity documents sitting in apps built on Lovable. Italy fined Meta €805m over photo access, and a 753-billion-parameter model ran on two desks.
 
 ### The Five-Minute Version
 
@@ -97,7 +97,7 @@ Facebook suggested photos and videos from a phone's gallery as ideas for posts. 
 
 ### About 20 Million People
 
-The authority said roughly 20 million smartphone users were affected. It cited the high number of people involved, the fact that the practice continues for users who have not updated the app, and what it called Meta's lack of co-operation. The penalty is among the largest Italy has imposed on a tech company.
+The authority said roughly 20 million smartphone users were affected. It cited the high number of people involved and what it called Meta's lack of co-operation. The regulator also noted that the practice continues for users who have not updated the app. The penalty is among the largest Italy has imposed on a tech company.
 
 ### Meta's Defence
 
@@ -189,7 +189,7 @@ Judge Noël Wise of the Northern District of California denied a joint motion to
 
 ### Why This Case Is Different
 
-The court held the claims were not a rerun of DRAM II, the Ninth Circuit's 2022 decision that affirmed dismissal of an earlier case. Buyers plausibly alleged a narrower conspiracy around conventional memory chips. That distinction keeps the case alive at the pleading stage.
+The court held the claims were not a rerun of DRAM II. That Ninth Circuit decision in 2022 affirmed dismissal of an earlier case. Buyers plausibly alleged a narrower conspiracy around conventional memory chips. That distinction keeps the case alive at the pleading stage.
 
 ### Why AI Buyers Should Care
 
