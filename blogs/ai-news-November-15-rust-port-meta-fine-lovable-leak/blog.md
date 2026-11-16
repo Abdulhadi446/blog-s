@@ -3,7 +3,7 @@ title: "Agents Port 800,000 Lines of Rust as Italy Fines Meta €805m and Lovabl
 meta_title: "AI News Nov 15: Rust Ports, Meta Fine, Lovable Leaks"
 author: Abdul Hadi
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-16
 slug: ai-news-November-15-rust-port-meta-fine-lovable-leak
 image_alt: "Digital portrait split between a human face and glowing circuitry, with the blue Meta infinity logo and floating social media profile cards"
 description: "Google agents ported 800,000 lines of Rust, Italy fined Meta €805m over photos, and a Lovable audit found passports exposed in AI-built apps."
@@ -272,5 +272,9 @@ The weekend's strongest story was not a model release. It was a harness that ref
 ### Defaults Are the Policy
 
 Italy's fine and the Lovable audit point at the same place. Consent screens and row-level security decide what happens to real data. Neither problem needs a better model, only a review before launch.
+
+### What to Read Next
+
+Qwen4-Max shipped the next morning with a 984k context and a $1.50 input price. Nvidia's former CEO is also discussing a return to the company. [Read the November 16 AI news roundup](https://blogs.thetrillioniar.me/blog/ai-news-November-16-qwen4-max-nvidia-return-hiring).
 
 **Sources:** [Google Research](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/), [Crissy Field](https://www.crissyfield.de/research/lovable-en/), [BBC](https://www.bbc.com/news/articles/cwn83gxemk35o)
