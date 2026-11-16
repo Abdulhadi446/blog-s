@@ -60,7 +60,7 @@ Critics on Hacker News called the result disappointing next to Kimi K3.1 and Cla
 
 The headline is the price, not the crown. A 984k context at $1.50 per million input tokens makes long-document work cheaper, even if the model trails the frontier on hard reasoning.
 
-The missing piece is open weights. Alibaba has promised smaller Qwen4 variants, including a 27B model, but none shipped with the Max launch. Local-inference users are still waiting.
+The missing piece is open weights. Developers expect smaller Qwen4 variants, including a 27B model, but none shipped with the Max launch. Local-inference users are still waiting.
 
 That gap matters because the Qwen brand built its developer base on downloadable models. A closed flagship earns API revenue, but it does not earn the fine-tuning and self-hosting work that made Qwen popular.
 
@@ -267,7 +267,7 @@ Qwen4-Max is Alibaba's flagship AI model, released on November 16, 2026. It acce
 
 ### Is Qwen4-Max open source?
 
-No. Alibaba has not released the weights or the parameter count. The company has promised smaller Qwen4 models, including a 27B variant, but those had not shipped at launch.
+No. Alibaba has not released the weights or the parameter count. Smaller Qwen4 models are expected, including a 27B variant, but they had not shipped at launch.
 
 ### Why did Jensen Huang resign?
 
