@@ -300,3 +300,5 @@ Watch whether other labs reproduce the Qwen edit without the authors' harness. W
 And watch the next agent-commerce number. A few hundred orders is not a verdict. It is a baseline.
 
 Read the [November 4 roundup](/blog/ai-news-November-4-postman-consent-ai-debt) for Postman's silent plugin install, agentic breaches at GitBook and WorkOS, and $3.2 trillion in AI obligations.
+
+The [November 17 roundup](/blog/ai-news-November-17-autonomous-ai-attack-mcp-misbinding) follows up on weight-space work, with a three-day replication of Astra's networks and a security report on stolen LLM quotas.

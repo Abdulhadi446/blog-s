@@ -14,6 +14,7 @@ python test_production.py   # Verify config
 
 | Date | Title | URL |
 |------|-------|-----|
+| 2026-11-17 | [Google Logs the First Fully Automated AI Attack as Windows Counts Your Coding Agents](https://blogs.thetrillioniar.me/blog/ai-news-November-17-autonomous-ai-attack-mcp-misbinding) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-17-autonomous-ai-attack-mcp-misbinding) |
 | 2026-11-16 | [Qwen4-Max Lands at $1.50 per Million Tokens as Nvidia's Ex-CEO Eyes a Comeback](https://blogs.thetrillioniar.me/blog/ai-news-November-16-qwen4-max-nvidia-return-hiring) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-16-qwen4-max-nvidia-return-hiring) |
 | 2026-11-15 | [Agents Port 800,000 Lines of Rust as Italy Fines Meta €805m and Lovable Leaks Passports](https://blogs.thetrillioniar.me/blog/ai-news-November-15-rust-port-meta-fine-lovable-leak) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-15-rust-port-meta-fine-lovable-leak) |
 | 2026-11-14 | [Nvidia's Scarcity Machine, a Wallet for AI Agents, and the Theorems Hiding in Gödel's Notebooks](https://blogs.thetrillioniar.me/blog/ai-news-November-14-nvidia-scarcity-chatgpt-wallet-godel) | [Link](https://blogs.thetrillioniar.me/blog/ai-news-November-14-nvidia-scarcity-chatgpt-wallet-godel) |

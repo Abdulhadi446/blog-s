@@ -180,3 +180,5 @@ PHP2Shell shows the other side. AI lowers the cost of finding flaws in 40 years 
 Watch whether FlashProve inspires a standard verifier interface for model providers. Watch whether Images 2.6's SVG output earns its higher low-quality token cost. Watch Kimi's adoption in local serving recipes. And watch whether anyone adopts formal verification for security patches before the next zero-day.
 
 Our [November 3 roundup](/blog/ai-news-November-3-weight-space-llmjack) noted weight-space programming. Today's FlashProve makes that direction practical for auditors, not just researchers.
+
+The [November 17 roundup](/blog/ai-news-November-17-autonomous-ai-attack-mcp-misbinding) picked up the same thread: a Google report on automated exploit pipelines built from exactly this patch-diffing work.

@@ -265,3 +265,5 @@ This is the same pattern as the [ChatGPT share-link takeover](/blog/ai-news-Nove
 Watch whether Postman ships a real opt-in or a clearer notice. Watch GitBook's post-mortem for the initial access path. Watch whether any MCP framework adopts signed tool manifests.
 
 And watch the debt number. It grew 90% in six months, which is faster than the revenue meant to service it. That arithmetic, not the demos, decides what survives.
+
+The [November 17 roundup](/blog/ai-news-November-17-autonomous-ai-attack-mcp-misbinding) picks up the same thread: Windows 11 now counts which coding agents you run, and a new paper shows MCP tools can be rebound to the wrong provider without any compromise.
