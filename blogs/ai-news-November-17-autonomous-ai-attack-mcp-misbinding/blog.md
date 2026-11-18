@@ -53,7 +53,7 @@ GTIG observed four open-source offensive frameworks in live intrusions or active
 
 The pattern is consistent. The frameworks find low-complexity flaws, generate single-use payloads, and adjust tactics from live execution feedback.
 
-Barracuda has since tied a 44-hour cloud intrusion to ARTEX, covered in [our November 18 roundup](https://blogs.thetrillioniar.me/blog/ai-news-November-18-java4shell-patch-outages-microsoft).
+Barracuda has since tied a 44-hour cloud intrusion to ARTEX, covered in [our November 18 briefing](https://blogs.thetrillioniar.me/blog/2026-11-18-ai-news-nvidia-115b-java4shell-agent-attacks).
 
 This is the same exploit economics we covered when [the PHP `php2shell` flaws leaked before patches](https://blogs.thetrillioniar.me/blog/ai-news-November-5-provable-inference-php2shell). The difference is who is holding the tool now.
 
