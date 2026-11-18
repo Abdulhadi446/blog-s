@@ -10,9 +10,12 @@
   <link rel="canonical" href="{% block canonical %}{{ (seo.site_url if seo.site_url != '/' else request.url_root).rstrip('/') }}{{ request.path }}{% endblock %}" />
   <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}" />
   <meta name="theme-color" content="#8b5cf6" />
+  {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}" />{% endif %}
+  {% if site.plausible_domain %}<script defer data-domain="{{ site.plausible_domain }}" src="https://plausible.io/js/script.js"></script>{% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ seo.site_name }} RSS Feed" href="{{ url_for('rss_feed', _external=True) }}" />
   <link rel="alternate" hreflang="en" href="{% block hreflang %}{{ (seo.site_url if seo.site_url != '/' else request.url_root).rstrip('/') }}{{ request.path }}{% endblock %}" />
   <link rel="sitemap" type="application/xml" href="{{ url_for('sitemap', _external=True) }}" />
+  <link rel="sitemap" type="application/xml" href="{{ url_for('news_sitemap', _external=True) }}" />
 
   {% block keywords %}{% endblock %}
 
@@ -27,6 +30,7 @@
   {% endblock %}
 
   <meta name="twitter:card" content="{% block twitter_card %}summary_large_image{% endblock %}" />
+  {% if site.twitter_handle %}<meta name="twitter:site" content="{{ site.twitter_handle }}" /><meta name="twitter:creator" content="{{ site.twitter_handle }}" />{% endif %}
   <meta name="twitter:title" content="{% block twitter_title %}{{ seo.site_name }}{% endblock %}" />
   <meta name="twitter:description" content="{% block twitter_description %}{{ seo.site_description }}{% endblock %}" />
   {% block twitter_image %}<meta name="twitter:image" content="{{ seo.site_url }}{{ seo.site_logo }}" /><meta name="twitter:image:alt" content="{{ seo.site_name }}" />{% endblock %}
@@ -267,6 +271,71 @@
     @media (pointer: coarse) {
       .cursor-glow { display: none; }
     }
+
+    /* Newsletter / subscribe call to action */
+    .newsletter-cta {
+      margin: 2rem 0 3rem;
+      padding: 2rem;
+      border: 1px solid var(--border2);
+      border-radius: 12px;
+      background:
+        radial-gradient(circle at 0% 0%, var(--accent-glow), transparent 55%),
+        var(--surface);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    .newsletter-copy { flex: 1 1 320px; }
+    .newsletter-copy h2 {
+      font-family: var(--display);
+      font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .newsletter-copy p { color: var(--text2); font-size: 0.9rem; max-width: 540px; }
+    .newsletter-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      flex: 1 1 320px;
+      max-width: 480px;
+    }
+    .newsletter-form input {
+      flex: 1 1 200px;
+      min-height: 46px;
+      padding: 0 1rem;
+      border: 1px solid var(--border2);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--body);
+      font-size: 0.9rem;
+    }
+    .newsletter-form input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .newsletter-form button {
+      min-height: 46px;
+      padding: 0 1.4rem;
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .newsletter-form button:hover { background: var(--accent2); border-color: var(--accent2); }
+    .newsletter-note { width: 100%; color: var(--text3); font-size: 0.75rem; margin-top: 0.35rem; }
+    @media (max-width: 640px) {
+      .newsletter-cta { padding: 1.5rem; }
+      .newsletter-form { max-width: none; }
+    }
   </style>
 
   <script type="application/ld+json">
@@ -283,7 +352,8 @@
     "sameAs": [
       "https://thetrillioniar.me",
       "https://chat.thetrillioniar.me",
-      "https://docs.thetrillioniar.me"
+      "https://docs.thetrillioniar.me"{% if site.twitter_handle %},
+      "https://x.com/{{ site.twitter_handle|replace('@', '') }}"{% endif %}
     ]
   }
   </script>
@@ -297,7 +367,7 @@
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "{{ seo.site_url }}/blog?q={search_term_string}"
+        "urlTemplate": "{{ seo.site_url }}/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }
@@ -317,14 +387,12 @@
       <span></span><span></span><span></span>
     </button>
     <div class="nav-links">
-      <a href="https://thetrillioniar.me">Home</a>
       <a href="{{ url_for('index') }}">Blog</a>
-      {% if is_admin %}
-        <a href="{{ url_for('handle_upload') }}">Write</a>
-        <a href="{{ url_for('admin_logout') }}" style="color:var(--red);">Logout</a>
-      {% else %}
-        <a href="{{ url_for('admin_login') }}">Admin</a>
-      {% endif %}
+      <a href="{{ url_for('daily_ai_news') }}">Daily AI News</a>
+      <a href="{{ url_for('weekly_ai_news') }}">Weekly AI News</a>
+      <a href="{{ url_for('monthly_ai_news') }}">Monthly AI News</a>
+      <a href="{{ url_for('search') }}">Search</a>
+      <a href="{{ url_for('about') }}">About</a>
     </div>
   </nav>
   <div class="mobile-overlay" id="mobileOverlay">
@@ -344,7 +412,12 @@
         <a href="https://docs.thetrillioniar.me">Docs</a>
         <a href="https://github.com/Abdulhadi446/blog-s">Github</a>
         <a href="{{ url_for('index') }}">Blog</a>
+        <a href="{{ url_for('daily_ai_news') }}">Daily AI News</a>
+        <a href="{{ url_for('weekly_ai_news') }}">Weekly AI News</a>
+        <a href="{{ url_for('monthly_ai_news') }}">Monthly AI News</a>
+        <a href="{{ url_for('search') }}">Search</a>
         <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('docs') }}">API Docs</a>
          <a href="{{ url_for('privacy') }}">Privacy</a>
         <a href="{{ url_for('terms') }}">Terms</a>
         <a href="{{ url_for('sitemap') }}">Sitemap</a>

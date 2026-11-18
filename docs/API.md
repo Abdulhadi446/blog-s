@@ -1,189 +1,141 @@
 # Trillioniar Blog API Reference
 
-This document describes the HTTP endpoints implemented by the Flask application in `app.py`.
+This document describes every public HTTP endpoint implemented by the Flask application in `app.py`. It is the Markdown mirror of [`/docs`](https://blogs.thetrillioniar.me/docs).
 
-## API Status
+The application is a server-rendered website with read-only companion resources: RSS, XML sitemap, `llms.txt`, raw Markdown, images and video. There is no JSON REST API, no API key, and no write endpoint.
 
-The application does not currently expose a JSON REST API. Its public interface is a server-rendered website plus RSS/XML, raw Markdown, and media endpoints. Unless an endpoint below says otherwise, responses are HTML pages intended for browser use.
+**Base URL:** `https://blogs.thetrillioniar.me`
 
-The deployed base URL is `https://blogs.thetrillioniar.me`. For local development, use `http://localhost:5000`.
+**Local development:** `http://localhost:5000`
 
-## Public Content Endpoints
+## Pages
 
-### `GET /`
+| Method | Endpoint | Description |
+| --- | --- | --- |
+| `GET` | `/` | Home page with the newest posts and links to every AI news archive. |
+| `GET` | `/blog/<slug>` | One post. Returns `404` for unknown slugs; case/format variants redirect `301` to the canonical slug. |
+| `GET` | `/tag/<tag-slug>` | Posts containing the tag in their comma-separated `tags` frontmatter. Matching lowercases and replaces spaces with hyphens. |
+| `GET` | `/author/<author-slug>` | Posts by one author, e.g. `/author/hermes-agent`. |
+| `GET` | `/about` | About the publication. |
+| `GET` | `/privacy` | Privacy policy. |
+| `GET` | `/terms` | Terms of use. |
+| `GET` | `/search?q=<query>` | Full-text search across titles, descriptions, tags, keywords and article bodies. Result pages are `noindex, follow`. |
+| `GET` | `/docs` | Human-readable endpoint reference. |
 
-Render the home page with all available posts, sorted by the frontmatter `date` value in descending order.
+### Redirects
 
-### `GET /blog`
+| From | To |
+| --- | --- |
+| `/blog` | `/` |
+| `/index.html` | `/` |
+| `/blogs/<slug>` | `/blog/<slug>` |
+| `/post/<slug>`, `/posts/<slug>` | `/blog/<slug>` |
+| `/daily`, `/weekly`, `/monthly` | The matching AI news archive |
+| Any path ending in `/` | The same path without the trailing slash |
 
-Alias for `GET /`. Renders the same post listing.
+All redirects use HTTP `301`.
 
-### `GET /blog/<slug>`
+## AI News Archives
 
-Render one post identified by its directory slug.
+Archive membership is derived from each post's frontmatter `date`. There are no separate weekly or monthly directories.
 
-Example:
+| Endpoint | Contents |
+| --- | --- |
+| `/daily-ai-news` | Every AI news edition, grouped by month. The complete daily archive. |
+| `/weekly-ai-news` | Only posts dated a **Monday**, grouped by week (`#week-YYYY-MM-DD`). |
+| `/monthly-ai-news` | Only posts dated the **1st of a month**, grouped by month (`#month-YYYY-MM`). |
+| `/ai-news` | All AI news posts and all three cadences in one archive. |
 
-```text
-GET /blog/ai-news-2026-09-18
-```
+A post dated Monday appears in the weekly archive; a post dated the 1st appears in the monthly archive. When the 1st falls on a Monday, the monthly recap wins and also appears in the weekly view. Every edition is always present in `/daily-ai-news` and `/ai-news`.
 
-Returns `404` when the post directory or its `blog.md` file does not exist.
+## Feeds and Discovery
 
-### `GET /tag/<tag_slug>`
+| Endpoint | Content-Type | Description |
+| --- | --- | --- |
+| `/rss.xml` | `application/rss+xml` | RSS 2.0 feed with the 20 newest posts, rendered HTML content and an optional image enclosure. |
+| `/feed`, `/feed.xml` | — | `301` redirect to `/rss.xml`. |
+| `/sitemap.xml` | `application/xml` | Posts, tags, authors, the four AI news archives, About, Docs, Privacy and Terms. Includes image entries where available. |
+| `/news-sitemap.xml` | `application/xml` | Google News sitemap for articles published in the last 48 hours, capped at 1,000 URLs. |
+| `/robots.txt` | `text/plain` | Crawler directives, `Content-Signal` policy and both sitemap URLs. |
+| `/llms.txt` | `text/plain` | Markdown index of recent posts, archives and site pages. |
 
-Render posts whose comma-separated `tags` frontmatter contains the exact requested tag value.
+## Markdown, Image and Video
 
-Example:
+| Endpoint | Content-Type | Description |
+| --- | --- | --- |
+| `/blog.md` | `text/markdown` | Original Markdown of the newest post, including frontmatter. |
+| `/blogs/<slug>/blog.md` | `text/markdown` | Markdown source for a specific post. Marked `noindex`. |
+| `/image.png` | `image/png` | Featured image of the newest post. |
+| `/blogs/<slug>/image.png` | `image/png` | Featured image for a specific post. |
+| `/video.mp4` | `video/mp4` | Video attached to the newest post. |
+| `/blogs/<slug>/video.mp4` | `video/mp4` | Video attached to a specific post. |
+| `/docs/api.md` | `text/markdown` | This document. |
 
-```text
-GET /tag/ai
-```
+Content endpoints allow cross-origin reads and send `Cache-Control: public, max-age=3600`. They return `404` when the requested file is missing; the “latest” variants return `404` when there are no posts.
 
-The application does not normalize the stored tag before comparing it, so callers should use the same spelling and spacing as the post frontmatter.
+## Storage and Frontmatter
 
-### `GET /author/<author_slug>`
-
-Render posts by an author. The slug is formed by lowercasing the author name and replacing spaces with hyphens.
-
-Example:
-
-```text
-GET /author/hermes-agent
-```
-
-### `GET /privacy`
-
-Render the privacy policy page.
-
-### `GET /terms`
-
-Render the terms page.
-
-## Machine-Readable and Source Endpoints
-
-### `GET /rss.xml`
-### `GET /feed`
-### `GET /feed.xml`
-
-Return the same RSS 2.0 feed containing the 20 newest posts. The response is `application/rss+xml` and includes title, description, author, publication date, rendered HTML content, and an optional featured-image enclosure.
-
-### `GET /sitemap.xml`
-
-Return an XML sitemap containing the home page, post pages, tag pages, author pages, privacy page, and terms page. The response is generated from the files currently present in the blog storage directory.
-
-### `GET /robots.txt`
-
-Return plain-text crawler directives. `/admin/` is disallowed and the sitemap URL is included.
-
-### `GET /blog.md`
-
-Return the newest post's original Markdown file, including its frontmatter.
-
-Response headers include:
-
-- `Content-Type: text/markdown; charset=utf-8`
-- `Access-Control-Allow-Origin: *`
-- `Cache-Control: public, max-age=3600`
-
-Returns `404` when there are no posts or the newest post has no Markdown file.
-
-### `GET /blogs/<slug>/blog.md`
-
-Return the original Markdown source for a specific post. It has the same content type, CORS, and cache headers as `/blog.md`.
-
-### `GET /image.png`
-
-Return the featured image for the newest post as `image/png`. Returns `404` when there are no posts or the newest post has no `image.png` file.
-
-### `GET /blogs/<slug>/image.png`
-
-Return a specific post's featured image as `image/png`. Returns `404` when the file is missing.
-
-### `GET /video.mp4`
-
-Return the video attached to the newest post as `video/mp4`. The response allows cross-origin requests and is cached for one hour.
-
-### `GET /blogs/<slug>/video.mp4`
-
-Return a specific post's video as `video/mp4`. The response includes:
-
-- `Access-Control-Allow-Origin: *`
-- `Cache-Control: public, max-age=3600`
-
-Both video endpoints return `404` when the requested video is unavailable.
-
-## Admin Session Endpoints
-
-These endpoints use the Flask session cookie. They are browser form flows, not token-based APIs.
-
-### `GET /admin/login`
-
-Render the administrator login form.
-
-### `POST /admin/login`
-
-Authenticate with a form field named `password`.
-
-Request body:
+Each post is one directory:
 
 ```text
-Content-Type: application/x-www-form-urlencoded
-
-password=<admin-password>
+blogs/
+└── 2026-11-18-ai-news-java-flaw/
+    ├── blog.md      # required
+    ├── image.png    # optional
+    └── video.mp4    # optional
 ```
 
-On success, the app sets the session key `admin=true` and attempts to redirect to the `next` query parameter when present. Without `next`, the current code attempts to redirect to an unregistered upload endpoint, which results in a server error. On failure, it renders the login form with an error flash message.
+New slugs are date-first: `YYYY-MM-DD-<short-summary>`. The prefix matches the frontmatter date and keeps the publication date visible in the URL. Older posts keep their historical `ai-news-Month-day-topic` slugs; both forms resolve at `/blog/<slug>`.
 
-The password is read from the repository's `pass.txt` file. Do not expose or commit that value.
-
-### `GET /admin/logout`
-
-Clear the `admin` session key and redirect to `/`.
-
-## Response and Error Behavior
-
-- Successful page responses are HTML unless the endpoint is an XML, RSS, Markdown, image, or video endpoint described above.
-- Missing posts and media return HTTP `404` using the site's 404 template. RSS and sitemap responses can still be generated when the post list is empty; the latest-post Markdown and media endpoints return `404` when no latest post is available.
-- Unexpected server errors return HTTP `500` using the site's 500 template.
-- Responses include `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, `X-XSS-Protection: 1; mode=block`, and `Referrer-Policy: strict-origin-when-cross-origin`.
-- Static assets are cached for one year with immutable caching. The sitemap is cached for one hour and `robots.txt` for one day.
-
-## Storage Contract
-
-Posts are filesystem-backed rather than database-backed. Each post is stored as:
-
-```text
-blogs/<slug>/blog.md
-blogs/<slug>/image.png       # optional
-blogs/<slug>/video.mp4       # optional
-```
-
-The current application resolves the blog directory as `~/blog-s/blogs`, based on `os.path.expanduser`, rather than the repository's relative `blogs/` directory. This matters when running the app locally or deploying it under another user account.
-
-The Markdown frontmatter fields consumed by the app are:
+Weekly and monthly editions use the same directory structure. They are identified only by their `date`, never by a folder name.
 
 ```yaml
 ---
-title: Post title
-author: Hermes Agent
-date: 2026-09-18
-description: Short description
-tags: AI, Security
+title: "The H1 of the post"
+meta_title: "SEO title tag, 50-60 characters"
+author: Abdul Hadi
+date: 2026-11-18
+updated: 2026-11-18
+slug: 2026-11-18-ai-news-java-flaw
+description: "Meta description, 120-160 characters."
+keywords: AI news, daily AI news, Java security
+tags: AI, LLM, TechNews, OpenAI
 ---
 ```
 
-## Utility Integrations (Not Web Endpoints)
+| Field | Required | Used for |
+| --- | --- | --- |
+| `title` | Yes | H1 and post heading. |
+| `meta_title` | No | Title tag and social cards; falls back to `title`. |
+| `date` | Yes | Sorting, weekly/monthly membership, RSS and sitemap dates. |
+| `updated` | No | “Updated” label and sitemap `lastmod`. Also accepts `modified_date`, `last_modified`, `modified`. |
+| `slug` | Yes | Directory name and canonical URL. |
+| `description` | Yes | Meta description, cards and RSS description. |
+| `keywords` | No | Keywords meta tag and AI news classification. |
+| `tags` | No | Tag pages and related posts. |
+| `author` | No | Author page, byline and RSS creator. |
+| `image_alt` | No | Alt text for the featured image. |
 
-These helpers are separate from the deployed Flask application:
+## Response Behavior
 
-- `search.py` calls the `duckduckgo_search` package to retrieve up to 10 image-search results through `search_image(query)`.
-- `test.py` contains a standalone Flask app with a `/upload` route and a Bing Images HTML scraper. It is not registered by `app.py` or `wsgi.py` and should not be treated as a production endpoint.
-- `add_image.sh` uses external image search/download tooling to populate missing featured images; it is a command-line job, not an HTTP API.
+- `200` — page, feed or file returned.
+- `301` — legacy URL, trailing slash or alias redirected to the canonical URL.
+- `404` — unknown post, tag, author or file; rendered with the site 404 page.
+- `500` — unexpected server error; rendered with the site 500 page.
 
-## Current Limitations
+Every response includes:
+
+```text
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+```
+
+Static assets are cached for one year with immutable caching. The sitemap is cached for one hour, `robots.txt` for one day, and RSS/Markdown/image/video responses for one hour.
+
+## Limitations
 
 - There are no versioned `/api/...` routes.
-- There are no JSON response schemas or API keys.
-- The current `app.py` does not register a production `/upload` route. The upload-looking block near the author page code is unreachable after a return statement, so content is currently managed through the filesystem/automation workflow rather than a supported HTTP upload API.
-- Admin authentication is a session/password flow and should not be automated as a public API contract.
+- Responses are HTML, RSS, XML, plain text, Markdown, PNG or MP4; there are no JSON schemas.
+- There are no authentication tokens, webhooks or write endpoints.

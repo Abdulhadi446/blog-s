@@ -1,7 +1,14 @@
 {% extends "base.html" %}
-{% block title %}{{ seo.site_name }} — AI News & Developer Tools{% endblock %}
+{% block title %}Daily AI News, Weekly Roundups & Monthly Recaps{% endblock %}
 
-{% block keywords %}<meta name="keywords" content="programming, technology, software development, coding, tech blog, {{ seo.site_name }}" />{% endblock %}
+{% block meta_description %}Daily AI news, a weekly AI news roundup every Monday and a monthly AI news recap on the first. Today's AI stories in plain English, with sources.{% endblock %}
+
+{% block keywords %}<meta name="keywords" content="daily AI news, AI news today, weekly AI news roundup, monthly AI news recap, AI news, daily news, weekly news, monthly news, artificial intelligence news, {{ seo.site_name }}" />{% endblock %}
+
+{% block og_title %}Daily AI News, Weekly Roundups & Monthly Recaps{% endblock %}
+{% block og_description %}Daily AI news, a weekly AI news roundup every Monday and a monthly AI news recap on the first. Today's AI stories in plain English, with sources.{% endblock %}
+{% block twitter_title %}Daily AI News, Weekly Roundups & Monthly Recaps{% endblock %}
+{% block twitter_description %}Daily AI news, a weekly AI news roundup every Monday and a monthly AI news recap on the first.{% endblock %}
 
 {% block head %}
 <script type="application/ld+json">
@@ -54,6 +61,38 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between daily, weekly and monthly AI news?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Daily AI news reports one day at a time. The weekly AI news roundup groups the previous seven days and ranks what mattered. The monthly AI news recap zooms out to the trends that lasted the whole month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often is AI news published here?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A daily AI news briefing is published on most days. The weekly AI news roundup ships every Monday, and the monthly AI news recap ships on the first day of each month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I start reading AI news?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with today's daily AI news briefing. If you have been away, read the weekly AI news roundup. If you want the whole narrative, open the monthly AI news recap."
+      }
+    }
+  ]
+}
+</script>
 <style>
   .hero {
     padding: 4rem 0 2rem;
@@ -76,11 +115,14 @@
   }
   .hero h1 {
     font-family: var(--display);
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(1.9rem, 4.5vw, 3rem);
     font-weight: 800;
     letter-spacing: -0.04em;
     line-height: 1.1;
     margin-bottom: 0.75rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     animation: fadeIn 0.8s ease;
   }
   .hero h1 .gradient {
@@ -233,6 +275,57 @@
 
   .no-posts { text-align: center; padding: 4rem 1rem; color: var(--text3); }
 
+  .cadence-section { padding: 0.5rem 0 2.5rem; }
+  .cadence-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem;
+  }
+  .cadence-head h2 {
+    font-family: var(--display); font-size: 1.35rem; font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .cadence-head p { font-size: 0.82rem; color: var(--text3); }
+  .cadence-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    gap: 0.75rem;
+  }
+  .cadence-card {
+    display: block; padding: 1.15rem 1.25rem; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--surface);
+    transition: all 0.2s;
+  }
+  .cadence-card:hover { border-color: var(--accent); transform: translateY(-2px); color: var(--text); }
+  .cadence-label {
+    display: block; font-family: var(--mono); font-size: 0.62rem;
+    color: var(--green); text-transform: uppercase; letter-spacing: 0.09em;
+    margin-bottom: 0.4rem;
+  }
+  .cadence-card strong {
+    display: block; font-family: var(--display); font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .cadence-card p { font-size: 0.8rem; color: var(--text3); line-height: 1.55; }
+
+  .posts-head { margin-bottom: 1.5rem; }
+  .posts-head h2 {
+    font-family: var(--display); font-size: 1.5rem; font-weight: 700;
+    letter-spacing: -0.02em; margin-bottom: 0.25rem;
+  }
+  .posts-head p { font-size: 0.85rem; color: var(--text3); }
+  .posts-head a { color: var(--accent); }
+
+  .index-faq { padding: 1rem 0 4rem; border-top: 1px solid var(--border); }
+  .index-faq h2 {
+    font-family: var(--display); font-size: 1.5rem; font-weight: 700;
+    letter-spacing: -0.02em; margin-bottom: 1.5rem;
+  }
+  .index-faq-item { margin-bottom: 1.5rem; }
+  .index-faq-item h3 {
+    font-family: var(--display); font-size: 1rem; font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+  .index-faq-item p { font-size: 0.9rem; color: var(--text3); line-height: 1.7; max-width: 760px; }
+
   @media (max-width: 768px) {
     .hero { padding: 2rem 0 1.5rem; }
     .hero-stats { flex-wrap: wrap; gap: 1rem; }
@@ -255,11 +348,11 @@
 
 {% block content %}
 <section class="hero">
-  <div class="hero-badge">Latest articles</div>
-  <h1>Thoughts on <span class="gradient">code &amp; technology</span></h1>
-  <p>{{ seo.site_description }}</p>
+  <div class="hero-badge">Daily AI news · updated today</div>
+  <h1>Daily <span class="gradient">AI news</span>, weekly roundups, monthly recaps</h1>
+  <p>One daily AI news briefing, one weekly AI news roundup every Monday, and one monthly AI news recap on the first. Five minutes a day keeps you ahead of the AI news cycle.</p>
   <div class="hero-stats">
-    <div><strong>{{ posts|length }}</strong> articles</div>
+    <div><strong>{{ posts|length }}</strong> AI news posts</div>
     {% set tags = [] %}
     {% for p in posts %}
       {% for t in p.tags|tag_list %}
@@ -267,14 +360,40 @@
       {% endfor %}
     {% endfor %}
     <div><strong>{{ tags|length }}</strong> topics</div>
-    {% if posts %}
-    <div><strong>{{ posts[0].author }}</strong> latest author</div>
-    {% endif %}
+    <div><strong>Daily · Weekly · Monthly</strong> AI news cadence</div>
+  </div>
+</section>
+
+<section class="container cadence-section" aria-label="AI news archives">
+  <div class="cadence-head">
+    <h2>Browse AI news by cadence</h2>
+    <p>Same newsroom, three rhythms: daily, weekly and monthly.</p>
+  </div>
+  <div class="cadence-grid">
+    <a href="{{ url_for('daily_ai_news') }}" class="cadence-card">
+      <span class="cadence-label">Every day</span>
+      <strong>Daily AI News</strong>
+      <p>Today's daily AI news briefing: what shipped, what broke and why it matters, in about five minutes.</p>
+    </a>
+    <a href="{{ url_for('weekly_ai_news') }}" class="cadence-card">
+      <span class="cadence-label">Every Monday</span>
+      <strong>Weekly AI News Roundup</strong>
+      <p>The weekly AI news roundup connects seven days of stories and ranks the ones that actually lasted.</p>
+    </a>
+    <a href="{{ url_for('monthly_ai_news') }}" class="cadence-card">
+      <span class="cadence-label">The 1st of the month</span>
+      <strong>Monthly AI News Recap</strong>
+      <p>The monthly AI news recap steps back from the headlines to explain the trend behind the month.</p>
+    </a>
   </div>
 </section>
 
 <section class="posts-section" aria-label="Articles">
   <div class="container">
+    <div class="posts-head">
+      <h2>Latest AI news</h2>
+      <p>Today's daily AI news briefing and recent editions. Prefer the long view? Read the <a href="{{ url_for('weekly_ai_news') }}">weekly AI news roundup</a> or the <a href="{{ url_for('monthly_ai_news') }}">monthly AI news recap</a>.</p>
+    </div>
     {% if posts %}
     <div class="posts-grid">
       {% for post in posts %}
@@ -316,6 +435,26 @@
       <p>No articles published yet.</p>
     </div>
     {% endif %}
+  </div>
+</section>
+
+<div class="container">
+  {% include "_newsletter.html" %}
+</div>
+
+<section class="container index-faq" aria-label="AI news questions">
+  <h2>Daily, weekly and monthly AI news: common questions</h2>
+  <div class="index-faq-item">
+    <h3>What is the difference between daily, weekly and monthly AI news?</h3>
+    <p>Daily AI news reports one day at a time. The weekly AI news roundup groups the previous seven days and ranks what mattered. The monthly AI news recap zooms out to the trends that lasted the whole month.</p>
+  </div>
+  <div class="index-faq-item">
+    <h3>How often is AI news published here?</h3>
+    <p>A daily AI news briefing is published on most days. The weekly AI news roundup ships every Monday, and the monthly AI news recap ships on the first day of each month.</p>
+  </div>
+  <div class="index-faq-item">
+    <h3>Where should I start reading AI news?</h3>
+    <p>Start with today's daily AI news briefing. If you have been away, read the <a href="{{ url_for('weekly_ai_news') }}">weekly AI news roundup</a>. If you want the whole narrative, open the <a href="{{ url_for('monthly_ai_news') }}">monthly AI news recap</a>.</p>
   </div>
 </section>
 {% endblock %}

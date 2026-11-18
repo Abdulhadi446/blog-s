@@ -1,0 +1,20 @@
+{# Newsletter CTA. Set NEWSLETTER_URL (beehiiv, Buttondown, etc.) to enable the form. #}
+<section class="newsletter-cta" aria-label="AI news newsletter">
+  <div class="newsletter-copy">
+    <h2>Get the weekly AI news roundup</h2>
+    <p>The Monday recap in your inbox: the model releases, chips, security and policy stories that actually mattered, plus the monthly big-picture edition on the first.</p>
+  </div>
+  {% if site.newsletter_url %}
+  <form class="newsletter-form" action="{{ site.newsletter_url }}" method="get" target="_blank" rel="noopener">
+    <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" aria-label="Email address" />
+    <input type="hidden" name="utm_source" value="blog" />
+    <button type="submit">Subscribe free</button>
+    <span class="newsletter-note">No spam. Unsubscribe anytime.</span>
+  </form>
+  {% else %}
+  <div class="newsletter-form">
+    <a class="btn btn-primary" href="{{ url_for('weekly_ai_news') }}">Weekly AI news</a>
+    <a class="btn btn-ghost" href="{{ url_for('rss_feed') }}">Subscribe by RSS</a>
+  </div>
+  {% endif %}
+</section>

@@ -14,8 +14,8 @@
 {% block og_image %}
 {% if blog.featured_image %}
 <meta property="og:image" content="{{ seo.site_url + blog.featured_image }}" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+<meta property="og:image:width" content="{{ blog.featured_image_width }}" />
+<meta property="og:image:height" content="{{ blog.featured_image_height }}" />
 <meta property="og:image:alt" content="{{ blog.image_alt or blog.title }}" />
 {% endif %}
 {% endblock %}
@@ -45,7 +45,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": {% if blog.is_news %}"NewsArticle"{% else %}"BlogPosting"{% endif %},
   "headline": {{ blog.title|tojson }},
   "description": {{ blog.description|tojson }},
   "image": {% if blog.featured_image %}{{ (seo.site_url + blog.featured_image)|tojson }}{% else %}null{% endif %},
@@ -70,6 +70,12 @@
   },
   "wordCount": {{ blog.content.split()|length }},
   "articleSection": {% if blog.tags %}{{ (blog.tags|tag_list)[0]|tojson }}{% else %}{{ "Blog"|tojson }}{% endif %},
+  "isAccessibleForFree": true,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": {% if blog.is_month_start %}"Monthly AI News"{% elif blog.is_monday %}"Weekly AI News"{% else %}"Daily AI News"{% endif %},
+    "url": {% if blog.is_month_start %}"{{ seo.site_url }}/monthly-ai-news"{% elif blog.is_monday %}"{{ seo.site_url }}/weekly-ai-news"{% else %}"{{ seo.site_url }}/daily-ai-news"{% endif %}
+  },
   "keywords": {{ (blog.keywords if blog.keywords else blog.tags)|tojson }}
 }
 </script>
@@ -112,6 +118,27 @@
   ]
 }
 </script>
+
+{% if blog.faq_items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in blog.faq_items %}
+    {
+      "@type": "Question",
+      "name": {{ item.question|tojson }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer|tojson }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
 
 <style>
   .article-top { padding: 2rem 0 1.5rem; }
@@ -288,6 +315,19 @@
   }
   .share-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+  .news-series {
+    padding: 1.25rem; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .news-series-label {
+    display: block; font-family: var(--mono); font-size: 0.6rem;
+    font-weight: 600; color: var(--green); text-transform: uppercase;
+    letter-spacing: 0.1em; margin-bottom: 0.5rem;
+  }
+  .news-series p { font-size: 0.85rem; color: var(--text3); line-height: 1.65; }
+  .news-series a { color: var(--accent); }
+
   .related-section { padding-bottom: 4rem; }
   .related-section h2 {
     font-family: var(--display); font-weight: 600; font-size: 1.3rem;
@@ -445,9 +485,18 @@
         <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.url }}" target="_blank" rel="noopener" class="share-btn">LinkedIn</a>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.url }}" target="_blank" rel="noopener" class="share-btn">Facebook</a>
       </div>
+
+      <div class="news-series">
+        <span class="news-series-label">AI news cadence</span>
+        <p>This post is a {{ blog.edition_label }}. Browse the <a href="{{ url_for('daily_ai_news') }}">daily AI news</a> archive, the <a href="{{ url_for('weekly_ai_news') }}">weekly AI news roundup</a>, or the <a href="{{ url_for('monthly_ai_news') }}">monthly AI news recap</a>.</p>
+      </div>
     </div>
   </div>
 </article>
+
+<div class="container container--narrow">
+  {% include "_newsletter.html" %}
+</div>
 
 {% if related_posts %}
 <section class="related-section" aria-label="Related articles">
