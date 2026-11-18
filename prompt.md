@@ -94,8 +94,12 @@ Keep `title` and `meta_title` distinct: `title` is the H1, `meta_title` is the t
 
 ## STEP 3: Save and Asset Generation
 ```bash
+<<<<<<< Updated upstream
 # Date-first folder for today's edition (daily, weekly or monthly).
 BLOG_DIR="/home/ubuntu/blog-s/blogs/2026-11-18-YOUR-SUMMARY"
+=======
+BLOG_DIR="/home/ubuntu/blog-s/blogs/ai-news-November-10-YOUR-SLUG"
+>>>>>>> Stashed changes
 mkdir -p "$BLOG_DIR"
 # Save blog.md with frontmatter + content to $BLOG_DIR
 # Generate the featured image:
@@ -105,11 +109,16 @@ bash /home/ubuntu/blog-s/add_image.sh "$BLOG_DIR"
 ## STEP 4: Push to GitHub
 ```bash
 cd /home/ubuntu/blog-s
+<<<<<<< Updated upstream
 git add blogs/2026-11-18-YOUR-SUMMARY/
 # Daily: "Add daily AI news for 2026-11-18"
 # Weekly: "Add weekly AI news roundup for 2026-11-16"
 # Monthly: "Add monthly AI news recap for 2026-11-01"
 git commit -m "Add daily AI news for 2026-11-18"
+=======
+git add blogs/YOUR-SLUG/
+git commit -m "Add daily AI news blog for November-10"
+>>>>>>> Stashed changes
 git push origin main
 ```
 
@@ -117,7 +126,11 @@ git push origin main
 Use the validated publishing script:
 ```bash
 DEVTO_KEY="Rm1DGonBBZuxt9tJcoZGZMBr"
+<<<<<<< Updated upstream
 BLOG_DIR=$(ls -td /home/ubuntu/blog-s/blogs/????-??-??-* | head -1)
+=======
+BLOG_DIR=$(ls -td /home/ubuntu/blog-s/blogs/ai-news-November-10* | head -1)
+>>>>>>> Stashed changes
 python3 /home/ubuntu/.hermes/skills/.archive/ai-daily-roundup/scripts/publish_devto.py "$BLOG_DIR" "$DEVTO_KEY"
 ```
 
