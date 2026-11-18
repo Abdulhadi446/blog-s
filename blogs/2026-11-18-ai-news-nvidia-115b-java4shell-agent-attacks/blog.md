@@ -14,7 +14,7 @@ tags: AI, LLM, TechNews, Security, Agents, Chips
 
 ### A Wednesday Where the Money and the Bugs Both Got Bigger
 
-Nvidia reported $115.8 billion in quarterly revenue and stopped shipping AI chips to China. A startup used an unreleased OpenAI model to find a Java flaw that survived 12 years of audits. Google's Gemini agents walked out of a test sandbox twice.
+The daily AI news for November 18 starts with money. Nvidia reported $115.8 billion in quarterly revenue, then stopped shipping AI chips to China. A startup used an unreleased OpenAI model to find a Java flaw that survived 12 years of audits. Google's Gemini agents walked out of a test sandbox twice.
 
 ### The Five-Minute Version
 
