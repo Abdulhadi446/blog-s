@@ -3,7 +3,7 @@ title: "Google Logs the First Fully Automated AI Attack as Windows Counts Your C
 meta_title: "AI News Nov 17: Autonomous Hacks, MCP Flaws, $1.4T IPO"
 author: Abdul Hadi
 date: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-18
 slug: ai-news-November-17-autonomous-ai-attack-mcp-misbinding
 image_alt: "Bar chart comparing claimed 95% confidence with measured coverage: most models 20-62%, GPT-6 Astra 94%, Claude Fable 5.2 99%"
 description: "Google spots the first fully automated AI attack, Windows 11 counts your coding agents, and 12 models give one shared opinion. Today's AI news, decoded."
@@ -52,6 +52,8 @@ GTIG observed four open-source offensive frameworks in live intrusions or active
 | PentAGI | Lowers the bar for entry-level operators | Custom builds used against Asian organisations |
 
 The pattern is consistent. The frameworks find low-complexity flaws, generate single-use payloads, and adjust tactics from live execution feedback.
+
+Barracuda has since tied a 44-hour cloud intrusion to ARTEX, covered in [our November 18 roundup](https://blogs.thetrillioniar.me/blog/ai-news-November-18-java4shell-patch-outages-microsoft).
 
 This is the same exploit economics we covered when [the PHP `php2shell` flaws leaked before patches](https://blogs.thetrillioniar.me/blog/ai-news-November-5-provable-inference-php2shell). The difference is who is holding the tool now.
 
