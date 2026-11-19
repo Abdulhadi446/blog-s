@@ -1,4 +1,4 @@
-![Trillioniar Blog demo — animated AI news cadence and search in action](https://media.giphy.com/media/3o7TKtjGDFuSI9yZ4o/giphy.gif)
+![Trillioniar Blog demo — animated AI news cadence and search in action](static/demo.gif)
 
 # Trillioniar Blog
 
