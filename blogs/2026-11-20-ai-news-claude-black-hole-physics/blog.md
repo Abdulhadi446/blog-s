@@ -169,7 +169,7 @@ CERT-EU warned on November 4 about ARTEX, a utility built to find network flaws 
 
 AI does not need a new exploit class to change the math. It shortens the time between scanning and exploitation. That compresses patch windows that were already too long.
 
-The practical response is unglamorous. Inventory exposed services, shorten patch cycles and assume that vulnerability discovery is now cheap. [Our October 25 coverage](https://blogs.thetrillioniar.me/blog/ai-news-October-25-agent-cache-http2shell-dessa) traced the same pattern in agent tooling.
+The practical response is unglamorous. Inventory exposed services, shorten patch cycles and assume that vulnerability discovery is now cheap.
 
 ### Sources
 
@@ -191,7 +191,7 @@ That mix targets practical engineering work rather than trivia. It is a useful c
 
 ### What to Watch
 
-Neon's lead is narrow enough to flip with one update. Anthropic shipped Fable 5.2 nine days before Neon, and Google is still rolling out the model. Read [the launch analysis](https://blogs.thetrillioniar.me/blog/2026-11-19-ai-news-anthropic-ipo-gemini-4-neon) for the full benchmark table.
+Neon's lead is narrow enough to flip with one update. Anthropic shipped Fable 5.2 nine days before Neon, and Google is still rolling out the model.
 
 ### Sources
 
