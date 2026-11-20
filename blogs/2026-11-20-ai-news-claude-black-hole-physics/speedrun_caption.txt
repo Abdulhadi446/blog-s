@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: Claude solved a 23-year-old black hole problem
+
+Claude Fable 5.2 just closed two open problems in black hole physics - 22 candidates in, six weeks of background agents, Lean verified.
+
+Also today: Anthropic closed its first trading day up 17%, Prime Intellect served swapped model weights for 53 hours, and a federal court ruled AI alone can't establish probable cause.
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #Anthropic #Claude #Physics #AISecurity
