@@ -21,7 +21,9 @@ instance/
 
 # Hidden subscriber list
 .subscribers.csv
+*.subscribers.lock
 blogs/.subscribers.csv
+blogs/.subscribers.lock
 
 # Logs
 logs/

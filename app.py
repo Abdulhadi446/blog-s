@@ -9,6 +9,10 @@ import math
 import shutil
 import struct
 import csv
+import fcntl
+import time
+import tempfile
+from contextlib import contextmanager
 from markdown import markdown as render_markdown
 from functools import wraps
 
@@ -284,52 +288,96 @@ def create_app(config_name=None):
             pass
         return (1200, 630)
 
+    SUBSCRIBER_LOCK_PATH = os.path.join(BLOGS_DIR, '.subscribers.lock')
+    SUBSCRIBER_LOCK_TIMEOUT = 5.0  # seconds
+
+    @contextmanager
+    def _subscribers_lock():
+        """Advisory file lock around read-modify-write cycles on the CSV.
+
+        Survives multiple gunicorn workers because flock is per-process.
+        Blocks until the lock is free or times out with TimeoutError.
+        """
+        lock_fd = os.open(SUBSCRIBER_LOCK_PATH, os.O_CREAT | os.O_RDWR, 0o600)
+        deadline = time.monotonic() + SUBSCRIBER_LOCK_TIMEOUT
+        try:
+            while True:
+                try:
+                    fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    break
+                except BlockingIOError:
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError('Timed out waiting for subscriber lock')
+                    time.sleep(0.05)
+            yield
+        finally:
+            try:
+                fcntl.flock(lock_fd, fcntl.LOCK_UN)
+            finally:
+                os.close(lock_fd)
+
     def _load_subscribers():
-        """Load subscriber emails from CSV file. Returns a list of email strings."""
+        """Load subscriber rows from CSV. Returns list of dicts {email, subscribed_at}."""
         try:
             if os.path.exists(SUBSCRIBER_CSV_PATH):
                 with open(SUBSCRIBER_CSV_PATH, 'r', newline='', encoding='utf-8') as f:
                     reader = csv.DictReader(f)
-                    return [row['email'] for row in reader if row.get('email')]
-        except (IOError, csv.Error) as e:
+                    return [
+                        {'email': row.get('email', '').strip().lower(),
+                         'subscribed_at': row.get('subscribed_at', '') or datetime.now().isoformat()}
+                        for row in reader if row.get('email')
+                    ]
+        except (IOError, csv.Error, UnicodeDecodeError) as e:
             app.logger.warning(f"Failed to read subscriber CSV: {e}")
         return []
 
-    def _save_subscribers(emails):
-        """Save subscriber emails to CSV file."""
+    def _save_subscribers(rows):
+        """Atomically write subscriber rows to CSV. Never leaves a partial file on disk."""
+        directory = os.path.dirname(SUBSCRIBER_CSV_PATH)
+        os.makedirs(directory, exist_ok=True)
+        fd, tmp_path = tempfile.mkstemp(dir=directory, prefix='.subscribers-', suffix='.tmp')
         try:
-            with open(SUBSCRIBER_CSV_PATH, 'w', newline='', encoding='utf-8') as f:
+            with os.fdopen(fd, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.DictWriter(f, fieldnames=['email', 'subscribed_at'])
                 writer.writeheader()
-                for email in emails:
-                    writer.writerow({'email': email, 'subscribed_at': datetime.now().isoformat()})
-            app.logger.info(f"Subscriber CSV updated: {len(emails)} total")
+                for row in rows:
+                    writer.writerow({'email': row['email'],
+                                     'subscribed_at': row.get('subscribed_at') or datetime.now().isoformat()})
+                f.flush()
+                os.fsync(f.fileno())
+            os.replace(tmp_path, SUBSCRIBER_CSV_PATH)
+            app.logger.info(f"Subscriber CSV updated: {len(rows)} total")
         except (IOError, csv.Error) as e:
             app.logger.error(f"Failed to write subscriber CSV: {e}")
             raise
+        finally:
+            if os.path.exists(tmp_path):
+                try:
+                    os.unlink(tmp_path)
+                except OSError:
+                    pass
 
     def _email_is_valid(email):
         """Basic email format validation."""
         pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
         return re.match(pattern, email.strip()) is not None
 
-    def _subscriber_exists(email):
-        """Check if an email is already in the subscriber list."""
-        subscribers = _load_subscribers()
-        return email.lower() in [e.lower() for e in subscribers]
-
     def _add_subscriber(email):
         """Add an email to the subscriber list. Returns (success, message)."""
         email = email.strip().lower()
         if not _email_is_valid(email):
             return False, 'Please enter a valid email address.'
-        if _subscriber_exists(email):
-            return False, 'This email is already subscribed.'
         try:
-            subscribers = _load_subscribers()
-            subscribers.append(email)
-            _save_subscribers(subscribers)
+            with _subscribers_lock():
+                subscribers = _load_subscribers()
+                if any(s['email'] == email for s in subscribers):
+                    return False, 'This email is already subscribed.'
+                subscribers.append({'email': email, 'subscribed_at': datetime.now().isoformat()})
+                _save_subscribers(subscribers)
             return True, 'Subscribed successfully!'
+        except TimeoutError:
+            app.logger.error("Timed out acquiring subscriber lock")
+            return False, 'Server busy. Please try again.'
         except Exception as e:
             app.logger.error(f"Error adding subscriber: {e}")
             return False, 'Unable to add subscriber. Please try again.'
@@ -338,13 +386,17 @@ def create_app(config_name=None):
         """Remove an email from the subscriber list. Returns (success, message)."""
         email = email.strip().lower()
         try:
-            subscribers = _load_subscribers()
-            original_count = len(subscribers)
-            subscribers = [e for e in subscribers if e.lower() != email]
-            if len(subscribers) == original_count:
-                return False, 'Email not found in subscriber list.'
-            _save_subscribers(subscribers)
+            with _subscribers_lock():
+                subscribers = _load_subscribers()
+                original_count = len(subscribers)
+                subscribers = [s for s in subscribers if s['email'] != email]
+                if len(subscribers) == original_count:
+                    return False, 'Email not found in subscriber list.'
+                _save_subscribers(subscribers)
             return True, 'Unsubscribed successfully.'
+        except TimeoutError:
+            app.logger.error("Timed out acquiring subscriber lock")
+            return False, 'Server busy. Please try again.'
         except Exception as e:
             app.logger.error(f"Error removing subscriber: {e}")
             return False, 'Unable to remove subscriber. Please try again.'
