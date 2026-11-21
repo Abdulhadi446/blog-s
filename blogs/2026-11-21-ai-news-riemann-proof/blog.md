@@ -58,7 +58,7 @@ Alpöge and Buckmaster then generated a proof of blowup for the unforced Navier-
 
 Verification, not announcement, is the event. The Lean thread will show whether the statement encoded is the real theorem and whether the proof depends on unproven axioms.
 
-Until then, treat this as a claim with unusually strong evidence. It follows [Thursday's report that Claude solved two open problems in black hole physics](https://blogs.thetrillioniar.me/blog/2026-11-20-ai-news-claude-black-hole-physics), which makes two theorem-grade claims from one lab in two days.
+Until then, treat this as a claim with unusually strong evidence. It follows the two black hole physics problems Anthropic reported this week, covered in [yesterday's briefing](https://blogs.thetrillioniar.me/blog/2026-11-20-ai-news-claude-black-hole-physics), which makes two theorem-grade claims from one lab in two days.
 
 ### Sources
 
