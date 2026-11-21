@@ -1,4 +1,4 @@
-{# Newsletter CTA. Set NEWSLETTER_URL (beehiiv, Buttondown, etc.) to enable the form. #}
+{# Newsletter CTA. Set NEWSLETTER_URL (beehiiv, Buttondown, etc.) to enable the form, otherwise uses local /subscribe page. #}
 <section class="newsletter-cta" aria-label="AI news newsletter">
   <div class="newsletter-copy">
     <h2>Get the weekly AI news roundup</h2>
@@ -13,7 +13,7 @@
   </form>
   {% else %}
   <div class="newsletter-form">
-    <a class="btn btn-primary" href="{{ url_for('weekly_ai_news') }}">Weekly AI news</a>
+    <a class="btn btn-primary" href="{{ url_for('subscribe') }}">Subscribe</a>
     <a class="btn btn-ghost" href="{{ url_for('rss_feed') }}">Subscribe by RSS</a>
   </div>
   {% endif %}

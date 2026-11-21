@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Subscribe — {{ seo.site_name }}{% endblock %}
+{% block meta_description %}Subscribe to the AI news newsletter on {{ seo.site_name }}{% endblock %}
+{% block og_title %}Subscribe — {{ seo.site_name }}{% endblock %}
+{% block og_description %}Subscribe to the AI news newsletter on {{ seo.site_name }}{% endblock %}
+{% block og_type %}website{% endblock %}
+{% block twitter_title %}Subscribe — {{ seo.site_name }}{% endblock %}
+{% block twitter_description %}Subscribe to the AI news newsletter.{% endblock %}
+
+{% block head %}
+{{ super() }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Subscribe — {{ seo.site_name }}",
+  "url": "{{ seo.site_url }}/subscribe",
+  "isPartOf": {
+    "@type": "Website",
+    "name": "{{ seo.site_name }}",
+    "url": "{{ seo.site_url }}/"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<section class="container subscribe-page">
+  <h1>Subscribe to the AI news roundup</h1>
+  <p>Get the Monday recap in your inbox: the model releases, chips, security and policy stories that actually mattered, plus the monthly big-picture edition on the first.</p>
+
+  <form class="newsletter-form" action="{{ url_for('subscribe') }}" method="post">
+    <div class="form-group">
+      <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" aria-label="Email address" />
+    </div>
+    <button type="submit" class="btn btn-primary">Subscribe free</button>
+  </form>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages" style="margin-top:1.5rem;">
+      {% for category, message in messages %}
+        <div style="color: var(--text); margin-bottom: 0.75rem;">
+          {{ message }}
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endwith %}
+
+  <p class="small-print" style="margin-top:2rem; color: var(--text2); font-size: 0.75rem;">
+    No spam. Unsubscribe anytime. <a href="{{ url_for('unsubscribe') }}">Manage your subscription</a>.
+  </p>
+</section>
+{% endblock %}

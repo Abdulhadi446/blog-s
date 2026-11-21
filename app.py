@@ -8,6 +8,7 @@ import re
 import math
 import shutil
 import struct
+import csv
 from markdown import markdown as render_markdown
 from functools import wraps
 
@@ -20,6 +21,9 @@ def create_app(config_name=None):
     
     BLOGS_DIR = os.path.expanduser('~/blog-s/blogs')
     os.makedirs(BLOGS_DIR, exist_ok=True)
+    
+    # CSV file path for subscriber management (hidden in blog directory)
+    SUBSCRIBER_CSV_PATH = os.path.join(BLOGS_DIR, '.subscribers.csv')
 
     def get_site_base():
         """Canonical site base URL: configured SITE_URL, else request root."""
@@ -279,6 +283,71 @@ def create_app(config_name=None):
         except (OSError, struct.error):
             pass
         return (1200, 630)
+
+    def _load_subscribers():
+        """Load subscriber emails from CSV file. Returns a list of email strings."""
+        try:
+            if os.path.exists(SUBSCRIBER_CSV_PATH):
+                with open(SUBSCRIBER_CSV_PATH, 'r', newline='', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    return [row['email'] for row in reader if row.get('email')]
+        except (IOError, csv.Error) as e:
+            app.logger.warning(f"Failed to read subscriber CSV: {e}")
+        return []
+
+    def _save_subscribers(emails):
+        """Save subscriber emails to CSV file."""
+        try:
+            with open(SUBSCRIBER_CSV_PATH, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=['email', 'subscribed_at'])
+                writer.writeheader()
+                for email in emails:
+                    writer.writerow({'email': email, 'subscribed_at': datetime.now().isoformat()})
+            app.logger.info(f"Subscriber CSV updated: {len(emails)} total")
+        except (IOError, csv.Error) as e:
+            app.logger.error(f"Failed to write subscriber CSV: {e}")
+            raise
+
+    def _email_is_valid(email):
+        """Basic email format validation."""
+        pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+        return re.match(pattern, email.strip()) is not None
+
+    def _subscriber_exists(email):
+        """Check if an email is already in the subscriber list."""
+        subscribers = _load_subscribers()
+        return email.lower() in [e.lower() for e in subscribers]
+
+    def _add_subscriber(email):
+        """Add an email to the subscriber list. Returns (success, message)."""
+        email = email.strip().lower()
+        if not _email_is_valid(email):
+            return False, 'Please enter a valid email address.'
+        if _subscriber_exists(email):
+            return False, 'This email is already subscribed.'
+        try:
+            subscribers = _load_subscribers()
+            subscribers.append(email)
+            _save_subscribers(subscribers)
+            return True, 'Subscribed successfully!'
+        except Exception as e:
+            app.logger.error(f"Error adding subscriber: {e}")
+            return False, 'Unable to add subscriber. Please try again.'
+
+    def _remove_subscriber(email):
+        """Remove an email from the subscriber list. Returns (success, message)."""
+        email = email.strip().lower()
+        try:
+            subscribers = _load_subscribers()
+            original_count = len(subscribers)
+            subscribers = [e for e in subscribers if e.lower() != email]
+            if len(subscribers) == original_count:
+                return False, 'Email not found in subscriber list.'
+            _save_subscribers(subscribers)
+            return True, 'Unsubscribed successfully.'
+        except Exception as e:
+            app.logger.error(f"Error removing subscriber: {e}")
+            return False, 'Unable to remove subscriber. Please try again.'
 
     NEWS_HUBS = {
         'all': {
@@ -717,6 +786,30 @@ def create_app(config_name=None):
     @app.route('/about')
     def about():
         return render_template('about.html', site=app.config['SITE_CONFIG'])
+
+    @app.route('/subscribe', methods=['GET', 'POST'])
+    def subscribe():
+        if request.method == 'POST':
+            email = request.form.get('email', '').strip()
+            success, message = _add_subscriber(email)
+            if success:
+                flash(message, 'success')
+                return redirect(url_for('subscribe'))
+            else:
+                flash(message, 'error')
+        return render_template('subscribe.html', site=app.config['SITE_CONFIG'])
+
+    @app.route('/unsubscribe', methods=['GET', 'POST'])
+    def unsubscribe():
+        if request.method == 'POST':
+            email = request.form.get('email', '').strip()
+            success, message = _remove_subscriber(email)
+            if success:
+                flash(message, 'success')
+                return redirect(url_for('unsubscribe'))
+            else:
+                flash(message, 'error')
+        return render_template('unsubscribe.html', site=app.config['SITE_CONFIG'])
 
     @app.route('/llms.txt')
     def llms_txt():

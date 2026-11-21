@@ -19,6 +19,10 @@ instance/
 *.sqlite
 *.sqlite3
 
+# Hidden subscriber list
+.subscribers.csv
+blogs/.subscribers.csv
+
 # Logs
 logs/
 *.log
