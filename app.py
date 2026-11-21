@@ -419,6 +419,7 @@ def create_app(config_name=None):
         all_posts = get_all_posts()
         posts = [p for p in all_posts if _is_ai_news(p)] if hub_key in ('all', 'daily') else all_posts
         groups = _news_editions(hub_key, posts)
+        listed_posts = [p for group in groups for p in group['posts']] or posts
         return render_template(
             'news_hub.html',
             hub=hub,
@@ -426,7 +427,7 @@ def create_app(config_name=None):
             groups=groups,
             post_count=len(posts),
             edition_count=len(groups),
-            latest_posts=posts[:10],
+            latest_posts=listed_posts[:10],
             today=datetime.now().strftime('%Y-%m-%d'),
         )
 
