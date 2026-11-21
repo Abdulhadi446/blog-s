@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: Claude's Riemann proof is 17.4 million lines
+
+An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof: 17.4 million lines of Lean code nobody will read end to end.
+
+Also today: Anthropic closed down 9% at $88.30 as $4 trillion left AI stocks, Thinking Machines shipped a 26B model that runs on a laptop, and Dragos caught three AI providers breached after planting 2 million canary secrets.
+
+Full breakdown: https://blogs.thetrillioniar.me
+
+#AI #AINews #Anthropic #Claude #Mathematics #AISecurity
