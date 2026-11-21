@@ -3,6 +3,7 @@ title: "Daily AI News Nov 20: Claude Solves Two Black Hole Problems"
 meta_title: "Daily AI News: Claude Cracks Two Black Hole Problems"
 author: Abdul Hadi
 date: 2026-11-20
+updated: 2026-11-21
 slug: 2026-11-20-ai-news-claude-black-hole-physics
 image_alt: "Illustration of a black hole with a glowing orange accretion ring beside a summary of the two physics problems Claude solved"
 description: "Daily AI news for Nov 20: Anthropic closes up 17%, Claude solves two black hole problems, and a court says AI alone is not probable cause."
@@ -232,3 +233,5 @@ The bigger pattern is convergence. Models now produce verifiable science, trade 
 This briefing is part of the [daily AI news](https://blogs.thetrillioniar.me/daily-ai-news) archive. The [weekly AI news](https://blogs.thetrillioniar.me/weekly-ai-news) roundup publishes every Monday, and the [monthly AI news](https://blogs.thetrillioniar.me/monthly-ai-news) recap publishes on the first of each month.
 
 For the model race, read [our November 9 coverage of Fable 5.2 and Mythos 5.2](https://blogs.thetrillioniar.me/blog/ai-news-November-9-jensen-spy-anthropic-power-deepseek-harness-apple-amazon). For AI in mathematics, start with [OpenAI's theorem result from October 27](https://blogs.thetrillioniar.me/blog/ai-news-October-27-openai-eth-anthropic-s1-terra).
+
+The next edition is [Daily AI News Nov 21: Claude and a Mathematician Claim the Riemann Hypothesis](https://blogs.thetrillioniar.me/blog/2026-11-21-ai-news-riemann-proof).
