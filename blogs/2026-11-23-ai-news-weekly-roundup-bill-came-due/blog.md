@@ -44,9 +44,9 @@ The same week brought a 32-million-tonne carbon estimate for Anthropic's 2028 po
 
 ### The Numbers From the First Two Days
 
-Anthropic priced its shares at $83 on Wednesday and began trading Thursday. The stock jumped 17% on day one after briefly rising almost 40%. On Friday it fell 9% to $88.30, barely above the offer price.
+Anthropic priced its shares at $83 and began trading on Thursday. The stock jumped 17% on day one after briefly rising almost 40%. On Friday it fell 9% to $88.30, barely above the offer price.
 
-That is a strange outcome for the largest IPO on record. The company's seven co-founders were reported to be worth $180 billion. The market valued the business near $1.3 trillion.
+That is a strange outcome for the largest IPO on record. The company's seven co-founders were reported to be worth $180 billion combined. The market valued the business near $1.3 trillion.
 
 ### The Index Did the Opposite of What IPOs Are Supposed to Do
 
@@ -102,7 +102,7 @@ The chip layer is no longer a clean way to own AI. It is now a national-security
 
 ## Every Model Got Cheaper, and That Is the Whole Strategy
 
-### Six Launches in Seven Days
+### Five Labs in Seven Days
 
 Alibaba shipped Qwen4-Max on November 16. OpenAI shipped GPT-6.2 Astra and Sol on November 17. Microsoft shipped seven models the same day. Google shipped Gemini 4 Neon on November 18. Thinking Machines shipped Inkling 2 Mini on November 20.
 
@@ -205,7 +205,7 @@ Mathematics now has a category of result that is certainly true and not yet unde
 
 Anthropic published a different kind of AI research on November 17. Claude solved two open problems in black hole physics, including a calculation physicists set up in 2003 and never finished.
 
-The agents ran for about six weeks on 22 candidate problems. One problem had already failed in 61 parallel attempts before a different agent found the pattern. The results were formalised in Lean in September and checked by a physicist.
+The agents ran for about six weeks on 22 candidate problems. One problem had already failed in 61 parallel attempts before another agent spotted the pattern. The results were formalised in Lean in September and checked by a physicist.
 
 ### Why the Difference Matters
 
@@ -343,7 +343,7 @@ Microsoft's claim that MAI Cyber 2 Flash matches GPT-6 Astra at under 2% of the 
 
 ### What happened in AI news this week?
 
-Anthropic held the largest IPO in history and the Nasdaq erased its 2026 gains. Nvidia reported $104 billion in revenue and received a California subpoena over China exports. Six labs shipped cheaper frontier models, and Java4Shell was patched after five months of public exposure.
+Anthropic held the largest IPO in history and the Nasdaq erased its 2026 gains. Nvidia reported $104 billion in revenue and received a California subpoena over China exports. Five labs shipped new frontier models, all sold on cost per task, and Java4Shell was patched after five months of public exposure.
 
 ### Why did Anthropic's IPO hurt the market?
 
