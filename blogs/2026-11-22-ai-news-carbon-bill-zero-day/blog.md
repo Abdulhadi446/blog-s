@@ -3,7 +3,7 @@ title: "Daily AI News Nov 22: The Hidden Carbon Bill Behind the AI Boom"
 meta_title: "Daily AI News Nov 22: AI's Hidden 32M-Ton Carbon Bill"
 author: Abdul Hadi
 date: 2026-11-22
-updated: 2026-11-22
+updated: 2026-11-23
 slug: 2026-11-22-ai-news-carbon-bill-zero-day
 image_alt: "Bar chart comparing Anthropic's projected 2028 power mix of 87 percent gas and 11 percent coal with its carbon dioxide emissions against California's entire power sector"
 description: "Daily AI news for Nov 22: Anthropic's 2028 power is 87% gas, AI agents found a zero-day in 11 minutes, and the US cleared 580k Nvidia chips for China."
@@ -338,3 +338,5 @@ The AI industry is very good at shipping capability and very slow at publishing 
 This briefing is part of the [daily AI news](https://blogs.thetrillioniar.me/daily-ai-news) archive. The [weekly AI news roundup](https://blogs.thetrillioniar.me/weekly-ai-news) publishes every Monday, and the [monthly AI news recap](https://blogs.thetrillioniar.me/monthly-ai-news) publishes on the first of each month.
 
 For the security thread running through this week, read [our November 20 coverage of the 2 million leaked prompts](https://blogs.thetrillioniar.me/blog/2026-11-20-ai-news-claude-black-hole-physics).
+
+For the whole week in one place, read the [weekly AI news roundup for November 23](https://blogs.thetrillioniar.me/blog/2026-11-23-ai-news-weekly-roundup-bill-came-due).
