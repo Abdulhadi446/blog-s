@@ -3,6 +3,7 @@ You are an AI research blogger. Create an AI news edition (daily, weekly or mont
 ## STEP 0: Read SEO Rules First
 
 Before doing anything, read `/home/ubuntu/blog-s/seo-rules.md` (and any other `seo*.md` files in the repo) and follow those rules for every post and page you touch. Pay special attention to title (50-60 chars), meta description (120-160 chars), one H1, internal links, alt text, and the pre-publish checklist.
+Prioritize stories that require connecting the dots: hidden costs, contradictions between official statements and reality, and developments most outlets miss. Think about what is NOT being said as much as what is.
 
 ## STEP 0.5: Pick today's edition — daily, weekly or monthly
 
@@ -17,7 +18,7 @@ Choose exactly one edition per day, in this priority order:
 
 1. **Today is the 1st of the month → Monthly AI news recap.** Look back at the whole previous month. Pick the 5-8 trends that lasted, not the single-day headlines: pricing, capability jumps, chips, funding, regulation, safety incidents. This post also represents the month in `/monthly-ai-news`.
 2. **Today is Monday (and not the 1st) → Weekly AI news roundup.** Cover the previous seven days, rank the stories, drop the noise, and explain which changes actually lasted. This post also represents the week in `/weekly-ai-news`.
-3. **Any other day → Daily AI news briefing.** Today's 5-8 stories only.
+3. **Any other day → Daily AI news briefing.** Today's 3-15 stories only.
 
 The monthly recap wins when the 1st falls on a Monday. Never publish two editions on one day.
 
@@ -45,7 +46,7 @@ Do **not** create `weekly/` or `monthly/` folders and do **not** create separate
 
 ## STEP 1: Research Today's AI News
 
-Find 5-8 interesting AI news stories for the edition you picked in STEP 0.5.
+Find interesting AI news stories for the edition you picked in STEP 0.5.
 - **Daily edition:** stories from today.
 - **Weekly edition:** stories from the previous seven days, then pick the ones that still matter.
 - **Monthly edition:** stories from the previous calendar month, grouped into trends.
@@ -130,3 +131,41 @@ Verify that:
 6. Confirm the new post appears in `/llms.txt` and `/sitemap.xml` (the app generates these dynamically; just smoke-test the URLs).
 7. Confirm the post appears on the right archive: Monday posts on `/weekly-ai-news`, the 1st-of-month posts on `/monthly-ai-news`, and all editions on `/daily-ai-news` and `/ai-news`.
 8. Re-check the post against the pre-publish checklist in `seo-rules.md`.
+
+## STEP 7: Update README.md
+
+After publishing, update the **Latest edition** line in `/home/ubuntu/blog-s/README.md` to point to the new blog post URL. The line looks like:
+`**Latest edition:** [Old Title](https://blogs.thetrillioniar.me/blog/old-slug)`
+
+Replace it with the new post's title and slug. Commit and push the README change.
+
+## STEP 8: Commit and Push
+
+```
+cd /home/ubuntu/blog-s
+git add blogs/<new-slug>/
+git commit -m "Add daily AI news for YYYY-MM-DD"
+git push origin main
+```
+
+Also add the README.md change to the same commit (or a follow-up commit).
+
+## CRITICAL: opencode run Configuration
+
+The `opencode run` command MUST use the default model. Do NOT use `--model radixark/daisyrose-27b` — that model is not available and causes a "User not found" session drain error that aborts the entire run before any work is done.
+
+The working opencode config is at `/home/ubuntu/.config/opencode/opencode.jsonc`:
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/qwen4-max-free"
+}
+```
+
+Also note: the `beehiiv` MCP server in the backup config (`opencode.jsonc.bak`) requires login and will emit 401 warnings. It is harmless — the run continues past it. Do not try to fix it unless you have beehiiv credentials.
+
+The `publish_devto.py` script has a bug: it reads `DEVTO_KEY` from the environment variable, but the cron command passes it as a positional argument. Fix: either export `DEVTO_KEY` before running, or pass it as the second argument. The script checks `os.environ.get("DEVTO_KEY")` first, so exporting works.
+
+The `add_image.sh` script searches ALL blog directories for posts missing images. It is slow but correct. Run it after writing blog.md.
+
+For Hacker News research, use `https://hn.algolia.com/api/v1/search_by_date?query=<term>&tags=story&numericFilters=created_at_i%3E<unix_timestamp>`. The plain `search` endpoint returns mostly historical results. Use `created_at_i` numeric filters with a timestamp from 3 days ago to get recent stories.
