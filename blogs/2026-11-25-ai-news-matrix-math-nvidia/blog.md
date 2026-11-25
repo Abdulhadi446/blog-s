@@ -42,7 +42,7 @@ The upper bound was already known. OpenAI itself published a 9/4 algorithm in Oc
 
 For decades, the open question was whether ω, the matrix multiplication exponent, could approach 2. Strassen's 1969 result beat the naive n³ method. Every improvement since then pushed the exponent down without proving a floor.
 
-The paper argues that a smaller exponent would compress tensor networks enough to break a known lower bound for testing whether several independent lists are distinct. That link is the actual contribution. It converts a circuit question into a combinatorics question.
+The paper argues that a smaller exponent would compress tensor networks too far. That would break a known lower bound for testing whether several independent lists are distinct. That link is the actual contribution. It converts a circuit question into a combinatorics question.
 
 ### The Catch
 
