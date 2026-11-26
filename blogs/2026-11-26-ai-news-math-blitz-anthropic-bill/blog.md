@@ -10,6 +10,9 @@ keywords: daily AI news, AI news today, Google Cogentic, Anthropic IPO price, au
 tags: AI, LLM, TechNews, Google, Anthropic, Security, Developer Tools, Policy
 ---
 
+# Daily AI News Nov 26: AI Solves Math While the Bill Comes Due
+
+
 ## Today's Storylines
 
 ### The Week Math Broke Cover

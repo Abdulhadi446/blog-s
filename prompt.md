@@ -116,9 +116,9 @@ git push origin main
 ## STEP 5: Publish to dev.to
 
 Use the validated publishing script:
-DEVTO_KEY="Rm1DGonBBZuxt9tJcoZGZMBr"
+export DEVTO_KEY="Rm1DGonBBZuxt9tJcoZGZMBr"
 BLOG_DIR=$(ls -td /home/ubuntu/blog-s/blogs/????-??-??-* | head -1)
-python3 /home/ubuntu/.hermes/skills/.archive/ai-daily-roundup/scripts/publish_devto.py "$BLOG_DIR" "$DEVTO_KEY"
+python3 /home/ubuntu/.hermes/skills/.archive/ai-daily-roundup/scripts/publish_devto.py "$BLOG_DIR"
 
 ## STEP 6: Final Verification
 
