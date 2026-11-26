@@ -63,7 +63,7 @@ Google's repository carries a disclaimer that the work "is not an official Googl
 
 Cogentic's own paper says each result was independently verified by domain experts. That is real assurance, but it is human review rather than a machine-checked proof. The two standards are not interchangeable.
 
-OpenAI's math drops increasingly ship with Lean certificates, which is why Aaronson says he now assumes their proofs are correct absent contrary information. Google's are readable but unverified by machine.
+OpenAI's recent math drops have come with Lean certificates, which is why Aaronson says he now assumes their proofs are correct absent contrary information. Google's latest papers are readable but not machine-checked.
 
 That asymmetry is the real story of the week. Two labs are producing results at industrial speed, and only one is shipping the proof checker along with the proof.
 
