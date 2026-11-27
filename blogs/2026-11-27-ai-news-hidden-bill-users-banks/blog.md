@@ -10,8 +10,6 @@ keywords: daily AI news, AI news today, OpenAI usage limits, Bank of England AI 
 tags: AI, LLM, TechNews, OpenAI, Nvidia, Policy, Security, Developer Tools
 ---
 
-# Daily AI News Nov 27: The Bill Moves From Labs to Everyone Else
-
 ## Today's Storylines
 
 ### The Week the Metering Started
