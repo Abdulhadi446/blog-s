@@ -276,9 +276,9 @@ In his view, AGI will not begin until everyday products earn enough trust for pe
 
 ### Bailey's Encryption Warning
 
-On the same day, the Financial Times reported that Bank of England Governor Andrew Bailey said unreleased AI models have raised encryption concerns. He did not offer details in the reported remarks.
+On the same day, the Financial Times reported that Bank of England Governor Andrew Bailey said unreleased AI models have raised encryption concerns.
 
-Bailey has separately warned that quantum computing risks should not get lost behind AI. The combination is worth noting. A central banker flagging unreleased models and encryption is the closest official confirmation of the cryptography rumours that circulated this week.
+Bailey has separately warned that quantum computing risks should not get lost behind AI. The combination is worth noting. A central banker linking unreleased models to encryption is the closest official acknowledgment yet of the cryptography questions that circulated this week.
 
 ### Sources
 
