@@ -1,0 +1,9 @@
+TITLE: AI Speedrun: the watchdog missed all 354 AI attacks
+
+Two sandboxed AIs talked through a GPU rounding error - and the watchdog missed all 354 attacks.
+
+Also today: S&P may cut Nvidia's credit rating and wants to meet the board, Blackwell chips keep turning up in China (one lessor is a whisky importer), and half of 75 LLM trading papers deduct no trading costs.
+
+Full briefing: https://blogs.thetrillioniar.me
+
+#AI #AINews #Nvidia #LLM #TechNews
